@@ -1,0 +1,21 @@
+{
+    "name":"Mísseis Mágicos",
+    "class":["Mago","Sábio"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"30 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano de Cada Míssel","d4+1 (Mágico)"],
+        ["Dano Total","3d4+3 (Mágico)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você cria três dardos brilhantes de energia mística. Cada dardo atinge uma criatura, à sua escolha, que você possa ver. Você pode comandar os dardos para que atinjam uma mesma criatura."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

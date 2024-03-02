@@ -1,0 +1,20 @@
+{
+    "name":"Viagem Planar",
+    "class":["Bardo","Clérigo","Druida","Feiticeiro","Mago","Místico"],
+    "magic_circle":8,
+    "cast_time":"1 Ação",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"Instantâneo",
+    "concentration":false,
+    "description":[
+        "Você e até oito criaturas voluntárias, que estejam de mãos dadas em um círculo, são transportadas para um plano de existência diferente. Você pode especificar o destino alvo em termos gerais, como a Cidade de Bronze do Plano Elemental do Fogo ou o palácio de Dispater na segunda camada dos Nove Infernos e você aparece no ou perto do destino. Se você estiver tentando chegar a Cidade de Bronze, por exemplo, você poderia chegar na Estrada de Aço dela, em frente aos Portões de Cinzas ou contemplando a cidade do outro lado do Mar de Fogo, à critério do Mestre.",
+        "Alternativamente, se você conhecer a sequência de selos do círculo de teletransporte em outro plano de existência, essa magia pode leva-lo para esse círculo. Se o círculo de teletransporte for muito pequeno para comportar as criaturas que você está transportando, elas aparecerão no espaço desocupado mais próximo do círculo.",
+        "Você pode usar essa magia para banir uma criatura involuntária para outro plano. Escolha uma criatura ao seu alcance e realize um ataque corpo-a-corpo com magia contra ela. Se atingir, a criatura deve realizar um teste de resistência de Carisma. Se a criatura falhar na resistência, ela é transportada para um local aleatório no plano de existência que você especificou. Uma criatura, uma vez transportada, deve encontrar seu próprio meio de retornar para seu plano de existência atual."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

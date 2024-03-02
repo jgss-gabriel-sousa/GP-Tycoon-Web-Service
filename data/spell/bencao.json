@@ -1,0 +1,22 @@
+{
+    "name":"Benção",
+    "class":["Clérigo","Paladino"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"6 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Você abençoa até três criaturas, à sua escolha, dentro do alcance. Sempre que um alvo realizar uma jogada de ataque ou teste de salvamento antes da magia acabar, o alvo pode jogar 1d4 e adicionar o valor jogado ao teste."
+    ],
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
+        ["6","Pode abençoar até quatro criaturas"],
+        ["10","Pode abençoar até cinco criaturas"],
+        ["15","Pode abençoar até seis criaturas"]
+    ]
+}

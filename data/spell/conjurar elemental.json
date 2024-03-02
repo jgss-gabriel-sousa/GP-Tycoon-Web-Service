@@ -1,0 +1,19 @@
+{
+    "name":"Conjurar Elemental",
+    "class":["Druida","Mago","Sábio"],
+    "magic_circle":6,
+    "cast_time":"1 Minuto",
+    "range":"18 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":true,
+    "description":[
+        "Você invoca um servo elemental. Escolha uma área de ar, água, fogo ou terra que preencha 3 metros cúbicos dentro do alcance. O Elemental deve ter nível de desafio de até 10 e ser adequado a área que você escolheu, ele aparece em um espaço desocupado a até 3 metros. Por exemplo, um elemental do fogo emerge de uma fogueira e um elemental da terra erguer-se do solo. O elemental desaparece quando cair a 0 pontos de vida ou quando a magia acabar.",
+        "O elemental é amigável a você e a seus companheiros pela duração. Role a iniciativa para o elemental, que age no seu próprio turno. Ele obedece a quaisquer comandos verbais que você emitir (não requer uma ação sua). Se você não emitir nenhum comando a ele, ele se defenderá de criaturas hostis, mas no mais, não realizará nenhuma ação."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

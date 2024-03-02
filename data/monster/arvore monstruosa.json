@@ -1,0 +1,129 @@
+{
+  "name":"Árvore Monstruosa",
+  "name_pronoun":"a Árvore Monstruosa",
+  "english_name":"Monstrous Tree",
+
+  "source":["bestiario"],
+
+  "type":"Planta",
+  "size":"Grande",
+  
+  "defense_cr":10,
+  "hp_cr":8,
+  "atk_cr":3,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":5,
+  "xp":840,
+  "defense":17,
+  "bonuses_in_defense":[],
+  "hp":96,
+  "mana":0,
+
+  "movement_walking":0,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":20,
+  "vitality":24,
+  "agility":14,
+  "charisma":3,
+  "willpower":14,
+  "wisdom":10,
+  "intelligence":6,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":12,
+  "tremor_sense":24,
+  "true_vision":0,
+
+  "languages":["Comum","Druídico"],
+  "telepathy":false,
+  "only_understands":true,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Aparência Falsa",
+      "description":["Enquanto a árvore monstruosa permanecer imóvel, ela é indistinguível de uma árvore normal."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Agarrar",
+      "limit":"",
+      "recharge":"",
+      "range":"4 Metros",
+      "roll":"",
+      "damage":"",
+      "save_throw":"15 de Atletismo",
+      "time":"1 Ação",
+      "effect":[
+        "O alvo, que deve ser de tamanho Grande ou menor, tem que fazer o Teste de Salvamento, se falhar, ficará Agarrado.",
+        "Uma criatura agarrada pode tentar outro salvamento com uma ação no seu turno.",
+        "A Árvore Monstruosa consegue manter um máximo de 3 criaturas agarradas ao mesmo tempo."
+      ]
+    },
+    {
+      "name":"Apertar",
+      "limit":"",
+      "recharge":"",
+      "range":"Todas as criaturas Agarradas",
+      "roll":"",
+      "damage":"2d6+5 (Impacto)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Criatura Agarrada com menos da metade dos pontos de vida",
+      "roll":"",
+      "damage":"2d8+5 (Impacto)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "Uma boca sinistra surge no caule da árvore, ela morde os alvos Agarrados que estão mais debilitados"
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Com a aparência idêntica a uma árvore grande comum, essa planta assassina fica à espreita de uma vítima de sangue quente para saciar sua fome. Surpreendendo-a atacando com seus galhos grandes e pesados, esmagando a presa até sua quase morte, para então morder a carne fresca, com sua boca escancarada e cheia de dentes."
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "name":"Yugoloths - Mezzoloth",
+  "name_pronoun":"o Mezzoloth",
+  "english_name":"Mezzoloth",
+
+  "source":["bestiario","pota"],
+
+  "type":"Corruptor",
+  "size":"Médio",
+  
+  "defense_cr":13,
+  "hp_cr":6,
+  "atk_cr":5,
+  "damage_cr":3,
+  "resistances_and_immunities_cr":2.75,
+
+  "challenge_ratio":7,
+  "xp":2180,
+  "defense":18,
+  "bonuses_in_defense":[],
+  "hp":75,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":18,
+  "vitality":26,
+  "agility":11,
+  "charisma":11,
+  "willpower":18,
+  "wisdom":10,
+  "intelligence":7,
+
+  "skills":["+3 Percepção"],
+
+  "vulnerability":[],
+  "resistances":["Elétrico","Fogo","Gelo","Físico de armas não mágicas que não sejam de Prata"],
+  "immunities":["Ácido","Veneno"],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":12,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Abissal","Infernal"],
+  "telepathy":true,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Armas Mágicas",
+      "description":["Os ataques com armas do Mezzoloth são considerados mágicos."]
+    },
+    {
+      "name":"Resistência à Magia",
+      "description":["O Mezzoloth possui Vantagem nos testes de salvamento contra magias e outros efeitos mágicos."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"Carisma",
+  "innate_spellcasting":[
+    {
+      "spell":"Dissipar Magia",
+      "limit":"2 vezes por dia"
+    },
+    {
+      "spell":"Escuridão",
+      "limit":"2 vezes por dia"
+    },
+    {
+      "spell":"Névoa Mortal",
+      "limit":"1 vez por dia"
+    }
+  ],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[
+        "O Mezzoloth realiza dois ataques: um com suas Garras e outro com seu Tridente."
+      ]
+    },
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"2d4+4 (Corte)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Tridente",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (6 metros)",
+      "roll":"+7",
+      "damage":"d8+4 (Perfurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Teletransporte",
+      "limit":"",
+      "recharge":"",
+      "range":"Até 12 m",
+      "roll":"+7",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":["O Mezzoloth teletransporta-se magicamente, junto com qualquer equipamento que ele esteja vestindo ou carregando, para um espaço desocupado, que ele possa ver"]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "<h3>Yugoloths</h3>",
+    "Os Yugoloths são corruptores inconstantes que habitam os planos de Aqueronte, Geena, Hades e Cárceri. Eles agem como mercenários e são notórios por suas mudanças de lealdade. Eles são a encarnação da avareza. Antes de servir sob a bandeira de qualquer um, um yugoloth faz a única pergunta em sua cabeça: O que eu vou ganhar?",
+    "Crias de Geena. Os primeiros yugoloth foram criadas pela irmandade das bruxas da noite em Geena. Acreditase amplamente que Asmodeu, Senhor dos Nove Infernos, encomendou o trabalho, na esperança de criar um exército de corruptores que não fossem presos aos Nove Infernos. No curso da criação desse novo exército, as bruxas construíram quatro tomos mágicos e gravaram o nome verdadeiro de cada yugoloth que elas criaram, exceto um, o General de Geena. Esses tomos foram chamados de Livros de Custódia. Já que saber o nome verdadeiro de um corruptor confere poderes sobre ele, as bruxas usaram os livros para garantir a lealdade dos yugoloths. Elas também usaram os livros para capturar os nomes verdadeiros de outros corruptores com quem cruzaram. Dizem os rumores que os Livros de Custódia contém o nome verdadeiro de alguns lordes demônios e arquidiabos também.",
+    "Ciúmes triviais e brigas infindáveis fizeram a irmandade se dissolver e na tomada de poder que se seguiu, os Livros de Custódia foram perdidos ou roubados. Não servindo a mais ninguém, os yugoloths ganharam a independência e agora oferecem seus serviços pelo pagamento mais alto.",
+    "Os yugoloths invocados exigem muito pelo seu tempo e lealdade. O que quer que um yugoloth prometa, ele descumpre rapidamente quando uma oportunidade melhor aparece para ele. Diferente dos demônios, os yugoloths podem ser razoáveis, mas diferente dos diabos, eles raramente cumprem suas palavras.",
+    "Os yugoloths podem ser encontrados em qualquer lugar, mas os altos custos para manter a lealdade de um exército yugoloth geralmente excede o que qualquer general do Plano Material pode pagar.",
+    "Por serem criaturas egoístas, os yugoloths brigam entre si constantemente. Um exército yugoloth é mais organizado que uma horda voraz de demônios, mas é menos ordenado e regimentado que uma legião de diabos. Sem um líder poderoso para mantê-los na linha, os yugoloths lutam simplesmente para saciar suas predileções violentas e somente enquanto isso lhes trouxer algum benefício.",
+    "Quando um yugoloth morre, ele se dissolve em uma poça de pus e se reforma com sua força total na Eternidade Gélida de Geena. Apenas em seu plano nativo um yugoloth pode ser destruído permanentemente. Um yugoloth sabe disso e age de acordo. Quando é invocado para outros planos, um yugoloth luta sem se preocupar com seu bem estar. Em Geena, ele está mais sujeito a recuar ou implorar por misericórdia se sua morte parecer iminente.",
+    "Quando um yugoloth é destruído permanentemente, seu nome desaparece de cada Livro de Custódia. Se um yugoloth for recriado por meio de um ritual profano que exija o uso de almas, seu nome reaparece nos livros.",
+    "Quando todas as quatro cópias dos Livros de Custódia desapareceram, Asmodeu e as bruxas da noite perderam o controle sobre a criação dos yugoloths. Cada Livro de Custódia ainda existe, mudando de plano para plano, onde os bravos e os tolos ocasionalmente os encontram por acaso. Um yugoloth invocado usando seu nome verdadeiro como escrito nos Livros de Custódia, é forçado a servir seu invocador obedientemente. Um yugoloth odeia ser controlado dessa maneira e não tem vergonha de demonstrar seu descontentamento. Como uma criança petulante, ele irá seguir suas instruções ao pé da letra enquanto busca oportunidades de interpreta-las mal.",
+    "Em algum lugar nos desertos de enxofre de Geena, perambula um ultroloth tão forte que ninguém contesta seu poder: o General de Geena. Muitos yugoloths buscam por esse grande general na esperança de servir com ele. Eles acreditam que servir com o General de Geena lhes garantirá poder e prestígio entre entidades planares menores.",
+    "Qualquer que seja o caso, nenhum corruptor encontra o General, a não ser que ele deseje isso. Seu nome pessoal é desconhecido e, mesmo os Livros de Custódia não tem qualquer menção a essa entidade poderosa e completamente maligna.",
+    "<h3>Mezzoloths</h3>",
+    "A maior parte da população de yugoloths é composta de mezzoloths, que são criaturas insetoides de tamanho humano cobertas por densas placas quitinosas. Os mezzoloths servem como soldados de infantaria nos exércitos yugoloth, seus grandes olhos brilham vermelho conforme os mezzoloths destroem seus inimigos.",
+    "Violência e recompensa são as motivações fundamentais de um mezzoloth e seres poderosos que prometam um ou outro podem facilmente atrai-los a servir. Apesar de possuir garras letais em seus quatro braços, um mezzoloth geralmente empunha um tridente em duas delas. Se estiver cercado por inimigos, um mezzoloth expelirá vapores tóxicos que podem sufocar e matar grupos inteiros de criaturas."
+  ]
+}

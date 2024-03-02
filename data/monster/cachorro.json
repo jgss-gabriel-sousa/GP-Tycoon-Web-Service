@@ -1,0 +1,119 @@
+{
+  "name":"Cachorro",
+  "name_pronoun":"o Cachorro",
+  "english_name":"Dog",
+
+  "source":["bestiario"],
+
+  "type":"Animal",
+  "size":"Pequeno",
+  
+  "defense_cr":2,
+  "hp_cr":0.125,
+  "atk_cr":0.250,
+  "damage_cr":0.125,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.250,
+  "xp":16,
+  "defense":14,
+  "bonuses_in_defense":[],
+  "hp":5,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":12,
+  "vitality":14,
+  "agility":13,
+  "charisma":7,
+  "willpower":10,
+  "wisdom":3,
+  "intelligence":3,
+
+  "skills":["+3 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+	  {
+      "name":"Audição e Olfato Aguçados",
+      "description":["O Cachorro tem Vantagem em testes de Percepção relacionados a audição ou olfato."]
+    },
+	  {
+      "name":"Táticas de Matilha",
+      "description":["O Cachorro tem Vantagem nas jogadas de ataque contra uma criatura se, um aliado estiver engajado com a mesma criatura."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+2",
+      "damage":"d6 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Latido",
+      "limit":"",
+      "recharge":"",
+      "range":"Raio de 10 metros",
+      "roll":"",
+      "damage":"",
+      "save_throw":"11 de Coragem",
+      "time":"Ação de Ataque",
+      "effect":[
+        "Cada criatura inimiga do cachorro e que possa ouvi-lo, deve realizar o teste de salvamento. Caso falhe, a criatura ficará Amedrontada até o final do seu próximo turno. Caso seja bem-sucedida no salvamento a criatura não sofre nenhum efeito. Se uma criatura for bem sucedida em dois testes consecutivos, ela ficará imune ao efeito por 24 horas."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os Cachorros são versões domesticadas de lobos. São frequentemente chamados de \"melhores amigos do homem\" devido à sua lealdade. Eles sempre seguirão as ordens de quem cuida deles, e são ótimos companheiros para ter um suporte emocional. Eles geralmente são mantidos como animais de estimação por humanoides e facilmente levantam o ânimo das pessoas ao seu redor.",
+    "Outro aspecto fundamental dos cães é sua diversidade, pois existem centenas de raças de cães vivendo no Plano Material. Os mais populares tendem a ser cães grandes, usados para caça."
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "name":"Elemental do Ar",
+  "name_pronoun":"o Elemental do Ar",
+  "english_name":"Air Elemental",
+
+  "source":["bestiario","pota"],
+
+  "type":"Elemental",
+  "size":"Grande",
+  
+  "defense_cr":3,
+  "hp_cr":7,
+  "atk_cr":7,
+  "damage_cr":6,
+  "resistances_and_immunities_cr":3,
+
+  "challenge_ratio":7,
+  "xp":2470,
+  "defense":15,
+  "bonuses_in_defense":[],
+  "hp":90,
+  "mana":0,
+
+  "movement_walking":0,
+  "movement_hovering":12,
+  "movement_flying":12,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":8,
+
+  "strength":14,
+  "vitality":14,
+  "agility":20,
+  "charisma":6,
+  "willpower":10,
+  "wisdom":8,
+  "intelligence":5,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":["Elétrico","Sônico","Físico de armas não mágicas"],
+  "immunities":["Veneno"],
+  "condition_immunities":["Agarrado","Caído","Exausto","Paralisado","Petrificado"],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Forma Gasosa",
+      "description":["O elemental pode atravessar inimigos e passar por lugares estreitos, sem receber penalidade de movimento."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Elemental do Ar realiza 2 ataques de Pancada de Vento."]
+    },
+    {
+      "name":"Pancada de Vento",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+8",
+      "damage":"2d8+5 (Impacto)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Redemoinho",
+      "limit":"",
+      "recharge":"4-6",
+      "range":"Criaturas no mesmo espaço do elemental",
+      "roll":"",
+      "damage":"3d8+2 (Impacto)",
+      "save_throw":"13 de Atletismo",
+      "time":"Ação Livre",
+      "effect":[
+        "Caso o alvo falhe no salvamento, ele sofrerá o dano e será empurrado por 4 m em uma direção aleatória e ficará Caído, se atingir um objeto ou superfície quando empurrado, como uma parede, sofrerá D6 de dano de impacto adicional, assim como o objeto. Se passar no teste, sofre metade do dano e não será empurrado."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "<h3>Elementais</h3>",
+    "Os elementais são encarnações dos elementos que constituem o multiverso: água, ar, fogo e terra. Embora não sejam mais do que energia animada em seus planos de existência, eles podem ser convocador por conjuradores e seres poderosos para ganhar forma e realizar tarefas.",
+    "Em seu plano natal, um elemental é uma força vital imaterial. Sua consciência só se manifesta em forma física quando focado pelo poder de magia. Um espírito selvagem de força elemental não possui desejos, exceto seguir o curso do elemento do seu plano nativo.",
+    "Certas magias e itens mágicos podem conjurar um elemental, invocando-o dos Planos Interiores para o Plano Material. Os elementais, instintivamente, ficam ressentidos por serem tirados de seus planos nativos e forçados a servir. Uma criatura que invoque um elemental deve exercer sua força de vontade para controlá-lo.",
+    "Magia poderosa pode vincular um espírito elemental a entrar em um material modelo que define um uso e função específicos. Caçadores invisíveis são elementais do ar vinculados a uma forma específica, assim como os elementais da água podem ser modelados em anomalias da água.",
+    "A força da magia e materiais que vinculam um elemental determinam o quão bem o elemental funciona em uma forma vinculada. Golens são espíritos elementais vinculados a formas físicas, porém, matérias mais frágeis como carne e barro não podem vincular poder elemental suficiente. Materiais resistentes como pedra e ferro requerem magia mais forte, consequentemente vinculando um elemental com mais segurança.",
+    "Devido a sua natureza elemental, um elemental não precisa respirar, comer, beber ou dormir.",
+    "<h3>Elemental da Água</h3>",
+    "Um elemental do ar é uma nuvem afunilada de ar rodopiante com um vago semblante de um rosto. Apesar de gostarem de correr pelo solo, levando poeira e detritos consigo, eles também podem voar e atacar de cima. Um elemental do ar pode se transformar em um ciclone voraz, criando um vendaval que arrebata as criaturas, arremessando para longe."
+  ]
+}

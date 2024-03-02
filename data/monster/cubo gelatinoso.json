@@ -1,0 +1,130 @@
+{
+  "name":"Cubo Gelatinoso",
+  "name_pronoun":"o Cubo Gelatinoso",
+  "english_name":"Gelatinous Cube",
+
+  "source":["bestiario"],
+
+  "type":"Gosma",
+  "size":"Grande",
+  
+  "defense_cr":3,
+  "hp_cr":7,
+  "atk_cr":0.5,
+  "damage_cr":7,
+  "resistances_and_immunities_cr":0.750,
+
+  "challenge_ratio":5,
+  "xp":705,
+  "defense":15,
+  "bonuses_in_defense":[],
+  "hp":84,
+  "mana":0,
+
+  "movement_walking":3,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":14,
+  "vitality":20,
+  "agility":3,
+  "charisma":1,
+  "willpower":10,
+  "wisdom":6,
+  "intelligence":1,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":["Amedrontado","Caído","Cego","Encantado","Exausto","Surdo"],
+
+  "dark_vision":0,
+  "blind_sight":12,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Cubo de Gosma",
+      "description":[
+        "O cubo ocupa todo seu espaço no combate. Outras criaturas podem entrar no seu espaço, mas uma criatura que o fizer, é alvo da ação Engolfar automaticamente e tem Desvantagem no teste de salvamento.",
+        "As criaturas dentro do cubo podem ser vistas, mas têm cobertura total.",
+        "Uma criatura a 1 metro do cubo pode realizar uma ação para puxar uma criatura ou objeto para fora do cubo. Fazer isso requer um teste bem sucedido de Atletismo, com dificuldade 12. A criatura que faz a tentativa sofre 3d6 de dano de ácido.",
+        "O cubo pode conter apenas uma criatura Grande ou até quatro criaturas Médias ou menores de cada vez."
+	  ]
+    },
+    {
+      "name":"Transparente",
+      "description":[
+        "Mesmo quando o cubo está totalmente à vista, é necessário um teste de Percepção, com dificuldade 15, para ver um cubo que não esteja nem se movendo, nem atacando. Uma criatura que tentar entrar no espaço do cubo sem estar ciente dele, ficará Surpresa."
+	  ]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Pseudópode",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"3d6 (Ácido)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Engolfar",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação de Movimento",
+      "effect":[
+        "O cubo se move, como em uma ação de movimento. Ao fazer isso, ele pode entrar no espaço de criaturas Grandes ou menores. Sempre que o cubo entra no espaço de uma criatura, a criatura deve fazer um teste de Reflexos com dificuldade 12.",
+        "Em um teste bem-sucedido, a criatura se move 1 metro, para trás ou para o lado do cubo.",
+        "Em uma falha no teste de salvamento, a criatura ocupa o mesmo espaço do cubo, sofrendo 3d6 de dano Ácido e ficando engolfada.",
+        "A criatura engolfada não consegue respirar, fica Impedida e sofre 6d6 de dano de Ácido no início de cada turno do cubo. Quando o cubo se move, a criatura engolfada se move com ele.",
+        "No turno da criatura engolfada, ela pode tentar escapar com uma ação para fazer um teste de Atletismo, com dificuldade 12. Com um sucesso, a criatura escapa e fica num espaço de sua escolha, a até 1 metro do cubo."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os cubos gelatinosos vasculham as passagens das masmorras em silêncio, com padrões previsíveis, deixando caminhos perfeitamente limpos em seu rastro. Eles consomem tecido vivo enquanto deixam os ossos e outros materiais não dissolvidos.",
+    "Um cubo gelatinoso é praticamente transparente, deixando-o difícil de se observar até que ele ataque. Um cubo que esteja bem alimentado pode ser facilmente observado, já que os ossos, moedas e outros objetos de suas vítimas podem ser vistos suspensos dentro da criatura."
+  ]
+}

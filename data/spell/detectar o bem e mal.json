@@ -1,0 +1,18 @@
+{
+    "name":"Detectar o Bem e Mal",
+    "class":["Clérigo","Paladino"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"Raio de 10 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"10 Minutos",
+    "concentration":true,
+    "description":[
+        "Pela duração, você sabe se existe uma aberração, celestial, corruptor, elemental, fada ou morto-vivo, assim como onde a criatura está localizada. Similarmente, você sabe se existe um local ou objeto, que tenha sido consagrado ou profanado magicamente."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

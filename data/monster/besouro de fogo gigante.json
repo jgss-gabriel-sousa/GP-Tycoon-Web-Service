@@ -1,0 +1,101 @@
+{
+  "name":"Besouro de Fogo Gigante",
+  "name_pronoun":"o Besouro de Fogo Gigante",
+  "english_name":"Giant Fire Beetle",
+
+  "source":["bestiario"],
+
+  "type":"Animal",
+  "size":"Pequeno",
+  
+  "defense_cr":1,
+  "hp_cr":0,
+  "atk_cr":0.125,
+  "damage_cr":0.125,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.250,
+  "xp":8,
+  "defense":13,
+  "bonuses_in_defense":[],
+  "hp":4,
+  "mana":0,
+
+  "movement_walking":4,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":8,
+  "vitality":12,
+  "agility":10,
+  "charisma":3,
+  "willpower":10,
+  "wisdom":7,
+  "intelligence":1,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":12,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Iluminação",
+      "description":["O besouro emite luz plena num raio de 3 metros e penumbra por 3 metros adicionais."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+1",
+      "damage":"d6-1 (Corte)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Um besouro de fogo gigante é uma criatura noturna que adquiriu esse nome por ter um par de glândulas brilhantes que emitem luz. Mineradores e aventureiros apreciam essas criaturas, pois as glândulas de um besouro de fogo gigante continuam a emitir luz por 1d6 dias após o besouro morrer. Os besouros de fogo gigante são mais comumente encontrados no subsolo e em florestas escuras."
+  ]
+}

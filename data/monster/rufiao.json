@@ -1,0 +1,123 @@
+{
+  "name":"Rufião",
+  "name_pronoun":"o Rufião",
+  "english_name":"Thug",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":13,
+  "hp_cr":4,
+  "atk_cr":1,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":3,
+  "xp":280,
+  "defense":18,
+  "bonuses_in_defense":[
+    {
+      "name":"Peitoral",
+      "value":6
+    }
+  ],
+  "hp":32,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":15,
+  "vitality":14,
+  "agility":11,
+  "charisma":11,
+  "willpower":10,
+  "wisdom":10,
+  "intelligence":10,
+
+  "skills":["+2 Intimidação"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Qualquer que não seja Bom",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Rufião realiza dois ataques com a Maça"]
+    },
+    {
+      "name":"Maça",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d6+2 (Impacto)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Besta Leve",
+      "limit":"",
+      "recharge":"",
+      "range":"15 Metros",
+      "roll":"+2",
+      "damage":"d8 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os rufiões são executores implacáveis, hábeis na intimidação e na violência. Eles trabalham por dinheiro e têm poucos escrúpulos."
+  ]
+}

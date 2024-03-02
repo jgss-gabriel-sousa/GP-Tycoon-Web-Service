@@ -1,0 +1,18 @@
+{
+    "name":"Bastão Místico",
+    "class":["Druida"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Minuto",
+    "concentration":false,
+    "description":[
+        "Um pedaço de madeira que estejas segurando é imbuido com o poder da natureza. Durante a duração, podes utilizar teu atributo de Inteligência, em vez de Força, para as Rolagens de Ataque e dano corpo-a-corpo com essa arma. Além disso, a arma se torna mágica, e o dado de dano aumenta para um d8. A magia cessa assim que soltares a arma."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

@@ -1,0 +1,124 @@
+{
+  "name":"Urso Pardo",
+  "name_pronoun":"o Urso Pardo",
+  "english_name":"Brown Bear",
+
+  "source":["bestiario","pota"],
+
+  "type":"Animal",
+  "size":"Grande",
+  
+  "defense_cr":1,
+  "hp_cr":5,
+  "atk_cr":5,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":3,
+  "xp":315,
+  "defense":13,
+  "bonuses_in_defense":[],
+  "hp":44,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":4,
+  "movement_swimming":0,
+
+  "strength":19,
+  "vitality":16,
+  "agility":10,
+  "charisma":7,
+  "willpower":12,
+  "wisdom":13,
+  "intelligence":2,
+
+  "skills":["+3 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+	  {
+      "name":"Olfato Aguçado",
+      "description":["O Urso tem Vantagem em testes de Percepção relacionados ao olfato."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+6",
+      "damage":"2d6+4 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+6",
+      "damage":"d8+4 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Rugido",
+      "limit":"",
+      "recharge":"",
+      "range":"Raio de 10 Metros",
+      "roll":"",
+      "damage":"",
+      "save_throw":"11 de Coragem",
+      "time":"1 Ação",
+      "effect":[
+        "Todos os inimigos do urso no alcance devem realizar o teste de salvamento. Os Alvos que não passarem no teste, ficarão Amedrontrados por 1 minuto. O alvo pode refazer o teste no início do seu turno.",
+        "Se o teste de uma criatura for bem-sucedido ou o efeito termine, a criatura ficará imune ao Rugido pelas próximas 24 horas."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[]
+}

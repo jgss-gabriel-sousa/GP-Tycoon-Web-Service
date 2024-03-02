@@ -1,0 +1,140 @@
+{
+  "name":"Mantícora",
+  "name_pronoun":"a Mantícora",
+  "english_name":"Manticore",
+
+  "source":["bestiario","pota"],
+
+  "type":"Monstruosidade",
+  "size":"Grande",
+  
+  "defense_cr":1,
+  "hp_cr":6,
+  "atk_cr":3,
+  "damage_cr":4,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":3,
+  "xp":340,
+  "defense":13,
+  "bonuses_in_defense":[],
+  "hp":68,
+  "mana":0,
+
+  "movement_walking":5,
+  "movement_hovering":0,
+  "movement_flying":9,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":17,
+  "vitality":17,
+  "agility":16,
+  "charisma":8,
+  "willpower":10,
+  "wisdom":12,
+  "intelligence":7,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Leal e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Recrescimento de Espinhos da Cauda",
+      "description":["A mantícora possui 24 espinhos na cauda. Espinhos usados crescem novamente quando a mantícora termina um descanso longo."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[
+        "A Mantícora realiza três ataques: um com sua Mordida e dois com suas Garras ou três com os Espinhos da Cauda."
+      ]
+    },
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"d10+3 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"2d6+3 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Espinhos da Cauda",
+      "limit":"24 Espinhos",
+      "recharge":"",
+      "range":"30 Metros",
+      "roll":"+5",
+      "damage":"d8+3 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["Cada ataque reduz 1d3 espinhos."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Um monstro em todos os sentidos da palavra, uma manticora possui uma cabeça vagamente humanoide, o corpo de um leão e as asas de um dragão. Uma juba eriçada se estende até as costas da criatura e sua longa cauda termina em um emaranhado de espinhos mortais que podem empalar presas a uma distância impressionante.",
+    "As mantícoras são assassinas ferozes que caçam à distância em vastas áreas. Elas trabalham em equipe para derrubar criaturas particularmente grandes ou perigosas, partilhando a comida quando uma morte é feita. Uma manticora começa seu ataque com uma saraivada de espinhos de sua cauda, então aterrissa e usa suas garras e mordida. Quando está ao ar livre e em menor número, ela usa suas asas para se manter distante, atacando à distância até seus espinhos se esgotarem.",
+    "Uma mantícora não é particularmente brilhante, mas ela possui uma natureza malévola e a capacidade de conversar. Ao decorrer do ataque, ela denigre seus adversários e oferece uma morte rápida se eles implorarem por suas vidas. Se a mantícora encontrar uma vantagem a ser adquirida ao poupar a vida de uma criatura, ela o fará, pedindo um tributo ou sacrifício igual a sua comida perdida.",
+    "As mantícoras servem mestres perversos que as tratem bem e concedam presas regulares. Uma manticora pode dar suporte aéreo para uma horda de orcs ou um exército de hobgoblins. Outra poderia servir como um companheiro de caça para um gigante da colina líder, ou guardar a entrada do covil de uma lâmia.",
+    "Os principais rivais territoriais da manticora incluem quimeras, grifos, perytons e wyverns. As mantícoras que cacem como um bando, geralmente terá a vantagem de um maior número. Além dessas criaturas, as mantícoras temem os dragões e os evitam."
+  ]
+}

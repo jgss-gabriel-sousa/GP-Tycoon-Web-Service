@@ -1,0 +1,18 @@
+{
+    "name":"Queda Suave",
+    "class":["Bardo","Feiticeiro","Mago"],
+    "magic_circle":2,
+    "cast_time":"Reação",
+    "range":"15 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Minuto",
+    "concentration":false,
+    "description":[
+        "Escolha até cinco criaturas caindo, dentro do alcance. A velocidade de queda de uma criatura caindo é reduzida, até o fim da magia. Se a criatura aterrissar antes da magia acabar, ela não sofre nenhum dano de queda."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

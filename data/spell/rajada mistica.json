@@ -1,0 +1,24 @@
+{
+    "name":"Rajada Mística",
+    "class":["Atirador Mágico","Místico","Necromante"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"10 Metros",
+    "attack_roll":true,
+    "damage":[
+        ["Dano de Cada Feixe","d10 (Mágico)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Um feixe de energia crepitante vai em direção a uma criatura dentro do alcance. Caso possua múltiplos feixes, você pode direcioná-los para o mesmo alvo ou para diferentes, fazendo uma rolagem de ataque e dano para cada feixe."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","Dois feixes de Energia"],
+        ["11","Três feixes de Energia"],
+        ["17","Quatro feixes de Energia"]
+    ]
+}

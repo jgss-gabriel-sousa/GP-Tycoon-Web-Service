@@ -1,0 +1,141 @@
+{
+  "name":"Diabo - Diabrete",
+  "name_pronoun":"o Diabrete",
+  "english_name":"Imp",
+
+  "source":["bestiario"],
+
+  "type":"Corruptor",
+  "size":"Minúsculo",
+  
+  "defense_cr":10,
+  "hp_cr":0.250,
+  "atk_cr":0.250,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":3.5,
+
+  "challenge_ratio":3,
+  "xp":350,
+  "defense":17,
+  "bonuses_in_defense":[],
+  "hp":10,
+  "mana":0,
+
+  "movement_walking":3,
+  "movement_hovering":0,
+  "movement_flying":6,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":6,
+  "vitality":13,
+  "agility":17,
+  "charisma":14,
+  "willpower":12,
+  "wisdom":10,
+  "intelligence":11,
+
+  "skills":["+4 Diplomacia","+4 Enganação","+5 Furtividade"],
+
+  "vulnerability":[],
+  "resistances":["Gelo","Físico de armas não mágicas que não sejam de Prata"],
+  "immunities":["Fogo","Veneno"],
+  "condition_immunities":[],
+
+  "dark_vision":24,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Infernal"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Leal e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Resistência à Magia",
+      "description":[
+        "O Diabrete tem Vantagem em testes de salvamento contra magias."
+	    ]
+    },
+    {
+      "name":"Visão de Diabo",
+      "description":[
+        "Escuridão mágica não impede a Visão no Escuro do Diabrete."
+	    ]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ferrão (Mordida/Bicada/Picada quando em forma animal)",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"d4+3 (Perfurante)",
+      "save_throw":"11 de Resistência",
+      "time":"1 Ação",
+      "effect":["O alvo deve realizar o teste de salvamento, caso falhe, sofre 3d6 de dano de Veneno ou metade desse dano se obtiver sucesso."]
+    },
+    {
+      "name":"Invisibilidade",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":["O Diabrete fica invisível até ele atacar ou ser atacado. Qualquer coisa que o diabrete estiver carregando ou vestindo, fica invisível, contanto que permaneça em contato com ele."]
+    },
+    {
+      "name":"Metamorfose",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "O Diabrete pode usar sua ação para se transformar em uma das seguintes formas animais, ou voltar a sua forma verdadeira:",
+        "\u2022 Rato (Deslocamento: 6 metros Andando)",
+        "\u2022 Corvo (Deslocamento: 8 metros Voando)",
+        "\u2022 Aranha (Deslocamento: 6 metros Andando, 6 metros Escalando)",
+        "Suas estatísticas são as mesmas em cada forma, exceto para as alterações de deslocamento. Qualquer equipamento que esteja usando ou carregando não é transformado. Se for morto, o diabrete volta a sua forma verdadeira."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "<h3>Diabos</h3>",
+    "",
+    "<h3>Diabretes</h3>",
+    "Diabretes são encontrados por todos os Planos Inferiores, entregando mensagens para seus mestres infernais, espionando rivais ou enganando e corrompendo mortais. Um diabrete irá servir orgulhosamente um mestre maligno de qualquer espécie, mas não se deve confiar que eles concluam tarefas com velocidade ou eficiência. ",
+    "Um diabrete pode ficar invisível à vontade, mas quando visível ele se parece com um humanoide diminuto de pele avermelhada com rabo farpado, pequenos chifres e asas de couro. Ele surpreende saindo da invisibilidade para atacar com seu ferrão venenoso."
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "name":"Elemental da Água",
+  "name_pronoun":"o Elemental da Água",
+  "english_name":"Water Elemental",
+
+  "source":["bestiario","pota"],
+
+  "type":"Elemental",
+  "size":"Grande",
+  
+  "defense_cr":2,
+  "hp_cr":12,
+  "atk_cr":5,
+  "damage_cr":4,
+  "resistances_and_immunities_cr":3.375,
+
+  "challenge_ratio":6,
+  "xp":1630,
+  "defense":14,
+  "bonuses_in_defense":[],
+  "hp":114,
+  "mana":0,
+
+  "movement_walking":8,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":8,
+
+  "strength":18,
+  "vitality":18,
+  "agility":14,
+  "charisma":8,
+  "willpower":10,
+  "wisdom":10,
+  "intelligence":5,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":["Ácido","Fogo","Físico de armas não mágicas"],
+  "immunities":["Veneno"],
+  "condition_immunities":["Agarrado","Caído","Exausto","Paralisado","Petrificado"],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Congelar",
+      "description":["Se o elemental sofrer dano de Gelo seu deslocamento é reduzido para 4 m e sua defesa aumenta em +2, até o final do seu próximo turno."]
+    },
+    {
+      "name":"Forma Líquida",
+      "description":["O elemental pode atravessar inimigos e passar por lugares estreitos, sem receber penalidade de movimento."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Elemental da Água realiza 2 ataques de Pancada Aquática."]
+    },
+    {
+      "name":"Pancada Aquática",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"2d8+4 (Impacto)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Engolfar",
+      "limit":"",
+      "recharge":"4-6",
+      "range":"Criaturas no mesmo espaço do elemental",
+      "roll":"",
+      "damage":"2d8+4 (Impacto)",
+      "save_throw":"15 de Atletismo",
+      "time":"Ação Livre",
+      "effect":[
+        "Cada criatura no espaço do elemental deve fazer o teste de salvamento. Se falhar, o alvo sofre o dano e caso seja de tamanho Grande ou menor, ele também fica agarrado. Até o agarrão acabar, o alvo fica impedido e incapaz de respirar a não ser que possa respirar na água. Se o teste de salvamento for bem-sucedido, o alvo é empurrado para fora do espaço do elemental.",
+        "No início de cada turno do elemental, as criaturas agarradas por ele sofrem o dano. Uma criatura a até 1 metro do elemental pode puxar outra criatura ou objeto para fora dele, ao usar uma ação para realizar o teste de salvamento"
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "<h3>Elementais</h3>",
+    "Os elementais são encarnações dos elementos que constituem o multiverso: água, ar, fogo e terra. Embora não sejam mais do que energia animada em seus planos de existência, eles podem ser convocador por conjuradores e seres poderosos para ganhar forma e realizar tarefas.",
+    "Em seu plano natal, um elemental é uma força vital imaterial. Sua consciência só se manifesta em forma física quando focado pelo poder de magia. Um espírito selvagem de força elemental não possui desejos, exceto seguir o curso do elemento do seu plano nativo.",
+    "Certas magias e itens mágicos podem conjurar um elemental, invocando-o dos Planos Interiores para o Plano Material. Os elementais, instintivamente, ficam ressentidos por serem tirados de seus planos nativos e forçados a servir. Uma criatura que invoque um elemental deve exercer sua força de vontade para controlá-lo.",
+    "Magia poderosa pode vincular um espírito elemental a entrar em um material modelo que define um uso e função específicos. Caçadores invisíveis são elementais do ar vinculados a uma forma específica, assim como os elementais da água podem ser modelados em anomalias da água.",
+    "A força da magia e materiais que vinculam um elemental determinam o quão bem o elemental funciona em uma forma vinculada. Golens são espíritos elementais vinculados a formas físicas, porém, matérias mais frágeis como carne e barro não podem vincular poder elemental suficiente. Materiais resistentes como pedra e ferro requerem magia mais forte, consequentemente vinculando um elemental com mais segurança.",
+    "Devido a sua natureza elemental, um elemental não precisa respirar, comer, beber ou dormir.",
+    "<h3>Elemental da Água</h3>",
+    "Um elemental da água é uma onda que flui pelo chão, tornando-se praticamente invisível quando se desloca através de um corpo de água maior. Ele engolfa as criaturas que se colocarem no seu caminho, enchendo as bocas e pulmões delas tão facilmente quanto apagam chamas."
+  ]
+}

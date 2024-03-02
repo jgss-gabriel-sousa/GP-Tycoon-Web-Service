@@ -1,0 +1,128 @@
+{
+  "name":"Gárgula",
+  "name_pronoun":"o Gárgula",
+  "english_name":"Gargoyle",
+
+  "source":["bestiario","pota"],
+
+  "type":"Elemental",
+  "size":"Médio",
+  
+  "defense_cr":3,
+  "hp_cr":5,
+  "atk_cr":1,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":2.25,
+
+  "challenge_ratio":3,
+  "xp":325,
+  "defense":15,
+  "bonuses_in_defense":[
+    {
+      "name":"Pele de Pedra",
+      "value":2
+    }
+  ],
+  "hp":52,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":12,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":15,
+  "vitality":16,
+  "agility":11,
+  "charisma":7,
+  "willpower":10,
+  "wisdom":11,
+  "intelligence":6,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":["Físico de armas não mágicas que não sejam de Adamantina"],
+  "immunities":["Veneno"],
+  "condition_immunities":["Exausto","Petrificado"],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+
+  "abilities": [
+    {
+      "name":"Aparência Falsa",
+      "description":["Enquanto o Gárgula permanecer imóvel, ele é indistinguível de uma estátua normal."]
+    },
+    {
+      "name":"Natureza Elemental",
+      "description":["Um Gárgula não precisa comer, beber ou dormir."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d6+2 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d6+2 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os gárgulas empoleirados no topo de grandes construções são inspirados por essas malévolas criaturas elementais da terra que lembram estátuas demoníacas grotescas. Um gárgula espreita entre as alvenarias e ruínas, enquanto permanece parado como qualquer escultura de pedra, e se delicia com o terror que cria quando se liberta de sua pose suspensa, assim como com a dor que causa em suas vítimas.",
+    "Os gárgulas se predem a falésias e montanhas, ou poleiros em bordas de cavernas subterrâneas. Eles assombram telhados de cidades, empoleirados como abutres entre altos arcos de pedra e contrafortes de castelos e catedrais, e eles conseguem ficar tão imóveis que parecem inanimados. Capaz de manter esse estado por anos, um gárgula se mostra uma sentinela ideal.",
+    "Os gárgulas tem a reputação de crueldade. Estátuas esculpidas para se assemelhar aos gárgulas aparecem na arquitetura de inúmeras culturas para espantar invasores. Apesar de tais esculturas serem meramente decorativas, os gárgulas reais podem se misturar entre elas para emboscar vítimas desatentas. Um gárgula pode aliviar o tédio de sua vigília ao capturar e torturar pássaros e roedores, mas sua longa espera apenas aumenta sua ânsia por ferir criaturas racionais.",
+    "Servos Cruéis. Os gárgulas são facilmente inspirados pela astúcia de um mestre inteligente. Eles apreciam tarefas simples como guardar a casa de um mestre, torturar e matar invasores e qualquer outra coisa que envolva mínimo esforço e máxima dor e carnificina.",
+    "Os gárgulas, às vezes, servem aos demônios por sua propensão ao caos e destruição desenfreados. Conjuradores poderosos também podem facilmente recrutar gárgulas guardiões para manter vigília sob seus portões e muros. Os gárgulas tem a paciência e fortitude da rocha, e servirão mesmo o mestre mais cruel por anos sem contestar.",
+    "Enquanto Ogrémoch, o Príncipe maligno Elemental da Terra, anda sobre seu reino pétreo, ele deixa fragmentos de rocha partida em seu rastro. Imbuídos com lascas de senciência, esses fragmentos vibram com a essência do príncipe elemental, se desenvolvendo ao passar dos anos em formações rochosas vagamente humanoides que adquirem, finalmente, as formas rígidas e cruéis de gárgulas.",
+    "Ogrémoch não cria os gárgulas deliberadamente, mas eles são uma manifestação física de sua maldade. Os gárgulas são escárnios dos elementais do ar que Ogrémoch despreza. Eles são criaturas pesadas de pedra viva, ainda assim capazes de voar. Como seu criador, eles possuem um ódio fundamental por seres elementais do ar, aarakocra em particular, e apreciam cada oportunidade de destruir tais criaturas",
+    "Em seu plano natal, os gárgulas esculpem motes de terra que Ogrémoch choca em Aaqa, o domínio dos aarakocra e dos benevolentes Duques do Vento que o povo pássaro serve no Plano Elemental do Ar."
+  ]
+}

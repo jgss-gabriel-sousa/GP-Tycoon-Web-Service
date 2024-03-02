@@ -1,0 +1,128 @@
+{
+  "name":"Troll",
+  "name_pronoun":"o Troll",
+  "english_name":"Troll",
+
+  "source":["bestiario","pota"],
+
+  "type":"Gigante",
+  "size":"Grande",
+  
+  "defense_cr":6,
+  "hp_cr":8,
+  "atk_cr":9,
+  "damage_cr":3,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":7,
+  "xp":1710,
+  "defense":16,
+  "bonuses_in_defense":[],
+  "hp":84,
+  "mana":0,
+
+  "movement_walking":8,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":23,
+  "vitality":23,
+  "agility":14,
+  "charisma":6,
+  "willpower":13,
+  "wisdom":9,
+  "intelligence":6,
+
+  "skills":["+2 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Gigante"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+	  {
+      "name":"Olfato Aguçado",
+      "description":["O Urso tem Vantagem em testes de Percepção relacionados ao olfato."]
+    },
+    {
+      "name":"Regeneração",
+      "description":["O Troll recupera 10 pontos de vida no início de cada um dos seus turnos. Se o Troll sofrer dano de Ácido ou Fogo, essa habilidade não funcionará até o início do próximo turno do Troll. O Troll morre apenas se começar seu turno com 0 pontos de vida e não puder se regenerar."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Troll realiza dois ataques: um com a Mordida e outro com as Garras."]
+    },
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+9",
+      "damage":"d6+6 (Pefurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+9",
+      "damage":"2d6+6 (Corte)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Nascidos com aparências horrendas, os trolls comem tudo que eles puderem pegar e devorar. Eles não possuem uma sociedade para se falar, mas eles servem como mercenários a Orcs, Ogros, Ettins, Bruxas e Gigantes. Como pagamento, os trolls exigem comida e tesouros. Os trolls são difíceis de se controlar, porém, fazem o que querem, mesmo quando estão lidando com criaturas mais poderosas.",
+    "Esmagar os ossos de um troll e cortar suas peles borrachudas apenas deixa o troll mais zangado. As feridas de um troll se fecham rapidamente. Um troll pode até mesmo recolocar partes do corpo decepadas. Apenas ácido e fogo podem impedir as propriedades regenerativas da carne de um troll. Os trolls, enfurecidos, irão atacar indivíduos que estejam realizando ataques de ácido e fogo contra eles acima de todas as outras presas."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "name":"Toque Vampírico",
+    "class":["Místico","Necromante"],
+    "magic_circle":4,
+    "cast_time":"1 Ação",
+    "range":"Toque à Distância (1 Metro)",
+    "attack_roll":true,
+    "damage":[
+        ["Dano","3d6 (Necrótico)"]
+    ],
+    "heal":"Metade do Dano causado",
+    "saving_trow":"",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "O toque da sua mão coberta de sombras pode drenar a força vital dos outros para curar seus ferimentos. Realize um ataque de toque contra a criatura, se atingir, o alvo sofre o dano e você recupera pontos de vida igual à metade do dano causado. Até a magia acabar, você pode realizar o ataque novamente, no seu turno, com uma ação."
+    ],
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
+        ["15","4d6 de Dano"],
+        ["21","5d6 de Dano"],
+        ["28","6d6 de Dano"]
+    ]
+}

@@ -1,0 +1,118 @@
+{
+  "name":"Urso Coruja",
+  "name_pronoun":"o Urso Coruja",
+  "english_name":"Owlbear",
+
+  "source":["bestiario","pota"],
+
+  "type":"Monstruosidade",
+  "size":"Grande",
+  
+  "defense_cr":1,
+  "hp_cr":6,
+  "atk_cr":7,
+  "damage_cr":3,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":4,
+  "xp":530,
+  "defense":13,
+  "bonuses_in_defense":[],
+  "hp":68,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":20,
+  "vitality":17,
+  "agility":12,
+  "charisma":7,
+  "willpower":12,
+  "wisdom":14,
+  "intelligence":3,
+
+  "skills":["+3 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+	  {
+      "name":"Visão e Olfato Aguçados",
+      "description":["O Urso Coruja tem Vantagem em testes de Percepção relacionados a visão ou olfato."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Bico",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"d10+5 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"2d8+5 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "O guincho de um urso-coruja ecoa pelos vales escuros e florestas tenebrosas, penetrando a noite calma para anunciar a morte de sua presa. Penas cobrem a pelagem grossa do seu corpo de urso e as pupilas límpidas de seus grandes olhos redondos fitam furiosamente de sua cabeça de coruja.",
+    "A reputação dos ursos-coruja por sua ferocidade, agressividade, obstinação e mau humor, tornam-nos um dos mais temidos predadores do ambiente selvagem. Existe muito pouco, praticamente nada, que um urso-coruja faminto tema. Até mesmo monstros superiores ao urso-coruja em tamanho e força evitam cruzar com eles, pois essas criaturas não se importam com a força superior de um adversário, atacando sem provocação.",
+    "Um urso-coruja emerge de sua toca por volta do pôr do sol e caça nas horas mais escuras da noite, piando ou guinchando para declarar seu território, para procurar um companheiro ou para apavorar as presas no seu território de caça. Estas são tipicamente florestas familiares ao urso-coruja, densas o suficiente para limitar as rotas de fuga de suas presas.",
+    "Um urso-coruja faz sua toca em uma caverna ou ruína repleta de ossos de suas presas. Ele larga mortos parcialmente devorados atrás da sua toca, armazenando porções de carcaças entre as rochas, arbustos e árvores ao redor. O cheiro de sangue e carne apodrecendo fica mais forte próximo do covil de um urso-coruja, atraindo coletores e assim, juntando mais presas.",
+    "Os ursos-coruja caçam sozinhos ou em casais. Se as presas forem abundantes, uma família de ursos-coruja pode permanecer junta por mais tempo que o necessário para criar seus filhotes. Do contrário, eles se separam assim que os jovens estiverem aptos a caçar.",
+    "Comunidades élficas encorajam ursos-coruja a fazerem suas tocas debaixo de suas vilas nas copas das árvores, usando as bestas como uma defesa natural durante a noite. Os hobgoblins apreciam ursos-coruja como bestas de guerra e os gigantes da colina e gigantes do gelo, às vezes, mantem ursos-coruja como animais de estimação. Um urso-coruja faminto pode aparecer numa arena gladiatória, impiedosamente eviscerando e devorando seus adversários perante uma audiência sedenta por sangue.",
+    "Estudiosos debatem há muito tempo sobre as origens do urso-coruja. A teoria mais comum é que um mago demente criou a primeiro espécime ao cruzar uma coruja gigante com um urso. Porém, elfos veneráveis dizem conhecer essas criaturas a milhares de anos e algumas fadas insistem que os ursos coruja sempre existiram em Faéria."
+  ]
+}

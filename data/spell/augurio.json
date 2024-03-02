@@ -1,0 +1,24 @@
+{
+    "name":"Augúrio",
+    "class":["Clérigo"],
+    "magic_circle":3,
+    "cast_time":"1 Minuto",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Ao lançar varetas cravejados com gemas, rolar ossos de dragão, puxar cartas ornamentadas ou usar outro tipo de ferramenta de adivinhação, você recebe um pressagio de uma entidade de outro mundo, sobre os resultados de cursos de ação específicos que você planeja tomar nos próximos 30 minutos. O Mestre escolhe dentre os possíveis presságios a seguir:",
+        "\u2022 Êxito, para resultados bons.",
+        "\u2022 Fracasso, para resultados maus.",
+        "\u2022 Êxito e Fracasso, para resultados bons e maus.",
+        "\u2022 Nada, para resultados que não são especialmente bons ou ruins.",
+        "A magia não leva em conta qualquer possível circunstancia que possa mudar o resultado, como a conjuração de magias adicionais ou a perda ou ganho de um companheiro.",
+        "Se você conjurar a magia duas ou mais vezes antes de completar seu próximo descanso longo, existe uma chance cumulativa de 10% a cada conjuração, depois da primeira, de ter um resultado aleatório. O Mestre faz essa jogada secretamente."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

@@ -1,0 +1,118 @@
+{
+  "name":"Cão Infernal",
+  "name_pronoun":"o Cão Infernal",
+  "english_name":"Hell Hound",
+
+  "source":["bestiario","pota"],
+
+  "type":"Corruptor",
+  "size":"Médio",
+  
+  "defense_cr":3,
+  "hp_cr":5,
+  "atk_cr":3,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":1,
+
+  "challenge_ratio":4,
+  "xp":400,
+  "defense":15,
+  "bonuses_in_defense":[],
+  "hp":45,
+  "mana":0,
+
+  "movement_walking":12,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":16,
+  "vitality":14,
+  "agility":20,
+  "charisma":6,
+  "willpower":15,
+  "wisdom":10,
+  "intelligence":8,
+
+  "skills":["+5 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Fogo"],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Infernal"],
+  "telepathy":false,
+  "only_understands":true,
+  
+  "alignment":"Leal e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+	  {
+      "name":"Audição e Olfato Aguçados",
+      "description":["O Cão Infernal tem Vantagem em testes de Percepção relacionados a audição ou olfato."]
+    },
+	  {
+      "name":"Táticas de Matilha",
+      "description":["O Cão Infernal tem Vantagem nas jogadas de ataque contra uma criatura se, um aliado estiver engajado com a mesma criatura."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+6",
+      "damage":"d8+3 (Perfurante) + 2d6 (Fogo)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Sopro de Fogo",
+      "limit":"",
+      "recharge":"5-6",
+      "range":"Cone de 3 Metros",
+      "roll":"",
+      "damage":"6d6 (Fogo)",
+      "save_throw":"12 de Reflexos",
+      "time":"1 Ação",
+      "effect":["Cada criatura no alcance deve fazer o teste de salvamento, recebendo o dano em um teste falho, ou metade do dano em um teste bem-sucedido."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Corruptores monstruosos cuspidores de fogo que tomaram a forma de cachorros, cães infernais são encontrados nos campos de batalha de Aqueronte e por todos os Planos Inferiores. No Plano Material, os cães infernais são vistos com mais frequência a serviço de diabos, gigantes do fogo e outras criaturas malignas que os utilizam como animais de guarda e companheiros.",
+	"Os cães infernais caçam em matilhas, alimentando-se de qualquer criatura que pareça comestível. Eles evitam inimigos potencialmente perigosos em favor de alvejar a presa mais fraca com sua mordida selvagem e sopro de fogo, demonstrando uma determinação implacável enquanto perseguem aquela presa até o fim. Quando os cães do inferno se alimentam, a carne que eles consomem alimenta o fogo Corruptor que queima dentro deles. Quando um cão do inferno morre, aquele fogo consome os restos mortais da criatura em uma erupção de fumaça e brasas ardentes, não deixando nada para trás além de tufos chamuscados de pelo preto.",
+	"Os cães infernais são mais espertos do que os animais mundanos, e sua natureza leal os torna bons em seguir ordens. No entanto, a disposição maligna de um cão do inferno significa que a criatura não pode ser treinada para ser outra coisa senão um assassino implacável. Se um cão do inferno não tem permissão para saciar sua fome malévola, ele rapidamente abandona ou se volta contra seu mestre."
+  ]
+}

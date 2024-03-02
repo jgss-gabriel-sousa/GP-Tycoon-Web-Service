@@ -1,0 +1,125 @@
+{
+  "name":"Elemental da Terra",
+  "name_pronoun":"o Elemental da Terra",
+  "english_name":"Earth Elemental",
+
+  "source":["bestiario","pota"],
+
+  "type":"Elemental",
+  "size":"Grande",
+  
+  "defense_cr":10,
+  "hp_cr":8,
+  "atk_cr":8,
+  "damage_cr":4,
+  "resistances_and_immunities_cr":2.5,
+
+  "challenge_ratio":9,
+  "xp":3870,
+  "defense":17,
+  "bonuses_in_defense":[],
+  "hp":100,
+  "mana":0,
+
+  "movement_walking":4,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":4,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":20,
+  "vitality":25,
+  "agility":8,
+  "charisma":5,
+  "willpower":10,
+  "wisdom":10,
+  "intelligence":5,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":["Físico de armas não mágicas"],
+  "immunities":["Veneno"],
+  "condition_immunities":["Caído","Exausto","Paralisado","Petrificado"],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":6,
+  "true_vision":0,
+
+  "languages":["Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Monstro de Cerco",
+      "description":["O elemental causa o dobro do dano a objetos e estruturas."]
+    },
+    {
+      "name":"Movimento pela Terra",
+      "description":["O elemental pode escavar através de terra e rocha não-mágica. Enquanto faz isso, o elemental não perturba o material pelo qual se move."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Elemental da Terra realiza 2 ataques de Pancada."]
+    },
+    {
+      "name":"Pancada",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+8",
+      "damage":"2d8+5 (Impacto)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "<h3>Elementais</h3>",
+    "Os elementais são encarnações dos elementos que constituem o multiverso: água, ar, fogo e terra. Embora não sejam mais do que energia animada em seus planos de existência, eles podem ser convocador por conjuradores e seres poderosos para ganhar forma e realizar tarefas.",
+    "Em seu plano natal, um elemental é uma força vital imaterial. Sua consciência só se manifesta em forma física quando focado pelo poder de magia. Um espírito selvagem de força elemental não possui desejos, exceto seguir o curso do elemento do seu plano nativo.",
+    "Certas magias e itens mágicos podem conjurar um elemental, invocando-o dos Planos Interiores para o Plano Material. Os elementais, instintivamente, ficam ressentidos por serem tirados de seus planos nativos e forçados a servir. Uma criatura que invoque um elemental deve exercer sua força de vontade para controlá-lo.",
+    "Magia poderosa pode vincular um espírito elemental a entrar em um material modelo que define um uso e função específicos. Caçadores invisíveis são elementais do ar vinculados a uma forma específica, assim como os elementais da água podem ser modelados em anomalias da água.",
+    "A força da magia e materiais que vinculam um elemental determinam o quão bem o elemental funciona em uma forma vinculada. Golens são espíritos elementais vinculados a formas físicas, porém, matérias mais frágeis como carne e barro não podem vincular poder elemental suficiente. Materiais resistentes como pedra e ferro requerem magia mais forte, consequentemente vinculando um elemental com mais segurança.",
+    "Devido a sua natureza elemental, um elemental não precisa respirar, comer, beber ou dormir.",
+    "<h3>Elemental da Terra</h3>",
+    "Um elemental da terra arrasta-se como se fosse uma colina ambulante, braços similares a clavas de rocha chanfrada balançam aos seus lados. Sua cabeça e corpo consiste em terra e pedra, ocasionalmente com pedaços de metais, gemas e minerais brilhantes.",
+    "Os elementais da terra deslizam através de rocha e terra como se fossem líquidos. Criaturas terrestres tem bastante a temer de um elemental da terra, já que o elemental pode localizar a posição precisa de qualquer adversário que esteja em contato com chão sólido em seus arredores."
+  ]
+}

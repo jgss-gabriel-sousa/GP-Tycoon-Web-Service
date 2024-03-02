@@ -1,0 +1,20 @@
+{
+    "name":"Sugestão",
+    "class":["Bardo","Feiticeiro","Mago","Místico","Sábio"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"5 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Concentração",
+    "duration":"8 Horas",
+    "concentration":true,
+    "description":[
+        "Você sugere uma atividade (limitado a uma ou duas sentenças) e, magicamente, influencia uma criatura que você possa ver, dentro do alcance, e que possa ouvir e compreender você. Criaturas que não podem ser encantadas são imunes a esse efeito. A sugestão deve ser formulada de modo que o curso de ação soe razoável. Dizer para a criatura se esfaquear, se arremessar em uma lança, tocar fogo em si mesma ou fazer algum outro ato obviamente nocivo, anulará o efeito da magia.",
+        "O alvo deve realizar o teste de salvamento. Se falhar, seguirá o curso de ação que você descreveu, da melhor forma possível. O curso de ação sugerido pode continuar por toda a duração. Se a atividade sugerida puder ser completada em um tempo menor, a magia termina quando o alvo completar o que lhe foi dito para que fizesse.",
+        "Se você ou um dos seus companheiros causar dano a uma criatura afetada por essa magia, a magia termina."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

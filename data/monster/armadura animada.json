@@ -1,0 +1,111 @@
+{
+  "name":"Armadura Animada",
+  "name_pronoun":"a Armadura Animada",
+  "english_name":"Animated Armor",
+
+  "source":["bestiario"],
+
+  "type":"Constructo",
+  "size":"Médio",
+  
+  "defense_cr":13,
+  "hp_cr":3,
+  "atk_cr":0.250,
+  "damage_cr":0.250,
+  "resistances_and_immunities_cr":1.875,
+
+  "challenge_ratio":3,
+  "xp":290,
+  "defense":18,
+  "bonuses_in_defense":[
+    {
+      "name":"Loriga Segmentada",
+      "value":7
+    }
+  ],
+  "hp":26,
+  "mana":0,
+
+  "movement_walking":4,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":14,
+  "vitality":13,
+  "agility":8,
+  "charisma":1,
+  "willpower":6,
+  "wisdom":3,
+  "intelligence":1,
+
+  "skills":["+4 Intimidação"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Psíquico","Veneno"],
+  "condition_immunities":["Amedrontado","Cego","Encantado","Exausto","Paralisado","Petrificado","Surdo"],
+
+  "dark_vision":0,
+  "blind_sight":12,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"De acordo com o seu criador",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Aparência Falsa",
+      "description":["Enquanto a armadura animada permanecer imóvel, ela é indistinguível de uma armadura normal."]
+    },
+    {
+      "name":"Susceptibilidade à Antimagia",
+      "description":["A armadura animada fica Incapacitada enquanto estiver na área de um campo antimagia. Se for alvo da magia Dissipar Magia, a armadura deve ser bem-sucedida num teste de 15 de Resistência, ou cairá Inconsciente por 1 minuto."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Pancada",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+2",
+      "damage":"d6+2 (Impacto)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Essa casca de aço vazia, que foi magicamente animada, range quando se move, placas pesadas batem e esfregam-se umas contra as outras, como o espírito vingativo de um cavaleiro caído.",
+    "Para aumentar sua intimidação, uma armadura animada é frequentemente encantada com um discurso preparado, assim, a armadura pode proferir avisos, exigir senhas ou fornecer enigmas."
+  ]
+}

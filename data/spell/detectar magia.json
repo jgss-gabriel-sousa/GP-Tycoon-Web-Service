@@ -1,0 +1,18 @@
+{
+    "name":"Detectar Magia",
+    "class":["Assassino", "Bardo", "Clérigo", "Druida", "Feiticeiro", "Mago", "Paladino", "Patrulheiro"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"Raio de 10 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"10 Minutos",
+    "concentration":true,
+    "description":[
+        "Pela duração, você visualiza as tramas da magia em uma área ao seu redor, identificando se existe magia, sua influência e o seu tipo."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

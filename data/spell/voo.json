@@ -1,0 +1,18 @@
+{
+    "name":"Voo",
+    "class":["Feiticeiro","Mago","Místico","Sábio"],
+    "magic_circle":4,
+    "cast_time":"1 Ação",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"10 Minutos",
+    "concentration":true,
+    "description":[
+        "Você ou uma criatura voluntária tocada, ganhará deslocamento de voo de 15 metros, pela duração. Quando a magia acabar, o alvo cai se ainda estiver no ar, a não ser que ele possa impedir a queda. O dano de queda é igual a 1d6 a cada 3 metros de altura."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

@@ -1,0 +1,19 @@
+{
+    "name":"Santuário",
+    "class":["Clérigo"],
+    "magic_circle":2,
+    "cast_time":"Ação Menor",
+    "range":"6 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Concentração",
+    "duration":"1 Minuto",
+    "concentration":false,
+    "description":[
+        "Você protege uma criatura, dentro do alcance, contra-ataques. Até a magia acabar, qualquer criatura que tentar atacar ou usar magias que causem dano contra criatura protegida deve, primeiro, realizar o teste de salvamento. Se falhar, a criatura deve escolher um novo alvo ou perderá o ataque ou magia. Essa magia não protege a criatura contra efeitos de área, como a explosão de uma bola de fogo.",
+        "Se a criatura protegida realizar um ataque ou conjurar uma magia que afete uma criatura inimiga, essa magia acaba."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

@@ -1,0 +1,24 @@
+{
+    "name":"Chicote Elétrico",
+    "class":["Atirador Mágico","Feiticeiro","Mago","Místico"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"Toque (7 Metros)",
+    "attack_roll":true,
+    "damage":[
+        ["Dano","d8 (Elétrico)"]
+    ],
+    "heal":"",
+    "saving_trow":"Atletismo",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você conjura um açoite feito de energia elétrica, que golpeia uma criatura visível dentro do alcance. O alvo deve fazer um Teste de Salvamento bem-sucedido, caso contrário, será puxado em sua direção por até 3 metros e sofrerá o dano correspondente."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","2d8 de Dano"],
+        ["11","3d8 de Dano"],
+        ["17","4d8 de Dano"]
+    ]
+}

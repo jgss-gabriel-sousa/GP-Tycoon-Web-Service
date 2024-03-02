@@ -1,0 +1,136 @@
+{
+  "name":"Guardião da Chama Eterna",
+  "name_pronoun":"o Guardião da Chama Eterna",
+  "english_name":"Eternal Flame Guardian",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":13,
+  "hp_cr":5,
+  "atk_cr":3,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":0.5,
+
+  "challenge_ratio":5,
+  "xp":735,
+  "defense":18,
+  "bonuses_in_defense":[
+    {
+      "name":"Peitoral",
+      "value":6
+    }
+  ],
+  "hp":45,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":15,
+  "vitality":14,
+  "agility":13,
+  "charisma":13,
+  "willpower":14,
+  "wisdom":11,
+  "intelligence":8,
+
+  "skills":["+3 Intimidação","+2 Percepção"],
+
+  "vulnerability":[],
+  "resistances":["Fogo"],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Guardião realiza dois ataques com a Espada Longa."]
+    },
+	  {
+      "name":"Espada Longa",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"d10+2 (Corte)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+	  {
+      "name":"Arma Flamejante",
+      "limit":"",
+      "recharge":"6",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação Menor",
+      "effect":[
+        "O Guardião põe chamas em uma arma corpo a corpo que esteja empunhando, o guardião é ileso a este fogo, que dura até o final de seu próximo turno. Enquanto envolta em chamas, a arma causa 1d6 de dano de Fogo adicional."
+      ]
+    },
+	  {
+      "name":"Besta Pesada",
+      "limit":"",
+      "recharge":"",
+      "range":"20 m",
+      "roll":"+4",
+      "damage":"d10+1 (Perfurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os Guardiões da Chama Eterna são idiotas fascinados pelo poder do fogo e ansiosos para mostrar aos inimigos do culto como é queimar. Eles queimam coisas para honrar o fogo elemental e também apenas para entretenimento."
+  ]
+}

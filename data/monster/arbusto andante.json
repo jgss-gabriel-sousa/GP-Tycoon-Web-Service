@@ -1,0 +1,105 @@
+{
+  "name":"Arbusto Andante",
+  "name_pronoun":"o Arbusto Andantee",
+  "english_name":"Awakened Shrub",
+
+  "source":["bestiario"],
+
+  "type":"Planta",
+  "size":"Pequeno",
+  
+  "defense_cr":0.250,
+  "hp_cr":0.250,
+  "atk_cr":0,
+  "damage_cr":0.125,
+  "resistances_and_immunities_cr":0.375,
+
+  "challenge_ratio":0.250,
+  "xp":18,
+  "defense":11,
+  "bonuses_in_defense":[],
+  "hp":10,
+  "mana":0,
+
+  "movement_walking":3,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":3,
+  "vitality":6,
+  "agility":8,
+  "charisma":6,
+  "willpower":10,
+  "wisdom":3,
+  "intelligence":1,
+
+  "skills":[],
+
+  "vulnerability":["Corte","Fogo"],
+  "resistances":["Perfurante"],
+  "immunities":["Psíquico","Veneno"],
+  "condition_immunities":["Amedrontado","Cego","Encantado","Exausto","Paralisado","Petrificado","Surdo"],
+
+  "dark_vision":0,
+  "blind_sight":12,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"De acordo com o seu criador",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Aparência Falsa",
+      "description":["Enquanto o arbusto andante permanecer imóvel, é indistinguível de um arbusto normal."]
+    },
+    {
+      "name":"Susceptibilidade à Antimagia",
+      "description":["O arbusto andante fica Incapacitado enquanto estiver na área de um campo antimagia. Se for alvo da magia Dissipar Magia, o arbusto deve ser bem-sucedido num teste de 15 de Resistência, ou cairá Inconsciente por 1 minuto."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Espinhos",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+0",
+      "damage":"d4 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Um Arbusto Andante é um arbusto comum que recebe mobilidade pela magia Despertar ou ritual semelhante."
+  ]
+}

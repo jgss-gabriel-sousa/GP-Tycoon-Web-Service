@@ -1,0 +1,126 @@
+{
+  "name":"Aranha Gigante",
+  "name_pronoun":"a Aranha Gigante",
+  "english_name":"Giant Spider",
+
+  "source":["bestiario"],
+
+  "type":"Inseto",
+  "size":"Grande",
+  
+  "defense_cr":1,
+  "hp_cr":4,
+  "atk_cr":3,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":2,
+  "xp":140,
+  "defense":13,
+  "bonuses_in_defense":[],
+  "hp":34,
+  "mana":0,
+
+  "movement_walking":9,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":4,
+  "movement_swimming":0,
+
+  "strength":14,
+  "vitality":12,
+  "agility":16,
+  "charisma":4,
+  "willpower":8,
+  "wisdom":11,
+  "intelligence":2,
+
+  "skills":["+7 Furtividade"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":2,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Escalada de Aranha",
+      "description":["A aranha pode escalar superfícies difíceis, inclusive de cabeça para baixo em tetos, sem precisar fazer um teste de habilidade."]
+    },
+    {
+      "name":"Sensibilidade da Teia",
+      "description":["Enquanto em contato com uma teia, a aranha sabe a localização exata de qualquer outra criatura em contato com a mesma teia."]
+    },
+    {
+      "name":"Andar na Teia",
+      "description":["A aranha ignora as restrições de movimento causadas por teias."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"d8+3 (Perfurante) + d8 (Veneno)",
+      "save_throw":"11 de Resistência",
+      "time":"Ação de Ataque",
+      "effect":[
+        "O alvo atingido deve realizar o Teste de Salvamento, em um teste bem-sucedido recebe apenas o dano, mas em um teste falho, recebe 2d8 de dano de Veneno adicional.",
+        "Se este ataque reduzir o alvo a 0 pontos de vida, o alvo fica Estável, mas Envenenado por 1 hora, mesmo depois de recuperar os pontos de vida. Além disso, ficará Paralisado enquanto estiver envenenado dessa forma."
+      ]
+    },
+    {
+      "name":"Teia",
+      "limit":"",
+      "recharge":"5-6",
+      "range":"Disparo de 10 metros",
+      "roll":"",
+      "damage":"",
+      "save_throw":"13 de Agilidade",
+      "time":"Ação de Ataque",
+      "effect":[
+        "A criatura alvo e as demais no alcance, devem realizar o Teste de Salvamento. Um alvo atingido pela teia fica Impedido por ela.",
+        "Como uma ação no seu turno, o alvo pode fazer um teste de Atletismo com dificuldade 12 para tentar rompê-la. A teia também pode ser atacada e destruída (Defesa = 10; Vida = 5; Vulnerabilidade a dano de Fogo; Imunidade a danos de Impacto, Perfurante, Veneno e Psíquico)."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Para capturar sua presa, uma Aranha Gigante tece teias elaboradas ou atira fios pegajosos de teia de seu abdômen. Aranhas gigantes são adversários comuns no subterrâneo, fazendo seus covis no teto ou em fendas escuras cheias de teias. Esses covis são frequentemente enfeitados com casulos que prendem os restos das vítimas do passado."
+  ]
+}

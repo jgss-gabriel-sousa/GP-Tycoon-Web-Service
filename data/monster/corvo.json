@@ -1,0 +1,101 @@
+{
+  "name":"Corvo",
+  "name_pronoun":"o Corvo",
+  "english_name":"Raven",
+
+  "source":["bestiario"],
+
+  "type":"Animal",
+  "size":"Minúsculo",
+  
+  "defense_cr":3,
+  "hp_cr":0,
+  "atk_cr":0,
+  "damage_cr":0,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.250,
+  "xp":12,
+  "defense":15,
+  "bonuses_in_defense":[],
+  "hp":1,
+  "mana":0,
+
+  "movement_walking":0,
+  "movement_hovering":0,
+  "movement_flying":8,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":2,
+  "vitality":2,
+  "agility":12,
+  "charisma":6,
+  "willpower":8,
+  "wisdom":10,
+  "intelligence":2,
+
+  "skills":["+4 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Imitação",
+      "description":["O corvo pode imitar sons simples que ouviu, como uma pessoa sussurrando, um bebê chorando ou um animal chiando. Uma criatura que ouve os sons pode dizer que eles são imitações com um teste bem-sucedido de Investigação com dificuldade 10."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Bicada",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+0",
+      "damage":"1 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Esses pássaros pretos brilhantes têm cerca de 60 centímetros de comprimento e envergadura de cerca de 1 metro. Eles atacam enquanto voam e abusam de sua agilidade para não serem atingidos. Um único Corvo não representa perigo, mas um bando deles pode ser uma ameaça fatal."
+  ]
+}

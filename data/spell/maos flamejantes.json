@@ -1,0 +1,25 @@
+{
+    "name":"Mãos Flamejantes",
+    "class":["Feiticeiro","Mago"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"Cone de 3 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","3d6 (Fogo)"]
+    ],
+    "heal":"",
+    "saving_trow":"Reflexos",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Conforme você segura suas mãos com os polegares se tocando e os dedos abertos, uma fina camada de chamas emerge das pontas dos seus dedos estendidos. Todas as criaturas no alcance devem realizar o teste de salvamento. Uma criatura sofre o dano se falhar no teste ou metade se obtiver sucesso.",
+        "O fogo incendeia qualquer objeto inflamável na área que não esteja sendo vestido ou carregado."
+    ],
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
+        ["6","4d6 de Dano"],
+        ["10","5d6 de Dano"],
+        ["15","6d6 de Dano"]
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name":"Consertar",
+    "class":["Bardo","Clérigo","Druida","Feiticeiro","Mago"],
+    "magic_circle":1,
+    "cast_time":"1 Minuto",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Essa magia repara uma única quebra ou fissura em um objeto que você tocar, como um elo quebrado de uma corrente, duas metades de uma chave partida ou um manto rasgado. Contanto que a quebra ou fissura não tenha mais de 30 centímetros em qualquer dimensão, você pode remenda-la, não deixando qualquer vestígio do dano anterior.",
+        "Essa magia pode reparar fisicamente um item mágico ou constructo, mas a magia não irá restaurar a magia em tais objetos."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

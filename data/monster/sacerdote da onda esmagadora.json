@@ -1,0 +1,99 @@
+{
+  "name":"Sacerdote da Onda Esmagadora",
+  "name_pronoun":"o Sacerdote da Onda Esmagadora",
+  "english_name":"Crushing Wave Priest",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":1,
+  "hp_cr":5,
+  "atk_cr":1,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":2,
+  "xp":110,
+  "defense":13,
+  "bonuses_in_defense":[
+    {
+      "name":"Escamas",
+      "value":1
+    }
+  ],
+  "hp":52,
+  "mana":28,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":6,
+
+  "strength":15,
+  "vitality":14,
+  "agility":11,
+  "charisma":8,
+  "willpower":20,
+  "wisdom":11,
+  "intelligence":10,
+
+  "skills":["+5 Enganação","+2 Furtividade","+2 Religião"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":7,
+  "spellcasting_attribute":"Vontade",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":["Cura","Ilusão","Mão Mágica","Prestidigitação","Raio de Gelo","Escudo Arcano","Faca de Gelo","Mísseis Mágicos","Recuo Acelerado","Nublar","Imobilizar Pessoa","Nevasca"],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Cajado",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d8+2 (Impacto)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":["Os Sacerdotes da Onda Esmagadora são o núcleo fanático do culto. Reunindo-se em cabalas secretas, eles realizam rituais sombrios para glorificar Olhydra como a personificação da destrutividade da água. Eles acreditam que usar água para matar seus inimigos, como por meio de afogamento ritual, faz com que Olhydra os proteja."]
+}

@@ -1,0 +1,24 @@
+{
+    "name":"Taumaturgia",
+    "class":["Clérigo"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"5 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Minuto",
+    "concentration":false,
+    "description":[
+        "Você manifesta pequenas maravilhas, um sinal de poder sobrenatural. Você cria um dos seguintes efeitos mágicos dentro do alcance:",
+        "\u2022 Sua voz ressoa com o triplo do volume normal por 1 minuto.",
+        "\u2022 Você provoca tremores inofensivos no solo por 1 minuto.",
+        "\u2022 Você cria, instantaneamente, um som que se origina de um ponto, à sua escolha, dentro do alcance, como o barulho de um trovão, o gralhar de um corvo ou sussurros sinistros.",
+        "\u2022 Você, instantaneamente, faz uma porta ou janela destrancada se abrir ou se fechar.",
+        "\u2022 Você altera a aparência dos seus olhos por 1 minuto.",
+        "Se você conjurar essa magia diversas vezes, você pode ter até três dos efeitos de 1 minuto ativos por vez. Você pode dissipar um dos efeitos com uma ação."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

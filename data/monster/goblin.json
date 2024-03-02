@@ -1,0 +1,123 @@
+{
+  "name":"Goblin",
+  "name_pronoun":"o Goblin",
+  "english_name":"Goblin",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide",
+  "size":"Pequeno",
+  
+  "defense_cr":3,
+  "hp_cr":0.125,
+  "atk_cr":1,
+  "damage_cr":0.250,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.5,
+  "xp":38,
+  "defense":15,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Acolchoada",
+      "value":1
+    }
+  ],
+  "hp":7,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":8,
+  "vitality":10,
+  "agility":14,
+  "charisma":8,
+  "willpower":8,
+  "wisdom":8,
+  "intelligence":10,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Goblinóide"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Fuga Ágil",
+      "description":["O Goblin pode realizar a ação Desengajar ou Esconder-se como uma Ação Menor em cada um de seus turnos."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Cimitarra",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d6+2 (Corte)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Arco Curto",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d6+2 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Goblins são humanoides pequenos, egoístas e de coração negro que vivem em cavernas, minas abandonadas, masmorras despojadas e outros ambientes lúgubres. Individualmente fracos, os goblins andam em grandes – às vezes devastadoras – quantidades. Eles anseiam por poder e regularmente abusam de qualquer autoridade que adquiram.",
+    "Pertencentes a uma família de criaturas chamadas goblinoides. Seus primos maiores, hobgoblins e bugbear, gostam de intimidar os goblins até a submissão. Os goblins são preguiçosos e indisciplinados, fazendo deles péssimos servos, trabalhadores ou guardas.",
+    "Motivados por ganância e malícia, os goblins não conseguem deixar de comemorar as poucas vezes que eles estão no controle. Eles dançam e aprontam alegremente quando a vitória é deles. Depois de terminar seus festejos, os goblins deliciam-se com o tormento de outras criaturas e abraçam todo tipo de maldade.",
+    "Os goblins são comandados pelos mais fortes e espertos dentre eles. Um chefe goblin pode comandar um único covil, enquanto que um rei ou rainha goblin (que não é nada além de um chefe goblin glorificado) governa centenas de goblins, espalhados por diversos covis para garantir a sobrevivência da tribo. Os chefes goblins são depostos facilmente, e muitas tribos goblin são tomadas por hobgoblins senhores da guerra ou bugbears comandantes.",
+    "Os goblins infestam seus covis com alarmes designados para sinalizar a chegada de intrusos. Esses covis também estão repletos de túneis apertados e tocas que criaturas de tamanho humano não podem adentrar, mas nos quais os goblins podem rastejar com facilidade, permitindo que eles fujam ou deem a volta e surpreendam seus inimigos.",
+    "Possuem uma afinidade com ratos e lobos, criando-os para servir como companheiros e montarias, respectivamente. Como ratos, os goblins evitam a luz do sol e dormem no subterrâneo durante o dia. Como lobos, eles caçam em matilhas, que se tornam mais ousadas pela quantidade. Quando caçam das costas de lobos, os goblins usam táticas de atacar e correr.",
+    "Maglubiyet o Todo Poderoso, o Senhor das Profundezas e da Escuridão, é o grande deus dos goblinoides. Idealizado pela maioria dos goblins como um goblin guerreiro de 3,4 metros de altura com pele negra e com chamas emergindo dos olhos, ele é venerado não por adoração, mas por medo. Os goblins acreditam que quando morrem em batalha, seus espíritos se juntam as fileiras do exército de Magluiyet no plano do Aqueronte. Esse é um “privilégio” que a maioria dos goblins abominam, temendo a tirania eterna do Todo Poderoso mais que a própria morte."
+  ]
+}

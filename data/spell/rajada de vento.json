@@ -1,0 +1,20 @@
+{
+    "name":"Rajada de Vento",
+    "class":["Druida","Feiticeiro","Mago"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Atletismo",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Uma linha de vento forte, com 18 metro de comprimento e 3 metros de largura, é soprada de você em uma direção, à sua escolha, pela duração da magia. Cada criatura que começar seu turno na linha, deve ser bem-sucedida no teste de salvamento ou será empurrada 3 metros para trás, na direção seguida pela linha. Qualquer criatura na linha deve gastar 3 metros de movimentação para cada 1 metro que ela se mover enquanto se aproxima de você.",
+        "As lufadas dispersam gases ou vapores e apagam velas, tochas e chamas similares desprotegidas na área. Elas fazem com que chamas protegidas, como as de lanternas, vibrem descontroladamente e tenham 50 por cento de chance de serem extintas.",
+        "Com uma ação menor, em cada um dos seus turnos, antes da magia acabar, você pode mudar a direção à qual a linha é soprada de você."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

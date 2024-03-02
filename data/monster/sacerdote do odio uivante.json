@@ -1,0 +1,119 @@
+{
+  "name":"Sacerdote do Ódio Uivante",
+  "name_pronoun":"o Sacerdote do Ódio Uivante",
+  "english_name":"Howling Hatred Priest",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":6,
+  "hp_cr":5,
+  "atk_cr":3,
+  "damage_cr":4,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":4,
+  "xp":660,
+  "defense":16,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura de Couro do Ódio Uivante",
+      "value":3
+    }
+  ],
+  "hp":45,
+  "mana":28,
+
+  "movement_walking":9,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":12,
+  "vitality":10,
+  "agility":16,
+  "charisma":20,
+  "willpower":18,
+  "wisdom":10,
+  "intelligence":14,
+
+  "skills":["+5 Acrobacia","+4 Intimidação","+4 Religião"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Prender a Respiração",
+      "description":["O Sacerdote pode prender a respiração por 30 minutos."]
+    }
+  ],
+
+  "spellcaster_level":7,
+  "spellcasting_attribute":"Carisma",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":["Fazer Brilhar","Lufada","Prestidigitação","Proteção Contra Lâminas","Toque Chocante","Escudo Arcano","Queda Suave","Raio de Bruxa","Rajada de Vento","Redemoinho","Forma Gasosa"],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Sacerdote realiza dois ataques com a Cimitarra"]
+    },
+    {
+      "name":"Cimitarra",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"d6+3 (Corte)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os mais fanáticos dos cultistas do ar, os sacerdotes levam seus corpos a extremos físicos para diminuir sua densidade e massa e se tornarem leves como folhas. De rosto magro e pálido, com barrigas côncavas, olhos salientes e pele esticada que enuncia todos os ossos, esses esqueletos vivos se sustentam em nada mais do que ar e devoção fanática aos ensinamentos do culto. O vento os serve com um gesto.",
+    "Os Sacerdotes do Ódio Uivante veem como extensões vivas de Yan-C-Bin e ajudam os novos recrutas a se livrar das algemas de suas antigas vidas e abraçar um \"propósito superior\". Uma vez que os novos recrutas são purificados, os sacerdotes decidem se eles são dignos de doutrinação como iniciados ou se serviriam melhor ao culto do Ódio Uivante como sacrifícios. Os sacerdotes também defendem a doutrina de seu profeta, punindo severamente qualquer iniciado que se desvie do caminho.",
+    "A maioria dos outros cultistas do ar odeia os sacerdotes, embora nenhum se atreva a falar contra eles. Aqueles que desafiam os sacerdotes acabam muitas vezes sujeitos a novas e rigorosas tentativas de purificação."
+  ]
+}

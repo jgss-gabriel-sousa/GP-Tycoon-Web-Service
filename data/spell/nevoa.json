@@ -1,0 +1,22 @@
+{
+    "name":"Névoa",
+    "class":["Druida","Feiticeiro","Mago","Patrulheiro"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"30 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":true,
+    "description":[
+        "Você cria uma esfera de névoa de 6 m de raio, centrada num ponto, dentro do alcance. A área dela é de escuridão densa e ela permanece pela duração ou até um vento, pelo menos moderado, disperse-a."
+    ],
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
+        ["6","12 metros de raio"],
+        ["10","18 metros de raio"],
+        ["15","24 metros de raio"]
+    ]
+}

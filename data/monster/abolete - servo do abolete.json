@@ -1,0 +1,107 @@
+{
+  "name":"Abolete - Servo do Abolete",
+  "name_pronoun":"o Servo do Abolete",
+  "english_name":"Aboleth - Aboleth Servant",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide Monstruoso",
+  "size":"Médio",
+  
+  "defense_cr":10,
+  "hp_cr":1,
+  "atk_cr":0.25,
+  "damage_cr":0.25,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":1,
+  "xp":70,
+  "defense":17,
+  "bonuses_in_defense":[
+    {
+      "name":"Membrana do Abolete",
+      "value":5
+    }
+  ],
+  "hp":20,
+  "mana":0,
+
+  "movement_walking":0,
+  "movement_hovering":8,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":6,
+
+  "strength":14,
+  "vitality":14,
+  "agility":10,
+  "charisma":8,
+  "willpower":14,
+  "wisdom":6,
+  "intelligence":1,
+
+  "skills": [],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Leal e Mau",
+
+  "loot":[],
+
+  "abilities": [
+    {
+      "name":"Membrana Anfíbia",
+      "description":["Os Servos do Abolete recebem uma membrana do seu Mestre Abolete e conseguem respirar na água."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Pancada",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+2",
+      "damage":"d6+2 (Impacto)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Um Humanoide morto pelo dreno psíquico do abolete, ressurge envolto em uma membrana viscosa e transparente, que lhe permite: pairar, nadar e respirar na água, sempre se mantendo junto ao Abolete, para protegê-lo.",
+    "O Abolete consegue se comunicar com seus servos de maneira psíquica, ordenando-os. Não possuem consciência, a mesma foi drenada antes de se transformarem e seu comportamento pode ser comparado a de zumbis, sem memória, inteligência ou emoções."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "name":"Alabarda",
+    "type":"Marcial",
+    "group":"Armas de Haste",
+    "damage":"d10",
+    "critical":17,
+    "damage_type":"Corte ou Perfurante",
+    "ammunition":"",
+    "price":"10 Ouro",
+    "attribute":"Agilidade ou Força",
+    "range":2,
+    "load":2,
+    "special":"Arma de Haste"
+}

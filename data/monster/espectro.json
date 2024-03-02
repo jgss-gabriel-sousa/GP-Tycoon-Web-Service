@@ -1,0 +1,104 @@
+{
+  "name":"Espectro",
+  "name_pronoun":"o Espectro",
+  "english_name":"Specter",
+
+  "source":["bestiario","pota"],
+
+  "type":"Morto-Vivo",
+  "size":"Médio",
+  
+  "defense_cr":10,
+  "hp_cr":2,
+  "atk_cr":3,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":4.250,
+
+  "challenge_ratio":5,
+  "xp":865,
+  "defense":17,
+  "bonuses_in_defense":[
+    {
+      "name":"Etéreo",
+      "value":5
+    }
+  ],
+  "hp":22,
+  "mana":0,
+
+  "movement_walking":0,
+  "movement_hovering":8,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":14,
+  "vitality":14,
+  "agility":14,
+  "charisma":10,
+  "willpower":16,
+  "wisdom":12,
+  "intelligence":10,
+
+  "skills":[],
+
+  "vulnerability":["Radiante"],
+  "resistances":["Ácido","Elétrico","Fogo","Gelo","Sônico","Físico de armas não mágicas"],
+  "immunities":["Necrótico","Veneno"],
+  "condition_immunities":["Agarrado","Caído","Encantado","Exausto","Impedido","Inconsciente","Paralisado","Petrificado"],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Drenar Vida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"3d6+3 (Necrótico)",
+      "save_throw":"10 de Resistência",
+      "time":"1 Ação",
+      "effect":[
+        "O alvo deve ser bem sucedido no teste de salvamento ou seu máximo de pontos de vida será reduzido em 1d6 permanentemente.",
+        "O alvo morre se esse efeito reduzir seu máximo de pontos de vida a 0."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Um espectro é o incontrolável espírito furioso de um humanoide que foi impedido de passar para a vida após a morte. Os espectros não têm mais conexões com quem ou o que eles eram, ainda assim estão condenados a vagar pelo mundo para sempre. Alguns são criados quando magia negra ou o toque de uma aparição ceifa a alma de um corpo vivo."
+  ]
+}

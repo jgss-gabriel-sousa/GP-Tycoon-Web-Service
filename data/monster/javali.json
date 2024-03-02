@@ -1,0 +1,108 @@
+{
+  "name":"Javali",
+  "name_pronoun":"o Javali",
+  "english_name":"Boar",
+
+  "source":["bestiario"],
+
+  "type":"Animal",
+  "size":"Médio",
+  
+  "defense_cr":1,
+  "hp_cr":0.25,
+  "atk_cr":0.5,
+  "damage_cr":0.5,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.5,
+  "xp":26,
+  "defense":13,
+  "bonuses_in_defense":[],
+  "hp":11,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":13,
+  "vitality":12,
+  "agility":11,
+  "charisma":5,
+  "willpower":10,
+  "wisdom":9,
+  "intelligence":2,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Implacável",
+      "description":["1 vez por dia, se o javali sofrer 7 de dano ou menos, que poderia reduzi-lo a 0 pontos de vida, ele é reduzido a 1 ponto de vida, ao invés."]
+    },
+    {
+      "name":"Investida",
+      "description":[
+        "Se o javali se mover, pelo menos, 4 metros em linha reta até um alvo e então atingi-lo com suas Presas no mesmo turno, o alvo sofre 1d6 de dano de corte extra.",
+        "Se o alvo for uma criatura, ele deve ser bem-sucedido num teste de Atletismo, com dificuldade 11 ou será derrubado no chão."
+      ]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Presas",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+3",
+      "damage":"d6+1 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Embora não sejam carnívoros, esses suínos selvagens são mal-humorados e costumam cobrar de quem os perturba. Um javali é coberto por pêlo áspero preto-acinzentado. Os machos adultos têm cerca de 1,20 m de comprimento e 1 metro de altura."
+  ]
+}

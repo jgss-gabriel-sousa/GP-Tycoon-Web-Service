@@ -1,0 +1,24 @@
+{
+    "name":"Toque Chocante",
+    "class":["Feiticeiro","Mago","Sábio"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"Toque à Distância (5 Metros)",
+    "attack_roll":true,
+    "damage":[
+        ["Dano","d8 (Elétrico)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Eletricidade surge da sua mão para transmitir um choque em uma criatura. Você tem +2 na jogada de ataque se o alvo estiver vestindo qualquer armadura de metal."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","2d8 de Dano"],
+        ["11","3d8 de Dano"],
+        ["17","4d8 de Dano"]
+    ]
+}

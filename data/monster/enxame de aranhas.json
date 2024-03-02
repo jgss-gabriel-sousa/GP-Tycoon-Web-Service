@@ -1,0 +1,114 @@
+{
+  "name":"Enxame de Aranhas",
+  "name_pronoun":"o Enxame de Aranhas",
+  "english_name":"Swarm of Spiders",
+
+  "source":["bestiario"],
+
+  "type":"Inseto",
+  "size":"Grande",
+  
+  "defense_cr":0.25,
+  "hp_cr":2,
+  "atk_cr":10,
+  "damage_cr":0.25,
+  "resistances_and_immunities_cr":1.5,
+
+  "challenge_ratio":2,
+  "xp":180,
+  "defense":11,
+  "bonuses_in_defense":[],
+  "hp":22,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":3,
+  "vitality":10,
+  "agility":13,
+  "charisma":1,
+  "willpower":6,
+  "wisdom":7,
+  "intelligence":1,
+
+  "skills":["+4 Furtividade","+2 Percepção"],
+
+  "vulnerability":["Fogo"],
+  "resistances":["Físico"],
+  "immunities":[],
+  "condition_immunities":["Agarrado","Amedrontado","Atordoado","Caído","Encantado","Impedido","Paralizado","Petrificado"],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Andar na Teia",
+      "description":["O enxame ignora as restrições de movimento causadas por teias."]
+    },
+    {
+      "name":"Aparência Repulsiva",
+      "description":["Qualquer criatura no espaço do enxame deve executar um teste de Resistência com dificuldade 11, em caso de falha ficará nauseada por 1 turno, não podendo executar nenhuma ação, exceto movimento."]
+    },
+    {
+      "name":"Escalada de Aranha",
+      "description":["O enxame pode escalar superfícies difíceis, inclusive de cabeça para baixo em tetos, sem precisar fazer um teste de habilidade."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Picadas",
+      "limit":"",
+      "recharge":"",
+      "range":"Criaturas no espaço do enxame",
+      "roll":"Não, o acerto é automático",
+      "damage":"d4 (Perfurante) + 2d4 (Veneno)",
+      "save_throw":"",
+      "time":"1 Turno",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Enxames são massas densas de criaturas Pequenas ou Minúsculas que não seriam particularmente perigosas em pequenos grupos, mas podem ser inimigos terríveis quando reunidas em número suficiente. Para fins de regras de jogo, um enxame é definido como uma única criatura com um espaço de 3 metros quadrados.",
+    "Muitas criaturas diferentes podem se agrupar como enxames; morcegos, centopéias, vespas, gafanhotos, ratos e aranhas. O tipo de enxame varia com a natureza da criatura componente.",
+    "Um enxame de criaturas Pequenas consiste em 300 criaturas que não voam ou 1.000 criaturas voadoras. Um enxame de criaturas Minúsculas consiste em 1.500 criaturas que não voam ou 5.000 criaturas voadoras.",
+    "Enxames de criaturas não voadoras incluem muito mais criaturas do que caberia normalmente em um quadrado de 3 metros com base em seu espaço normal, porque as criaturas em um enxame estão agrupadas e geralmente rastejam umas sobre as outras e suas presas quando se movem ou atacam.",
+    "Para atacar, o enxame se move para os espaços dos oponentes, o que provoca um ataque de oportunidade. Ele pode ocupar o mesmo espaço que uma criatura de qualquer tamanho sem desvantagens.",
+    "Os enxames nunca fazem ataques de oportunidade, mas podem provocar ataques de oportunidade. O enxame pode ser modelado, ele pode ocupar quatro quadrados contíguos ou pode se espremer em qualquer espaço grande o suficiente para conter suas criaturas componentes."
+  ]
+}

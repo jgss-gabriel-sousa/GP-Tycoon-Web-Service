@@ -1,0 +1,131 @@
+{
+  "name":"Mephit da Fumaça",
+  "name_pronoun":"o Mephit da Fumaça",
+  "english_name":"Smoke Mephit",
+
+  "source":["bestiario","pota"],
+
+  "type":"Elemental",
+  "size":"Pequeno",
+  
+  "defense_cr":2,
+  "hp_cr":2,
+  "atk_cr":1,
+  "damage_cr":0,
+  "resistances_and_immunities_cr":1.5,
+
+  "challenge_ratio":2,
+  "xp":140,
+  "defense":14,
+  "bonuses_in_defense":[],
+  "hp":22,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":6,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":6,
+  "vitality":12,
+  "agility":14,
+  "charisma":11,
+  "willpower":10,
+  "wisdom":10,
+  "intelligence":10,
+
+  "skills":["+4 Furtividade","+2 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Fogo","Veneno"],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+
+  "alignment":"Neutro e Mal",
+
+  "loot":[],
+
+  "abilities": [
+    {
+      "name":"Natureza Elemental",
+      "description":["Um Mephit não precisa comer, beber ou dormir."]
+    },
+    {
+      "name":"Explosão da Morte",
+      "description":["Quando o Mephit morre, ele deixa para trás uma nuvem de fumaça, que preenche um raio de 1 metro, centrada no espaço dele. A nuvem produz Escuridão Densa. Vento dispersa a nuvem, do contrário, ela dura por 1 minuto."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d4+2 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Baforada de Cinzas",
+      "limit":"",
+      "recharge":"6",
+      "range":"Cone de 3 m",
+      "roll":"",
+      "damage":"",
+      "save_throw":"10 de Reflexos",
+      "time":"1 Ação",
+      "effect":["O Mephit exala cinzas fumegantes. As criaturas no alcance devem ser bem sucedidas no Teste de Salvamento ou ficaram Cegas até o final do próximo turno."]
+    },
+    {
+      "name":"Sumonar Mephits",
+      "limit":"1 vez por dia",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":["O Mephit tem 25% de chance de invocar 1d4 Mephits de sua espécie. Um Mephit invocado aparece em um espaço desocupado a até 12 metros de seu invocador, age como um aliado e não pode invocar outros Mephits. Ele permanece por 1 minuto, até que ele ou seu invocador morra, ou até que seu invocador o dispense com uma ação."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "<h3>Mephits</h3>",
+    "Os Mephits são criaturas similares a Diabretes, nativas dos planos elementais. Eles existem em seis variedades, cada um representando a mistura de dois elementos.",
+    "Trapaceiros imutáveis, os mephits existem em vasta quantidade nos Planos Elementais e no Plano do Caos. Eles também encontram seus caminhos para o Plano Material, onde eles preferem viver em locais onde seus elementos base são abundantes. Por exemplo, um mephit do magma é composto de terra e fogo, e ele prefere covis vulcânicos, enquanto que um mephit do gelo, que é composto de ar e água, preferiria locais gelados.",
+    "<h3>Mephits da Fumaça</h3>",
+    "Os Mephits da Fumaça são criaturas cruéis e preguiçosas de ar e fogo que liberam fumaça constantemente. Eles raramente falam a verdade e adoram enganar e zombar de outras criaturas."
+  ]
+}

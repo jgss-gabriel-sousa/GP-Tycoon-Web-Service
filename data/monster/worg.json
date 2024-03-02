@@ -1,0 +1,101 @@
+{
+  "name":"Worg",
+  "name_pronoun":"o Worg",
+  "english_name":"Worg",
+
+  "source":["bestiario","pota"],
+
+  "type":"Monstruosidade",
+  "size":"Grande",
+  
+  "defense_cr":0.25,
+  "hp_cr":3,
+  "atk_cr":3,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":2,
+  "xp":115,
+  "defense":11,
+  "bonuses_in_defense":[],
+  "hp":26,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":16,
+  "vitality":13,
+  "agility":13,
+  "charisma":8,
+  "willpower":12,
+  "wisdom":11,
+  "intelligence":7,
+
+  "skills":["+4 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Goblinóide","Worg"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+	  {
+      "name":"Audição e Olfato Aguçados",
+      "description":["O Worg tem Vantagem em testes de Percepção relacionados a audição ou olfato."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"2d6+3 (Perfurante)",
+      "save_throw":"13 de Atletismo",
+      "time":"Ação de Ataque",
+      "effect":["Se o alvo for uma criatura, ele deve ser bem sucedido no teste de salvamento ou será derrubado."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Um Worg é um predador maligno que se delicia em caçar e devorar criaturas mais fracas que ele. Astutos e malévolos, os worgs vagam por regiões selvagens ou são criados por goblins e hobgoblins. Essas criaturas usam worgs como montarias, mas um worg se voltará contra seu cavaleiro se se sentir maltratado ou desnutrido. Worgs falam em sua própria língua e na língua goblinóide se forem criados por tais, alguns ainda podem chegar a aprender a falar a lingua comum."
+  ]
+}

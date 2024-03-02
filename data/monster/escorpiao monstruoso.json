@@ -1,0 +1,133 @@
+{
+  "name":"Escorpião Monstruoso",
+  "name_pronoun":"o Escorpião Monstruoso",
+  "english_name":"Giant Scorpion",
+
+  "source":["bestiario"],
+
+  "type":"Inseto",
+  "size":"Grande",
+  
+  "defense_cr":3,
+  "hp_cr":5,
+  "atk_cr":1,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":2,
+  "xp":200,
+  "defense":15,
+  "bonuses_in_defense":[
+    {
+      "name":"Exoesqueleto",
+      "value":3
+    }
+  ],
+  "hp":52,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":15,
+  "vitality":15,
+  "agility":13,
+  "charisma":3,
+  "willpower":9,
+  "wisdom":9,
+  "intelligence":1,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":12,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[
+        "O Escorpião Monstruoso realiza dois ataques com suas Garras."
+      ]
+    },
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d8+2 (Impacto)",
+      "save_throw":"12 de Atletismo",
+      "time":"Ação de Ataque",
+      "effect":[
+        "Se o escorpião atingir o alvo e estiver com alguma das garras livre, o alvo ficará Agarrado.",
+        "O escorpião tem duas garras, cada garra pode prender um alvo de tamanho Médio ou Menor.",
+        "O alvo pode gastar uma ação para fazer o teste de salvamento e tentar se soltar."
+      ]
+    },
+    {
+      "name":"Ferroada Venenosa",
+      "limit":"",
+      "recharge":"6",
+      "range":"2 metros",
+      "roll":"+4",
+      "damage":"d10 (Perfurante)",
+      "save_throw":"12 de Resistência",
+      "time":"Ação de Ataque",
+      "effect":[
+        "O alvo deve ser bem-sucedido no teste de salvamento ou sofrerá 2d10 de dano de Veneno em caso de falha, ou metade em caso de sucesso."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Escorpiões monstruosos são uma raça de aracnídeos conhecidos por seus ferrões venenosos. Podem ser encontrados em uma variedade de climas, mas são mais numerosos nos desertos. São do tamanho de cavalos. Mas ficam perfeitamente contentes em atacar qualquer presa menor do que eles, incluindo humanos.",
+    "Os escorpiões são caçadores ativos. Eles rastreiam sua presa com seus sentidos aguçados e então a agarraram com suas pinças em forma de tesoura. Uma vez nas garras do escorpião, a presa é bem mais fácil de ser picada, sendo ferroada repetidamente até que pare de se mover. Em seguida, é consumido pelo aracnídeo.",
+    "Os escorpiões também vivem em tocas subterrâneas e são frequentemente encontrados em ruínas subterrâneas ou criptas."
+  ]
+}

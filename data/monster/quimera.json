@@ -1,0 +1,147 @@
+{
+  "name":"Quimera",
+  "name_pronoun":"a Quimera",
+  "english_name":"Chimera",
+
+  "source":["bestiario","pota"],
+
+  "type":"Besta Mágica",
+  "size":"Grande",
+  
+  "defense_cr":2,
+  "hp_cr":9,
+  "atk_cr":5,
+  "damage_cr":7,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":6,
+  "xp":1140,
+  "defense":14,
+  "bonuses_in_defense":[],
+  "hp":114,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":12,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":19,
+  "vitality":19,
+  "agility":11,
+  "charisma":10,
+  "willpower":14,
+  "wisdom":10,
+  "intelligence":3,
+
+  "skills":["+8 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Dracônico"],
+  "telepathy":false,
+  "only_understands":true,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "A Quimera realiza três ataques: um com os Chifres, um com as Garras e outro com a Mordida. Quando seu Sopro Flamejante está disponível, ela pode usar o sopro no lugar da mordida."
+      ]
+    },
+    {
+      "name":"Chifres",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"d12+4 (Perfurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"2d6+4 (Corte)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"2d6+4 (Perfurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Sopro Flamejante",
+      "limit":"",
+      "recharge":"5-6",
+      "range":"Cone de 3 Metros",
+      "roll":"",
+      "damage":"7d8 (Fogo)",
+      "save_throw":"15 de Reflexos",
+      "time":"",
+      "effect":["A cabeça de dragão expele fogo e cada criatura na área do alcance deve ser bem sucedida no teste de salvamento, sofrendo todo o dano caso fracassem, ou metade do dano caso obtenham sucesso."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "As quimeras foram criadas após mortais invocarem Demogorgon para o mundo. O Príncipe dos Demônios, impressionado com as criaturas que o cercavam, as transformou em terríveis monstruosidade de várias cabeças. Esse ato deu origem às primeiras quimeras.",
+    "Dotada de crueldade demoníaca, uma quimera serve como um lembrete macabro do que acontece quando príncipes demônios encontram seu caminho para o Plano Material. Uma espécime típica tem o quarto traseiro de um bode grande, o quarto dianteiro de um leão e as asas de couro de um dragão, junto com as três cabeças de todas essas criaturas. O monstro gosta de surpreender suas vítimas, descendo dos céus e engolfando suas presas com seus sopros flamejantes antes de aterrissar.",
+    "Uma quimera combina os piores aspectos de suas três partes. Sua cabeça de dragão a leva a saquear, pilhar e acumular grandes tesouros. Sua natureza leonina a impele a caçar e matar criaturas poderosas que ameacem seu território. E sua cabeça de bode concede-lhe uma veia cruel e teimosa que a obriga a lutar até a morte.",
+    "Esses três aspectos levam a quimera a demarcar um território de até quinze quilômetros de extensão. Ela caça animais selvagens, vendo as criaturas mais poderosas como rivais a serem humilhados e derrotados. Seus maiores rivais são os dragões, grifos, manticoras, perytons e wyverns.",
+    "Quando caça, a quimera procura por meios mais fáceis de se divertir. Ela aprecia o medo e sofrimento das criaturas mais fracas. O monstro frequentemente brinca com suas presas, terminando um ataque prematuramente e deixando uma criatura ferida e aterrorizada antes de voltar para acabar com ela.",
+    "Embora as quimeras estejam longe de serem astutas, seu ego dracônico as torna susceptíveis a bajulação e presentes. Se lhe for oferecido comida e tesouros, uma quimera pode poupar um viajante. Um vilão pode convencer uma quimera a servi-lo ao mantê-la bem alimentada e seus tesouros bem guardados."
+  ]
+}

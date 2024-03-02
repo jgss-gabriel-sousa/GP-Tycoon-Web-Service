@@ -1,0 +1,110 @@
+{
+  "name":"Abutre Gigante",
+  "name_pronoun":"o Abutre Gigante",
+  "english_name":"Giant Vulture",
+
+  "source":["bestiario","pota"],
+
+  "type":"Animal",
+  "size":"Grande",
+  
+  "defense_cr":0.5,
+  "hp_cr":2,
+  "atk_cr":1,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":1,
+  "xp":80,
+  "defense":12,
+  "bonuses_in_defense":[],
+  "hp":22,
+  "mana":0,
+
+  "movement_walking":2,
+  "movement_hovering":0,
+  "movement_flying":6,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":15,
+  "vitality":15,
+  "agility":10,
+  "charisma":7,
+  "willpower":10,
+  "wisdom":12,
+  "intelligence":5,
+
+  "skills":["+3 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":true,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities": [
+    {
+      "name":"Olfato Aguçado",
+      "description":["O Abutre Gigante tem Vantagem em testes de Percepção relacionados ao olfato."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Bico",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"2d4+2 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"2d6+2 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":["Um abutre gigante tem inteligência avançada e uma inclinação malévola. Ao contrário de seus parentes menores, ele atacará uma criatura ferida para apressar seu fim. Abutres Gigantes são conhecidos por assombrar uma criatura faminta e sedenta durante dias, para desfrutar de seu sofrimento."]
+}

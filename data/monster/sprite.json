@@ -1,0 +1,153 @@
+{
+  "name":"Sprite",
+  "name_pronoun":"o Sprite",
+  "english_name":"Sprite",
+
+  "source":["bestiario","pota"],
+
+  "type":"Fada",
+  "size":"Minúsculo",
+  
+  "defense_cr":20,
+  "hp_cr":0,
+  "atk_cr":5,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":3,
+  "xp":375,
+  "defense":20,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura de Couro",
+      "value":2
+    }
+  ],
+  "hp":2,
+  "mana":16,
+
+  "movement_walking":3,
+  "movement_hovering":0,
+  "movement_flying":12,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":3,
+  "vitality":10,
+  "agility":18,
+  "charisma":11,
+  "willpower":14,
+  "wisdom":13,
+  "intelligence":14,
+
+  "skills":["+8 Furtividade","+3 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Élfico","Silvestre"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Bom",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"Inteligência",
+  "innate_spellcasting":[
+    {
+      "spell":"Constrição",
+      "limit":"3 vezes por dia"
+    },
+    {
+      "spell":"Crescer Espinhos",
+      "limit":"3 vezes por dia"
+    }
+  ],
+
+  "actions": [
+    {
+      "name":"Arco Curto",
+      "limit":"",
+      "recharge":"",
+      "range":"15 m",
+      "roll":"+6",
+      "damage":"d6+4 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Espada Curta",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+6",
+      "damage":"d6+4 (Corte)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Visão do Coração",
+      "limit":"",
+      "recharge":"",
+      "range":"Toque",
+      "roll":"",
+      "damage":"",
+      "save_throw":"10 de Enganação",
+      "time":"1 Ação",
+      "effect":[
+        "O sprite toca uma criatura e magicamente conhece o estado emocional atual da criatura.",
+        "Se o alvo falhar no teste de salvamento, o sprite também sabe a tendência da criatura. Celestiais, Demônios e Mortos-Vivos falham automaticamente no teste."
+      ]
+    },
+    {
+      "name":"Invisibilidade",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "O sprite magicamente fica invisível até atacar ou lançar uma magia, ou até que sua concentração termine (como se estivesse se concentrando em uma magia). Qualquer equipamento que o sprite use ou carregue fica invisível com ele."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Em bosques secretos e vales protegidos, estão os diminutos sprites com suas asas de libélula batendo. Apesar de todo o seu esplendor feérico, no entanto, falta nos sprites cordialidade e compaixão. Eles são guerreiros agressivos e durões, tomando medidas severas para afastar estranhos de seus lares. Invasores que chegarem muito perto terão seu caráter moral julgado, então serão postos para dormir ou afugentados.",
+    "Os sprites constroem pequenas vilas nos galhos de árvores e de entes dispostas, em clareiras verdejantes iluminadas por musgos, flores silvestres e cogumelos. A natureza selvagem prospera e os sprites não permitem invasores. Quando intrusos são avistados, os sprites desviam-nos com barulhos ameaçadores dos arbustos e estalos de galhos distantes. As criaturas tolas o bastante par persistirem na invasão do território dos sprites são atingidas com flechas envenenadas e induzidas a um sono entorpecente. Enquanto eles estiverem adormecidos, os sprites escapam, recuando para áreas ainda mais reclusas da floresta.",
+    "Os sprites podem sentir se uma criatura é boa ou má pelo som e ternura das batidas do coração. Botando na balança as ações passadas de uma criatura, o sprite pode dizer se as batidas aceleradas do coração são de amor ou se sinalizam tristeza, ou se ele está enegrecido por ódio ou ganância. O poder do sprite de perceber o coração sempre mostra a verdade, pois o coração não pode mentir.",
+    "Nos domínios florestais, os sprites criam toxinas, unguentos, antídotos e venenos, incluindo o veneno sonífero com o qual cobrem suas flechas. Eles se aventuram fundo nas florestas para coletar flores, musgos e fungos raros, às vezes atravessando territórios perigosos para isso. Se estiverem desesperados, os sprites podem até roubar ingredientes dos jardins de bruxas.",
+    "Por serem juízes do coração e preferirem criaturas boas, os sprites se opõem à vontade de fadas malignas e se comprometem a frustrar arquifadas malignas a qualquer momento. Se eles encontrarem aventureiros em uma busca para livrar sua floresta de uma criatura feérica maligna ou da ameaça de goblinoides, eles irão oferecer seu suporte e até vir em auxílio deles quando os aventureiros menos esperarem.",
+    "Diferente dos pixies, os sprites raramente se envolvem em alegria frívola ou diversão. Eles são firmes guerreiros, protetores e juízes e sua inclinação severa faz com que as outras fadas considerem-nos extremamente sisudos e sérios. Porém, as fadas que respeitam o território dos sprites encontram neles aliados fiéis em momentos de angústia."
+  ]
+}

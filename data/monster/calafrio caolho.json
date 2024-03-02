@@ -1,0 +1,122 @@
+{
+  "name":"Calafrio Caolho",
+  "name_pronoun":"o Calafrio Caolho",
+  "english_name":"One-Eyed Shiver",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":10,
+  "hp_cr":5,
+  "atk_cr":5,
+  "damage_cr":4,
+  "resistances_and_immunities_cr":1,
+
+  "challenge_ratio":6,
+  "xp":1290,
+  "defense":17,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Arcana",
+      "value":5
+    }
+  ],
+  "hp":49,
+  "mana":20,
+
+  "movement_walking":8,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":10,
+  "vitality":12,
+  "agility":14,
+  "charisma":20,
+  "willpower":16,
+  "wisdom":13,
+  "intelligence":13,
+
+  "skills":["+3 Arcanismo","+5 Intimidação","+3 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Gelo"],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Névoa Gélida",
+      "description":["Enquanto está vivo, o calafrio caolho projeta uma aura de névoa congelante em um raio de 3 metros. Se o calafrio caolho causar dano a uma criatura nesta área, a criatura sofre 1d10 de dano de gelo adicional."]
+    }
+  ],
+
+  "spellcaster_level":5,
+  "spellcasting_attribute":"Carisma",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":["Mão Mágica","Toque Gélido","Armadura Arcana","Névoa","Onda Trovejante","Passo Nebuloso","Reflexos","Medo"],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Adaga",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (4 metros)",
+      "roll":"+4",
+      "damage":"d4+2 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Olho Gélido",
+      "limit":"",
+      "recharge":"",
+      "range":"12 Metros",
+      "roll":"+4",
+      "damage":"d8 (Gelo)",
+      "save_throw":"13 de Atletismo",
+      "time":"1 Ação",
+      "effect":[
+        "O calafrio caolho lança um raio de gelo, que parte de uma orbe que fica no lugar de seu olho perdido.",
+        "Se acertar, o alvo sofre dano e fica Impedido. Um alvo impedido desta forma pode terminar a condição com uma ação em seu turno, para realizar o teste de salvamento"
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Um calafrio caolho é um temível cultista que exerce poderes de gelo e frio. Para ganhar o poder frígido da água elemental, o cultista remove um olho e o substitui por uma orbe branca e gélida, que possibilita atingir os inimigos com um raio de gelo.",
+    "Quando a orbe não está em uso, o calafrio caolho cobre seu olho mágico com um tapa-olho. Mesmo quando escondido, o poder mágico da orbe se faz sentir, o caolho tem o sangue gelado e é constantemente cercado por uma fina aura de névoa fria.",
+    "Calafrios Caolhos inspiram pavor e medo em todos os que os encontram, incluindo seus companheiros cultistas. Apenas os líderes do Culto da Onda Esmagadora ousam dar ordens a esses mestres da magia gelada."
+  ]
+}

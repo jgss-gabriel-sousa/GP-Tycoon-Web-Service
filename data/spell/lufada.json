@@ -1,0 +1,21 @@
+{
+    "name":"Lufada",
+    "class":["Druida","Feiticeiro","Mago"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"10 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Atletismo",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você pega o ar e o compele a criar um dos seguintes efeitos em um ponto que você possa ver dentro do alcance:",
+        "\u2022 Uma criatura Média ou menor que você escolher deve ser bem-sucedida no teste de salvamento ou será afastada 1 metro de você.",
+        "\u2022 Você cria uma pequena rajada de ar capaz de mover um objeto que não esteja sendo segurado nem carregado e que não pese mais de 3 quilos. O objeto é afastado 3 metros de você. Ele não é empurrado com força suficiente para causar dano.",
+        "\u2022 Você cria um efeito sensorial inofensivo usando o ar, como fazer folhas farfalharem, ventos fecharem persianas ou suas roupas balançarem com uma brisa."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

@@ -1,0 +1,18 @@
+{
+    "name":"Orientação",
+    "class":["Clérigo","Druida","Sábio"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Você toca uma criatura voluntária e até o fim da magia, o alvo pode adicionar 1d4 em Testes de Habilidade ou Ataque (Não inclui Testes de Salvamento)."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

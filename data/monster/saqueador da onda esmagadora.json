@@ -1,0 +1,103 @@
+{
+  "name":"Saqueador da Onda Esmagadora",
+  "name_pronoun":"o Saqueador da Onda Esmagadora",
+  "english_name":"Crushing Wave Reaver",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":2,
+  "hp_cr":2,
+  "atk_cr":1,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":1,
+  "xp":85,
+  "defense":14,
+  "bonuses_in_defense":[
+    {
+      "name":"Escudo Caranguejo",
+      "value":2
+    }
+  ],
+  "hp":22,
+  "mana":0,
+
+  "movement_walking":8,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":15,
+  "vitality":13,
+  "agility":14,
+  "charisma":8,
+  "willpower":16,
+  "wisdom":11,
+  "intelligence":10,
+
+  "skills":["+4 Atletismo","+4 Furtividade"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Espada Longa com Dentes de Tubarão",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"2d10+2 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os soldados rasos do Culto da Onda Esmagadora são ferozes destruidores do mar. Muitos deles eram piratas antes de caírem no culto e continuam ávidos por sangue e pilhagem.",
+    "Os saqueadores da onda esmagadora apreciam o valor da dissimulação e da surpresa, e procuram oportunidades de lançar ataques repentinos de posições ocultas sempre que possível.",
+    "Os saqueadores são altamente leais aos sacerdotes do culto, mas raramente lutam até a morte, principalmente se existir uma opção de fuga. Eles carregam escudos feitos de cascas de caranguejos gigantes, e as lâminas de suas espadas são revestidas com dentes de tubarão."
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "name":"Licantropo - Lobisomem",
+  "name_pronoun":"o Lobisomem",
+  "english_name":"Werewolf",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide Monstruoso",
+  "size":"Médio",
+  
+  "defense_cr":2,
+  "hp_cr":5,
+  "atk_cr":3,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":1,
+
+  "challenge_ratio":3,
+  "xp":315,
+  "defense":14,
+  "bonuses_in_defense":[],
+  "hp":58,
+  "mana":0,
+
+  "movement_walking":9,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":16,
+  "vitality":18,
+  "agility":15,
+  "charisma":8,
+  "willpower":12,
+  "wisdom":11,
+  "intelligence":10,
+
+  "skills":["+4 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Físico de armas não mágicas que não sejam de Prata"],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum (não consegue falar em forma de lobo)"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+	  {
+      "name":"Audição e Olfato Aguçados",
+      "description":["O Lobisomem tem Vantagem em testes de Percepção relacionados a audição ou olfato."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Metamorfosear",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d3 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "O lobisomem pode se metamorfosear em um híbrido humanoide-lobo ou em um lobo, ou de volta a sua forma verdadeira, que é humanoide.",
+        "Suas estatísticas são as mesmas em cada forma. Qualquer equipamento que esteja vestindo ou carregando não é transformado. Ele reverte a sua forma verdadeira se morrer."
+      ]
+    },
+	  {
+      "name":"Mordida (Forma de Lobo ou Hibrida)",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"d12+4 (Perfurante)",
+      "save_throw":"12 de Resistência",
+      "time":"1 Ação",
+      "effect":[
+        "Se o alvo for um humanoide, ele deve ser bem-sucedido no teste de salvamento ou será amaldiçoado com a licantropia do lobisomem."
+      ]
+    },
+	  {
+      "name":"Garras (Forma Hibrida)",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"2d6+4 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+	  {
+      "name":"Ataques Múltiplos (Forma Humanoide)",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Lobisomem realiza dois ataques com a Espada Curta."]
+    },
+	  {
+      "name":"Espada Curta (Forma Híbrida ou Humanoide)",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"d6+4 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Um lobisomem é um predador selvagem. Em sua forma humanoide, um lobisomem possui sentidos aguçados, temperamento explosivo e uma tendência a comer carne mal passada.",
+    " Sua forma de lobo é um predador assustador, mas sua forma híbrida é ainda mais aterrorizante, um corpo humanoide peludo e musculoso com uma cabeça de lobo raivoso. Um lobisomem pode empunhar armas em sua forma híbrida, apesar dele preferir partir seus inimigos ao meio com suas poderosas garras e mordida.",
+	  "A maioria dos lobisomens fogem das terras civilizadas não muito depois de serem afetados. Aqueles que rejeitam a maldição temem pelo que pode acontecer se permanecerem entre seus amigos e familiares. Aqueles que abraçam a maldição temem descobrir e as consequências dos seus atos assassinos. Na natureza selvagem, os lobisomens formam matilhas que também incluem lobos e lobos atrozes."
+  ]
+}

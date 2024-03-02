@@ -1,0 +1,136 @@
+{
+  "name":"Wyvern",
+  "name_pronoun":"o Wyvern",
+  "english_name":"Wyvern",
+
+  "source":["bestiario","pota"],
+
+  "type":"Dragão",
+  "size":"Grande",
+  
+  "defense_cr":1,
+  "hp_cr":9,
+  "atk_cr":7,
+  "damage_cr":6,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":6,
+  "xp":1150,
+  "defense":13,
+  "bonuses_in_defense":[],
+  "hp":110,
+  "mana":0,
+
+  "movement_walking":3,
+  "movement_hovering":0,
+  "movement_flying":12,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":19,
+  "vitality":16,
+  "agility":10,
+  "charisma":6,
+  "willpower":10,
+  "wisdom":12,
+  "intelligence":5,
+
+  "skills":["+4 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Dracônico"],
+  "telepathy":false,
+  "only_understands":true,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "O Wyvern realiza dois ataques: um com sua Mordida e outro com seu Ferrão. Enquanto voa, ele pode usar suas Garras no lugar de um outro ataque."
+      ]
+    },
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"2 m",
+      "roll":"+7",
+      "damage":"2d6+4 (Perfurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"2d8+4 (Perfurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Ferrão",
+      "limit":"",
+      "recharge":"",
+      "range":"2 m",
+      "roll":"+7",
+      "damage":"d10 (Perfurante) + 6d6 (Veneno)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Viajantes nas terras selvagens, às vezes, olha para os céus e veem a forma alada escura de um wyvern carregando uma presa. Esses primos dos grandes dragões caçam nas mesmas florestas densas e cavernas que os de seu tipo. A aparição deles envia ondas de alerta através das fronteiras da civilização.",
+    "Um wyvern possui duas pernas escamadas, asas de couro e uma cauda sinuosa com sua arma mais potente: um ferrão venenoso. O veneno no ferrão de um wyvern pode matar uma criatura em segundos. Extremamente potente, o veneno de um wyvern queima na corrente sanguínea de sua vítima, desintegrando veias e artérias no caminho até o coração. Mesmo sendo tão mortais quanto os wyverns podem ser, caçadores e aventureiros frequentemente rastreiam-nos para adquirir seu veneno, que é usado em componentes alquímicos e para ser embebido em armas.",
+    "Um wyvern não luta no solo, a não ser que não possa alcançar sua presa de outro modo, ou se ele tiver sido atraído para uma posição onde o combate aéreo não é uma opção. Se for forçado em um confronto no solo, um wyvern se esgueira, mantendo seu ferrão posicionado acima de sua cabeça enquanto assobia e rosna.",
+    "Um wyvern só recusa de um ataque a suas presas se estiver gravemente ferido, ou caso sua presa escapar tempo suficiente para que outra refeição em potencial mais fácil apareça. Se ele encurralar uma criatura em um lugar pequeno demais para entrar, o wyvern aguardará onde a presa se esconde, atacando com seu ferrão sempre que a oportunidade permitir.",
+    "Apesar de terem mais astucia que as bestas ordinárias, os wyverns não tem a inteligência de seus primos dracônicos. Assim sendo, as criaturas que mantem sua compostura enquanto um wyvern as caça do ar, podem frequentemente iludi-lo ou engana-lo. Os wyverns percorrem um caminho direto até sua presa, sem se preocupar com possíveis emboscadas.",
+    "Um wyvern pode ser treinado para ser usado como montaria, mas fazê-lo representa uma dificuldade e desafio mortal. Criar um desde filhote garante os melhores resultados. Porém, o temperamento violento de um wyvern já custou muitas vidas de aspirantes a mestre."
+  ]
+}

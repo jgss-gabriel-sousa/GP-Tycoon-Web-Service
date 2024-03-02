@@ -1,0 +1,26 @@
+{
+    "name":"Bola de Fogo",
+    "class":["Feiticeiro","Mago","Sábio"],
+    "magic_circle":4,
+    "cast_time":"1 Ação",
+    "range":"30 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","8d6 (Fogo)"]
+    ],
+    "heal":"",
+    "saving_trow":"Reflexos",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Uma pequena esfera brilhante é disparada pela ponta do seu dedo em direção a um ponto que você escolher, dentro do alcance, e então explode em chamas. Cada criatura em uma esfera de 5 metros de raio, centrada no ponto, deve realizar o teste de salvamento.",
+        "Um alvo sofre dano se falhar no teste, ou metade desse dano se obtiver sucesso.",
+        "O fogo se espalha, dobrando esquinas. Ele incendeia objetos inflamáveis na área que não estejam sendo vestidos ou carregados."
+    ],
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
+        ["15","9d6 de Dano"],
+        ["21","10d6 de Dano"],
+        ["28","11d6 de Dano"]
+    ]
+}

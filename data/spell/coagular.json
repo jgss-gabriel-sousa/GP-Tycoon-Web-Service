@@ -1,0 +1,25 @@
+{
+    "name":"Coagular",
+    "class":["Místico","Necromante"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"25 Metros",
+    "attack_roll":true,
+    "damage":[
+        ["Dano de Conjuração","d4 (Corte)"]
+        ["Dano","d8 + Dobro do Dano de Conjuração (Necrótico)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você corta a si mesmo e deixa o sangue se acumular, formando uma esfera sólida do tamanho do seu punho. Manifestando sua ira, você dispara a esfera em direção a uma criatura visível dentro do alcance. Ao conjurar essa magia, você sofre o Dano de Conjuração."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","2d8 de dano + Dobro do Dano de Conjuração"],
+        ["11","3d8 de dano + Dobro do Dano de Conjuração"],
+        ["17","4d8 de dano + Dobro do Dano de Conjuração"]
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name":"Controlar Chamas",
+    "class":["Druida","Feiticeiro","Mago"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"20 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você escolhe uma chama não-mágica que você possa ver, dentro do alcance, e que ocupe até um cubo de 1 metro. Você afeta ela de uma das seguintes formas:",
+        "\u2022 Você expande a chama em 1 metro em uma direção.",
+        "\u2022 Você instantaneamente extingue as chamas dentro do cubo.",
+        "\u2022 Você dobra ou reduz a área de luz emitida pela chama, muda a cor dela, ou ambos. As mudanças duram por 1 hora.",
+        "\u2022 Você faz com que formas simples, como uma forma imprecisa de uma criatura, objeto inanimado ou local – apareçam dentro das chamas e se animem como você quiser. As formas duram por 1 hora."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

@@ -1,0 +1,14 @@
+{
+    "name":"Adaga",
+    "type":"Simples",
+    "group":"Facas",
+    "damage":"d4",
+    "critical":8,
+    "damage_type":"Corte ou Perfurante",
+    "ammunition":"",
+    "price":"2 Ouro",
+    "attribute":"Agilidade ou Força",
+    "range":0,
+    "load":0.1,
+    "special":"Arremesso (4 m)"
+}

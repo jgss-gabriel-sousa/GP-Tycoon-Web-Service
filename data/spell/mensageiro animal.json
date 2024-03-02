@@ -1,0 +1,19 @@
+{
+    "name":"Mensageiro Animal",
+    "class":["Bardo","Druida","Patrulheiro"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"6 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"24 Horas",
+    "concentration":false,
+    "description":[
+        "Através dessa magia, você usa um animal para entregar uma mensagem. Escolha um animal que você possa ver dentro do alcance. Você especifica um local, que você já deve ter visitado, e um remetente com uma descrição geral, como “um homem ou mulher vestido em um uniforme da guarda da cidade” ou “um anão ruivo vestindo um chapéu pontudo”. Você também fala uma mensagem com até vinte e cindo palavras. O animal alvo viaja pela duração da magia para o local específico, cobrindo 75 quilômetros em 24 horas para um mensageiro voador ou 37 quilômetros para outros animais.",
+        "Quando o mensageiro chegar, ele entrega sua mensagem para a criatura que você descreveu, repetindo o som da sua voz. O mensageiro fala apenas para uma criatura que tenha uma descrição compatível com a que ele recebeu. Se o mensageiro não alcançar o destino antes do fim da magia, a mensagem é perdida e o animal faz seu caminho de volta para onde você conjurou a magia."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

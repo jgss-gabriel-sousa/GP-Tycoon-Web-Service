@@ -1,0 +1,155 @@
+{
+  "name":"Licantropo - Homem-Javali",
+  "name_pronoun":"o Homem-Javali",
+  "english_name":"Wereboar",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide Monstruoso",
+  "size":"Médio",
+  
+  "defense_cr":6,
+  "hp_cr":7,
+  "atk_cr":3,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":1,
+
+  "challenge_ratio":5,
+  "xp":790,
+  "defense":16,
+  "bonuses_in_defense":[
+    {
+      "name":"Gibão de Peles (Forma Humana e Forma Híbrida)",
+      "value":4
+    }
+  ],
+  "hp":78,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":17,
+  "vitality":15,
+  "agility":10,
+  "charisma":8,
+  "willpower":10,
+  "wisdom":11,
+  "intelligence":10,
+
+  "skills":["+2 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Físico de armas não mágicas que não sejam de Prata"],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum (não consegue falar em forma de javali)"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Implacável",
+      "description":["1 vez por dia, se o homem-javali sofrer 14 de dano ou menos, que poderia reduzi-lo a 0 pontos de vida, ele é reduzido a 1 ponto de vida, ao invés."]
+    },
+    {
+      "name":"Investida (Forma de Javali ou Forma Híbrida)",
+      "description":[
+        "Se o homem-javali se mover, pelo menos, 4 metros em linha reta até um alvo e então atingi-lo com suas Presas no mesmo turno, o alvo sofre 2d6 de dano de corte extra.",
+        "Se o alvo for uma criatura, ele deve ser bem-sucedido num teste de Atletismo, com dificuldade 13 ou será derrubado no chão."
+      ]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Metamorfosear",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d3 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "O homem-javali pode se metamorfosear em um híbrido humanoide-javali ou em um Javali, ou de volta a sua forma verdadeira, que é humanoide.",
+        "Suas estatísticas são as mesmas em cada forma. Qualquer equipamento que esteja vestindo ou carregando não é transformado. Se morrer, você reverte a sua forma verdadeira."
+      ]
+    },
+    {
+      "name":"Ataques Múltiplos (Forma Humanoide ou Hibrida)",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[
+        "O Homem-Javali realiza dois ataques: um com suas Presas e outro com seu Martelo ou dois com seu Martelo."
+      ]
+    },
+	  {
+      "name":"Presas (Forma de Javali ou Hibrida)",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"2d6+3 (Corte)",
+      "save_throw":"12 de Resistência",
+      "time":"Ação de Ataque",
+      "effect":[
+        "Se o alvo for um humanoide, ele deve ser bem-sucedido no teste de salvamento ou será amaldiçoado com a licantropia do homem-javali."
+      ]
+    },
+	  {
+      "name":"Martelo (Forma Humanoide ou Hibrida)",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"2d6+3 (Impacto)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os homens-javali são mal-humorados, brutos e vulgares. Como humanoides, eles são atarracados e musculosos, com cabelos curtos e espetados. Em suas formas humanoides ou híbridas, eles usam armas pesadas, enquanto que em sua forma híbrida ou animal, eles ganham um ataque devastador com suas presas por onde sua maldição é transmitida.",
+	  "Um homem-javali infecta outras criaturas indiscriminadamente, apreciando o fato de que, quanto mais suas vítimas resistirem a maldição, mais selvagens e bestiais elas se tornarão. ",
+    "Os homens-javali vivem em pequenos grupos familiares em áreas florestais remotas, construindo cabanas mal-acabadas ou vivendo em cavernas. Eles desconfiam de estranhos, mas as vezes se aliam com orcs."
+  ]
+}

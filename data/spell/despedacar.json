@@ -1,0 +1,21 @@
+{
+    "name":"Despedaçar",
+    "class":["Bardo","Feiticeiro","Mago","Místico"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"12 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","4d8 (Sônico)"]
+    ],
+    "heal":"",
+    "saving_trow":"Resistência",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Um alto som estridente, dolorosamente intenso, emerge de um ponto, à sua escolha, dentro do alcance. Cada criatura, numa esfera de 3 metros de raio, centrada no ponto deve fazer o teste de salvamento. Uma criatura sofre dano se falhar no salvamento ou metade desse dano se obtiver sucesso. Uma criatura feita de material inorgânico como pedra, cristal ou metal, tem Desvantagem no teste.",
+        "Um objeto não-mágico que não esteja sendo vestido ou carregado, também sofre o dano, se estiver na área da magia."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

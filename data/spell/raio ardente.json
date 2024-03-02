@@ -1,0 +1,21 @@
+{
+    "name":"Raio Ardente",
+    "class":["Feiticeiro","Mago"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"Toque à Distância (24 Metros)",
+    "attack_roll":true,
+    "damage":[
+        ["Dano por Raio","2d6 (Fogo)"],
+        ["Dano Total","6d6 (Fogo)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você cria três raios de fogo e os arremessa em alvos dentro do alcance. Você pode arremessá-los em um alvo ou em vários."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

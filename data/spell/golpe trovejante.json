@@ -1,0 +1,20 @@
+{
+    "name":"Golpe Trovejante",
+    "class":["Feiticeiro","Mago","Místico"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"Raio 30 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","d6 (Sônico)"]
+    ],
+    "heal":"",
+    "saving_trow":"Resistência",
+    "duration":"1 Turno",
+    "concentration":false,
+    "description":[
+        "Você libera uma manifestação poderosa por meio de uma explosão sonora. O estrondo ensurdecedor reverbera em um raio a partir de 1 metro ao seu redor. As criaturas próximas a você, nesse raio de 1  metro, não são afetadas pelo dano causado pela explosão e não precisam realizar qualquer Teste de Salvamento."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

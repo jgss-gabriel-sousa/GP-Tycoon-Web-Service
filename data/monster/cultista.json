@@ -1,0 +1,103 @@
+{
+  "name":"Cultista",
+  "name_pronoun":"o Cultista",
+  "english_name":"Cultist",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":1,
+  "hp_cr":0.250,
+  "atk_cr":0.5,
+  "damage_cr":0.250,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.5,
+  "xp":20,
+  "defense":13,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura de Couro",
+      "value":2
+    }
+  ],
+  "hp":10,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":10,
+  "vitality":10,
+  "agility":12,
+  "charisma":10,
+  "willpower":12,
+  "wisdom":10,
+  "intelligence":10,
+
+  "skills":["+2 Intimidação","+2 Religião"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Qualquer",
+
+  "loot":[],
+	
+  "abilities":[
+    
+  ],
+
+  "spellcaster_level":1,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Espada Curta",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+3",
+      "damage":"d6+1 (Corte)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os Cultistas juram lealdade aos poderes das trevas, como príncipes elementais, senhores demônios ou arquidemônios. A maioria esconde a sua lealdade para evitar a condenação ao ostracismo, prisão, perseguição ou execução pelas suas crenças. Ao contrário dos acólitos malignos, os cultistas frequentemente mostram sinais de insanidade em suas práticas."
+  ]
+}

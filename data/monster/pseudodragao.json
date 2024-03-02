@@ -1,0 +1,122 @@
+{
+  "name":"Pseudodragão",
+  "name_pronoun":"o Pseudodragão",
+  "english_name":"Pseudodragon",
+
+  "source":["bestiario"],
+
+  "type":"Dragão",
+  "size":"Minúsculo",
+  
+  "defense_cr":6,
+  "hp_cr":0.125,
+  "atk_cr":1,
+  "damage_cr":0.250,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":1,
+  "xp":50,
+  "defense":16,
+  "bonuses_in_defense":[],
+  "hp":7,
+  "mana":0,
+
+  "movement_walking":2,
+  "movement_hovering":0,
+  "movement_flying":10,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":6,
+  "vitality":13,
+  "agility":15,
+  "charisma":10,
+  "willpower":14,
+  "wisdom":12,
+  "intelligence":10,
+
+  "skills":["+4 Furtividade","+3 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":2,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Dracônico"],
+  "telepathy":false,
+  "only_understands":true,
+  
+  "alignment":"Neutro e Bom",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Resistência Mágica",
+      "description":["O Pseudodragão tem Vantagem em Testes de Salvamento contra magias e outros efeitos mágicos."]
+    },
+    {
+      "name":"Sentidos Aguçados",
+      "description":["O Pseudodragão tem Vantagem em testes de Percepção."]
+    },
+    {
+      "name":"Telepatia Limitada",
+      "description":["O Pseudodragão pode comunicar magicamente ideias simples, emoções e imagens telepaticamente com qualquer criatura a até 30 metros dele que possa entender um idioma."]
+    }    
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d4+2 (Perfurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Ferrão",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d4+2 (Perfurante)",
+      "save_throw":"11 de Resistência",
+      "time":"",
+      "effect":["O alvo deve ser bem-sucedido no salvamento ou ficará Envenenado por 1 hora. Se o resultado do teste for 6 ou inferior, o alvo cairá Inconsciente por 1 hora ou até sofrer dano. Outra criatura pode usar sua ação para tentar acordá-lo, então o alvo executa um novo teste."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "O elusivo pseudodragão vive em locais calmos do mundo, fazendo seus lares em árvores ocas e pequenas grutas. Com suas escamas vermelho-amarronzadas, chifres e mandíbulas cheias de dentes afiados, um pseudodragão lembra um dragão vermelho miúdo, mas com disposição para brincadeiras.",
+    "Os pseudodragões tem pouco interesse em outras criaturas e eles evitam-nas sempre que possível. Se for atacado, um pseudodragão lutará usando seu ferrão venenoso na ponta de sua cauda, uma ferroada dele pode colocar uma criatura em um estado catatônico que pode durar horas.",
+    "Magos frequentemente buscam pseudo-dragões, cuja boa disposição, habilidade telepática e resistência à magia os torna familiares superiores. Os pseudodragões são seletivos quando ele chega a escolher companheiros, mas eles podem às vezes ser conquistados com comida ou tesouro. Quando um pseudodragão encontra um companheiro aceitável, ele se vincula a essa pessoa enquanto for tratado de forma justa. Um pseudodragão não tolera maus-tratos e abandonará um companheiro manipulador ou abusivo sem aviso."
+  ]
+}

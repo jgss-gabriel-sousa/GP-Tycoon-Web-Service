@@ -1,0 +1,20 @@
+{
+    "name":"Forma Gasosa",
+    "class":["Feiticeiro","Mago","Místico"],
+    "magic_circle":4,
+    "cast_time":"1 Ação",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":true,
+    "description":[
+        "Você transforma uma criatura voluntária que você tocar, junto com tudo que ela estiver vestindo e carregando, em uma nuvem nebulosa, pela duração. A magia termina se a criatura cair a 0 pontos de vida. Uma criatura incorpórea não pode ser afetada.",
+        "Enquanto estiver nessa forma, o único meio de movimentação do alvo é 3 metros de deslocamento de voo. O alvo pode entrar e ocupar o espaço de outra criatura. O alvo tem resistência a dano não-mágico e tem vantagem em testes de Força, Agilidade e Vitalidade. O alvo pode passar através de pequenos buracos, aberturas estreitas e, até mesmo, meras rachaduras, embora ele trate líquidos como se fossem superfícies sólidas. O alvo não pode cair e se mantem flutuando no ar, mesmo se estiver atordoado ou incapacitado de alguma outra forma.",
+        "Enquanto estiver na forma de uma nuvem nebulosa, o alvo não pode falar ou manipular objetos. O alvo não pode atacar ou conjurar magias."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

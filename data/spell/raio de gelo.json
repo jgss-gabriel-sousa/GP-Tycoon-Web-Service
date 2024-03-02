@@ -1,0 +1,24 @@
+{
+    "name":"Raio de Gelo",
+    "class":["Atirador Mágico","Feiticeiro","Mago","Necromante"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"10 Metros",
+    "attack_roll":true,
+    "damage":[
+        ["Dano","d8 (Gelo)"]
+    ],
+    "heal":"",
+    "saving_trow":"Resistência",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você envia um raio de frio entorpecente em uma criatura. Se atingido o alvo deve realizar o teste de salvamento, se falhar, terá Desvantagem na próxima jogada de ataque com arma que fizer, até o final do seu próximo turno."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","2d8 de Dano"],
+        ["11","3d8 de Dano"],
+        ["17","4d8 de Dano"]
+    ]
+}

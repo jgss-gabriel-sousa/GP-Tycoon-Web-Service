@@ -1,0 +1,103 @@
+{
+  "name":"Bugbear",
+  "name_pronoun":"o Bugbear",
+  "english_name":"Bugbear",
+
+  "source":["bestiario"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":0.5,
+  "hp_cr":3,
+  "atk_cr":1,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":1,
+  "xp":60,
+  "defense":12,
+  "bonuses_in_defense":[],
+  "hp":30,
+  "mana":0,
+
+  "movement_walking":8,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":15,
+  "vitality":13,
+  "agility":14,
+  "charisma":9,
+  "willpower":10,
+  "wisdom":11,
+  "intelligence":8,
+
+  "skills":["+2 Intimidação","+2 Sobrevivência"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Goblinóide"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Brutamontes",
+      "description":["Em ataques com armas corpo a corpo o Bugbear causa um dado extra de dano (Já incluso no dano das ações)."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Martelo de Guerra",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"2d8+2 (Impacto)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os Bugbears nasceram para a batalha e mutilação. Sobrevivendo de assaltos e caçadas, eles oprimem os fracos e desprezam ser chefiados, mas o amor deles por carnificina significa que eles irão lutar por mestres poderosos se derramamento de sangue e tesouros forem assegurados.",
+	  "Gostam de elaborar emboscadas na junto com seus primos, Hobgoblins e Goblins. São mercenários confiáveis, desde que sejam supridos com comida, bebida e tesouros, porém, um bugbear esquece de qualquer vínculo quando sua vida está por um fio.",
+	  "Um membro ferido de um bando de bugbear será abandonado para ajudar o resto do bando a escapar. Mais tarde, esse bugbear irá ajudar seus perseguidores a rastrear seus antigos companheiros, se fazer isso garanta a sua vida."
+  ]
+}

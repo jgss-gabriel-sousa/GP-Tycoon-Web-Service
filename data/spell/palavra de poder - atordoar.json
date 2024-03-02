@@ -1,0 +1,20 @@
+{
+    "name":"Palavra de Poder - Atordoar",
+    "class":["Bardo","Feiticeiro","Mago","Místico"],
+    "magic_circle":9,
+    "cast_time":"1 Ação",
+    "range":"12 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Resistência",
+    "duration":"",
+    "concentration":true,
+    "description":[
+        "Você pronuncia uma palavra de poder que pode oprimir a mente de uma criatura que você possa ver, dentro do alcance, deixando-a estupefata.",
+        "Se o alvo escolhido estiver com 150 pontos de vida ou menos, ele ficará Atordoado. Do contrário, essa magia não produz efeito.",
+        "O alvo atordoado deve realizar um teste de salvamento no final de cada um dos turnos dele. Se obtiver sucesso, o efeito de atordoamento termina."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

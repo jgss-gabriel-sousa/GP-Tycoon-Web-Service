@@ -1,0 +1,111 @@
+{
+  "name":"Alce",
+  "name_pronoun":"o Alce",
+  "english_name":"Elk",
+
+  "source":["bestiario","pota"],
+
+  "type":"Animal",
+  "size":"Grande",
+  
+  "defense_cr":0.25,
+  "hp_cr":0.5,
+  "atk_cr":3,
+  "damage_cr":0.25,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.5,
+  "xp":30,
+  "defense":11,
+  "bonuses_in_defense":[],
+  "hp":13,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":16,
+  "vitality":12,
+  "agility":10,
+  "charisma":6,
+  "willpower":10,
+  "wisdom":10,
+  "intelligence":2,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Chifres",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"d8 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Ataque de Carga",
+      "limit":"",
+      "recharge":"",
+      "range":"Linha de 6 metros",
+      "roll":"",
+      "damage":"2d6 (Impacto)",
+      "save_throw":"13 de Reflexos",
+      "time":"Ação de Ataque",
+      "effect":[
+        "O Alce corre e ataque os alvos no trajeto do deslocamento. Esse movimento provoca ataques de oportunidade.",
+        "Cada criatura no alcance deve realizar o teste de salvamento. Caso falhe, a criatura sofre o dano é empurrada por 1 metro e ficará Caída.",
+        "Caso seja bem-sucedida no salvamento, a criatura não sofre dano, nem ficará caída, mas deve se mover 1 metro para fora do alcance (Esse movimento não causa ataques de oportunidade ou efeitos similares)."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os Alces são os maiores membros da família dos cervos, eles fogem da maioria dos predadores ou caçadores, mas as vezes se defendem contra criaturas menores."
+  ]
+}

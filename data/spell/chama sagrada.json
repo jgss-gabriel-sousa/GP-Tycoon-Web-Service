@@ -1,0 +1,24 @@
+{
+    "name":"Chama Sagrada",
+    "class":["Clérigo","Paladino"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"15 Metros",
+    "attack_roll":true,
+    "damage":[
+        ["Dano","d8 (Radiante)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Uma chama sagrada, emanando poder celestial, desce dos céus e envolve a figura escolhida, causando dano e demonstrando a imponência do deus que a concedeu."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","2d8 de Dano"],
+        ["11","3d8 de Dano"],
+        ["17","4d8 de Dano"]
+    ]
+}

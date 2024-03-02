@@ -1,0 +1,115 @@
+{
+  "name":"Azer",
+  "name_pronoun":"o Azer",
+  "english_name":"Azer",
+
+  "source":["bestiario","pota"],
+
+  "type":"Elemental",
+  "size":"Médio",
+  
+  "defense_cr":6,
+  "hp_cr":4,
+  "atk_cr":3,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":1.5,
+
+  "challenge_ratio":4,
+  "xp":600,
+  "defense":16,
+  "bonuses_in_defense":[
+    {
+      "name":"Escudo Pesado",
+      "value":2
+    }
+  ],
+  "hp":39,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":17,
+  "vitality":19,
+  "agility":12,
+  "charisma":10,
+  "willpower":10,
+  "wisdom":13,
+  "intelligence":12,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Fogo","Veneno"],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Corpo Flamejante",
+      "description":["Uma criatura que toque o Azer ou o atinja com um ataque corpo a corpo, sofre 1d10 de dano de fogo."]
+    },
+    {
+      "name":"Iluminação",
+      "description":["O Azer emite luz em um raio de 3 metros e penumbra por mais 3 metros."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Martelo de Guerra",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"+5",
+      "damage":"d8+3 (Impacto) + d6 (Fogo)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Nativos do Plano Elemental do Fogo, os Azers são artesãos mestres, mineiros experientes e inimigos jurados dos Efreet. Na aparência e na maneira, um Azer se assemelha a um anão masculino, mas isso é uma fachada. Sob sua pele de aparência metálica, um Azer é um ser de fogo, que se manifesta externamente em seus cabelos e barba de fogo.",
+    "Os Azers são feitos, não nascem ou se reproduzem, cada um deles é feito de bronze por outro azer e imbuído de uma parte da chama interna do artesão. Cada Azer é esculpido com características únicas. Esse processo de criação limita o crescimento da população Azer e é a principal razão pela qual essas criaturas permanecem raras.",
+    "Os Azers habitam um reino na fronteira entre o Plano Elemental da Terra e o Plano Elemental do Fogo, uma cadeia de montanhas e vulcões cujas torres se erguem como uma série de fortalezas. Sob os picos das montanhas, sob caldeiras vulcânicas e em meio a rios de magma, os Azers extraem metais reluzentes e gemas reluzentes da terra. Esquadrões de Azer patrulham as passagens e túneis de seu reino, afastando os invasores salamandras cujos mestres efreet ordenam ataques contra o reino Azer.",
+    "Há muito tempo, os Efreets e os Azers eram aliados. Os Azers ajudaram a criar a Cidade de Bronze, transformando-a na casa do Efreet em um dos lugares mais maravilhosos da criação. Quando os Azers terminaram seu trabalho, os Efreet os traíram, fazendo uma tentativa fracassada de escravizar os Azers para proteger os segredos da cidade. Apesar de ataques e escaramuças ocasionais, no entanto, os dois lados até agora se abstiveram de um conflito total. Os Azers acreditam que apenas a ameaça deles revelarem os caminhos ocultos para a Cidade de Bronze mantém o Efreet sob controle.",
+    "Os Azers são artesãos magistrais e criam belos trabalhos a partir das gemas e metais preciosos encontrados em seu habitat vulcânico. Eles classificam o valor de tais tesouros acima de todas as outras coisas, às vezes despachando grupos pelos planos para procurar metais e pedras preciosas raros.",
+    "Quando os Azers são chamados por magia para o Plano Material, normalmente é para ajudar a forjar um elaborado item mágico ou obra de arte, pois diz-se que sua habilidade em tal ofício não tem igual."
+  ]
+}

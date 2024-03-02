@@ -1,0 +1,14 @@
+{
+    "name":"Arcabuz",
+    "type":"Arma de Fogo",
+    "damage":"D12",
+    "critical":24,
+    "damage_type":"Perfurante",
+    "ammunition":"Balas",
+    "price":200,
+    "coin":"Ouro",
+    "attribute":"Agilidade",
+    "range":15,
+    "weight":3,
+    "special":["Duas Mãos","ammunition","Recarga (1)"]
+}

@@ -1,0 +1,20 @@
+{
+    "name":"Constrição",
+    "class":["Druida"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"15 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Atletismo",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Ervas e vinhas poderosas brotam do solo num quadrado de 6 metros a partir de um ponto dentro do alcance. Pela duração, essas plantas transformam o solo na área em terreno difícil.",
+        "Uma criatura na área quando você conjurar a magia, deve ser bem sucedida no teste de salvamento ou ficará Agarrada pelo emaranhado de plantas, até a magia acabar. Uma criatura impedida pelas plantas pode gastar uma ação para realizar novamente o teste de salvamento. Se for bem sucedido, irá se libertar.",
+        "Quando a magia termina, as plantas conjuradas murcharão."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

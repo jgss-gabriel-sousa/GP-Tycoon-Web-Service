@@ -1,0 +1,14 @@
+{
+    "name":"Alfange",
+    "type":"Marcial Leve",
+    "damage":"2D4",
+    "critical":8,
+    "damage_type":"Corte ou Perfurante",
+    "ammunition":"",
+    "price":75,
+    "coin":"Ouro",
+    "attribute":"Força",
+    "range":0,
+    "weight":2,
+    "special":["Duas Mãos"]
+}

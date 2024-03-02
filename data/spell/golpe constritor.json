@@ -1,0 +1,21 @@
+{
+    "name":"Golpe Constritor",
+    "class":["Patrulheiro"],
+    "magic_circle":1,
+    "cast_time":"Ação Menor",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","d6 (Perfurante)"]
+    ],
+    "heal":"",
+    "saving_trow":"Atletismo",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Da próxima vez que você atingir uma criatura com um ataque com arma, antes do final da magia, um emaranhado maciço de vinhas espinhentas aparecem no local do impacto e o alvo deve ser bem-sucedido no teste de salvamento ou ficará Impedido pelas vinhas mágicas, até o fim da magia. Uma criatura Grande ou maior tem Vantagem no seu teste de salvamento. Se o alvo for bem-sucedido as vinhas murcharão.",
+        "Enquanto estiver impedido pela magia, o alvo sofre dano no início de cada um dos turnos dele. Uma criatura impedida pelas vinhas ou uma que possa tocar a criatura, pode usar sua ação para realizar um teste de salvamento pelo aliado. Num sucesso, o alvo é libertado."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

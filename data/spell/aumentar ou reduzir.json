@@ -1,0 +1,20 @@
+{
+    "name":"Aumentar ou Reduzir",
+    "class":["Feiticeiro","Mago"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"6 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Você faz com que uma criatura ou um objeto que você possa ver dentro do alcance, fique maior ou menor, pela duração. Se o alvo for uma criatura, tudo que ele esteja vestindo ou carregando muda, acompanhando o tamanho dela. Qualquer item largado por uma criatura afetada, retorna ao seu tamanho natural. ",
+        "<b>Aumentar:</b> O tamanho do alvo dobra em todas as dimensões e seu peso é multiplicado por oito. Esse aumento eleva seu tamanho em uma categoria, de Médio para Grande, por exemplo. Se não houver espaço suficiente para que o alvo dobre de tamanho, a criatura ou objeto alcança o tamanho máximo possível no espaço disponível. Até o fim da magia, o alvo tem vantagem em testes de Força e Vitalidade. O tamanho das armas do alvo cresce para se adequar ao seu novo tamanho. Quando essas armas são ampliadas, os ataques do alvo com elas causam 1D4 de dano extra.",
+        "<b>Reduzir:</b> O tamanho do alvo é reduzido à metade em todas as dimensões e seu peso é reduzido a um oitavo do normal. Essa redução diminui o tamanho do alvo em uma categoria, de Médio para Pequeno, por exemplo. Até o fim da magia, o alvo tem desvantagem em testes de Força e Vitalidade. O tamanho das armas do alvo diminui para se adequar ao seu novo tamanho. Quando essas armas são reduzidas, os ataques do alvo com elas causam 1D4 de dano a menos (Não pode reduzir o dano a menos de 1)."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

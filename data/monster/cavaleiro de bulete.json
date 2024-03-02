@@ -1,0 +1,133 @@
+{
+  "name":"Cavaleiro de Bulete",
+  "name_pronoun":"o Cavaleiro de Bulete",
+  "english_name":"Burrowshark",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":16,
+  "hp_cr":7,
+  "atk_cr":5,
+  "damage_cr":3,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":6,
+  "xp":1590,
+  "defense":19,
+  "bonuses_in_defense":[
+    {
+      "name":"Peitoral de Pedra",
+      "value":6
+    }
+  ],
+  "hp":82,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":18,
+  "vitality":16,
+  "agility":12,
+  "charisma":13,
+  "willpower":16,
+  "wisdom":11,
+  "intelligence":10,
+
+  "skills":["+6 Atletismo","+3 Intimidação","+2 Lidar com Animais","+2 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Laço da Terra Negra",
+      "description":[
+        "O Cavaleiro é magicamente ligado a um bulete, que é treinado para servir como sua montaria e obedece perfeitamente aos comandos do cavaleiro.",
+        "Enquanto montado em seu bulete, o cavaleiro compartilha os sentidos do bulete e pode montar o bulete até quando ele se enterra. Se sua montaria morrer, o cavaleiro pode treinar um novo bulete, em um processo que leva um mês."
+	  ]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O cavaleiro realiza três ataques com a Lança."]
+    },
+	  {
+      "name":"Lança",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+6",
+      "damage":"d6+4 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+	  {
+      "name":"Postura Firme",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Reação",
+      "effect":["Quando o Cavaleiro é submetido a um efeito que o moveria, derrubaria ou ambos, ele pode usar sua reação para não ser movido nem derrubado."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Guerreiros de elite do culto da terra, os Cavaleiros de Bulete são campeões ferozes que conduzem buletes treinados para a batalha. Enquanto suas montarias poderosas despedaçam e dilaceram os inimigos, os cavaleiros saltam para o chão e abatem seus inimigos sem piedade.",
+    "Os Cavaleiros de Bulete são muito parecidos com os Guardiões da Terra Negra, já que ambos têm uma postura firme e uma armadura especial de pedra.",
+    "Para um Cavaleiro de Bulete, um presente adicional de Ogrémoch pode estabelecer um vínculo mágico entre ele e um bulete, permitindo que o cavaleiro se desloque pela terra junto com sua montaria e sinta o que sua montaria sente."
+  ]
+}

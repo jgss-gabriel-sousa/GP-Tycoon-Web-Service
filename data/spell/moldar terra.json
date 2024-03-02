@@ -1,0 +1,22 @@
+{
+    "name":"Moldar Terra",
+    "class":["Druida","Feiticeiro","Mago"],
+    "magic_circle":1,
+    "cast_time":"1 Turno",
+    "range":"9 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você escolhe uma porção de detritos ou pedra que você possa ver, dentro do alcance, e que caiba num cubo de 1 metro. Você manipula-a de uma das seguintes maneiras:",
+        "\u2022 Se você afetar uma área de terra solta, você pode escava-la instantaneamente, movendo-a pelo solo e depositando-a a 1 metro de distância. Esse movimento não tem força suficiente para causar dano.",
+        "\u2022 Você faz com que formas, cores ou ambos apareçam na terra ou pedra, escrevendo palavras, criando imagens ou moldando padrões. As mudanças duram por 1 hora.",
+        "\u2022 Se a terra ou pedra que você afetou estiver no solo, você faz com que ele se torne terreno difícil. Alternativamente, você pode fazer com que solo se torne terreno normal, caso ele já seja terreno difícil. Essa mudança dura por 1 hora.",
+        "Se você conjurar essa magia diversas vezes, você pode ter até dois dos seus efeitos não-instantâneos ativos ao mesmo tempo, e você pode dissipar um efeito desses com uma ação."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

@@ -1,0 +1,24 @@
+{
+    "name":"Chicote de Espinhos",
+    "class":["Druida"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"15 Metros",
+    "attack_roll":true,
+    "damage":[
+        ["Dano","d6 (Perfurante)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você cria um longo chicote de vinhas coberto por espinhos que chicoteia e se a criatura for Grande ou menor, você a puxa até 3 metros para perto de você."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","2d6 de Dano"],
+        ["11","3d6 de Dano"],
+        ["17","4d6 de Dano"]
+    ]
+}

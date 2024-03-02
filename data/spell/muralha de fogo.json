@@ -1,0 +1,22 @@
+{
+    "name":"Muralha de Fogo",
+    "class":["Druida","Feiticeiro","Mago"],
+    "magic_circle":5,
+    "cast_time":"1 Ação",
+    "range":"25 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","5d8 (Fogo)"]
+    ],
+    "heal":"",
+    "saving_trow":"Reflexos",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Você cria uma muralha de fogo numa superfície sólida dentro do alcance. Você pode fazer uma muralha de até 18 metros de comprimento, 6 metros de altura e 30 centímetros de espessura ou uma muralha anelar de até 6 metros de diâmetro, 6 metros de altura e 30 centímetros de espessura. A muralha é opaca e permanece pela duração.",
+        "Um lado da muralha, escolhido por você no momento da conjuração, causa dano a cada criatura que terminar o turno dela a até 3 metros desse lado. Caso seja uma muralha anelar, é o lado de dentro que causará o dano. Uma criatura sofre dano quando entra na área da muralha pela primeira vez num turno ou termina seu turno nela. O outro lado da muralha não causa dano algum.",
+        "Quando a muralha aparece, cada criatura dentro de sua área deve fazer o teste de salvamento. Se falhar, a criatura sofre o dano, ou metade desse dano em um teste bem-sucedido."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

@@ -1,0 +1,19 @@
+{
+    "name":"Nevasca",
+    "class":["Druida","Feiticeiro","Mago"],
+    "magic_circle":4,
+    "cast_time":"1 Ação",
+    "range":"30 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Acrobacia",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Até a magia acabar, uma chuva congelante e neve caem num cilindro de 6 metros de altura por 12 metros de raio, centrado num ponto, à sua escolha, dentro do alcance. A área é de escuridão densa e chamas expostas são extintas.",
+        "O solo na área é coberto por gelo escorregadio ou uma camada de neve pesada, tornando-o terreno difícil. Quando uma criatura entrar na área da magia pela primeira vez num turno ou começar seu turno nela, ela deve realizar o teste de salvamento, se falhar, cairá no chão."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

@@ -1,0 +1,107 @@
+{
+  "name":"Bandido",
+  "name_pronoun":"o Bandido",
+  "english_name":"Bandit",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":0.25,
+  "hp_cr":0.25,
+  "atk_cr":0.5,
+  "damage_cr":0.25,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.25,
+  "xp":14,
+  "defense":11,
+  "bonuses_in_defense":[],
+  "hp":12,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":12,
+  "vitality":10,
+  "agility":12,
+  "charisma":10,
+  "willpower":10,
+  "wisdom":10,
+  "intelligence":10,
+
+  "skills":["+2 Intimidação"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Neutro",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Cimitarra",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+3",
+      "damage":"d6+1 (Corte)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Besta Leve",
+      "limit":"",
+      "recharge":"",
+      "range":"15 Metros",
+      "roll":"+3",
+      "damage":"d8+1 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Bandidos vagam em gangues, lideradas por Rufiões, Bandidos Capitães ou Feiticeiros. Nem todos os bandidos são maus. A opressão, a seca, a doença ou a fome muitas vezes podem levar gente honesta a essa vida."
+  ]
+}

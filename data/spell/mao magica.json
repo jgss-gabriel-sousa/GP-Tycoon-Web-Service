@@ -1,0 +1,19 @@
+{
+    "name":"Mão Mágica",
+    "class":["Bardo","Feiticeiro","Mago","Místico"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"35 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Uma mão espectral flutuante aparece num ponto, à sua escolha, dentro do alcance. A mão permanece pela duração ou até você dissipá-la com uma ação. A mão some se estiver a mais de 10 metros de você ou se você conjurar essa magia novamente.",
+        "Você pode usar uma ação para controlar a mão. Você pode usar a mão para manipular um objeto, abrir uma porta ou recipiente destrancado, guardar ou pegar um item de um recipiente aberto ou derramar o conteúdo de um frasco. Você pode mover a mão até 10 metros a cada vez que a usa. A mão não pode atacar, ativar itens mágicos ou carregar mais de 5 quilos."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

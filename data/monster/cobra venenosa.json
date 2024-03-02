@@ -1,0 +1,96 @@
+{
+  "name":"Cobra Venenosa",
+  "name_pronoun":"a Cobra Venenosa",
+  "english_name":"Poisonous Snake",
+
+  "source":["bestiario"],
+
+  "type":"Animal",
+  "size":"Minúsculo",
+  
+  "defense_cr":10,
+  "hp_cr":0,
+  "atk_cr":1,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":1,
+  "xp":90,
+  "defense":17,
+  "bonuses_in_defense":[],
+  "hp":2,
+  "mana":0,
+
+  "movement_walking":5,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":5,
+
+  "strength":2,
+  "vitality":11,
+  "agility":16,
+  "charisma":3,
+  "willpower":10,
+  "wisdom":10,
+  "intelligence":1,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":2,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d3 (Perfurante) + 2d6 (Veneno)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Incontáveis espécies de cobras venenosas vivem na natureza, suas mordidas são capazes de derrubar criaturas muito maiores do que elas. Cobras venenosas são geralmente muito mais agressivas do que cobras constritoras."
+  ]
+}

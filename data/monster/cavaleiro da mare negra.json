@@ -1,0 +1,143 @@
+{
+  "name":"Cavaleiro da Maré Negra",
+  "name_pronoun":"o Cavaleiro da Maré Negra",
+  "english_name":"Dark Tide Knight",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":3,
+  "hp_cr":5,
+  "atk_cr":3,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":3,
+  "xp":295,
+  "defense":15,
+  "bonuses_in_defense":[],
+  "hp":58,
+  "mana":0,
+
+  "movement_walking":9,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":17,
+  "vitality":12,
+  "agility":20,
+  "charisma":16,
+  "willpower":14,
+  "wisdom":11,
+  "intelligence":10,
+
+  "skills":["+7 Atletismo","+7 Furtividade"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Leal e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Montaria Ligada",
+      "description":[
+        "O cavaleiro está magicamente ligado a um animal que possua deslocamento de natação. Este animal foi treinado para servir como sua montaria.",
+        "Enquanto montado neste animal, o cavaleiro ganha os sentidos dele e a capacidade de respirar debaixo d'água. A montaria obedece aos comandos do cavaleiro. Se sua montaria morrer, o cavaleiro pode treinar um novo animal para servir como montaria, em um processo que leva um mês."
+	  ]
+    },
+	  {
+      "name":"Ataque Surpresa",
+      "description":["O cavaleiro causa 2d6 de dano adicional quando atinge um alvo surpreso, ou um alvo em que a jogada de ataque foi feita com Vantagem."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O cavaleiro faz dois ataques com a Espada Curta."]
+    },
+	  {
+      "name":"Espada Curta",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"d6+3 (Corte)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+	  {
+      "name":"Lança",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (6 metros)",
+      "roll":"+5",
+      "damage":"d12+3 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+	  {
+      "name":"Esquiva Sobrenatural",
+      "limit":"3 vezes por dia",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Reação",
+      "effect":["Quando um atacante, que o cavaleiro possa ver, o atinge com um ataque, o cavaleiro pode reduzir o dano sofrido pela metade."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os Cavaleiros da Maré Negra são os guerreiros de elite do culto da Onda Esmagadora. Utilizando o poder sombrio de Olhydra, eles ganham a habilidade de montar em criaturas marinhas que normalmente não seriam adequadas como montarias. Podendo até respirar debaixo d'água e compartilhar os sentidos de suas montarias.",
+    "Os cavaleiros preferem lutar dentro ou fora da água, já que não gostam de deixar suas montarias para trás, mas podem ser adversários ferozes a pé quando necessários.",
+    "Ao contrário da maioria dos outros cavaleiros, os Cavaleiros da Maré Negra desprezam armaduras pesadas, contando com a velocidade e ferocidade de seus ataques para levá-los à vitória."
+  ]
+}

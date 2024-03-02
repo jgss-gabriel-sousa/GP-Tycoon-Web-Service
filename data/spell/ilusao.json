@@ -1,0 +1,21 @@
+{
+    "name":"Ilusão",
+    "class":["Assassino","Bardo","Feiticeiro","Mago","Místico","Necromante"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"10 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Investigação",
+    "duration":"1 Minuto",
+    "concentration":false,
+    "description":[
+        "Você cria um som ou uma imagem de um objeto, dentro do alcance, que permanece pela duração. A ilusão também termina se você dissipa-a gastando uma ação.",
+        "Se você criar um som, seu volume pode variar entre um sussurro até um grito. Pode ser a sua voz, a voz de outrem, o rugido de um leão, batidas de tambor ou qualquer outro som que você quiser. O som permanece no mesmo volume durante toda duração, antes da magia acabar.",
+        "Se você criar uma imagem de um objeto, como uma cadeira, pegadas de lama ou um pequeno baú, ela não pode ter mais de 1 metro cúbico. A imagem não pode produzir som, luz, cheiro ou qualquer outro efeito sensorial. Interação física com a imagem revelará que ela é uma ilusão, já que as coisas podem atravessá-la.",
+        "Se uma criatura usar sua ação para examinar o som ou imagem, a criatura pode determinar que é uma ilusão com um Teste de Salvamento bem-sucedido. Se uma criatura discernir a ilusão pelo que ela é, a ilusão se torna fraca para a criatura."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

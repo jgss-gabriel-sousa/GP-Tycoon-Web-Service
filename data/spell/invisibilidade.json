@@ -1,0 +1,18 @@
+{
+    "name":"Invisibilidade",
+    "class":["Assassino","Bardo","Feiticeiro","Mago","Místico"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":true,
+    "description":[
+        "Uma criatura que você tocar, se torna invisível até a magia acabar. Qualquer coisa que o alvo esteja vestindo ou carregando fica invisível enquanto estiver de posse do alvo. A magia termina para o alvo caso ele ataque ou conjure uma magia."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

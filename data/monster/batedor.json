@@ -1,0 +1,128 @@
+{
+  "name":"Batedor",
+  "name_pronoun":"o Batedor",
+  "english_name":"Scout",
+
+  "source":["bestiario"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":1,
+  "hp_cr":0.5,
+  "atk_cr":1,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":1,
+  "xp":50,
+  "defense":13,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Acolchoada",
+      "value":1
+    }
+  ],
+  "hp":16,
+  "mana":0,
+
+  "movement_walking":8,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":11,
+  "vitality":12,
+  "agility":14,
+  "charisma":11,
+  "willpower":10,
+  "wisdom":13,
+  "intelligence":10,
+
+  "skills":["+6 Furtividade","+5 Percepção","+5 Sobrevivência"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Qualquer",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Audição e Visão Aguçadas",
+      "description":["O Batedor tem Vantagem em testes de Percepção relacionados a audição ou visão."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Batedor realiza dois ataques com o Arco Longo ou dois ataques com a Espada Curta"]
+    },
+    {
+      "name":"Arco Longo",
+      "limit":"",
+      "recharge":"",
+      "range":"25 Metros",
+      "roll":"+4",
+      "damage":"d8+2 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Espada Curta",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d6+2 (Corte)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os Batedores são caçadores e rastreadores habilidosos que oferecem seus serviços mediante pagamento. A maioria caça animais selvagens, mas alguns trabalham como caçadores de recompensas, servem como guias ou fornecem reconhecimento militar."
+  ]
+}

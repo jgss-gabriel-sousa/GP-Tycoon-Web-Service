@@ -1,0 +1,24 @@
+{
+    "name":"Raio de Fogo",
+    "class":["Atirador Mágico","Feiticeiro","Mago","Necromante"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"10 Metros",
+    "attack_roll":true,
+    "damage":[
+        ["Dano","d10 (Fogo)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você envia um raio incandescente em uma criatura ou objeto dentro do alcance. Um objeto inflamável atingido por essa magia inflama se não estiver sendo usado ou carregado."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","2d10 de Dano"],
+        ["11","3d10 de Dano"],
+        ["17","4d10 de Dano"]
+    ]
+}

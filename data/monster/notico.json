@@ -1,0 +1,143 @@
+{
+  "name":"Nótico",
+  "name_pronoun":"o Nótico",
+  "english_name":"Nothic",
+
+  "source":["bestiario","pota"],
+
+  "type":"Aberração",
+  "size":"Médio",
+  
+  "defense_cr":3,
+  "hp_cr":5,
+  "atk_cr":3,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":3,
+  "xp":295,
+  "defense":15,
+  "bonuses_in_defense":[],
+  "hp":45,
+  "mana":0,
+
+  "movement_walking":12,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":14,
+  "vitality":16,
+  "agility":20,
+  "charisma":8,
+  "willpower":16,
+  "wisdom":10,
+  "intelligence":13,
+
+  "skills":["+4 Arcanismo","+5 Furtividade","+4 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":36,
+
+  "languages":["Subcomum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Visão Aguçada",
+      "description":["O Nótico tem Vantagem em testes de Percepção relacionados à visão"]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "O Nótico realiza dois ataques com as Garras."
+      ]
+    },
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"+5",
+      "damage":"2d6+3 (Corte)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Olhar Pútrido",
+      "limit":"",
+      "recharge":"",
+      "range":"9 Metros",
+      "roll":"",
+      "damage":"3d6 (Necrótico)",
+      "save_throw":"13 de Resistência",
+      "time":"1 Ação",
+      "effect":[
+        "O Nótico afeta uma criatura que ele possa ver, dentro do alcance. O alvo deve ser bem sucedido no teste de salvamento ou sofrerá o dano."
+      ]
+    },
+    {
+      "name":"Intuição Estranha",
+      "limit":"",
+      "recharge":"",
+      "range":"9 Metros",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "O Nótico afeta uma criatura que ele possa ver, dentro do alcance. O alvo deve realizar um teste de Enganação contra um teste de Percepção do Nótico. Se o Nótico vencer, ele magicamente aprende um fato ou segredo sobre o alvo. O alvo vence automaticamente se for imune a ser Enfeitiçado"
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Um olho sinistro surge na escuridão, seu brilho insinua uma estranha inteligência e malevolência inquietante. A maior parte do tempo, um nótico se contenta em observar, medindo e avaliando as criaturas com que se depara. Quando levado a violência, ele usa seu olhar horripilante para apodrecer a carne dos ossos de seus inimigos.",
+    "Ao invés de adquirir a supremacia quase divina que eles almejavam, alguns magos que devotaram suas vidas a desenterrar segredos arcanos forão reduzidos a arrepiantes monstros atormentados por uma maldição sombria deixada para trás por Vecna, um poderoso lich que, em alguns mundos, transcendeu sua existência morta-viva para se tornar o deus dos segredos. Os nóticos não tem qualquer consciência do seu eu anterior, escondendo-se nas sombras e assombrando lugares ricos em conhecimento mágico, guiados por memórias e impulsos que eles não conseguem compreender.",
+    "Os nóticos possuem uma estranha intuição mágica que permite que eles extraiam conhecimento de outras criaturas. Isso garante a eles uma compreensão única dos segredos e conhecimentos proibidos, que eles partilham por um preço. Um nótico cobiça itens mágicos, aceitando gananciosamente tais presentes de criaturas que busquem seus conhecimentos. Espreitadores em Locais Mágicos.",
+    "Os nóticos são notáveis por se infiltrar em academias arcanas e outros locais ricos em aprendizado mágico. Eles são guiados por um conhecimento vago que existe um método de reverter a condição deles. Este não é um sentido claro de propósito, mas sim um impulso obsessivo no fundo de suas mentes. Alguns nóticos são espertos o suficiente para perceber que isso é meramente uma parte da estranha lição por sua tolice, uma falsa esperança para impeli-los a buscar mais e mais segredos arcanos."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "name":"Aarakocra",
+  "name_pronoun":"o Aarakocra",
+  "english_name":"Aarakocra",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":0.5,
+  "hp_cr":0.5,
+  "atk_cr":1,
+  "damage_cr":0.5,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.5,
+  "xp":28,
+  "defense":12,
+  "bonuses_in_defense":[],
+  "hp":15,
+  "mana":0,
+
+  "movement_walking":8,
+  "movement_hovering":0,
+  "movement_flying":20,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":10,
+  "vitality":10,
+  "agility":14,
+  "charisma":11,
+  "willpower":10,
+  "wisdom":12,
+  "intelligence":11,
+
+  "skills":["+5 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+
+  "alignment":"Neutro e Bom",
+
+  "loot":[],
+
+  "abilities": [
+    {
+      "name":"Ataque de Mergulho",
+      "description":["Se o aarakocra estiver voando e mergulhar pelo menos 8 metros em linha reta, em direção a um alvo e então atingi-lo com um ataque corpo-a-corpo armado, o ataque causa 1d6 de dano extra ao alvo."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Lança",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (6 metros)",
+      "roll":"+4",
+      "damage":"d6+2 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Dardo",
+      "limit":"10 vezes",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (6 metros)",
+      "roll":"+4",
+      "damage":"d4+2 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Sumonar Elemental do Ar",
+      "limit":"1 vez por dia",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"3 Turnos",
+      "effect":[
+        "Cinco Aarakocras em um raio de 6 metros uns dos outros podem chamar magicamente um Elemental de Ar. Cada um dos cinco deve passar 3 turnos inteiros realizando uma dança aérea, que precisa de Concentração (como se se concentrasse em uma magia).",
+        "Quando todos terminarem seu terceiro turno da dança, o elemental aparece em um espaço desocupado a até 12 m deles. É amigável com eles e obedece aos seus comandos falados. Permanece por 1 hora, ou até que todos os seus invocadores morram, ou até que qualquer um de seus invocadores o descarte como uma Ação Menor.",
+        "Quando o elemental retorna ao plano elemental do ar, qualquer Aarakocra em um raio de 1 metro pode retornar com ele."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "A serviço dos Duques do Vento de Aaqa, aarakocras patrulham os planos em busca de Templos de Mal Elemental. Eles espiam as criaturas elementais malignas, lutam contra essas criaturas e depois relatam aos Duques do Vento.",
+    "No Plano Material, aarakocras criam ninhos nos topos das mais altas montanhas, especialmente em picos próximos de portais para o Plano Elemental do Ar. De tais alturas, aarakocras vigiam em busca de sinais de incursões elementais, assim como por ameaças que aparecerem no seu plano natal.",
+    "Os aarakocras preferem viver suas vidas como o vento, aliviados e sempre em movimento, ainda que eles tenham que vigiar uma região por anos, se isso for necessário para protegê-la contra as incursões do Mal Elemental.",
+    "Os aarakocras não possuem conceito de fronteiras políticas, de propriedade privada ou do valor de gemas, ouro e outros metais preciosos, tudo isso significa pouco para os aarakocras. Aos olhos deles, uma criatura deve usar o que é necessário e então jogar o que restar ao vento, para que outros usem."
+  ]
+}

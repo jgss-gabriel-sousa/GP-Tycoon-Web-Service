@@ -1,0 +1,191 @@
+{
+  "name":"Gênio - Efreeti",
+  "name_pronoun":"o Gênio Efreeti",
+  "english_name":"Genie - Efreeti",
+
+  "source":["bestiario","pota"],
+
+  "type":"Elemental",
+  "size":"Grande",
+  
+  "defense_cr":10,
+  "hp_cr":14,
+  "atk_cr":9,
+  "damage_cr":8,
+  "resistances_and_immunities_cr":1,
+
+  "challenge_ratio":10,
+  "xp":5930,
+  "defense":17,
+  "bonuses_in_defense":[],
+  "hp":200,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":10,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":22,
+  "vitality":24,
+  "agility":12,
+  "charisma":18,
+  "willpower":15,
+  "wisdom":15,
+  "intelligence":16,
+
+  "skills":["+4 Furtividade","+2 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Fogo"],
+  "condition_immunities":[],
+
+  "dark_vision":24,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+
+  "alignment":"Leal e Mal",
+
+  "loot":[],
+
+  "abilities": [
+    {
+      "name":"Natureza Elemental",
+      "description":["Um Mephit não precisa comer, beber ou dormir."]
+    },
+    {
+      "name":"Morte Elemental",
+      "description":["Quando o efreeti morre, seu corpo se desintegra em uma explosão de fogo e fumaça, deixando para trás apenas o equipamento que o efreeti estava usando ou carregando."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"Carisma",
+  "innate_spellcasting":[
+    {
+      "spell":"Detectar Magia",
+      "limit":"A vontade"
+    },
+    {
+      "spell":"Aumentar ou Reduzir",
+      "limit":"3 vezes por dia"
+    },
+    {
+      "spell":"Compreender Idiomas",
+      "limit":"3 vezes por dia"
+    },
+    {
+      "spell":"Conjurar Elemental",
+      "limit":"1 vez por dia (Somente Elemental do Fogo)"
+    },
+    {
+      "spell":"Forma Gasosa",
+      "limit":"1 vez por dia"
+    },
+    {
+      "spell":"Invisibilidade",
+      "limit":"1 vez por dia"
+    },
+    {
+      "spell":"Muralha de Fogo",
+      "limit":"1 vez por dia"
+    },
+    {
+      "spell":"Viagem Planar",
+      "limit":"1 vez por dia"
+    }
+  ],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[
+        "O Efreeti realiza dois ataques de Arremessar Chamas e dois com sua Cimitarra."
+      ]
+    },
+    {
+      "name":"Arremessar Chamas",
+      "limit":"",
+      "recharge":"",
+      "range":"24 m",
+      "roll":"+7",
+      "damage":"5d6 (Fogo)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Cimitarra",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+10",
+      "damage":"2d6+6 (Corte) + 2d6 (Fogo)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Poderes de Gênio",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"",
+      "effect":[
+        "Os gênios possuem várias capacidades mágicas, incluindo magias. Alguns têm poderes ainda maiores que lhes permitem alterar sua aparência e a realidade em si.",
+        "&emsp;<b>Disfarces</b>: Alguns gênios conseguem se disfarçar usando ilusões para se parecerem com outras criaturas. Esses gênios podem naturalmente conjurar a magia \"<b>Disfarçar</b>\" quando quiserem, geralmente com uma duração mais longa do que o normal. Gênios mais poderosos podem usar a magia \"<b>Metamorfose Verdadeira</b>\" de uma a três vezes por dia, possivelmente com uma duração maior do que o normal. Alguns raros gênios podem aplicar essa magia a outras criaturas e objetos também.",
+        "&emsp;<b>Desejos</b>: O poder dos gênios em conceder desejos é famoso entre os mortais. Apenas os gênios mais poderosos, como aqueles da nobreza, podem fazê-lo. Um gênio com esse poder pode realizar de um a três desejos para uma criatura que não seja um gênio. Depois de atingir esse limite de desejos, o gênio não poderá conceder mais desejos por um período de tempo (normalmente 1 ano). As leis cósmicas ditam que um mesmo gênio só pode realizar seu limite de desejos para uma criatura específica uma vez em toda a existência dessa criatura.",
+        "Para ter um desejo atendido, uma criatura deve estar a uma distância de até 18 metros do gênio e expressar o efeito desejado. O gênio então pode lançar a magia \"<b>Desejo</b>\" em nome da criatura para realizar o efeito desejado. Dependendo da natureza do gênio, ele pode tentar distorcer a intenção do desejo explorando como ele é formulado. Essa distorção muitas vezes beneficia o próprio gênio"
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "<h3>Gênios</h3>",
+    "Gênios são criaturas raras oriundas de histórias e lendas. Alguns são encontrados no Plano Material, mas a maioria reside nos Planos Elementais, governando palácios luxuosos e sendo servidos por devotos seguidores.",
+    "Estas criaturas são igualmente brilhantes e poderosas, assim como orgulhosas e majestosas. Sua arrogância e decadência vêm acompanhadas de um profundo senso de direito, baseado na noção de que apenas poucas entidades, além dos próprios deuses e outros gênios, podem se igualar ao seu poder.",
+    "A existência de um gênio começa com a fusão da alma de uma criatura racional com a matéria primordial de um plano elemental. A manifestação de um gênio é rara, ocorrendo somente sob circunstâncias excepcionais, quando uma alma impregnada por um elemento específico ganha forma. Geralmente, a conexão com a alma original é limitada, pois os gênios são moldados mais pela força vital que dá forma a sua aparência e gênero, e define alguns traços de personalidade. Embora sua aparência seja similar à de humanoides, os gênios são, na verdade, espíritos elementais com uma forma física. Sua prole não é gerada por acasalamento entre gênios, mas nasce de uma misteriosa fusão de energia espiritual e poder elemental. Embora raramente, alguns gênios podem ter descendentes com mortais.",
+    "Para os gênios, escravos mortais validam sua posição de poder. Enquanto muitos gênios valorizam esses servos, alguns gênios malévolos os abusam, mas sem levá-los à inutilidade. Apesar de sua aversão em serem subjugados, os gênios cedem apenas sob suborno ou compulsão mágica. Alguns possuem a capacidade de conceder desejos, atraindo a atenção de magos mortais.",
+    "Os raros gênios nobres utilizam a concessão de desejos para alcançar seus objetivos. Devido à indulgência constante, tornaram-se decadentes, detendo um imenso poder sobre a realidade, o que alimenta seu orgulho e arrogância. São respeitados pelos outros gênios, que reconhecem sua influência.",
+    "Embora reconheçam os deuses como entidades poderosas, os gênios não os adoram. Eles consideram cansativas as bajulações e adorações incessantes por parte de devotos religiosos, exceto quando essas demonstrações devoção provêm de seus próprios escravos.",
+    "Impulsionados por seus poderes miraculosos, moradias grandiosas e número substancial de seguidores, alguns gênios chegam a crer que são tão poderosos quanto deuses. Alguns chegam ao extremo de exigir que mortais de outros reinos (até mesmo continentes ou mundos inteiros) se curvem diante deles.",
+    
+    "<h3>Efreet</h3>",
+    "Os efreet são gênios brutais do Plano Elemental do Fogo, mestres das chamas, imunes ao fogo e capazes de criá-lo facilmente. Usam roupas de seda fina e robes de damasco, cobrindo sua pele vermelha como magma ou negra como carvão. Adornam-se com braceletes, correntes e anéis de cobre ou ouro, todos enfeitados com joias. Quando voam, a parte inferior do corpo se transforma em uma coluna de fumaça e cinzas.",
+    "São arrogantes, astutos e cruéis ao extremo. Detestam ser forçados a servir e buscam vingança impiedosamente contra criaturas que os tenham injustiçado. Mesmo que admitam um forte interesse próprio, não enxergam a si mesmos dessa forma, considerando sua raça justa e ordenada.",
+    "Veem todas as outras criaturas como inimigas ou potenciais servos. Invadem o Plano Material e os planos elementais em busca de escravos, que capturam e levam de volta para seu lar no Plano Elemental do Fogo. Lá, governam como tiranos opressores, promovendo apenas a crueldade entre os escravos. Seus capatazes usam chicotes para controlar os escravos.",
+    "A maioria reside no Plano Elemental do Fogo, em fortalezas de vidro negro e basalto, cercadas por lagos agitados de fogo, ou na Cidade de Bronze. Estabelecem postos militares com seus seguidores e escravos espalhados pelos planos. No Plano Material, habitam regiões escaldantes como vulcões e desertos ardentes, o que os coloca em conflito com djinn e dao. Têm um profundo desprezo pelos marids, com os quais mantêm um histórico conflito."
+  ]
+}

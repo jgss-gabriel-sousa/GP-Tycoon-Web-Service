@@ -1,0 +1,20 @@
+{
+    "name":"Escudo de Fogo",
+    "class":["Mago","Místico","Sábio"],
+    "magic_circle":5,
+    "cast_time":"1 Ação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[
+        ["Dano Colateral","2d8 (Fogo)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"10 Minutos",
+    "concentration":false,
+    "description":[
+        "Finas e discretas chamas rodeiam seu corpo pela duração, lhe garantindo Resistência a dano de Gelo. Além disso, sempre que uma criatura atingir você com um ataque corpo-a-corpo, o escudo expele chamas e o atacante sofre o Dano Colateral."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

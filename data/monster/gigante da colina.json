@@ -1,0 +1,139 @@
+{
+  "name":"Gigante da Colina",
+  "name_pronoun":"o Gigante da Colina",
+  "english_name":"Hill Giant",
+
+  "source":["bestiario","pota"],
+
+  "type":"Gigante",
+  "size":"Enorme",
+  
+  "defense_cr":2,
+  "hp_cr":9,
+  "atk_cr":10,
+  "damage_cr":3,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":6,
+  "xp":1120,
+  "defense":14,
+  "bonuses_in_defense":[],
+  "hp":105,
+  "mana":0,
+
+  "movement_walking":4,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":25,
+  "vitality":19,
+  "agility":8,
+  "charisma":7,
+  "willpower":14,
+  "wisdom":10,
+  "intelligence":6,
+
+  "skills":["+2 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Gigante"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Gigante da Montanha realiza dois ataques com a Clava Grande."]
+    },
+    {
+      "name":"Clava Grande",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+10",
+      "damage":"3d8+7 (Impacto)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Arremesso de Pedras",
+      "limit":"",
+      "recharge":"",
+      "range":"24 m",
+      "roll":"+10",
+      "damage":"2d12+7 (Impacto)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "<h3>Gigantes</h3>",
+    "Impérios antigos certa vez produziram uma enorme sombra sobre o mundo que tremeu sob os pés dos gigantes. Naqueles dias perdidos, essas figuras muito altas eram matadores de dragões, sonhadores, construtores e reis, mas sua espécie perdeu a glória tempos atrás. No entanto, mesmo divididos em clãs isolados espalhados pelo mundo, os gigantes mantém os costumes e tradições antigos.",
+    "Em regiões remotas do mundo, os últimos resquícios de plintos, monólitos e estátuas dos grandes impérios gigantes abaixam suas cabeças na desolação obscura. Onde, certa vez, esses impérios se expandiram por todas as terras, agora os gigantes habitam em tribos e clãs isolados.",
+    "Os gigantes são quase tão antigos quanto os dragões, que ainda eram jovens quando os pesados pés dos gigantes abalaram as fundações do mundo pela primeira vez. Conforme se espalhavam pelas novas terras, gigantes e dragões lutaram amargas guerras geracionais que quase levaram ambos os lados ao fim. Nenhum gigante vivo se lembra o que deu início a esse conflito, mas mitos e contos da gloriosa aurora da raça ainda são cantados em suas casas e castelos vilipendiando os anciões primitivos.",
+    "Os gigantes e os dragões continuam a guardar ressentimentos mútuos, e é raro que se encontrem ou ocupem o mesmo espaço sem uma luta.",
+    "<h3>O Ordenamento</h3>",
+    "Cada uma das raças de gigante primárias, o da colina, da tempestade, das nuvens, de pedra, do fogo e do gelo, estão relacionados por elementos em comum da história, religião e cultura. Eles veem uns aos outros como parentes, mantendo qualquer animosidade inerente ao território e ambição no mínimo.",
+    "Os gigantes pertencem a uma casta estruturada chamada o ordenamento. Baseado em classes sociais e extremamente organizado, o ordenamento atribui uma posição social a cada gigante. Ao compreender seu lugar no ordenamento, um gigante sabe quais outros gigantes são inferiores ou superiores a ele, já que dois gigantes nunca são iguais. Cada uma das raças de gigante analisa uma combinação diferente de perícias ou qualidades para determinar o ordenamento. Os gigantes fazem da excelência dessas qualidades o propósito de suas vidas.",
+    "Nos níveis mais altos do ordenamento, as raças dos gigantes também são ordenadas de acordo com o prestígio. Os gigantes da tempestade são os mais elevados no ordenamento, seguidos pelos gigantes das nuvens, gigantes do fogo, gigantes do gelo, gigantes de pedra, gigantes da colina e, finalmente, os de parentesco gigante como os fomoris, ettins e ogros.",
+    "Independentemente da classificação de um gigante entre sua própria rapa, o chefe de uma tribo de gigantes da colina é inferior ao mais reles dos gigantes de pedra. O gigante de posição mais baixa de qualquer tipo é superior ao de posição mais alta de um tipo inferior. Não é considerado ruim desrespeitar ou mesmo trair um gigante de outro tipo, mas meramente rude.",
+    "<h3>Gigante da Colina</h3>",
+    "Os gigantes da colina são brutamontes egoístas e estúpidos que caçam, forrageiam e assaltam em constante busca por comida. Eles debandam através das colinas e florestas devorando tudo que podem, tiranizando criaturas menores para alimentá-los. A preguiça e estupidez deles poderia ter a muito levado ao fim deles, se não fosse por seus tamanhos e forças formidáveis.",
+    "Os gigantes da colina vivem em colinas e vales montanhosos pelo mundo, congregando em casas feitas de madeira rústica ou em aglomerados de cabanas bem protegidas de barro e vime. Suas peles são bronzeadas devido a suas vidas gastas lenhando, subindo e descendo as encostas montanhosas e cochilando sob o sol. Suas armas são árvores arrancadas e rochas retiradas da terra. O suor de seus corpos contribui para o mal cheiro das pelagens de animais rudes que eles vestem, parcamente costuradas com cabelo e fios de couro.",
+    "No mundo dos gigantes da colina, humanoides e animais são presas fáceis que podem ser caçadas impunimente. Criaturas como dragões e outros gigantes são adversários resistentes. Os gigantes da colina igualam o tamanho com poder.",
+    "Os gigantes da colina não percebem que seguem um ordenamento. Eles sabem apenas que outros gigantes são maiores e mais fortes que eles, o que significa que eles devem obedece-los. Um chefe de tribo de gigantes da colina é geralmente o gigante mais alto e gordo que ainda seja capaz de se mover. Apenas em raras ocasiões que um gigante da colina com mais cérebro que músculos usará sua esperteza para adquirir o favorecimento de gigantes de posição mais elevada, astutamente subvertendo a ordem social.",
+    "Não tendo mais nada com que se ocupar, os gigantes da colina comem quase sempre que podem. Um gigante da colina caça e forrageia sozinho ou na companhia de um lobo atroz, assim não tendo que compartilhar nada com outros membros da tribo. O gigante come qualquer coisa que não seja obviamente letal, como criaturas conhecidas por serem venenosas. Carne podre é uma ótima pedida, da mesma forma, plantas em decomposição e até lama.",
+    "Os agricultores temem e detestam os gigantes da colina. Enquanto que um predador como um ankheg irá escavar pelos campos e comer uma ou duas vacas antes de ir embora, um gigante da colina irá comer um rebanho inteiro de gado antes de partir para as ovelhas, cabras e galinhas, então partindo para as frutas, vegetais e grãos. Se uma família de agricultores estiver ao alcance, o gigante pode lancha-los também.",
+    "A habilidade dos gigantes da colina de digerir praticamente tudo tem permitido que eles sobrevivam por eras como selvagens, comendo e se reproduzindo nas colinas como animais. Eles nunca precisaram se adaptar e mudar, por isso suas mentes e emoções permanecem simplórias e subdesenvolvidas.",
+    "Sem cultura própria, os gigantes da colina copiam as tradições de criaturas que eles consigam observar por um tempo antes de comê-los. Eles não pensam no seu próprio tamanho e força, no entanto. Tribos de gigantes da colina tentando imitar elfos já chegaram a derrubar florestas inteiras tentando viver nas árvores. Outros tentando tomar cidades ou vilas humanoides foram apenas até as portas e janelas das construções, arrancando as paredes e tetos ao tentar entrar.",
+    "Durante uma conversa, os gigantes da colina são broncos e diretos, e eles tem pouca noção de enganação. Um gigante da colina pode ser enganado a fugir de outro gigante se uma quantidade de camponeses se cobrirem com mantas e ficarem uns sobre os ombros dos outros segurando uma abóbora gigante pintada como cabeça. Usar a razão com um gigante da colina é inútil, apesar de criaturas espertas poderem, às vezes, encorajar um gigante a realizar ações que as beneficiem.",
+    "Um gigante da colina que sinta que está sendo enganado, insultado ou feito de tolo liberará sua fúria terrível em qualquer coisa que encontrar. Mesmo depois de ter esmagado aqueles que o ofenderam até virarem papa, o gigante atacará até sua fúria cessar, ele encontrar algo mais interessante ou sua fome aumentar.",
+    "Se um gigante da colina se proclamar rei de um território onde outros humanoides vivem, ele governará estritamente através de terror e tirania. Suas decisões mudam com seu humor e, caso ele se esqueça do título ao qual se nomeou, ele poderá devorar seus súditos por capricho."
+  ]
+}

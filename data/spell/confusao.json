@@ -1,0 +1,20 @@
+{
+    "name":"Confusão",
+    "class":["Bardo","Druida","Feiticeiro","Mago"],
+    "magic_circle":5,
+    "cast_time":"1 Ação",
+    "range":"20 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Concentração",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Essa magia embaralha as mentes das criaturas, gerando delírios e provocando ações descontroladas. Cada criatura em uma esfera com 3 metros de raio, centrada num ponto, a sua escolha, dentro do alcance, deve ser bem-sucedida no teste de salvamento. Um alvo afetado não pode realizar reações e deve rolar um D10 no início de cada um dos seus turnos, para determinar seu comportamento.",
+        "<table> <tr> <th>D10</th> <th>Comportamento</th> </tr> <tr> <td>1</td> <td>A criatura usa seu deslocamento para se mover em uma direção aleatória. Para determinar a direção, role um D8 e atribua uma direção a cada face do dado. A criatura não realiza nenhuma ação nesse turno.</td> </tr> <tr> <td>2-6</td> <td>A criatura não se move ou realiza ações nesse turno.</td> </tr> <tr> <td>7-9</td> <td>A criatura usa sua ação para realizar um ataque corpo-a-corpo contra uma criatura, determinada aleatoriamente, ao seu alcance. Se não houver criaturas dentro do alcance, a criatura não faz nada nesse turno.</td> </tr> <tr> <td>10</td> <td>A criatura pode agir e se mover normalmente.</td> </tr> </table>",
+        "Ao final de cada um dos seus turnos, um alvo afetado pode realizar novamente o teste de salvamento. Se for bem-sucedido, o efeito acaba."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

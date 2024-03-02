@@ -1,0 +1,115 @@
+{
+  "name":"Ankheg",
+  "name_pronoun":"o Ankheg",
+  "english_name":"Ankheg",
+
+  "source":["bestiario","pota"],
+
+  "type":"Monstruosidade",
+  "size":"Grande",
+  
+  "defense_cr":2,
+  "hp_cr":5,
+  "atk_cr":8,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":3,
+  "xp":415,
+  "defense":14,
+  "bonuses_in_defense":[
+    {
+      "name":"Carapaça",
+      "value":3
+    }
+  ],
+  "hp":50,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":3,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":17,
+  "vitality":13,
+  "agility":11,
+  "charisma":6,
+  "willpower":14,
+  "wisdom":13,
+  "intelligence":1,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":12,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities": [],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"2d6+3 (Corte) + d6 (Ácido)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":["Se o alvo for uma criatura Grande ou menor, ela será Agarrada. Com uma criatura agarrada o Ankheg pode morder apenas a criatura agarrada e tem Vantagem nas jogadas de ataque contra essa criatura."]
+    },
+    {
+      "name":"Jato de Ácido",
+      "limit":"",
+      "recharge":"6",
+      "range":"Disparo de 10 metros",
+      "roll":"",
+      "damage":"3d6 (Ácido)",
+      "save_throw":"13 de Reflexos",
+      "time":"Ação de Ataque",
+      "effect":["A criatura alvo e as demais no alcance, devem realizar o Teste de Salvamento, sofrendo o dano se falhar no teste, ou metade desse dano se obtiver sucesso."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Um Ankheg lembra um enorme inseto cheio de pernas, suas longas antenas convulsionam em resposta a qualquer movimento a sua volta. Suas pernas terminam em ganchos afiados adaptados para esburacar e destroçar suas presas e suas poderosas mandíbulas podem cortar uma árvore pequena ao meio.",
+    "Os ankhegs usam suas poderosas mandíbulas para cavar sinuosos túneis nas profundezas do solo. Quando ele caça, um ankheg se enterra, esperando embaixo da superfície até que suas antenas detectem movimento acima. Então, ele emerge da terra e agarra sua presa com suas mandíbulas, esmagando e dilacerando ao mesmo tempo que secreta enzimas ácidas digestivas. Essas enzimas ajudam a dissolver a vítima para facilitar o engolimento, mas o ankheg também pode cuspir ácido para derrubar inimigos.",
+    "Apesar dos ankhegs receberem uma certa porção dos seus nutrientes do solo que eles escavam, eles devem suplementar sua dieta com carne fresca. Pastagens cheias de gado e florestas com numerosos presas são os campos de caça preferidos do ankheg. Por isso, os ankhegs são o tormento de fazendeiros e patrulheiros em todos os cantos.",
+    "À medida que ele se escava a terra, o ankheg deixa um túnel estreito e parcialmente desmoronado no caminho. Nesses túneis, pode-se encontrar os restos de quitina das patas do ankheg, ovos eclodidos ou restos mortais de suas vítimas, incluindo moedas ou outros tesouros espalhados durante o ataque da criatura."
+  ]
+}

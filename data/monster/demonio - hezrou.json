@@ -1,0 +1,166 @@
+{
+  "name":"Demônio - Hezrou",
+  "name_pronoun":"o Hezrou",
+  "english_name":"Hezrou",
+
+  "source":["bestiario","pota"],
+
+  "type":"Corruptor",
+  "size":"Grande",
+  
+  "defense_cr":28,
+  "hp_cr":10,
+  "atk_cr":14,
+  "damage_cr":4,
+  "resistances_and_immunities_cr":2.75,
+
+  "challenge_ratio":13,
+  "xp":12090,
+  "defense":19,
+  "bonuses_in_defense":[],
+  "hp":138,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":21,
+  "vitality":29,
+  "agility":10,
+  "charisma":18,
+  "willpower":19,
+  "wisdom":14,
+  "intelligence":14,
+
+  "skills":[
+    "+8 Percepção"
+  ],
+
+  "vulnerability":[],
+  "resistances":["Elétrico","Fogo","Gelo","Físico de armas não mágicas"],
+  "immunities":["Veneno"],
+  "condition_immunities":[],
+
+  "dark_vision":24,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Abissal"],
+  "telepathy":true,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Fedor",
+      "description":["Sempre que entra em combate o Hezrou exala um cheiro terrível. Qualquer criatura que comece seu turno a até 3 metros do Hezrou deve ser bem sucedida num teste de Resistência com dificuldade 24 ou ficará Envenenada até o início do próximo turno dela. Se obtiver sucesso no teste, a criatura fica imune ao fedor do Hezrou por 24 horas."]
+    },
+    {
+      "name":"Resistência à Magia",
+      "description":["O Hezrou possui Vantagem nos testes de salvamento contra magias e outros efeitos mágicos."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[
+        "O Hezrou realiza três ataques: um com sua Mordida e dois com suas Garras.",
+        "(Agarrão Aprimorado) Quando o Hezrou acertar ambos os ataques de Garra, ele pode então tentar agarrar um alvo, como uma Ação Livre, sem provocar Ataque de Oportunidade."
+      ]
+    },
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+14",
+      "damage":"4d4+5 (Perfurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Garra",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+9",
+      "damage":"d8+2 (Corte)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Invocar Demônio",
+      "limit":"1 vez por dia",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"",
+      "effect":[
+        "O Hezrou pode invocar 2d6 Dretches ou outro Hezrou com 30% de chance. Um demônio invocado aparece em um espaço desocupado a até 12 metros de seu invocador, age ao final do turno de seu invocador e não pode invocar outros demônios. Ele permanece por 1 minuto, até que ele ou seu invocador morra, ou até que seu invocador o dispense com uma ação menor."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "<h3>Demônios</h3>",
+    "Gerados nas Camadas Infinitas do Abismo, os demônios são a encarnação do caos e mal – maquinas de destruição apenas contidas em formas monstruosas. Não possuindo qualquer compaixão, empatia ou misericórdia, eles existem apenas para destruir.",
+    "O Abismo cria demônios como extensões de si mesmo, formando corruptores espontaneamente a partir de imundície e carnificina. Alguns são monstruosidades únicas, enquanto outros representam deformações uniformes praticamente idênticas entre si. Outros demônios (como os manes) são criados a partir de almas mortais afugentadas ou amaldiçoadas pelos deuses ou que, de alguma outra forma, foram aprisionadas no Abismo.",
+    "Demônios respeitam o poder, e apenas o poder. Um demônio maior comanda turbas barulhentas de demônios menores porquê ele pode destruir qualquer demônio menor que ouse recusar seus comandos. A posição de um demônio aumenta com o sangue que ele derrama; quanto mais inimigos caírem perante ele, mais alta ela se torna.",
+    "Um demônio pode ser gerado como um manes, então se tornar um dretch e, eventualmente, se transformar em um vrock após um tempo incontável gasto lutando e sobrevivendo no Abismo. Tais elevações são raras, no entanto, a maioria dos demônios é destruída antes de adquirirem poder significativo. Os maiores dentre esses que sobrevivem compõem as fileiras dos lordes demônios que ameaçam partir o Abismo em pedaços com suas guerras intermináveis.",
+    "Ao gastar poder mágico considerável, lordes demônios podem elevar demônios menores a formas maiores, embora tais promoções nunca resultem dos feitos ou realizações de um demônio. Ao invés, um lorde demônio pode perverter um manes em um quasit quando ele necessita de um espião invisível ou tornar um exército de dretches em hezrous quando estiverem marchando contra um lorde rival. Lordes demônios raramente elevam demônios às maiores categorias, temerosos de, inadvertidamente, criarem rivais ao seu próprio poder.",
+    "Onde quer que perambulem pelo Abismo, os demônios buscam portais para outros planos. Eles almejam a chance de escaparem dos seus reinos nativos e espalharem sua influência sombria pelo multiverso, desfazendo os trabalhos dos deuses, derrubando civilizações e reduzindo o cosmos a desespero e ruínas.",
+    "Algumas das lendas mais obscuras do reino mortal são feitas em volta da destruição causada por demônios que se desgarraram pelo mundo. Quando acontece, até mesmo nações engajadas em conflitos amargos colocarão suas diferenças de lado para ajudar a conter uma erupção de demônios ou para selar as brechas abissais antes que mais demônios escapem.",
+    "Demônios carregam a mácula da corrupção com eles e sua mera presença muda o mundo para pior. As plantas murcham e morrem em áreas onde brechas abissais e demônios surgem. Animais afastam-se dos locais onde um demônio tenha realizado um assassinato. O local de uma infestação demoníaca pode ser poluído com um fedor que nunca se extingue, por áreas de frio intenso ou calor escaldante ou por sombras permanentes que marcam os locais onde os corruptores se mantiveram.",
+    "Fora do Abismo, a morte é o menor dos estorvos que nenhum demônio teme. Armas mundanas não podem parar esses corruptores e muitos demônios são resistentes a energia das mais potentes magias. Quando um herói sortudo consegue derrubar um demônio em combate, o corruptor dissolve em uma poça de pus. Ele, então, instantaneamente se reforma no Abismo, com sua mente e essência intactos mesmo que seu ódio esteja inflamado. A única forma de destruir verdadeiramente um demônio é busca-lo no Abismo e mata-lo lá.",
+    "Um demônio poderoso pode seguir passos para salvaguardar sua essência vital, usando métodos secretos e metais abissais para criar um amuleto onde parte da essência é armazenada. Se a forma abissal do demônio for destruída, o amuleto permite que o corruptor se reforme no tempo e local escolhido por ele.",
+    "Conseguir um amuleto demoníaco é uma empreendimento perigoso e, apenas buscar tal dispositivo arrisca chamar a atenção do demônio que o criou. Uma criatura possuindo um amuleto demoníaco pode exigir favores do demônio o qual a essência vital está contida no amuleto – ou infligir dores terríveis se o corruptor resistir. Se um amuleto for destruído, o demônio que o criou é aprisionado no Abismo por um ano e um dia.",
+    "Independentemente dos riscos sombrios envolvidos em negociar com corruptores, o reino mortal é cheio de criaturas que cobiçam os poderes demoníacos. Lordes demônios manipulam esses servos mortais a realizarem atos de depravação cada vez maiores, aprofundando as ambições dos lordes demônios em troca de magia e outras vantagens. No entanto, um demônio considera quaisquer mortais a seu serviço como ferramentas para se usar e depois descartas a seus caprichos, consignando suas almas mortais ao Abismo.",
+    "Poucos atos são mais perigosos que invocar um demônio e, até mesmo arcanos que barganham espontaneamente com diabos temem os corruptores do Abismo. Apesar dos demônios desejarem semear o caos no Plano Material, eles não mostram qualquer gratidão quando trazidos a ele, vociferando contra suas prisões e exigindo a libertação.",
+    "Aqueles que se arriscam em invocar um demônio o fazem para tirar informações dele, obriga-lo a servir ou envia-lo em uma missão que apenas uma criatura de absoluta maldade poderia completar. Preparação é a chave e, invocadores experientes sabem as magias especificas e itens mágicos que podem forçar um demônio a se curvar a vontade de outrem. Se um único erro for cometido, um demônio que se liberte não mostrará misericórdia enquanto faz do seu invocador a primeira vítima de sua ira.",
+    "O Livro da Escuridão Perversa, os Pergaminhos Negros de Ahm e o Demonomicon de Iggwilv são as maiores autoridades sobre assuntos demoníacos. Esses tomos antigos descrevem técnicas que podem aprisionar a essência de um demônio no Plano Material, colocando-a dentro de uma arma, ídolo ou peça de joalheria e prevenindo que o corruptor retorne para o Abismo.",
+    "Um objeto que prende um demônio deve ser especialmente preparado com encantamentos profanos e sangue inocente. Ele irradia uma maldade palpável, resfriando e corrompendo o ar a seu redor. Uma criatura que porte tal objeto experimenta sonhos inquietantes e impulsos perversos, mas é capaz de controlar o demônio cuja essência está aprisionada dentro do objeto. Destruir o objeto liberta o demônio, que imediatamente buscará vingança contra seu aprisionador.",
+    "Não importa o quão seguro é o elo, um demônio poderoso frequentemente encontra uma forma de escapar do objeto que o aprisiona. Quando uma essência demoníaca emerge do seu receptáculo, ela pode possuir um hospedeiro mortal. Às vezes, um corruptor emprega de furtividade para esconder uma possessão bem sucedida. Outras vezes, ele libera toda a fúria demoníaca que o governa através de sua nova forma.",
+    "Enquanto o demônio permanecer possuindo seu hospedeiro, a alma do hospedeiro correra risco de ser dragada para o Abismo com o demônio se ela for exorcizada da carne ou se o hospedeiro morrer. Se um demônio possuir uma criatura e o objeto que aprisiona o demônio for destruído, a possessão irá durar até que magia poderosa seja usada para conduzir o espírito demoníaco para fora do hospedeiro.",
+    "<h3>Hezrous</h3>",
+    "Hezrous são seres obedientes e simples, mas perigosamente poderosos, estando entre os monstros mais dominantes do Abismo. A principal motivação de um Hezrou é comida, seguida pelo desejo de destruição desenfreada. Eles servem e estão dispostos a se sacrificarem por demônios mais poderosos ou até mesmo por invocadores que apoiam seu comportamento.",
+    "A pele de anfíbio de um Hezrou exala um gás tóxico quando estão agitados, seu fedor terrível pode nausear até o mais vigoroso dos oponentes. \"Acredite em mim quando digo que o cheiro de entranhas apodrecendo, parece um campo de flores na primavera quando comparado com o mal cheiro de um Hezrou. Uma vez que você cheira o fedor deles, você nunca o esquece – não importa o quanto você queira.\" — Volo"
+  ]
+}

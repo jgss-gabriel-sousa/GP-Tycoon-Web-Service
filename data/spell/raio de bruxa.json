@@ -1,0 +1,26 @@
+{
+    "name":"Raio de Bruxa",
+    "class":["Místico","Necromante"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"24 Metros",
+    "attack_roll":true,
+    "damage":[
+        ["Dano","d12 (Elétrico e Necrótico)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Um raio crepitante de energia azul é arremessado em uma criatura dentro do alcance, formando um arco elétrico contínuo entre você e o alvo.",
+        "Faça um ataque de magia contra a criatura, se atingir, o alvo sofrerá o dano e em cada um dos seus turnos, pela duração, você pode usar sua ação para causar o dano novamente, automaticamente.",
+        "A magia acaba se você conjurar uma nova magia, ou se a concentração for quebrada. Também acaba se o alvo estiver fora do alcance da magia ou se você tiver cobertura total para ele."
+    ],
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
+        ["6","2d12 de Dano"],
+        ["10","3d12 de Dano"],
+        ["15","4d12 de Dano"]
+    ]
+}

@@ -1,0 +1,146 @@
+{
+  "name":"Chuul",
+  "name_pronoun":"o Chuul",
+  "english_name":"Chuul",
+
+  "source":["bestiario","pota"],
+
+  "type":"Aberração",
+  "size":"Grande",
+  
+  "defense_cr":6,
+  "hp_cr":8,
+  "atk_cr":5,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0.5,
+
+  "challenge_ratio":5,
+  "xp":910,
+  "defense":16,
+  "bonuses_in_defense":[
+    {
+      "name":"Carapaça",
+      "value":3
+    }
+  ],
+  "hp":93,
+  "mana":0,
+
+  "movement_walking":3,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":6,
+
+  "strength":22,
+  "vitality":16,
+  "agility":10,
+  "charisma":5,
+  "willpower":10,
+  "wisdom":11,
+  "intelligence":5,
+
+  "skills":["+4 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Veneno"],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Subcomum"],
+  "telepathy":false,
+  "only_understands":true,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Anfíbio",
+      "description":["O Chuul pode respirar ar e água."]
+    },
+    {
+      "name":"Sentir Magia",
+      "description":["O Chuul sente a presença de magia a até 36 dele. Essa habilidade funciona como a magia \"Detectar Magia\", mas não é um efeito mágico e está sempre ativo por si próprio."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[
+        "Se o Chuul não estiver agarrando uma criatura, ele realiza dois ataques com as Pinças."
+      ]
+    },
+    {
+      "name":"Pinças",
+      "limit":"",
+      "recharge":"",
+      "range":"2 Metros",
+      "roll":"+6",
+      "damage":"2d6+6 (Perfurante)",
+      "save_throw":"14 de Atletismo",
+      "time":"1 Ação",
+      "effect":[
+        "Um alvo atingido, que seja de tamanho Grande ou menor, deve fazer o Teste de Salvamento, se falhar, ficará Agarrado.",
+        "Uma criatura agarrada pode tentar outro salvamento com uma ação no seu turno.",
+        "O Chuul consegue manter um máximo de 2 criaturas agarradas ao mesmo tempo."
+      ]
+    },
+    {
+      "name":"Tentáculos",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"",
+      "damage":"",
+      "save_throw":"13 de Resistência",
+      "time":"Ação de Ataque",
+      "effect":[
+        "Uma criatura agarrada pelo chuul deve ser bem sucedida no teste de salvamento ou ficará Envenenada por 1 minuto.",
+        "Até esse veneno acabar, o alvo fica Paralisado. O alvo pode repetir o salvamento ao final de cada um dos seus turnos, terminando o efeito em si caso obtenha sucesso."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Sobreviventes do antigo império abolete, chuuls são crustáceos que os aboletes modificaram e dotaram com senciência. Eles seguem as diretivas arraigadas dos seus criadores, como eles tem feito desde a aurora dos tempos.",
+    "Nas eras primitivas, aboletes governavam um vasto império espalhado pelos oceanos do mundo. Nesses dias, os aboletes usaram magia poderosa e dobraram as mentes das criaturas nascentes do reino mortal. No entanto, eles estavam presos a água e não podiam exercer sua vontade além dela sem servos. Por esse motivo, eles criaram os chuul.",
+    "Perfeitamente obedientes, os chuul capturam criaturas racionais e magias ao comando dos aboletes. Os chuul foram feitos para durar pelas eras do mundo, aumentando de tamanho e força à medida que o tempo passa. Quando o império abolete ruiu com a ascensão dos deuses, os chuuls ficaram à deriva. No entanto, essas criaturas continua a fazer o que faziam para os aboletes, lentamente capturando humanoides, coletando tesouros, acumulando magias e consolidando poder.",
+    "Um chuul continua guardando as ruínas do antigo império abolete. Eles se mantem em silêncio cumprindo os comandos de eras passadas. Rumores e mapas antigos às vezes trazem caçadores de tesouro para essas ruínas, mas a recompensa por sua ousadia é a morte.",
+    "Sejam quais forem as riquezas trazidas pelos exploradores consigo, contribui para o tesouro guardado pelos chuuls. Os chuuls podem sentir magia à distância. Esse sentido se junta com o impulso inato que os leva a matar exploradores, tomar seus pertences e enterra-los em locais secretos ordenados pelos aboletes eras atrás.",
+    "Apesar do império abolete ancestral ter sucumbido há muitas eras, os elos psíquicos entre eles e seus servos criados permanecem intactos. Os chuuls que entram em contato com aboletes imediatamente assumem seus antigos papeis. Tais chuuls direcionam sua compulsão por servir aos sinistros propósitos do abolete."
+  ]
+}

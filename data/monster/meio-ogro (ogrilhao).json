@@ -1,0 +1,114 @@
+{
+  "name":"Meio-Ogro (Ogrilhão)",
+  "name_pronoun":"o Meio-Ogro",
+  "english_name":"Half-Ogre (Ogrillon)",
+
+  "source":["bestiario","pota"],
+
+  "type":"Gigante",
+  "size":"Grande",
+  
+  "defense_cr":6,
+  "hp_cr":5,
+  "atk_cr":3,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":4,
+  "xp":420,
+  "defense":16,
+  "bonuses_in_defense":[
+    {
+      "name":"Gibão de Peles",
+      "value":4
+    }
+  ],
+  "hp":48,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":17,
+  "vitality":14,
+  "agility":10,
+  "charisma":10,
+  "willpower":10,
+  "wisdom":9,
+  "intelligence":7,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Gigante"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Qualquer que seja Caótico",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Machado de Guerra",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"2d10+3 (Corte)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Dardo",
+      "limit":"3 vezes",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (6 metros)",
+      "roll":"+5",
+      "damage":"2d4+3 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Quando um ogro se acasala com um humano, hobgoblin, bugbear ou orc, o resultado é sempre um meio-ogro. (O ogros não se acasalam com anões, halflings ou elfos. Eles os devoram.) Mães humanas raramente sobrevivem ao nascimento de um descendente meio-ogro.",
+    "Quando um ogro se une a um orc para gerar uma prole, o resultado é chamado de Ogrilhão.",
+    "Um meio-ogro adulto ou ogrilhão tem em média 2,4 metros de altura e pesa pouco mais de 200 quilos. Essas formas brutais e impressionantes dominam qualquer paisagem com sua presença, dimensões e força imponente."
+  ]
+}

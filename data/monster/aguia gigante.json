@@ -1,0 +1,117 @@
+{
+  "name":"Águia Gigante",
+  "name_pronoun":"a Águia Gigante",
+  "english_name":"Giant Eagle",
+
+  "source":["bestiario"],
+
+  "type":"Besta Mágica",
+  "size":"Grande",
+  
+  "defense_cr":3,
+  "hp_cr":3,
+  "atk_cr":3,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":3,
+  "xp":260,
+  "defense":15,
+  "bonuses_in_defense":[],
+  "hp":26,
+  "mana":0,
+
+  "movement_walking":3,
+  "movement_hovering":0,
+  "movement_flying":12,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":16,
+  "vitality":13,
+  "agility":20,
+  "charisma":10,
+  "willpower":10,
+  "wisdom":14,
+  "intelligence":8,
+
+  "skills":["+4 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Bom",
+
+  "loot":[],
+	
+  "abilities": [
+    {
+      "name":"Ataque de Mergulho",
+      "description":["Se a Águia Gigante estiver voando e mergulhar pelo menos 8 metros em linha reta, em direção a um alvo e então atingi-lo com um ataque, o ataque causa 1d6 de dano extra ao alvo. Se atingir com os Ataques Múltiplos, somente o primeiro dos ataques pode causar o dano extra"]
+    },
+    {
+      "name":"Visão Aguçada",
+      "description":["A Águia Gigante tem Vantagem em testes de Percepção relacionados a visão."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Bico",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"d6+3 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"2d6+3 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Uma águia gigante normalmente ataca de uma grande altura, mergulhando em direção à terra a uma velocidade tremenda. Usando suas garras poderosas e seu bico cortante para atacar a cabeça e os olhos de seu alvo",
+    "Uma águia gigante solitária normalmente caça ou patrulha nas proximidades de seu ninho e geralmente ignora criaturas que não parecem ameaçadoras. Um par acasalado ataca em conjunto, fazendo repetidos ataques de mergulho para afastar intrusos e luta até a morte para defender seu ninho ou filhotes."
+  ]
+}

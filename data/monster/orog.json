@@ -1,0 +1,139 @@
+{
+  "name":"Orog",
+  "name_pronoun":"o Orog",
+  "english_name":"Orog",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":28,
+  "hp_cr":5,
+  "atk_cr":5,
+  "damage_cr":3,
+  "resistances_and_immunities_cr":0.250,
+
+  "challenge_ratio":7,
+  "xp":1730,
+  "defense":23,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Completa",
+      "value":9
+    }
+  ],
+  "hp":42,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":18,
+  "vitality":18,
+  "agility":12,
+  "charisma":12,
+  "willpower":11,
+  "wisdom":11,
+  "intelligence":12,
+
+  "skills":["+5 Intimidação","+2 Sobrevivência"],
+
+  "vulnerability":[],
+  "resistances":["Veneno"],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Orc"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Orog realiza dois ataques com o Machado Grande."]
+    },
+    {
+      "name":"Machado Grande",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+6",
+      "damage":"d12+4 (Corte)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Azagaia",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (9 metros)",
+      "roll":"+6",
+      "damage":"d6+4 (Perfurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Movimento Agressivo",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação Menor",
+      "effect":["O orog pode se mover por até 4 metros, para engajar em combate com uma criatura hostil que ele possa ver."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os orogs são orcs abençoados com um intelecto surpreendentemente aguçado que os orcs ordinários acreditam ser uma dádiva da deusa orc Luthic. Como Luthic, os orogs preferem viver no subterrâneo, apesar da escassez de comida frequentemente leva-los até a superfície para caçar. Os orcs respeitam a força e astúcia de um orog e um único orog pode comandar um bando de guerra orc.",
+    "Um orog usa sua força para ameaçar outros orcs e sua inteligência para surpreender seus inimigos no campo de batalha. Muitos comandantes élficos, humanos ou anões superconfiantes avistaram um “simples” senhor da guerra orc executando uma manobra inteligente para flanquear e destruir uma força opositora, sem perceber que o orc era um orog.",
+    "Quando encontram-se em grandes números, os orogs formam seus próprios destacamentos dentro de hordas orcs muito maiores e eles sempre estão na linha de frente de qualquer ataque, confiando em sua força superior e visão tática para sobrepujar qualquer coisa que esteja em seu caminho.",
+    "Algumas tribos orcs buscam ativamente por orogs para implementar suas fileiras. A superioridade dos orogs faz deles líderes ideais e, portanto, rivais letais para os comandantes de guerra orcs, que devem ter cuidado com a traição orog.",
+    "Os orogs são uma presença aterrorizante em batalha. Eles não fazem quaisquer laços, nem mesmo com seus pais e irmãos, e não tem qualquer conceito de amor ou dedicação. Eles veneram o panteão de deuses orcs – Gruumsh e Luthic acima de todos – pois eles acreditam que os deuses tem a força acima da razão e a força física é tudo que eles respeitam.",
+    "Desconfiados dos orcs, alguns orogs formam bandos de guerra de mercenários independentes que se vendem pelo maior preço. Enquanto forem recompensados, os mercenários orogs servirão de bom grado, para magos malignos, gigantes depravados e outros vilões."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "name":"Fazer Brilhar",
+    "class":["Bardo","Clérigo","Mago"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":true,
+    "description":[
+        "Você toca um objeto que não tenha mais 3 metros em qualquer dimensão. Até a magia acabar, o objeto emite luz plena num raio de 6 metros e penumbra por 6 metros adicionais. Cobrir o objeto completamente com alguma coisa opaca bloqueará a luz. A magia termina se você conjura-la novamente ou dissipa-la com uma ação."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

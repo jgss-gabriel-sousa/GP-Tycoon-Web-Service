@@ -1,0 +1,20 @@
+{
+    "name":"Escuridão",
+    "class":["Feiticeiro","Mago","Místico"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"12 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"10 Minutos",
+    "concentration":false,
+    "description":[
+        "Uma escuridão mágica se espalha de um ponto a sua escolha dentro do alcance e preenche uma esfera de 3 m de raio, pela duração. Criaturas com visão noturna não podem enxergar através dessa escuridão, e luz não mágica não a pode iluminar.",
+        "Se o ponto que você escolheu for um objeto que você esteja segurando, ou um que não esteja sendo vestido ou carregado, a escuridão emanará do objeto e se moverá com ele. Cobrir completamente a fonte da escuridão com um objeto opaco, como uma vasilha ou um elmo, bloqueará a escuridão.",
+        "Se qualquer área dessa magia sobrepor uma área de luz criada por uma magia de 3° nível ou inferior, a magia da luz será dissipada."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

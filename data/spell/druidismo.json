@@ -1,0 +1,22 @@
+{
+    "name":"Druidismo",
+    "class":["Druida"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"10 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Sussurrando para os espíritos da natureza, você cria um dos seguintes efeitos dentro do alcance:",
+        "\u2022 Você cria um efeito sensorial minúsculo e inofensivo que prevê como será o clima em sua localização nas próximas 24 horas. O efeito pode se manifestar como uma esfera dourada para céu limpo, uma nuvem para chuva, flocos de neve caindo para neve e assim por diante. Este efeito persiste por 1 rodada.",
+        "\u2022 Você faz uma flor florescer, uma semente brotar ou um fruto amadurecer, instantaneamente.",
+        "\u2022 Você cria um efeito sensorial inofensivo instantâneo, como folhas caindo, um sopro de vento, o som de um pequeno animal ou o suave odor de um repolho. O efeito deve caber num cubo de 1 metro.",
+        "\u2022 Você, instantaneamente, acende ou apaga uma vela, tocha ou fogueira pequena."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

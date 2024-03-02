@@ -1,0 +1,112 @@
+{
+  "name":"Carniçal",
+  "name_pronoun":"o Carniçal",
+  "english_name":"Ghoul",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide Monstruoso",
+  "size":"Médio",
+  
+  "defense_cr":0.5,
+  "hp_cr":2,
+  "atk_cr":1,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0.75,
+
+  "challenge_ratio":1,
+  "xp":80,
+  "defense":12,
+  "bonuses_in_defense":[],
+  "hp":22,
+  "mana":0,
+
+  "movement_walking":9,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":13,
+  "vitality":10,
+  "agility":15,
+  "charisma":6,
+  "willpower":8,
+  "wisdom":10,
+  "intelligence":7,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Veneno"],
+  "condition_immunities":["Encantado","Exausto"],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"2d6+2 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+	{
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"2d4+2 (Corte)",
+      "save_throw":"10 de Resistência",
+      "time":"Ação de Ataque",
+      "effect":[
+		"Se o alvo for uma criatura diferente de um Elfo, Eladrin ou Morto-Vivo, ele deve ser bem-sucedido no Teste de Salvamento ou ficará Paralisado por 1 minuto. O alvo pode repetir o teste ao final de cada um dos seus turnos, terminando o efeito sobre si caso tenha sucesso."
+	  ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Carniçais vagam pela noite em bandos, conduzidos por uma fome insaciável por carne humanoide, assombrando qualquer lugar onde ele possa engolir carne e órgãos em decomposição.",
+	"Os carniçais possuem origens do Abismo. Doresain, o primeiro da espécie, foi um elfo adorador de Orcus. Voltando-se contra seu próprio povo, ele fez um banquete de carne humanoide em honra ao Príncipe Demônio da Morte-Vida.",
+	"Como recompensa por seu serviço, Orcus transformou Doresain no primeiro carniçal. Dorisain serviu Orcus fielmente no Abismo, criando carniçais a partir dos outros servos do senhor demoníaco até uma incursão de Yeenoghu, o Senhor Gnoll demoníaco, raptar Doresain do seu domínio abissal.",
+	"Quando Orcus não interveio em nome dele, Doresain rogou aos deuses élficos por salvação e eles tiveram pena dele e o ajudaram a escapar da destruição certa. Desde então, os elfos se tornaram imunes ao toque paralisante dos carniçais."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "name":"Bulete",
+  "name_pronoun":"o Bulete",
+  "english_name":"Bulette",
+
+  "source":["bestiario","pota"],
+
+  "type":"Monstruosidade",
+  "size":"Grande",
+  
+  "defense_cr":13,
+  "hp_cr":8,
+  "atk_cr":7,
+  "damage_cr":5,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":8,
+  "xp":2640,
+  "defense":18,
+  "bonuses_in_defense":[
+    {
+      "name":"Carapaça",
+      "value":3
+    }
+  ],
+  "hp":94,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":6,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":19,
+  "vitality":21,
+  "agility":11,
+  "charisma":5,
+  "willpower":10,
+  "wisdom":10,
+  "intelligence":2,
+
+  "skills":["+6 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":12,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+	{
+      "name":"Salto Parado",
+      "description":["O Bulete consegue saltar, com ou sem uma corrida inicial, por uma distância de 6 metros ou 3 metros de altura"]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"4d12+4 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+	{
+      "name":"Salto Destruidor",
+      "limit":"",
+      "recharge":"",
+      "range":"4 Metros",
+      "roll":"",
+      "damage":"3d6+4 (Impacto) + 3d6+4 (Corte)",
+      "save_throw":"16 de Reflexos ou Atletismo",
+      "time":"Ação de Ataque",
+      "effect":[
+		"O bulete pula num espaço contendo uma ou mais criaturas. Cada uma das criaturas deve ser bem-sucedida no teste de salvamento ou sofrerá o dano e ficará Caída.",
+		"Se a criatura obtiver sucesso no teste, ela não sofre o dano, mas é empurrada 1 metro para longe do espaço do bulete, em um espaço desocupado à escolha da criatura. Se não houver nenhum espaço desocupado ao alcance, a criatura fica caída no espaço do bulete."
+	  ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Um bulete é um predador robusto que aterroriza quaisquer locais que ele habitar. Também chamado de “tubarão terrestre”, ele vive apenas para comer. Irascíveis e vorazes, buletes não temem nenhuma outra criatura e eles atacam sem receio de superioridade numérica ou força.",
+	"Os buletes usam suas poderosas garras unicamente para criar túneis na terra. Ignorando obstruções, eles arrancam árvores, causam deslizamentos de terra em encostas soltas e deixam buracos para trás. Quando as vibrações no solo e pedras alertam um bulete de movimentação, ele emerge da superfície, com suas mandíbulas bem abertas ao atacar.",
+	"Um bulete vagueia por terras temperadas, se alimentando de quaisquer animais e humanoides que encontrar pelo caminho. Essas criaturas têm aversão a carne anã e élfica, apesar de eles geralmente matarem-nos antes de perceberem o que eles são. Um bulete adora a carne de halfling mais que todas e não pode ficar mais feliz do que quando persegue halflings gorduchos por todo um campo aberto.",
+	"Um bulete não possui covil, mas perambula por um território de caça de até quarenta e cinco quilômetros de extensão. Seu único critério para o território é a disponibilidade de comida e, quando tiver comido tudo na área, um bulete segue adiante. Essas criaturas muitas vezes se instalam em assentamentos humanoides, aterrorizando-os até que seus residentes fujam em pânico ou até o bulete ser morto.",
+	"Alguns sábios acreditam que o bulete é resultado de experimentos de um mago louco no cruzamento de tartarugas e tatus com infusões de pus de demônio. Acreditava-se que os buletes haviam sido extintos diferentes vezes, mas após anos sem ser avistado, a criatura inevitavelmente reaparece. Devido a seus filhotes nunca serem vistos, alguns sábios suspeitam que os buletes mantem ninhos secretos enterrados dos quais os adultos emergem para o mundo."
+  ]
+}

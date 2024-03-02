@@ -1,0 +1,154 @@
+{
+  "name":"Anjo - Deva",
+  "name_pronoun":"o Deva",
+  "english_name":"Angel - Deva",
+
+  "source":["bestiario"],
+
+  "type":"Celestial",
+  "size":"Médio",
+  
+  "defense_cr":13,
+  "hp_cr":12,
+  "atk_cr":8,
+  "damage_cr":7,
+  "resistances_and_immunities_cr":2.125,
+
+  "challenge_ratio":11,
+  "xp":7040,
+  "defense":18,
+  "bonuses_in_defense":[],
+  "hp":135,
+  "mana":0,
+
+  "movement_walking":12,
+  "movement_hovering":12,
+  "movement_flying":12,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":26,
+  "vitality":26,
+  "agility":26,
+  "charisma":18,
+  "willpower":20,
+  "wisdom":20,
+  "intelligence":20,
+
+  "skills":[
+    "+9 Percepção"
+  ],
+
+  "vulnerability":[],
+  "resistances":["Radiante","Físico de armas não mágicas"],
+  "immunities":[],
+  "condition_immunities":["Amedrontado","Encantado","Exausto"],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":36,
+
+  "languages":["Todos"],
+  "telepathy":true,
+  "only_understands":false,
+  
+  "alignment":"Leal e Bom",
+
+  "loot":[],
+	
+  "abilities": [
+    {
+      "name":"Resistência Mágica",
+      "description":["O Deva tem Vantagem em Testes de Salvamento contra magias e outros efeitos mágicos."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"Inteligência",
+  "innate_spellcasting":[
+    {
+      "spell":"Detectar o Bem e Mal",
+      "limit":"A vontade"
+    },
+    {
+      "spell":"Comunhão",
+      "limit":"1 vez por dia"
+    },
+    {
+      "spell":"Reviver os Mortos",
+      "limit":"1 vez por dia"
+    }
+  ],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Deva realiza dois ataques com a Maça Angelical."]
+    },
+    {
+      "name":"Maça Angelical",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+8",
+      "damage":"d6+4 (Impacto) + 4d6 (Radiante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Toque Curativo",
+      "limit":"3 vezes ao dia",
+      "recharge":"",
+      "range":"Toque",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":["O alvo recebe uma Cura de 4d8+8 pontos de vida e recupera-se de Maldição, Doença, Veneno, Cegueira e Surdez."]
+    },
+    {
+      "name":"Alterar Forma",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "O Deva magicamente se transforma em um humanoide que tenha um nível de desafio igual ou inferior ao dele. Ele reverte para sua forma verdadeira se morrer. Qualquer equipamento que ele esteja vestindo ou carregando é absorvido pela nova forma.",
+        "Em uma nova forma, o deva mantem suas estatísticas de jogo e a habilidade de falar, mas sua Defesa, Movimento, Força, Agilidade, Sentidos e Ações, são substituídos pelos da nova forma."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Devas são anjos que agem como mensageiros ou agentes divinos no Plano Material, na Umbra e em Faéria e que podem assumir uma forma apropriada ao reino para o qual foram enviados. ",
+    "Lendas contam sobre anjos que assumiram formas mortais por anos, trazendo ajuda, esperança e coragem ao povo de bom coração. Um deva pode assumir qualquer forma, apesar de preferirem se parecer com mortais como um humanoide ou animal inócuo.",
+    "Quando as circunstâncias requerem que ele acabe com seu disfarce, um deva se mostra como uma bela criatura similar a um humanoide com pele prateada. Seus cabelos e olhos brilham com um esplendor sobrenatural e grandes asas plumadas brotam de suas escápulas."
+  ]
+}

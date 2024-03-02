@@ -1,0 +1,112 @@
+{
+  "name":"Urso Negro",
+  "name_pronoun":"o Urso Negro",
+  "english_name":"Black Bear",
+
+  "source":["bestiario","pota"],
+
+  "type":"Animal",
+  "size":"Médio",
+  
+  "defense_cr":0.5,
+  "hp_cr":2,
+  "atk_cr":1,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":1,
+  "xp":55,
+  "defense":12,
+  "bonuses_in_defense":[],
+  "hp":21,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":4,
+  "movement_swimming":0,
+
+  "strength":15,
+  "vitality":14,
+  "agility":10,
+  "charisma":7,
+  "willpower":10,
+  "wisdom":12,
+  "intelligence":2,
+
+  "skills":["+3 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+	  {
+      "name":"Olfato Aguçado",
+      "description":["O Urso tem Vantagem em testes de Percepção relacionados ao olfato."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"2d4+2 (Corte)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d6+2 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Ursos geralmente vivem em florestas e cavernas. São predadores ferozes que estabelecem suas tocas em cavernas escuras."
+  ]
+}

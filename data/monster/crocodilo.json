@@ -1,0 +1,111 @@
+{
+  "name":"Crocodilo",
+  "name_pronoun":"o Crocodilo",
+  "english_name":"Crocodile",
+
+  "source":["bestiario","pota"],
+
+  "type":"Animal",
+  "size":"Grande",
+  
+  "defense_cr":1,
+  "hp_cr":1,
+  "atk_cr":1,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":1,
+  "xp":55,
+  "defense":13,
+  "bonuses_in_defense":[
+    {
+      "name":"Escamas",
+      "value":2
+    }
+  ],
+  "hp":19,
+  "mana":0,
+
+  "movement_walking":4,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":6,
+
+  "strength":18,
+  "vitality":13,
+  "agility":10,
+  "charisma":5,
+  "willpower":10,
+  "wisdom":10,
+  "intelligence":2,
+
+  "skills":["+2 Furtividade"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Prender Respiração",
+      "description":["O Crocodilo pode prender a respiração por 15 minutos."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d10+4 (Perfurante)",
+      "save_throw":"14 de Atletismo",
+      "time":"1 Ação",
+      "effect":[
+        "Com um ataque bem-sucedido o alvo ficará Agarrado e enquanto estiver agarrando uma criatura o crocodilo não pode morder outro alvo.",
+        "A criatura agarrada pode gastar uma ação em seu turno para realizar o teste de salvamento."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "O crocodilo é um grandes réptil carnívoro que reside em pântanos, rios, lagos e outros tipos de terras alagadas.",
+    "Por serem répteis, os crocodilos são bastante vulneráveis ao frio, tornando-se lentos e preguiçosos se expostos a ele. Suas quatro patas, embora curtas, são bastante poderosas em termos de propulsão rápida através de seus habitats aquáticos.",
+    "Os crocodilos geralmente preferem emboscar seus inimigos, aproximando-se furtivamente deles e usando suas poderosas mandíbulas para arrastar as pessoas para baixo da água."
+  ]
+}

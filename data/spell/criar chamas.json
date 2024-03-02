@@ -1,0 +1,23 @@
+{
+    "name":"Criar Chamas",
+    "class":["Druida"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"10 Minutos",
+    "concentration":false,
+    "description":[
+        "Uma chama aparece na sua mão. A chama permanece pela duração e não machuca nem você nem seu equipamento. A chama emite Luz Plena num raio de 3 metros e Penumbra por 3 metros adicionais. A magia acaba se você dissipa-a com uma ação.",
+        "Você pode atacar com a chama, no entanto, isso acabará com a magia. ,O ataque pode ser feito quando você conjura a magia ou com uma ação em um turno posterior. Você faz uma rolagem de ataque para arremessar a chama em um alvo a até 6 metros. Se atingir, o alvo sofre 1d8 de dano de Fogo."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","2d8 de Dano; Luz Plena em 6 m e Penumbra em 3 m adicionais"],
+        ["11","3d8 de Dano; Luz Plena em 12 m e Penumbra em 3 m adicionais"],
+        ["17","4d8 de Dano; Luz Plena em 18 m e Penumbra em 6 m adicionais"]
+    ]
+}

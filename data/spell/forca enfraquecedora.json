@@ -1,0 +1,24 @@
+{
+    "name":"Força Enfraquecedora",
+    "class":["Necromante"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"9 Metros",
+    "attack_roll":true,
+    "damage":[
+        ["Dano","d4 (Necrótico)"]
+    ],
+    "heal":"",
+    "saving_trow":"Resistência",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você dispara um raio púrpura que enfraquece a criatura alvo no alcance da sua visão. Se o alvo for atingido, ele deve ser bem-sucedido em um Teste de Resistência, caso contrário, ficará Caido no chão."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","2d4 de Dano"],
+        ["11","3d4 de Dano"],
+        ["17","4d4 de Dano"]
+    ]
+}

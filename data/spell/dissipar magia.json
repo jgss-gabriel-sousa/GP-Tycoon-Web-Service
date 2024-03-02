@@ -1,0 +1,18 @@
+{
+    "name":"Dissipar Magia",
+    "class":["Bardo","Clérigo","Druida","Feiticeiro","Mago","Místico","Sábio"],
+    "magic_circle":4,
+    "cast_time":"1 Ação",
+    "range":"25 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Escolha uma criatura, objeto ou efeito mágico dentro do alcance. Qualquer magia de um conjurador com nível igual ou inferior ao seu nível de conjurador, termina. Para uma magia de um conjurador de nível superior, realize um teste usando sua habilidade de conjuração. A dificuldade é igual ao nível da magia + nível do conjurador. Se obtiver sucesso, a magia termina."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

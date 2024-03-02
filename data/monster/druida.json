@@ -1,0 +1,116 @@
+{
+  "name":"Druida",
+  "name_pronoun":"o Druida",
+  "english_name":"Druid",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":6,
+  "hp_cr":5,
+  "atk_cr":5,
+  "damage_cr":0.5,
+  "resistances_and_immunities_cr":0.25,
+
+  "challenge_ratio":4,
+  "xp":605,
+  "defense":16,
+  "bonuses_in_defense":[
+    {
+      "name":"Magia \"Pele de Pedra\" (Concentração)",
+      "value":5
+    }
+  ],
+  "hp":24,
+  "mana":16,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":8,
+  "vitality":10,
+  "agility":12,
+  "charisma":10,
+  "willpower":8,
+  "wisdom":22,
+  "intelligence":8,
+
+  "skills":["+4 Medicina","+4 Percepção","+4 Sobrevivência"],
+
+  "vulnerability":[],
+  "resistances":["Veneno"],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Druídico","qualquer outro"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Qualquer",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":5,
+  "spellcasting_attribute":"Sabedoria",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":["Cura","Criar Chamas","Druidismo","Chicote de Espinhos","Constrição","Onda Trovejante","Falar com Animais","Mensageiro Animal","Pele de Árvore"],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Arco Curto",
+      "limit":"",
+      "recharge":"",
+      "range":"15 m",
+      "roll":"+4",
+      "damage":"d6+1 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Forma Animal",
+      "limit":"1 vez por dia",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Turno",
+      "effect":[
+        "O Druida se transforma em um Animal com Nível de Desafio de no máximo 1/2 (Ex: Javali, Lobo, Rato Gigante ou Texugo), por até 2 horas.",
+        "Durante a forma animal, o druida recebe temporariamente os atributos do animal que se transformou. Sua armadura, itens e armas desaparecem durante esse período, além de ficar impossibilitado de conjurar magias.",
+        "Quando um Druida perde toda a Vida da Forma Animal ele retorna a forma normal. O dano sobressalente sofrido na forma animal é repassado para a forma normal."
+    ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Druidas habitam florestas e outros locais isolados, onde protegem a natureza de monstros e da invasão da civilização. Alguns são xamãs tribais que curam os doentes, oram aos espíritos dos animais e fornecem orientação espiritual."
+  ]
+}

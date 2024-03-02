@@ -1,0 +1,122 @@
+{
+  "name":"Orc Olho de Gruumsh",
+  "name_pronoun":"o Orc Olho de Gruumsh",
+  "english_name":"Orc Eye of Gruumsh",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":1,
+  "hp_cr":5,
+  "atk_cr":3,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0.250,
+
+  "challenge_ratio":2,
+  "xp":160,
+  "defense":13,
+  "bonuses_in_defense":[],
+  "hp":45,
+  "mana":20,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":16,
+  "vitality":16,
+  "agility":12,
+  "charisma":12,
+  "willpower":13,
+  "wisdom":18,
+  "intelligence":9,
+
+  "skills":["+3 Intimidação","+1 Religião"],
+
+  "vulnerability":[],
+  "resistances":["Veneno"],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Orc"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Fúria de Gruumsh",
+      "description":["Em ataques com armas corpo a corpo o Orc causa 1d8 de dano extra (Já incluso no dano das ações)."]
+    }
+  ],
+
+  "spellcaster_level":5,
+  "spellcasting_attribute":"Sabedoria",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":["Cura","Orientação","Resistência","Taumaturgia","Benção","Comando","Augúrio"],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Lança",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (6 metros)",
+      "roll":"+5",
+      "damage":"d8+d6+3 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Movimento Agressivo",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação Menor",
+      "effect":["O orc pode se mover por até 4 metros, para engajar em combate com uma criatura hostil que ele possa ver."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os orcs são invasores e saqueadores selvagens com posturas curvadas, testas baixas e rostos suínos com caninos inferiores proeminentes, semelhantes a presas.",
+    "Os orcs veneram Gruumsh, a mais poderosa das divindades orcs e seu criador. Os orcs acreditam que nos dias antigos, os deuses se juntaram para dividir o mundo entre seus seguidores.",
+    "Quando Gruumsh reivindicou as montanhas, ele descobriu que elas já haviam sido tomadas pelos anões. Ele então mudou sua reivindicação para as florestas, mas essas já haviam sido determinadas para os elfos. Os outros deuses riram de Gruumsh, mas ele respondeu com um rugido furioso. Agarrando sua poderosa lança, ele devastou as montanhas, ateou fogo nas florestas e esculpiu sulcos nos campos. Ele proclamou que esse seria o papel dos orcs, tomar e destruir tudo que as outras raças lhes negaram. Desde esse dia, os orcs travam uma guerra interminável com os seres humanos, elfos, anões e outros povos.",
+    "Os orcs nutrem um odeio particular pelos elfos. O deus elfo Corellon Larethian deixou Gruush caolho com uma flecha certeira no olho do deus orc. Desde então, os orcs tem um prazer particular em chacinar elfos. Transformando seu ferimento em um uma dádiva sinistra, Gruumsh concede força divina a qualquer campeão que arranque um de seus olhos voluntariamente em seu nome.",
+    "Os orcs se juntam em tribos que exercem seu domínio e satisfazem sua sede de sangue ao saquear vilas, devorando e afugentando o rebanho quieto e matando quaisquer humanoides que se coloquem contra eles. Após devastarem um assentamento, os orcs pegam todas as riquezas e itens utilizáveis e levam para suas próprias terras. Eles ateiam fogo nos camponeses e acampamentos restantes, então voltando de onde vieram com seu desejo de sangue satisfeito.",
+    "Seu desejo por matança requer que os orcs sempre residam a uma distância razoável de seus novos alvos. Por isso, eles raramente se estabelecem de forma permanente, em vez disso, eles convertem ruínas, complexos de cavernas e vilas de inimigos derrotados em campos fortificados e fortalezas. Os orcs constroem apenas para se defender, não fazendo quaisquer inovações ou aprimoramentos em seus covis além de amontoarem as partes decepadas dos corpos de suas vítimas em muros de paliçada pontudos ou em lanças sobressaindo-se de trincheiras e fossos áridos.",
+    "Quando um território existente fica sem comida, uma tribo orc divide-se em bandos errantes que exploram para escolher um território de caça. Quando cada grupo retorna, eles trazem troféus e notícias dos alvos prontos para serem atacados, o mais rico deles é escolhido. A tribo, em seguida, se reagrupa para esculpir um caminho sangrento até seu novo território.",
+    "As tribos de orcs são, em sua maioria, patriarcais, exibindo títulos vívidos ou grotescos como Muitas Flechas, Olhos Gritantes e Estripador de Elfos. Ocasionalmente, um comandante de guerra poderoso une tribos orcs espalhadas em uma única horda devastadora, que passa por cima de outras tribos orcs e assentamentos humanoides com uma força esmagadora.",
+    "Força e poder são as maiores das virtudes orcs, e os orcs aceitam todos os tipos de criaturas poderosas em suas tribos. Rejeitando noções de pureza racial, eles recebem orgulhosamente ogros, trolls, meio-orcs e orogs em suas fileiras. Da mesma forma, os orcs respeitam e temem o tamanho e poder dos gigantes malignos e, frequentemente, servem-nos como guardas ou soldados.",
+    "Luthic, a deusa orc da fertilidade e esposa de Gruumsh, exige que os orcs procriem frequentemente e indiscriminadamente para que as hordas orcs cresçam geração após geração. A vontade de se reproduzir dos orcs é mais forte que em qualquer outra raça humanoide e eles prontamente se misturam com outras raças.",
+    "Quando um orc procria com um humanoide não-orc de tamanho e estatura similar (como um humano ou um anão), a criança resultante é ou um orc ou um meio-orc. Quando um orc produz um filho com um ogro, a criança é um meio-ogro de força intimidante e traços brutais chamado de ogrillon."
+  ]
+}

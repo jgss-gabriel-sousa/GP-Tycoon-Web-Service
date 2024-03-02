@@ -1,0 +1,18 @@
+{
+    "name":"Falar com Animais",
+    "class":["Druida","Patrulheiro"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"10 Minutos",
+    "concentration":false,
+    "description":[
+        "Você adquire a habilidade de compreender e se comunicar verbalmente com animais, pela duração. O conhecimento e consciência é limitado pela inteligência do alvo, mas no mínimo, os animais poderão dar informações a você sobre os locais e monstros próximos, incluindo tudo que eles possam perceber ou tenham percebido no dia anterior."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

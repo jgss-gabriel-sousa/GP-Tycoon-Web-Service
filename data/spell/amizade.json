@@ -1,0 +1,19 @@
+{
+    "name":"Amizade",
+    "class":["Assassino","Bardo","Feiticeiro","Mago","Místico"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"3 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Concentração",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Você terá Vantagem em todos os testes de Carisma direcionados a uma criatura alvo, à sua escolha, que não seja hostil a você.",
+        "Quando a magia acabar, a criatura perceberá que você usou magia para influenciar o humor dela, e ficará hostil a você. Uma criatura propensa a violência irá atacar, já outra criatura pode buscar outras formas de retaliação (a critério do Mestre), dependendo da natureza da sua interação com ela."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

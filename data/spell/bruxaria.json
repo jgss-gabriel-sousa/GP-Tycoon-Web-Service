@@ -1,0 +1,26 @@
+{
+    "name":"Bruxaria",
+    "class":["Místico","Necromante"],
+    "magic_circle":2,
+    "cast_time":"Ação Menor",
+    "range":"30 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano Adicional","d6 (Necrótico)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":true,
+    "description":[
+        "Você coloca uma maldição em uma criatura que você possa ver, dentro do alcance. Até a magia acabar, sempre que você o atingir com um ataque, ele sofre o Dano Adicional.",
+        "Além disso, escolha um Atributo ao lançar o feitiço. O alvo tem Desvantagem em testes feitos com o atributo escolhido.",
+        "A conjuração da magia Remover Maldição no alvo, encerra esta maldição."
+    ],
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
+        ["6","Duração de 8 Horas (Concentração)"],
+        ["10","Duração de 12 Horas (Concentração)"],
+        ["15","Duração de 24 Horas (Concentração)"]
+    ]
+}

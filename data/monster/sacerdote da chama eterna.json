@@ -1,0 +1,99 @@
+{
+  "name":"Sacerdote da Chama Eterna",
+  "name_pronoun":"o Sacerdote da Chama Eterna",
+  "english_name":"Eternal Flame Priest",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":10,
+  "hp_cr":5,
+  "atk_cr":3,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":0.5,
+
+  "challenge_ratio":4,
+  "xp":655,
+  "defense":17,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Arcana",
+      "value":5
+    }
+  ],
+  "hp":52,
+  "mana":28,
+
+  "movement_walking":9,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":12,
+  "vitality":14,
+  "agility":15,
+  "charisma":20,
+  "willpower":20,
+  "wisdom":11,
+  "intelligence":10,
+
+  "skills":["+5 Intimidação","+2 Religião"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":7,
+  "spellcasting_attribute":"Carisma",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":["Controlar Chamas","Criar Fogueira","Ilusão","Fazer Brilhar","Raio de Fogo","Mãos Flamejantes","Recuo Acelerado","Armadura Arcana","Nublar","Raio Ardente","Bola de Fogo"],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Adaga",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (4 m)",
+      "roll":"+5",
+      "damage":"d4+2 (Corte ou Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":["Os Sacerdotes da Chama Eterna veem o mundo ao seu redor como impuro e indigno, e acreditam que somente a limpeza pelo fogo pode corrigi-lo. Como resultado, todo fogo é considerado sagrado, desde a menor chama de vela até as maiores conflagrações. Ao viajar ao ar livre, os Sacerdotes da Chama Eterna são espertos o suficiente para esconder suas verdadeiras crenças, se passando por druidas ou magos com um talento especial para a magia do fogo."]
+}

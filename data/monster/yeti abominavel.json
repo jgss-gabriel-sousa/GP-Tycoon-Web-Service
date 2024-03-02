@@ -1,0 +1,144 @@
+{
+    "name":"Yeti Abominável",
+    "name_pronoun":"o Yeti Abominável",
+    "english_name":"Abominable Yeti",
+  
+    "source":["bestiario"],
+  
+    "type":"Monstruosidade",
+    "size":"Enorme",
+    
+    "defense_cr":6,
+    "hp_cr":15,
+    "atk_cr":9,
+    "damage_cr":5,
+    "resistances_and_immunities_cr":1,
+  
+    "challenge_ratio":8,
+    "xp":3280,
+    "defense":16,
+    "bonuses_in_defense":[],
+    "hp":211,
+    "mana":0,
+  
+    "movement_walking":6,
+    "movement_hovering":0,
+    "movement_flying":0,
+    "movement_burrow":0,
+    "movement_climbing":6,
+    "movement_swimming":0,
+  
+    "strength":24,
+    "vitality":22,
+    "agility":10,
+    "charisma":9,
+    "willpower":16,
+    "wisdom":13,
+    "intelligence":9,
+  
+    "skills":["+4 Furtividade","+5 Percepção"],
+  
+    "vulnerability":[],
+    "resistances":[],
+    "immunities":["Gelo"],
+    "condition_immunities":[],
+  
+    "dark_vision":12,
+    "blind_sight":0,
+    "tremor_sense":0,
+    "true_vision":0,
+  
+    "languages":["Yeti"],
+    "telepathy":false,
+    "only_understands":false,
+  
+    "alignment":"Caótico e Mau",
+  
+    "loot":[],
+  
+    "abilities": [
+      {
+        "name":"Camuflagem na Neve",
+        "description":["O Yeti tem Vantagem em testes de Furtividade feitos para se Esconder em terrenos nevados."]
+      },
+      {
+        "name":"Medo do Fogo",
+        "description":["Se o Yeti sofrer dano de Fogo, ele tem Desvantagem em Rolagens de Ataque e Testes de Habilidade até o final de seu próximo turno."]
+      },
+      {
+        "name":"Olfato Aguçado",
+        "description":["O Yeti tem Vantagem em testes de Percepção relacionados ao olfato."]
+      }
+    ],
+  
+    "spellcaster_level":0,
+    "spellcasting_attribute":"",
+    "special_spell_feature":"",
+    "arcane_failure":0,
+    "spells":[],
+  
+    "innate_spellcasting_description":"",
+    "innate_spellcasting_attribute":"",
+    "innate_spellcasting":[],
+  
+    "actions": [
+      {
+        "name":"Ataques Múltiplos",
+        "limit":"",
+        "recharge":"",
+        "range":"",
+        "roll":"",
+        "damage":"",
+        "save_throw":"",
+        "time":"Ação de Ataque",
+        "effect":["O Yeti pode realizar um Olhar Gélido e dois ataques com as Garras."]
+      },
+      {
+        "name":"Olhar Gélido",
+        "limit":"",
+        "recharge":"",
+        "range":"9 metros",
+        "roll":"",
+        "damage":"6d6 (Gelo)",
+        "save_throw":"18 de Resistência",
+        "time":"",
+        "effect":["O alvo deve ser bem-sucedido no teste de salvamento ou sofrerá o dano e ficará Paralisada por 1 minuto, a menos que seja imune a dano de Gelo. A criatura pode repetir o teste de salvamento ao fim de cada um de seus turnos. Com um teste bem sucedido uma criatura não sofrerá dano e ficará imune ao efeito do olhar por 1 hora."]
+      },
+      {
+        "name":"Garras",
+        "limit":"",
+        "recharge":"",
+        "range":"Corpo a Corpo",
+        "roll":"+11",
+        "damage":"2d6+7 (Corte) + 2d6 (Gelo)",
+        "save_throw":"",
+        "time":"",
+        "effect":[]
+      },
+      {
+        "name":"Sopro Gélido",
+        "limit":"",
+        "recharge":"6",
+        "range":"Cone de 5 Metros",
+        "roll":"",
+        "damage":"10d8",
+        "save_throw":"18 de Resistência",
+        "time":"1 Ação",
+        "effect":["Cada criatura no alcance deve fazer o teste de salvamento, recebendo o dano em um teste falho, ou metade do dano em um teste bem-sucedido."]
+      }
+    ],
+  
+    "legendary_actions":[],
+  
+    "lair_description":[],
+    "lair_actions":[],
+  
+    "regional_effects_description":[],
+    "regional_effects_dissolution":"",
+  
+    "description":[
+      "Os Yetis Abomináveis têm cerca de três vezes a altura dos humanos, sendo até maiores que os Gigantes das Colinas. Eles são superiores aos outros yetis em quase todos os aspectos, exceto por serem um pouco menos ágeis. Além de serem maiores e mais fortes, os yetis abomináveis possuem habilidades únicas, como a capacidade de exalar um cone de ar gélido sobre seus inimigos.",
+      "Apesar de sua altura imponente, eles são perceptivos e surpreendentemente furtivos. No entanto, são monstros odiosos e predatórios, territorialistas e atacam criaturas de sangue quente à vista, devorando-as e espalhando seus restos pelas paisagens gélidas.",
+      "Assim como os yetis normais, os yetis abomináveis ignoram o efeito do frio, porém temem o fogo. Geralmente vivem e caçam sozinhos, mas ocasionalmente são encontrados em pares, especialmente quando estão criando filhotes."
+    ]
+  }

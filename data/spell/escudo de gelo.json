@@ -1,0 +1,20 @@
+{
+    "name":"Escudo de Gelo",
+    "class":["Mago","Místico","Sábio"],
+    "magic_circle":5,
+    "cast_time":"1 Ação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[
+        ["Dano Colateral","2d8 (Gelo)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"10 Minutos",
+    "concentration":false,
+    "description":[
+        "Sua pele emana uma aura gélida, lhe garantindo Resistência a dano de Fogo. Além disso, sempre que uma criatura atingir você com um ataque corpo-a-corpo, o escudo congela o atacante, que sofre o Dano Colateral."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

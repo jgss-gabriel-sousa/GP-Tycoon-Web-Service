@@ -1,0 +1,19 @@
+{
+    "name":"Enfraquecer Intelecto",
+    "class":["Bardo","Místico","Sábio"],
+    "magic_circle":9,
+    "cast_time":"1 Ação",
+    "range":"30 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Conhecimento",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você ataca a mente de uma criatura que você possa ver, dentro do alcance, tentando despedaçar seu intelecto e personalidade. O alvo sofre dano deve realizar um teste de salvamento.",
+        "Se falhar no teste, os valores de Inteligência, Vontade e Sabedoria da criatura se tornam a metade do valor normal. Ao final de cada 30 dias, a criatura pode repetir seu teste contra essa magia. Se ela obtiver sucesso no teste de salvamento, a magia termina. Essa magia também pode ser terminada através de Restauração Maior, Cura Completa ou Desejo."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

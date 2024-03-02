@@ -1,0 +1,19 @@
+{
+    "name":"Medo",
+    "class":["Bardo","Feiticeiro","Místico","Necromante","Sábio"],
+    "magic_circle":4,
+    "cast_time":"1 Ação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Coragem",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Você projeta uma imagem fantasmagórica dos piores medos de uma criatura. Cada criatura num cone de 7 metros deve ser bem-sucedida no teste de salvamento ou largara o que quer que esteja segurando e ficará Amedrontada pela duração.",
+        "Enquanto estiver amedrontada por essa magia, uma criatura deve usar seu turno para fugir de você pela rota mais curta disponível em cada um dos turnos dela, a não ser que não haja lugar para onde se mover. Se a criatura terminar o turno dela em um local onde ela não tenha linha de visão sua, a criatura pode realizar o teste de salvamento com vantagem. Se obtiver sucesso, a magia termina naquela criatura."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

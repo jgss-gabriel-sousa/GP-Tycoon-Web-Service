@@ -1,0 +1,116 @@
+{
+  "name":"Cavalo",
+  "name_pronoun":"o Cavalo",
+  "english_name":"Horse",
+
+  "source":["bestiario"],
+
+  "type":"Animal",
+  "size":"Grande",
+  
+  "defense_cr":0.25,
+  "hp_cr":0.5,
+  "atk_cr":0.250,
+  "damage_cr":0.125,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.250,
+  "xp":12,
+  "defense":11,
+  "bonuses_in_defense":[],
+  "hp":13,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":16,
+  "vitality":12,
+  "agility":12,
+  "charisma":10,
+  "willpower":10,
+  "wisdom":11,
+  "intelligence":2,
+
+  "skills":["+4 Resistência"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Animal de Carga",
+      "description":["O cavalo tem uma carga máxima de 120 Kg e pode puxar até 360 Kg."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Coice",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+2",
+      "damage":"2d3 (Impacto)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Atropelar",
+      "limit":"",
+      "recharge":"",
+      "range":"Linha de 7 metros",
+      "roll":"",
+      "damage":"d6 (Impacto)",
+      "save_throw":"12 de Reflexos",
+      "time":"Ação de Ataque",
+      "effect":[
+        "O cavalo corre e atropela os alvos no alcance. Esse movimento provoca ataques de oportunidade.",
+        "Cada criatura no alcance deve realizar o teste de salvamento. Caso falhe, a criatura sofre o dano é empurrada por 1 metro e ficará Caída.",
+        "Caso seja bem-sucedida no salvamento, a criatura não sofre dano, nem ficará caída, mas deve se mover 1 metro para fora do alcance (Esse movimento não causa ataques de oportunidade ou efeitos similares)."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os cavalos possuem muitas utilidades, podem ser usados de montaria, animal de tração e até como montaria de guerra."
+  ]
+}

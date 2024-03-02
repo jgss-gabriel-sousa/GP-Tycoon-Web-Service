@@ -1,0 +1,139 @@
+{
+  "name":"Hobgoblin Capitão",
+  "name_pronoun":"o Hobgoblin Capitão",
+  "english_name":"Hobgoblin Captain",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":24,
+  "hp_cr":4,
+  "atk_cr":5,
+  "damage_cr":3,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":6,
+  "xp":1250,
+  "defense":21,
+  "bonuses_in_defense":[
+    {
+      "name":"Meia Armadura",
+      "value":8
+    }
+  ],
+  "hp":39,
+  "mana":0,
+
+  "movement_walking":8,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":18,
+  "vitality":16,
+  "agility":14,
+  "charisma":13,
+  "willpower":16,
+  "wisdom":12,
+  "intelligence":12,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Goblinóide"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Leal e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Vantagem Marcial",
+      "description":["Quando atingir com um ataque de arma uma criatura em que estiver Flanqueando, o Hobgoblin Capitão causa 3d6 de dano extra."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Hobgoblin Capitão realiza dois ataques com a Espada Grande."]
+    },
+    {
+      "name":"Espada Grande",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+6",
+      "damage":"2d6+4 (Corte)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Liderança",
+      "limit":"1 vez a cada Descanso",
+      "recharge":"",
+      "range":"Raio de 10 m",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação Menor",
+      "effect":["O Hobgoblin Capitão profere comandos especiais ou avisos aos aliados próximos e que possam vê-lo e ouvi-lo, fazendo com que seus aliados recebam 1d4 para adicionar ao realizar uma Jogada de Ataque ou Teste de Salvamento. Esse efeito termina se o Hobgoblin estiver incapacitado."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Trompas de guerra soam, pedras voam de catapultas e o estrondo de mil botas pisoteando ecoam pela terra enquanto os hobgoblins marcham para a batalha. Do outro lado da fronteira da civilização, colônias e colonos devem lidar com esses humanoides agressivos, cuja sede de conquista nunca é satisfeita.",
+    "Os hobgoblins podem viver tanto quanto humanos, apesar do amor deles pela guerra e batalha signifique que poucos consigam. Eles pertencem a família das criaturas chamadas goblinoides. E são geralmente encontrados comandando seus primos, os pequenos goblins e os ferozes bugbears.",
+    "Um hobgoblin mede a virtude pela força física e poderio marcial, não dando importância a nada exceto a oportunidade de demonstrar perícia e astúcia em batalha. Os hobgoblins de patentes militares elevadas conseguem suas posições através da força, então mantem essas posições impondo sua autoridade por meios dracônicos.",
+    "Os hobgoblins treinam para lutar com uma variedade de armas, e tem grande perícia em construir armas, armaduras, armas de cerco e outros aparatos militares. Organizados e disciplinados, eles cuidam de forma excepcional de suas armas, armaduras e posses pessoais. Eles preferem as cores escuras associadas com suas tribos, e recortam seus uniformes elaborados geralmente com detalhes em vermelho -sangue e couro tingido de preto.",
+    "Os hobgoblins organizam -se em bandos tribais conhecidos como legiões. Em sua sociedade marcial, cada hobgoblin tem uma patente, desde os poderosos líderes e campeões, os rasos soldados de infantaria, até os goblins que se encontram levados para a linha de frente sob a ponta de lanças. Uma legião é encabeçada por um hobgoblin senhor da guerra com diversos capitães servindo sob seu comando. Um hobgoblin senhor da guerra é um tirano implacável mais interessado em estratégia, vitória, glória, reputação e dominação que em liderar tropas para a batalha.",
+    "Os hobgoblins possuem um tipo forte para táticas e disciplina, e podem elaborar planos de batalha sofisticados sob a direção de um líder com espírito estratégico. Porém, eles odeiam elfos e os atacaram antes de quaisquer outros oponentes em batalha, mesmo se fazê-lo possa ser um erro tático.",
+    "As legiões geralmente suplementam suas patentes com tropas mais seguras e dispensáveis, incluindo goblins, bugbears, orcs, humanos malignos, ogros e gigantes.",
+    "Os hobgoblins possuem uma longa história treinando animais para servi-los. Como as raças mais civilizadas, eles usam bois e cavalos para transportar mercadorias e armamentos por longas distâncias. Eles se comunicam entre si usando corvos treinados, e mantem lobos violentos para guardar prisioneiros e proteger acampamentos hobgoblins. A cavalaria hobgoblin usa worgs treinados como montarias, da mesma forma, goblins montam em lobos. Algumas tribos mantem até mesmo gorilas carnívoros como bestas de batalha.",
+    "Os hobgoblins reivindicam terras com recursos em abundância, e eles podem ser encontrados em florestas e montanhas, próximos de minas e assentamentos humanoides, e em qualquer lugar onde madeira, metal e escravos em potencial possam ser encontrados. Eles constroem e conquistam fortalezas em locais estrategicamente vantajosos, os quais eles utilizam como áreas de armazenamento temporário para expandir seu território.",
+    "Os hobgoblins senhores da guerra nunca se cansam do combate, mas eles não erguem suas armas com animosidade. Antes de atacarem, os hobgoblins usam uma conduta de reconhecimento para avaliar as forças e fraquezas de seus adversários. Quando assaltam uma fortaleza, eles a cercam primeiro para cortas as rotas de fuga e linhas de suprimento, lentamente matando seus inimigos de fome.",
+    "Os hobgoblins fortificam seus próprios fortes, aprimorando as defesas existentes com suas próprias inovações. Quando eles habitarem em complexos de caverna, masmorras, ruínas ou florestas, eles protegem suas fortalezas com valas, cercas, portões, torres de guarda, armadilhas de fosso e catapultas e balestras simplórias.",
+    "Os hobgoblins veneram Maglubiyet o Todo Poderoso, o deus maior dos goblinoides. Por mais terrível que essa figura seja, os hobgoblins não temem a morte, acreditando que quando morrem em batalha, seus espíritos se unem as honradas fileiras do exército de Maglubiyet no plano do Aqueronte."
+  ]
+}

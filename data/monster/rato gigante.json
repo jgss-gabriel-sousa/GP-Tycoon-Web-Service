@@ -1,0 +1,110 @@
+{
+  "name":"Rato Gigante",
+  "name_pronoun":"o Rato Gigante",
+  "english_name":"Giant Rat",
+
+  "source":["bestiario","pota"],
+
+  "type":"Animal",
+  "size":"Pequeno",
+  
+  "defense_cr":2,
+  "hp_cr":0.125,
+  "atk_cr":1,
+  "damage_cr":0.25,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.5,
+  "xp":34,
+  "defense":14,
+  "bonuses_in_defense":[],
+  "hp":7,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":7,
+  "vitality":11,
+  "agility":15,
+  "charisma":4,
+  "willpower":8,
+  "wisdom":10,
+  "intelligence":2,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Olfato Aguçado",
+      "description":["O Rato Gigante tem Vantagem em testes de Percepção relacionados ao olfato."]
+    },
+    {
+      "name":"Febre da Sujeira",
+      "description":[
+        "O Rato Gigante é o transmissor de uma doença, o mestre deve rolar 1D20, com um resultado de 10 ou menor o animal está infectado. Sua aparência é diferente, seu pelo está caindo e ele saliva nos cantos da boca.",
+        "Caso o rato infectado morda uma criatura, ela deve realizar um teste de Resistência com dificuldade 12, para não ser infectado. (Descrição da doença no Livro de Regras)."
+      ]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d4+2 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Ratos gigantes, também conhecidos como ratos horríveis, são criaturas perigosas que tem um tamanho muito maior do que o rato comum e podem ser encontrados em masmorras e esgotos de cidades.",
+    "Os ratos gigantes trabalharam excepcionalmente bem em grupos, aproveitando-se de seus números para atacar com mais eficiência.",
+    "A mordida dessas criaturas carrega uma doença potencialmente letal conhecida como febre da sujeira. É recomendado que as vítimas de mordidas de ratos gigantes procurem atendimento clerical imediato."
+  ]
+}

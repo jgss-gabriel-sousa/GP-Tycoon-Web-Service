@@ -1,0 +1,25 @@
+{
+    "name":"Onda Trovejante",
+    "class":["Bardo","Druida","Feiticeiro","Mago"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"Raio de 3 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","2d8 (Sônico)"]
+    ],
+    "heal":"",
+    "saving_trow":"Resistência",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Uma onda de força trovejante varre tudo a partir de você. Todas as criaturas no alcance devem realizar o teste de salvamento, em caso de falha, a criatura sofre o dano e será empurrada para um espaço desocupado fora do alcance. Se obtiver sucesso no salvamento, a criatura sofrerá metade do dano e será empurrada somente por 1 metro.",
+        "Além disso, objetos soltos que estiverem completamente dentro da área de efeito serão automaticamente empurrados 3 metros para longe de você e a magia emitirá um ressonante barulho de trovão audível a até 90 metros."
+    ],
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
+        ["6","3d8 de Dano"],
+        ["10","4d8 de Dano"],
+        ["15","5d8 de Dano"]
+    ]
+}

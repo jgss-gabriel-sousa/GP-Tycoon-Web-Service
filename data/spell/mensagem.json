@@ -1,0 +1,20 @@
+{
+    "name":"Mensagem",
+    "class":["Bardo","Feiticeiro","Mago","Necromante","Sábio"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"35 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você aponta seu dedo para uma criatura dentro do alcance e sussurra uma mensagem. O alvo, e apenas ele, pode ouvir a mensagem.",
+        "Você pode conjurar essa magia através de objetos sólidos se você tiver familiaridade com o alvo. A magia pode transpassar: Silêncio mágico, 30 centímetros de rocha, 2 centímetros de metal comum, uma fina camada de chumbo, ou 90 centímetros de madeira ou terra.",
+        "A magia não precisa seguir uma linha reta e pode viajar livremente, dobrando esquinas ou através de aberturas."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

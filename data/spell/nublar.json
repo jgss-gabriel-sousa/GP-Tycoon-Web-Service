@@ -1,0 +1,19 @@
+{
+    "name":"Nublar",
+    "class":["Feiticeiro","Mago"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Seu corpo se torna turvo, mudando e oscilando, para todos que puderem ver você. Pela duração, qualquer criatura terá Desvantagem nas jogadas de ataque contra você.",
+        "Um atacante é imune a esse efeito se não depender de visão, como os que tenham sentidos às cegas ou os que puderem ver através de ilusões, como os com visão verdadeira."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

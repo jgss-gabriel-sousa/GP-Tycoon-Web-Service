@@ -1,0 +1,125 @@
+{
+  "name":"Monge do Furacão",
+  "name_pronoun":"o Monge do Furacão",
+  "english_name":"Hurricane Monk",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":3,
+  "hp_cr":4,
+  "atk_cr":0.5,
+  "damage_cr":3,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":3,
+  "xp":220,
+  "defense":15,
+  "bonuses_in_defense":[
+    {
+      "name":"Defesa sem Armadura",
+      "value":2
+    }
+  ],
+  "hp":33,
+  "mana":12,
+
+  "movement_walking":9,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":12,
+  "vitality":13,
+  "agility":16,
+  "charisma":10,
+  "willpower":12,
+  "wisdom":14,
+  "intelligence":10,
+
+  "skills":["+5 Acrobacia"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Leal e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":3,
+  "spellcasting_attribute":"Sabedoria",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":["Lufada","Fazer Brilhar","Prestidigitação","Proteção Contra Lâminas","Onda Trovejante","Queda Suave"],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Monge realiza dois Ataques Desarmados."]
+    },
+	  {
+      "name":"Ataque Desarmado",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"d6+3 (Impacto)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+	  {
+      "name":"Defletir Projéteis",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Reação",
+      "effect":["Quando o Monge é atingido por um ataque de arma a distância, ele reduz o dano do ataque em 1d10. Se o dano for reduzido a 0, o Monge pode pegar o projétil se for pequeno o suficiente para segurar em uma mão e ele tiver pelo menos uma mão livre."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os Monges do Furacão professam sua repulsa pela decadência e dedicam seus corpos e mentes à destruição do mundo. Por meio de exercícios de respiração e filosofia ascética, os habilidosos Iniciados do Ódio Uivante aprendem a imitar os padrões dos furacões.",
+    "Eles acreditam que o mundo físico deve ser despedaçado para que as criaturas do Plano Material possam viver livres das algemas das coisas físicas.",
+    "Os monges veem a atividade frenética do mundo em câmera lenta e a si mesmos no centro calmo da tempestade. Por meio da meditação e do misticismo, eles aprendem a invocar rajadas de vento poderosas, pegar mísseis com facilidade e cair como penas."
+  ]
+}

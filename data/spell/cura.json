@@ -1,0 +1,18 @@
+{
+    "name":"Cura",
+    "class":["Bardo","Clérigo","Druida","Paladino","Patrulheiro","Sábio"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"d8 + Modificador do Atributo de Conjuração",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Uma criatura que você tocar recupera-se de seus ferimentos. Essa magia não produz efeito em mortos-vivos ou constructos."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

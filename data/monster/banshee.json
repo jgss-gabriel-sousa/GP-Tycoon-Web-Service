@@ -1,0 +1,144 @@
+{
+  "name":"Banshee",
+  "name_pronoun":"a Banshee",
+  "english_name":"banshee",
+
+  "source":["bestiario"],
+
+  "type":"Morto-Vivo",
+  "size":"Médio",
+  
+  "defense_cr":10,
+  "hp_cr":5,
+  "atk_cr":1,
+  "damage_cr":5,
+  "resistances_and_immunities_cr":5.75,
+
+  "challenge_ratio":8,
+  "xp":2500,
+  "defense":17,
+  "bonuses_in_defense":[
+    {
+      "name":"Etéreo",
+      "value":5
+    }
+  ],
+  "hp":58,
+  "mana":0,
+
+  "movement_walking":0,
+  "movement_hovering":8,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":1,
+  "vitality":10,
+  "agility":14,
+  "charisma":10,
+  "willpower":17,
+  "wisdom":11,
+  "intelligence":12,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":["Ácido","Elétrico","Fogo","Sônico","Físico"],
+  "immunities":["Gelo","Necrótico","Veneno"],
+  "condition_immunities":["Agarrado","Amedrontado","Caído","Encantado","Exausto","Impedido","Paralisado","Petrificado"],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Élfico"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Detectar Vida",
+      "description":["A banshee pode sentir magicamente a presença de criaturas vivas a até 7 quilômetros de distância. Ela sabe a direção delas, mas não sua localização exata."]
+    },
+    {
+      "name":"Movimento Incorpóreo",
+      "description":["A banshee pode se mover através de criaturas e objetos como se eles fossem terreno difícil. Ela sofre 1d10 de dano de energia se terminar seu turno dentro de um objeto."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Toque Corruptor",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"4d6+3 (Necrótico)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Aspecto Horripilante",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"13 de Coragem",
+      "time":"",
+      "effect":[
+		"Cada criatura não morta-viva a até 18 metros da banshee, que puder vê-la, deve ser bem sucedido no teste de salvamento ou ficará Amedrontada por 1 minuto.",
+		"Um alvo Amedrontado pode repetir o salvamento no final de cada um dos seus turnos, com desvantagem se a banshee estiver na sua linha de visão, terminando o efeito sobre si, se obtiver sucesso.",
+		"Se o alvo for bem sucedido no teste, ou o se o efeito terminar nele, ele fica imune ao Aspecto Horripilante da banshee pelas próximas 24 horas.",
+		"Caso uma criatura tenha uma falha crítica em um teste de salvamento, ela vai adquirir 1 ponto de Insanidade e uma Insanidade Temporária."
+	  ]
+    },
+    {
+      "name":"Grito Sepulcral",
+      "limit":"1 vez por dia",
+      "recharge":"",
+      "range":"Raio de 10 Metros",
+      "roll":"",
+      "damage":"12d12 (Necrótico)",
+      "save_throw":"13 de Resistência",
+      "time":"1 Ação",
+      "effect":[
+		"Considerando que a banshee não esteja sob a luz do sol, ela libera um lamento triste em forma de grito. Esse grito não produz efeito em constructos e mortos-vivos, mas todas as outras criaturas no alcance, que puderem ouvi-la, devem realizar o teste de salvamento.",
+		"Se falhar no teste, a criatura sofre o dano e vai adquirir 1 ponto de Insanidade. Já se o teste for bem-sucedido, sofre somente metade do dano"
+	  ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Quando a noite cai, viajantes desafortunados ouvem uns choros baixos da morta desamparada. Esse espírito lamentável é uma banshee, uma criatura rancorosa formada a partir do espírito de uma elfa.",
+    "As banshees parecem esquálidas formas luminosas que lembram vagamente suas características mortais. O rosto de uma banshee está envolto em um emaranhado de cabelos, o corpo vestido com trapos esfarrapados que vibram à medida que ela se move.",
+	"As banshees são os mortos-vivos remanescentes de elfas que, abençoadas com grande beleza, fracassaram em usar sua dádiva para trazer alegria ao mundo. Ao invés disso, elas usaram sua beleza para corromper e controlar os outros. As elfas afetadas pela maldição da banshee não experimentam qualquer alegria, sentindo apenas angústia na presença dos vivos. À medida que a maldição cobra seu preço, suas mentes e corpos decaem, até que a morte complete suas transformações em monstros mortos-vivos.",
+	"Uma banshee torna-se eternamente limitada ao lugar de seu falecimento, incapaz de se aventurar a mais de sete quilômetros e meio desse lugar. Ela é forçada a reviver cada momento de sua vida com perfeita memória, ainda assim se recusa a aceitar a responsabilidade por sua ruína.",
+	"A vaidade que inspirou a criação da maldição da banshee persiste na morte-vida. Essas criaturas cobiçam belos objetos: joias finas, pinturas, estátuas e outros objetos de arte. Ao mesmo tempo, uma banshee abomina qualquer superfície espelhada, pois não consegue suportar ver o horror de sua própria existência. Um único vislumbre de si mesma é suficiente para levar a banshee à fúria."
+  ]
+}

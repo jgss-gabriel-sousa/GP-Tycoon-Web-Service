@@ -1,0 +1,129 @@
+{
+  "name":"Guarda",
+  "name_pronoun":"o Guarda",
+  "english_name":"Guard",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":13,
+  "hp_cr":0.5,
+  "atk_cr":0.5,
+  "damage_cr":0.250,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":1,
+  "xp":75,
+  "defense":18,
+  "bonuses_in_defense":[
+    {
+      "name":"Peitoral",
+      "value":6
+    },
+    {
+      "name":"Escudo Leve",
+      "value":1
+    }
+  ],
+  "hp":16,
+  "mana":0,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":13,
+  "vitality":12,
+  "agility":12,
+  "charisma":10,
+  "willpower":10,
+  "wisdom":11,
+  "intelligence":10,
+
+  "skills":["+2 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Qualquer",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Lança",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (6 m)",
+      "roll":"+3",
+      "damage":"d6+1 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Adaga",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (4 m)",
+      "roll":"+3",
+      "damage":"d4+1 (Corte ou Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Encontrão",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"d3+1 (Impacto)",
+      "save_throw":"11 de Atletismo ou Reflexos",
+      "time":"Ação de Ataque",
+      "effect":[
+        "O Guarda faz o deslocamento de andar e no trajeto deve atingir um inimigo, para então tentar empurrar ou derrubar. O alvo atingido deve realizar o teste de salvamento, se falhar, sofre o dano e o guarda pode escolher entre empurrar por uma distância de 2 m ou derrubá-lo a 1 m."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os guardas incluem membros da vigilância da cidade, sentinelas em uma cidadela ou cidade fortificada e guarda-costas de mercadores e nobres."
+  ]
+}

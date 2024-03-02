@@ -1,0 +1,14 @@
+{
+    "name":"Arco Longo",
+    "type":"Distância",
+    "damage":"d4",
+    "critical":8,
+    "damage_type":"Perfurante",
+    "ammunition":"Flecha",
+    "price":75,
+    "coin":"Ouro",
+    "attribute":"Agilidade",
+    "range":25,
+    "weight":1,
+    "special":["Duas Mãos","ammunition"]
+}

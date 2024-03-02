@@ -1,0 +1,25 @@
+{
+    "name":"Prestidigitação",
+    "class":["Assassino","Bardo","Feiticeiro","Mago","Místico"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"3 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":false,
+    "description":[
+        "Essa magia é um truque mágico simples que conjuradores iniciantes usam para praticar. Você cria um dos seguintes efeitos mágicos dentro do alcance:",
+        "\u2022 Você cria instantaneamente um efeito sensorial inofensivo, como uma chuva de faíscas, um sopro de vento, notas musicais suaves ou um odor estranho.",
+        "\u2022 Você instantaneamente acende ou apaga uma vela, uma tocha ou uma pequena fogueira.",
+        "\u2022 Você instantaneamente limpa ou suja um objeto de até 1 metro cúbico.",
+        "\u2022 Você esfria, esquenta ou melhora o sabor de até 1 metro cubico de matéria inorgânica por 1 hora.",
+        "\u2022 Você faz uma cor, uma pequena marca ou um símbolo aparecer em um objeto ou superfície por 1 hora.",
+        "\u2022 Você cria uma bugiganga não-mágica ou uma imagem ilusória que caiba na sua mão.",
+        "Se você conjurar essa magia diversas vezes, você pode ter até três dos seus efeitos ativos ao mesmo tempo, e você pode dissipar um desses efeitos com uma ação."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

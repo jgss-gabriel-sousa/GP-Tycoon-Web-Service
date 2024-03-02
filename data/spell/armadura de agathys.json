@@ -1,0 +1,24 @@
+{
+    "name":"Armadura de Agathys",
+    "class":["Místico"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[
+        ["Dano Colateral","d4 (Gelo)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":false,
+    "description":[
+        "Uma força magica protetora envolve você, manifestando-se como um frio espectral que cobre você e seu equipamento. Você ganha 5 Pontos de Vida Temporários e se uma criatura atingir você com um ataque corpo-a-corpo enquanto estiver com esses pontos de vida, a criatura sofrerá o Dano Colateral."
+    ],
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
+        ["6","10 de Vida Temporária e 2d4 de Dano Colateral"],
+        ["10","15 de Vida Temporária e 4d4 de Dano Colateral"],
+        ["15","20 de Vida Temporária e 6d4 de Dano Colateral"]
+    ]
+}

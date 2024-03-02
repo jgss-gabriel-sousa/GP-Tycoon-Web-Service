@@ -1,0 +1,107 @@
+{
+  "name":"Destruidor Explosivo (Flamewrath))",
+  "name_pronoun":"o Destruidor Explosivo",
+  "english_name":"Flamewrath",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":16,
+  "hp_cr":9,
+  "atk_cr":7,
+  "damage_cr":4,
+  "resistances_and_immunities_cr":1,
+
+  "challenge_ratio":9,
+  "xp":3570,
+  "defense":19,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Arcana",
+      "value":6
+    }
+  ],
+  "hp":105,
+  "mana":36,
+
+  "movement_walking":8,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":10,
+  "vitality":16,
+  "agility":14,
+  "charisma":10,
+  "willpower":22,
+  "wisdom":10,
+  "intelligence":11,
+
+  "skills":["+3 Arcanismo","+3 Religião"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Fogo"],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Envolto em Chamas",
+      "description":["Para o Destruidor, o feitiço Escudo de Fogo tem uma duração de \"até que seja dissipado\". O Escudo de Fogo queima por 10 minutos após a morte do Destruidor, consumindo seu corpo."]
+    }
+  ],
+
+  "spellcaster_level":9,
+  "spellcasting_attribute":"Vontade",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":["Amizade","Controlar Chamas","Fazer Brilhar","Ilusão","Raio de Fogo","Mãos Flamejantes","Leque Cromático","Controlar Chamas","Sugestão","Bola de Fogo","Escudo de Fogo"],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Adaga",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (4 metros)",
+      "roll":"+5",
+      "damage":"d4+2 (Perfurante)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Um Destruidor Explosivo é um feiticeiro que ganhou o favor de Imix, o Príncipe do Fogo Elemental, por meio de uma série de rituais dolorosos. A pele de um destruidor é queimada e repleta de cicatrizes.",
+    "Habituado a dor, o destruidor se diverte na batalha, usando uma série de feitiços de fogo para incinerar os inimigos que tentam extinguir o poder do fogo elemental."
+  ]
+}

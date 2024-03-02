@@ -1,0 +1,19 @@
+{
+    "name":"Imobilizar Pessoa",
+    "class":["Bardo","Clérigo","Druida","Feiticeiro","Místico","Sábio"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"12 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Concentração",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Escolha um humanoide que você possa ver, dentro do alcance. O alvo deve ser bem-sucedido no teste de salvamento ou ficará Paralisado pela duração. Essa magia não tem efeito em mortos-vivos.",
+        "No final de cada um dos turnos do alvo, ele pode realizar outro teste de salvamento. Se obtiver sucesso, a magia termina no alvo."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

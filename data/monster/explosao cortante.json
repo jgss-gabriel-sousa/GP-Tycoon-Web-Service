@@ -1,0 +1,121 @@
+{
+  "name":"Explosão Cortante (Razerblast)",
+  "name_pronoun":"o Explosão Cortante",
+  "english_name":"Razerblast",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":20,
+  "hp_cr":9,
+  "atk_cr":5,
+  "damage_cr":7,
+  "resistances_and_immunities_cr":1,
+
+  "challenge_ratio":9,
+  "xp":4200,
+  "defense":20,
+  "bonuses_in_defense":[
+    {
+      "name":"Cota de Talas",
+      "value":7
+    }
+  ],
+  "hp":112,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":22,
+  "vitality":20,
+  "agility":11,
+  "charisma":13,
+  "willpower":14,
+  "wisdom":11,
+  "intelligence":9,
+
+  "skills":["+4 Intimidação","+3 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Fogo"],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Armadura Abrasadora",
+      "description":["A Armadura do Explosão Cortante emana calor. Qualquer criatura que fique Agarrada ao Explosão Cortante sofre 1d10 de dano de Fogo no final do turno da criatura."]
+    },
+    {
+      "name":"Explosão de Estilhaços",
+      "description":["Quando um soldado Explosão Cortante morre, o orbe flamejante em seu peito explode, destruindo seu corpo e espalhando estilhaços de sua armadura. Cada criatura a até 3 metros dele deve realizar um teste de Reflexos com dificuldade 12, sofrendo 6d6 de dano de fogo numa falha, ou metade desse dano num sucesso."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Explosão Cortante realiza três ataques com a Lança."]
+    },
+	  {
+      "name":"Lança",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (6 metros)",
+      "roll":"+6",
+      "damage":"1d8+6 (Perfurante) + 1d6 (Fogo)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "A classe de soldados do culto do fogo, chamada de Explosão Cortante, ferve de ódio pelos inimigos da seita. Os senhores elementais do Explosão Cortante substituíram seus corações por orbes flamejantes que explodem se eles morrerem. Explosões Cortantes lembram pouco de suas vidas antes do poder do fogo elemental transformá-las. Agora, eles seguem as ordens dos Destruidores Explosivos e dos líderes do culto sem questionar. Explosões Cortantes lutam com confiança porque sabem que, mesmo se perderem, partirão em uma explosão de glória."
+  ]
+}

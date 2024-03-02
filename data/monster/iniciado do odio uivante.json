@@ -1,0 +1,132 @@
+{
+  "name":"Iniciado do Ódio Uivante",
+  "name_pronoun":"o Iniciado do Ódio Uivante",
+  "english_name":"Howling Hatred Initiate",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":2,
+  "hp_cr":0.250,
+  "atk_cr":1,
+  "damage_cr":0.250,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.5,
+  "xp":36,
+  "defense":14,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura de Couro",
+      "value":2
+    }
+  ],
+  "hp":9,
+  "mana":0,
+
+  "movement_walking":9,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":10,
+  "vitality":10,
+  "agility":15,
+  "charisma":11,
+  "willpower":12,
+  "wisdom":9,
+  "intelligence":10,
+
+  "skills":["+2 Enganação","+4 Furtividade","+2 Religião"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Prender a Respiração",
+      "description":[
+        "O Iniciado pode prender a respiração por 30 minutos."
+	    ]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+	  {
+      "name":"Adaga",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (4 m)",
+      "roll":"+4",
+      "damage":"d4+2 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+	  {
+      "name":"Espada Curta",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d6+2 (Corte)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+	  {
+      "name":"Vento Orientador",
+      "limit":"1 vez por dia",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação Menor",
+      "effect":["O Iniciado ganha Vantagem na próxima jogada de ataque à distância que fizer antes do final de seu próximo turno."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os Iniciados do Ódio Uivante são atraídos pela filosofia do culto de não apego e rejeição das coisas materiais, inconscientes da verdadeira natureza do culto.",
+    "O culto atrai adeptos de todos os tipos, desde jovens de olhar sonhador com poucas propriedades até pessoas cansadas do mundo, ansiosas por colocar sua fé em algo tão tangível e poderoso como uma força elemental.",
+    "Os iniciados vivem com pouco mais que ar por um mês, acreditando que esse regime os purifica das necessidades corporais. Na verdade, isso torna seus corpos tão desesperados por sustento que se tornam suscetíveis à doutrinação. Logo, eles podem justificar atos hediondos dentro do contexto do culto: o sacrifício humano não é um ato de assassinato, mas uma libertação da alma das limitações de uma concha física; conjurar um redemoinho para destruir os descrentes não é um ato de terror, mas uma demonstração de fé verdadeira."
+  ]
+}

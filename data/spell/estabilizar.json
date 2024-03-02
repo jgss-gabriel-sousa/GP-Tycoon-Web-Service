@@ -1,0 +1,18 @@
+{
+    "name":"Estabilizar",
+    "class":["Clérigo","Necromante"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você toca uma criatura viva que esteja com 0 pontos de vida. Através desse toque, a criatura é estabilizada. Essa magia não tem efeito em mortos-vivos ou constructos."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

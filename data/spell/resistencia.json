@@ -1,0 +1,18 @@
+{
+    "name":"Resistência",
+    "class":["Clérigo","Druida"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"10 Minutos",
+    "concentration":true,
+    "description":[
+        "Você toca uma criatura voluntária e o alvo pode adicionar 1d8 no próximo teste de salvamento que fizer, antes do fim da magia."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

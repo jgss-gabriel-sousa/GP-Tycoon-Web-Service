@@ -1,0 +1,24 @@
+{
+    "name":"Bolha Ácida",
+    "class":["Feiticeiro","Mago","Necromante"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"20 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","d6 (Ácido)"]
+    ],
+    "heal":"",
+    "saving_trow":"Reflexos",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você lança uma bolha de ácido, escolha uma ou duas criaturas que você possa ver dentro do alcance, se você escolher duas, elas devem estar a até 1 metro um do outro. Os alvos devem ser bem-sucedidos no teste de salvamento ou sofrerão o dano."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","2d6 de Dano"],
+        ["11","3d6 de Dano"],
+        ["17","4d6 de Dano"]
+    ]
+}

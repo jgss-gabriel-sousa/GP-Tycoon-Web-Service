@@ -1,0 +1,18 @@
+{
+    "name":"Pele de Árvore",
+    "class":["Druida","Patrulheiro"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":true,
+    "description":[
+        "Você toca uma criatura voluntária. Até o fim da magia, a pele da criatura fica rígida, similar a casca de um carvalho, aumentando em 5 a Defesa do alvo, até um máximo de 16."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

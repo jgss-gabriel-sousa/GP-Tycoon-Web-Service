@@ -1,0 +1,18 @@
+{
+    "name":"Passo Nebuloso",
+    "class":["Místico"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Brevemente envolto por uma neblina, você se teletransporta a até 9 metros para um espaço desocupado que você possa ver."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

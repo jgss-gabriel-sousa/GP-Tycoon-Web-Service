@@ -1,0 +1,18 @@
+{
+    "name":"Escudo Arcano",
+    "class":["Feiticeiro","Mago"],
+    "magic_circle":2,
+    "cast_time":"Reação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Rodada",
+    "concentration":false,
+    "description":[
+        "Uma barreira de energia invisível aparece e protege você. Até o início do seu próximo turno, você recebe +5 na Defesa, incluindo contra o ataque que desencadeou a magia. Você não sofre dano da magia Mísseis Mágicos."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

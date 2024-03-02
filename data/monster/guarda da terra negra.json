@@ -1,0 +1,124 @@
+{
+  "name":"Guarda da Terra Negra",
+  "name_pronoun":"o Guarda da Terra Negra",
+  "english_name":"Black Earth Guard",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":24,
+  "hp_cr":4,
+  "atk_cr":3,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":5,
+  "xp":680,
+  "defense":21,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Completa de Pedra",
+      "value":9
+    }
+  ],
+  "hp":39,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":17,
+  "vitality":14,
+  "agility":11,
+  "charisma":9,
+  "willpower":14,
+  "wisdom":10,
+  "intelligence":10,
+
+  "skills":["+1 Intimidação","+2 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Guarda realiza dois ataques com a Maça Estrela."]
+    },
+	  {
+      "name":"Maça Estrela",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+5",
+      "damage":"d8+3 (Perfurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+	  {
+      "name":"Postura Firme",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Reação",
+      "effect":["Quando o guarda é submetido a um efeito que o moveria, derrubaria ou ambos, ele pode usar sua reação para não ser movido nem derrubado."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os Guardas da Terra Negra são os guerreiros do culto da terra. Eles são bandidos brutais, com armaduras pesadas, devotados a Ogrémoch. Essa devoção concedeu a eles uma habilidade fantástica de manter sua posição contra os ataques. Também lhes deu o direito de usar uma armadura de placa especial de pedra elementar, que quebra quando o guarda é morto.",
+    "Esses guardas são fanaticamente leais aos sacerdotes da Terra Negra e aos líderes do culto. Eles lutam até a morte por seus superiores. Aqueles com mais potencial tornam-se Tubarões Terrestres."
+  ]
+}

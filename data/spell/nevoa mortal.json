@@ -1,0 +1,26 @@
+{
+    "name":"Névoa Mortal",
+    "class":["Feiticeiro","Mago"],
+    "magic_circle":6,
+    "cast_time":"1 Ação",
+    "range":"25 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","5d8 (Veneno)"]
+    ],
+    "heal":"",
+    "saving_trow":"Resistência",
+    "duration":"10 Minutos",
+    "concentration":false,
+    "description":[
+        "Você cria uma esfera de nevoeiro venenoso de cor marelo-esverdeado, com 6 metros de raio, centrado em um ponto, à sua escolha, dentro do alcance. O nevoeiro se espalha, dobrando esquinas. Ele permanece pela duração ou até um vento forte dispersar o nevoeiro, terminando a magia. Sua área é de escuridão densa.",
+        "Quando uma criatura entra na área da magia pela primeira vez no turno dela ou começa seu turno lá, essa criatura deve realizar o teste de salvamento. A criatura sofre dano se falhar, ou metade desse dano, se passar no teste. As criaturas serão afetadas mesmo se prenderem a respiração ou não precisarem respirar.",
+        "Os vapores são mais pesados que o ar, mantendo-se nos níveis mais baixos do terreno, até mesmo caindo em aberturas, se movendo 3 metros por turnos."
+    ],
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
+        ["28","6d8 de dano"],
+        ["36","7d8 de dano"],
+        ["45","8d8 de dano"]
+    ]
+}

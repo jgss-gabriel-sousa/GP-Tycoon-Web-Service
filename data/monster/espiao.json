@@ -1,0 +1,154 @@
+{
+  "name":"Espião",
+  "name_pronoun":"o Espião",
+  "english_name":"Spy",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":1,
+  "hp_cr":3,
+  "atk_cr":1,
+  "damage_cr":0.25,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":1,
+  "xp":55,
+  "defense":13,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Acolchoada",
+      "value":1
+    }
+  ],
+  "hp":27,
+  "mana":0,
+
+  "movement_walking":9,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":10,
+  "vitality":10,
+  "agility":15,
+  "charisma":16,
+  "willpower":14,
+  "wisdom":14,
+  "intelligence":12,
+
+  "skills":["+4 Furtividade","+5 Enganação","+5 Iniciativa","+5 Investigação","+4 Ladroagem","+6 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","qualquer outro"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Ataque Surpresa",
+      "description":["Quando o Espião estiver com Vantagem e atingir um inimigo, ele causa 1d6 de dano adicional."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Espião realiza dois ataques com a Espada Curta."]
+    },
+    {
+      "name":"Espada Curta",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d6+2 (Corte)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Besta de Mão",
+      "limit":"",
+      "recharge":"",
+      "range":"8 m",
+      "roll":"+4",
+      "damage":"d6+2 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Ação Ardilosa",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação Menor",
+      "effect":[
+        "O Espião pode usar sua Ação Menor para Correr, Desengajar ou Esconder."
+      ]
+    },
+    {
+      "name":"Esquiva Sobrenatural",
+      "limit":"1 vez por dia",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Reação",
+      "effect":[
+        "O Espião reduz pela metade o dano sofrido de um ataque."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Governantes, Nobres, Mercadores, Mestres de Guilda e outros indivíduos ricos usam os Espiões para ganhar vantagem em um mundo de política implacável. Um Espião é treinado para coletar informações secretamente. Espiões leais preferem morrer a divulgar informações que possam comprometê-los ou a seus empregadores."
+  ]
+}

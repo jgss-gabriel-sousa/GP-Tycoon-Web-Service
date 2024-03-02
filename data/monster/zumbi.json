@@ -1,0 +1,104 @@
+{
+  "name":"Zumbi",
+  "name_pronoun":"o Zumbi",
+  "english_name":"Zombie",
+
+  "source":["bestiario","pota"],
+
+  "type":"Morto-Vivo",
+  "size":"Médio",
+  
+  "defense_cr":0,
+  "hp_cr":2,
+  "atk_cr":0.5,
+  "damage_cr":0.25,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.5,
+  "xp":22,
+  "defense":8,
+  "bonuses_in_defense":[],
+  "hp":22,
+  "mana":0,
+
+  "movement_walking":3,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":13,
+  "vitality":6,
+  "agility":6,
+  "charisma":5,
+  "willpower":10,
+  "wisdom":6,
+  "intelligence":3,
+
+  "skills":[],
+
+  "vulnerability":["Radiante"],
+  "resistances":[],
+  "immunities":["Veneno"],
+  "condition_immunities":["Exausto"],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":true,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Fortitude de Morto-Vivo",
+      "description":["Quando um dano deixar o zumbi com 0 ou menos pontos de vida, ele pode realizar um teste de Resistência com dificuldade igual a 5 + Dano Sofrido, a não ser que o dano seja Radiante ou de um Acerto Crítico. Se obtiver sucesso, ele ficará com 1 de vida."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Pancada",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+3",
+      "damage":"d6+1 (Impacto)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "De algum lugar na escuridão, um gemido embrulhado é ouvido. Uma forma cambaleante aparece, arrastando um pé conforme ergue seus braços inchados e mãos quebradas. O zumbi avança, impelido a matar qualquer um lento demais para escapar de suas garras.",
+    "Magia necromântica sinistra infunde os restos dos mortos, fazendo-os se erguerem como zumbis que fazem o que seus criadores ordenam sem medo ou hesitação. Eles se movem contorcendo -se, andando irregularmente, vestidos em com os trapos das roupas que eles usavam quando foram colocados para descansar e carregam o cheiro da decomposição.",
+    "Os zumbis não mantem qualquer vestígio de seu eu anterior, sua mente é desprovida de pensamentos ou imaginação. Um zumbi deixado sem ordens, fica simplesmente parado e apodrece a não ser que algo que ele possa matar se aproxime. A mágica animando um zumbi o infunde com maldade, portanto, deixando sem propósito, ele ataca qualquer criatura viva que encontrar.",
+    "Devido a sua natureza de morte-vida, um zumbi não respira, come, bebe ou dorme."
+  ]
+}

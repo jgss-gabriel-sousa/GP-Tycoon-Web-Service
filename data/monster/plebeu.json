@@ -1,0 +1,105 @@
+{
+  "name":"Plebeu",
+  "name_pronoun":"o Plebeu",
+  "english_name":"Commoner",
+
+  "source":["bestiario","pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":0.125,
+  "hp_cr":0.250,
+  "atk_cr":0.250,
+  "damage_cr":0.125,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.125,
+  "xp":8,
+  "defense":10,
+  "bonuses_in_defense":[],
+  "hp":10,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":10,
+  "vitality":10,
+  "agility":10,
+  "charisma":10,
+  "willpower":10,
+  "wisdom":10,
+  "intelligence":10,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Qualquer",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Arma Simples",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+2",
+      "damage":"d4 (Físico)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Soco",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+2",
+      "damage":"d2 - Mod. Vitalidade do Alvo (Impacto)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":["Podem se incluir como Plebeus: Camponeses, Servos, Escravos, Criados, Peregrinos, Mercadores, Artesãos e Eremitas."]
+}

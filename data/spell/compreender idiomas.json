@@ -1,0 +1,19 @@
+{
+    "name":"Compreender Idiomas",
+    "class":["Bardo","Feiticeiro","Mago","Místico","Sábio"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":false,
+    "description":[
+        "Pela duração, você compreende o significado literal de qualquer idioma falado que você ouvir. Você também compreende qualquer idioma escrito que vir, mas você deve tocar a superfície onde as palavras estão escritas. Leva, aproximadamente, 1 minuto para ler uma página de texto.",
+        "Essa magia não decifra mensagens secretas em textos ou glifos, como um selo arcano, que não seja parte de um idioma escrito."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

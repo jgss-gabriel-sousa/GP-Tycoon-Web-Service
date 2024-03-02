@@ -1,0 +1,21 @@
+{
+    "name":"Crescer Espinhos",
+    "class":["Druida","Patrulheiro"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"30 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","2d4 (Perfurante)"]
+    ],
+    "heal":"",
+    "saving_trow":"Percepção",
+    "duration":"10 Minutos",
+    "concentration":true,
+    "description":[
+        "O solo em 6 metros quadrados, centrado num ponto dentro do alcance, se retorce e brotam vinhas e espinhos. A área se torna terreno difícil pela duração. Quando uma criatura entrar ou se mover dentro da área, ela sofrerá dano para cada 1 metro que atravessar.",
+        "A transformação do terreno é camuflada para parecer natural. Qualquer criatura que não puder ver a área no momento que a magia for conjurada, deve realizar um teste de salvamento para reconhecer o terreno como perigoso, antes de adentra-lo."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

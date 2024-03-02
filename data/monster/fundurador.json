@@ -1,0 +1,135 @@
+{
+  "name":"Fundurador",
+  "name_pronoun":"o Fundurador",
+  "english_name":"Fathomer",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":6,
+  "hp_cr":5,
+  "atk_cr":1,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":3,
+  "xp":250,
+  "defense":16,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Arcana",
+      "value":4
+    }
+  ],
+  "hp":52,
+  "mana":20,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":14,
+  "vitality":14,
+  "agility":11,
+  "charisma":18,
+  "willpower":16,
+  "wisdom":11,
+  "intelligence":11,
+
+  "skills":["+2 Arcanismo","+4 Furtividade","+4 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Metamorfose",
+      "description":[
+        "2 vezes por dia, o Fundurador pode usar sua ação para se metamorfosear em uma Serpente composta de água, ou de volta à sua forma verdadeira.",
+        "Qualquer coisa que o fundurador esteja vestindo ou carregando é absorvido na forma da serpente durante a mudança e fica inacessível até que o fundurador retorne à sua forma verdadeira.",
+        "O fundurador reverte à sua forma verdadeira após 4 horas ou com outro uso desta habilidade. Se o fundurador ficar inconsciente ou morrer, ele retorna à sua forma verdadeira.",
+        "Enquanto na forma de serpente, o fundurador adquire as seguintes características:",
+        "\u2022 Deslocamento: 8 Metros",
+        "\u2022 Imunidade: Veneno",
+        "\u2022 Resistência: Fogo e Físico de armas não mágicas",
+        "\u2022 Imunidade de Condição: Agarrado, Caído, Exausto, Impedido, Inconsciente e Paralisado",
+        "\u2022 Capacidade de respirar debaixo d'água.",
+        "\u2022 Pode entrar no espaço de uma criatura hostil e parar lá. Além disso, se a água pode passar por um espaço, a serpente também pode, sem ficar Espremido",
+        "\u2022 Mesmo em forma de serpente o Fundurador consegue conjurar magias."
+	  ]
+    },
+	  {
+      "name":"Armadura de Olhydra",
+      "description":["O Fundurador está sempre protegido pela magia Armadura Arcana."]
+    }
+  ],
+
+  "spellcaster_level":5,
+  "spellcasting_attribute":"Carisma",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":["Cura","Mão Mágica","Rajada Mística","Armadura de Agathys","Bruxaria","Recuo Acelerado","Invisibilidade","Toque Vampírico"],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Apertar (Forma de Serpente)",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"2d6+2 (Impacto)",
+      "save_throw":"12 de Atletismo",
+      "time":"Ação de Ataque",
+      "effect":["Se o alvo for Médio ou menor, ele será Agarrado, podendo fazer o teste de salvamento como uma ação no seu turno. O fundurador pode agarrar somente uma criatura ao mesmo tempo."]
+    },
+	  {
+      "name":"Adaga (Forma Humana)",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (4 metros)",
+      "roll":"+4",
+      "damage":"d4+2 (Perfurante)",
+      "save_throw":"10 de Resistência",
+      "time":"Ação de Ataque",
+      "effect":["Se o alvo for uma criatura diferente de um Elfo, Eladrin ou Morto-Vivo, ele deve ser bem-sucedido no Teste de Salvamento ou ficará Paralisado por 1 minuto. O alvo pode repetir o teste ao final de cada um dos seus turnos, terminando o efeito sobre si caso tenha sucesso."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Funduradores são cultistas que selaram um pacto com Olhydra, a Princesa do Mal da Água. Além de suas habilidades de conjurar feitiços, os funduradores têm a habilidade de transformar seus corpos em água, assumindo formas semelhantes a serpentes.",
+    "Em suas formas de serpente d'água, os funduradores ganham muitas das resistências que as criaturas elementais possuem, bem como a habilidade de agarrar e esmagar seus inimigos com seus corpos aquáticos.",
+    "Os funduradores costumam servir como espiões, infiltrados e assassinos para o culto da água, uma vez que podem deslizar por baixo de portas trancadas ou passar por grades e obstáculos semelhantes com facilidade."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "name":"Toque Gélido",
+    "class":["Feiticeiro","Místico","Necromante"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"Toque à Distância (24 Metros)",
+    "attack_roll":true,
+    "damage":[
+        ["Dano","d6 (Necrótico)"],
+        ["Dano da Aura","d4 (Gelo)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Rodada",
+    "concentration":false,
+    "description":[
+        "Você cria um disparo de energia do puro frio sepulcral, que ao atingir, se prende a criatura para formar uma aura gélida.",
+        "Realize um ataque de toque a distância contra a criatura alvo, se atingir, a criatura sofre o Dano e cria uma aura gélida de 1 metro de raio, as outras criaturas dentro desta aura sofrem o Dano da Aura.",
+        "Criaturas que começarem seus turnos, ou entrem, na aura gélida, não podem recuperar pontos de vida até o início do seu próximo turno."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","2d6 de Dano e 2d4 de Dano da Aura"],
+        ["11","3d6 de Dano e 3d4 de Dano da Aura"],
+        ["17","4d6 de Dano e 4d4 de Dano da Aura"]
+    ]
+}

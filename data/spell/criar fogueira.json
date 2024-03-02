@@ -1,0 +1,24 @@
+{
+    "name":"Criar Fogueira",
+    "class":["Druida", "Feiticeiro", "Mago", "Místico"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"10 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","d8 (Fogo)"]
+    ],
+    "heal":"",
+    "saving_trow":"Reflexos",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Você cria uma fogueira no solo em um ponto que você possa ver, dentro do alcance. Até a magia acabar, a fogueira preenche um cubo de 1 metro. Qualquer criatura no espaço da fogueira, quando você a conjura, deve ser bem-sucedida no teste de salvamento ou sofrerá dano. Uma criatura também deve realizar o teste de salvamento quando entrar no espaço da fogueira, ou terminar seu turno nela."
+    ],
+    "spell_evolution_type":"level",
+    "spell_evolution":[
+        ["5","2d8 de Dano"],
+        ["11","3d8 de Dano"],
+        ["17","4d8 de Dano"]
+    ]
+}

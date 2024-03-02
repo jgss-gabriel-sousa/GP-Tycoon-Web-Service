@@ -1,0 +1,118 @@
+{
+  "name":"Boitatá",
+  "name_pronoun":"o Boitatá",
+  "english_name":"Boitata",
+
+  "source":["bestiario"],
+
+  "type":"Elemental",
+  "size":"Enorme",
+  
+  "defense_cr":6,
+  "hp_cr":11,
+  "atk_cr":5,
+  "damage_cr":9,
+  "resistances_and_immunities_cr":2.5,
+
+  "challenge_ratio":9,
+  "xp":3740,
+  "defense":16,
+  "bonuses_in_defense":[
+    {
+      "name":"Escamas",
+      "value":2
+    }
+  ],
+  "hp":150,
+  "mana":0,
+
+  "movement_walking":9,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":14,
+  "vitality":18,
+  "agility":16,
+  "charisma":8,
+  "willpower":10,
+  "wisdom":10,
+  "intelligence":5,
+
+  "skills":["-5 Furtividade","+4 Percepção","+10 Sobrevivência"],
+
+  "vulnerability":[],
+  "resistances":["Físico de armas não mágicas"],
+  "immunities":["Fogo"],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Primordial"],
+  "telepathy":false,
+  "only_understands":true,
+  
+  "alignment":"Leal e Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Aura Ardente",
+      "description":["Uma criatura que se aproximar a 2 m do Boitatá tem que fazer um teste de Resistência com dificuldade 16, em caso de falha sofre 4D6 de dano de Fogo, ou metade em um sucesso."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+6",
+      "damage":"d10+2 (Perfurante) + 4d6 (Fogo)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Cauda",
+      "limit":"",
+      "recharge":"",
+      "range":"3 Metros",
+      "roll":"+6",
+      "damage":"d10+2 (Perfurante) + 4d6 (Fogo)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Boitatá é uma grande cobra com as escamas em chamas, medindo 7 metros de comprimento e pesando 350 quilos, ela queima com fogo mágico suas vítimas, esse fogo não atinge a vegetação e os animais selvagens.",
+	"Boitatá é um espírito elemental que vive em florestas, nas proximidades de rios e lagos. Ela não ataca nativos, sejam animais ou humanoides, mas tem ódio feroz contra forasteiros, principalmente aqueles que degredam seu habitat."
+  ]
+}

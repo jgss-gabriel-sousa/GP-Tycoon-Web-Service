@@ -1,0 +1,18 @@
+{
+    "name":"Ataque Certeiro",
+    "class":["Assassino", "Bardo", "Feiticeiro", "Mago", "Místico"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"15 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Turno",
+    "concentration":true,
+    "description":[
+        "Você estende sua mão e aponta o dedo em direção a um alvo dentro do seu alcance. Sua magia concede-lhe uma breve intuição sobre as defesas do alvo. No seu próximo turno, você terá uma Vantagem na Rolagem de Ataque contra ele."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

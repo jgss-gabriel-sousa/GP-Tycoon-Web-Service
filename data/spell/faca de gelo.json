@@ -1,0 +1,21 @@
+{
+    "name":"Faca de Gelo",
+    "class":["Druida","Feiticeiro","Mago"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"20 Metros",
+    "attack_roll":true,
+    "damage":[
+        ["Dano","d10 (Perfurante)"],
+        ["Dano Explosão","2d6 (Gelo)"]
+    ],
+    "heal":"",
+    "saving_trow":"Reflexos",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você cria um fragmento de gelo e arremessa-o em uma criatura dentro do alcance. Se atingir, o alvo sofre dano, atingindo ou errando, o fragmento explode. O alvo e cada criatura a até 2 metro do ponto onde o gelo explodiu deve ser bem-sucedido no teste de salvamento ou sofrerá o dano da explosão."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

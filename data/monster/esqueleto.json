@@ -1,0 +1,120 @@
+{
+  "name":"Esqueleto",
+  "name_pronoun":"o Esqueleto",
+  "english_name":"Skeleton",
+
+  "source":["bestiario","pota"],
+
+  "type":"Morto-Vivo",
+  "size":"Médio",
+  
+  "defense_cr":1,
+  "hp_cr":0.5,
+  "atk_cr":1,
+  "damage_cr":0.25,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":0.5,
+  "xp":36,
+  "defense":13,
+  "bonuses_in_defense":[
+    {
+      "name":"Restos de Armadura",
+      "value":1
+    }
+  ],
+  "hp":14,
+  "mana":0,
+
+  "movement_walking":4,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":14,
+  "vitality":10,
+  "agility":14,
+  "charisma":5,
+  "willpower":10,
+  "wisdom":8,
+  "intelligence":6,
+
+  "skills":[],
+
+  "vulnerability":["Impacto","Radiante"],
+  "resistances":[],
+  "immunities":["Veneno"],
+  "condition_immunities":["Exausto"],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum"],
+  "telepathy":false,
+  "only_understands":true,
+  
+  "alignment":"Leal e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Espada Curta",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d6+2 (Corte)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Arco Curto",
+      "limit":"",
+      "recharge":"",
+      "range":"15 metros",
+      "roll":"+4",
+      "damage":"d6+2 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Esqueletos surgem quando animados por magia negra. Eles atendem à convocação de feiticeiros que os chamam de suas tumbas de pedra e antigos campos de batalha, ou ascendem por conta própria em lugares saturados de morte e perda, despertados por agitações de energia necromântica ou pela presença do mal corruptor.",
+    "Qualquer força sinistra que desperte um esqueleto infunde em seus ossos uma vitalidade sombria, aderindo junta a junta e remontando membros desmontados. Essa energia motiva um esqueleto a se mover e pensar de maneira rudimentar, embora apenas como uma pálida imitação da maneira como se comportava em vida. Um esqueleto animado não retém nenhuma conexão com seu passado, embora ressuscitar um esqueleto restaure seu corpo e alma, banindo o odioso espírito morto-vivo que o fortalece.",
+    "Enquanto a maioria dos esqueletos são restos animados de humanos mortos e outros humanóides, mortos-vivos esqueléticos podem ser criados a partir dos ossos de outras criaturas além dos humanóides, dando origem a uma série de formas únicas e aterrorizantes.",
+    "Esqueletos criados por feitiço estão ligados à vontade de seu criador. Eles seguem ordens à risca, nunca questionando as tarefas que seus mestres lhes dão, independentemente das consequências. Por causa de sua interpretação literal de comandos e obediência inabalável, os esqueletos se adaptam mal às novas circunstâncias. Eles não podem ler, falar, se emocionar ou se comunicar de qualquer maneira, exceto acenar com a cabeça, balançar a cabeça ou apontar. Ainda assim, os esqueletos são capazes de realizar uma variedade de tarefas relativamente complexas.",
+    "Um esqueleto pode lutar com armas e usar armadura, pode carregar e disparar uma catapulta ou trabuco, escalar uma escada de cerco, formar uma parede de escudos ou despejar óleo fervente. No entanto, ele deve receber instruções cuidadosas explicando como essas tarefas são realizadas.",
+    "Embora não tenham o intelecto que possuíam em vida, os esqueletos não são estúpidos. Em vez de quebrar seus membros tentando abrir caminho através de uma porta de ferro, um esqueleto tenta primeiro a maçaneta. Se isso não funcionar, ele procura outra maneira de passar ou contornar o obstáculo.",
+    "Esqueletos independentes temporária ou permanentemente livres do controle de um mestre, às vezes representam ações de suas vidas passadas, seus ossos ecoando os comportamentos rotineiros de seus antigos eus vivos. O esqueleto de um mineiro pode levantar uma picareta e começar a lascar paredes de pedra. O esqueleto de um guarda pode levantar um poste em uma porta aleatória. O esqueleto de um dragão pode estar deitado em uma pilha de tesouro, enquanto o esqueleto de um cavalo colhe grama que não pode comer. Deixados sozinhos em um salão de baile, os esqueletos dos nobres podem continuar uma dança eternamente inacabada.",
+    "Quando os esqueletos encontram criaturas vivas, a energia necromântica que os impulsiona os obriga a matar, a menos que sejam comandados por seus mestres para se absterem de fazê-lo. Eles atacam sem misericórdia e lutam até serem destruídos, pois os esqueletos possuem pouco senso de identidade e ainda menos senso de autopreservação.",
+    "Devido a sua natureza de morte-vida, um esqueleto não respira, come, bebe ou dorme."
+  ]
+}

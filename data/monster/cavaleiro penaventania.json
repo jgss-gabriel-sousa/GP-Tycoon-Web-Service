@@ -1,0 +1,125 @@
+{
+  "name":"Cavaleiro Penaventania",
+  "name_pronoun":"o Cavaleiro Penaventania",
+  "english_name":"Feathergale Knight",
+
+  "source":["pota"],
+
+  "type":"Humanoide",
+  "size":"Médio",
+  
+  "defense_cr":2,
+  "hp_cr":4,
+  "atk_cr":0.5,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":2,
+  "xp":95,
+  "defense":14,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura de Couro",
+      "value":2
+    }
+  ],
+  "hp":33,
+  "mana":12,
+
+  "movement_walking":8,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":14,
+  "vitality":12,
+  "agility":14,
+  "charisma":14,
+  "willpower":12,
+  "wisdom":10,
+  "intelligence":11,
+
+  "skills":["+2 Lidar com Animais","+2 Conhecimento"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Leal e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":3,
+  "spellcasting_attribute":"Carisma",
+  "special_spell_feature":"",
+  "arcane_failure":10,
+  "spells":["Fazer Brilhar","Lufada","Mensagem","Raio de Gelo","Recuo Acelerado","Queda Suave"],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Cavaleiro realiza dois ataques com a Espada Longa"]
+    },
+    {
+      "name":"Espada Longa",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+4",
+      "damage":"d10+2 (Corte)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    },
+    {
+      "name":"Besta Pesada",
+      "limit":"",
+      "recharge":"",
+      "range":"20 Metros",
+      "roll":"+4",
+      "damage":"d10+2 (Perfurante)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os Cavaleiros Penaventania são pessoas ambiciosas e ricas das cidades grandes, como Águas Profundas, seduzidos pelas promessas de poder do Culto do Ar. Montados em Hipogrifos ou Abutres Gigantes, eles inspecionam as redondezas da Espiral Penaventania.",
+    "Os cavaleiros desprezam outros cultistas elementais, que eles consideram lunáticos depravados. Sob o comando do senhor comandante Thurl Merosska, os Cavaleiros Penaventania se veem como homens e mulheres de elite que podem fazer escolhas difíceis para o bem de seus reinos.",
+    "Na realidade, eles estão presos a Yan-C-Bin e são cegos para sua própria corrupção e decadência. Apesar de sua elegância e sofisticação social, cada um selou um pacto com o assassinato de um ser senciente, mortes que os cavaleiros apelidaram de necessárias para a segurança do reino. "
+  ]
+}

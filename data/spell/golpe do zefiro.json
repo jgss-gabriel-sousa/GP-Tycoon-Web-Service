@@ -1,0 +1,18 @@
+{
+    "name":"Golpe do Zéfiro",
+    "class":["Patrulheiro"],
+    "magic_circle":1,
+    "cast_time":"1 Ação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Turno",
+    "concentration":false,
+    "description":[
+        "Você se move como o vento. Até o fim da magia, seu movimento não provoca Ataques de Oportunidade. E uma vez até o fim da magia, você tem Vantagem em uma Rolagem de Ataque com Arma."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

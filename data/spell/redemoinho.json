@@ -1,0 +1,26 @@
+{
+    "name":"Redemoinho",
+    "class":["Druida","Feiticeiro","Mago"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"12 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","d8 (Impacto)"]
+    ],
+    "heal":"",
+    "saving_trow":"Atletismo",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Escolha um cubo de ar de 1 metro, que esteja desocupado e que você possa ver, dentro do alcance. Uma força elemental que se parece com um redemoinho aparece no cubo e permanece pela duração da magia.",
+        "Qualquer criatura que terminar seu turno a até 1 metro do redemoinho deve realizar o teste de salvamento. Se falhar, a criatura sofre o dano e é empurrada 3 metros de distância em uma direção aleatória (Role 1d8 e escolha um valor para cada direção). Se obtiver sucesso, a criatura sofre metade do dano e não é empurrada.",
+        "Com uma ação menor, você pode mover o redemoinho 6 metros em qualquer direção. Se o redemoinho se mover sobre areia, poeira, terra solta ou cascalho, ele suga o material e forma uma nuvem de 3 metros de raio, composta de detritos, que dura até o início do seu próximo turno. A nuvem na área é de escuridão densa."
+    ],
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
+        ["10","2d8 de Dano"],
+        ["15","3d8 de Dano"],
+        ["21","4d8 de Dano"]
+    ]
+}

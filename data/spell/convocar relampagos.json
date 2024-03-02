@@ -1,0 +1,23 @@
+{
+    "name":"Convocar Relâmpagos",
+    "class":["Druida"],
+    "magic_circle":4,
+    "cast_time":"1 Ação",
+    "range":"35 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","3d10 (Elétrico)"],
+        ["Dano Aumentado","4d10 (Elétrico)"]
+    ],
+    "heal":"",
+    "saving_trow":"Reflexos",
+    "duration":"10 Minutos",
+    "concentration":true,
+    "description":[
+        "Uma nuvem tempestuosa aparece com 18 metros de raio, centrada num ponto que você possa ver, 30 metros acima de você. A magia falha se você não puder ver um ponto no ar em que a nuvem possa aparecer (por exemplo, se você estiver em uma sala que não possa comportar a nuvem).",
+        "Quando você conjurar a magia, escolha um ponto que você possa ver dentro do alcance. Um raio de eletricidade é disparado da nuvem no ponto. Cada criatura a 1 metro desse ponto deve realizar o teste de salvamento. Uma criatura sofre de dano se falhar no teste, ou metade desse dano se passar. Em cada um dos seus turnos, até a magia acabar, você pode usar sua ação para convocar um relâmpago dessa forma novamente, afetando o mesmo ponto ou um diferente.",
+        "Se você estiver a céu aberto em condições tempestuosas quando conjurar essa magia, a magia lhe dá controle sobre a tempestade existente ao invés de criar uma nova. Sob tais condições, o dano da magia aumenta."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
