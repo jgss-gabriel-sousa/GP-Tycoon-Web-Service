@@ -9,12 +9,16 @@ const express = require('express');
 const app = express();
 const crypto = require('crypto');
 const cors = require('cors');
+const fs = require("fs");
+const path = require("path");
 
 app.use(cors());
 app.use(express.json());
 
 
 const validKeys = {};
+const startTime = Date.now();
+let genValidKeysTime;
 
 function generateKey(index){
     const sha256 = crypto.createHash('MD5');
@@ -117,13 +121,91 @@ function roughSizeOfObject(object) {
     return bytes;
 }
 
-app.listen(PORT, () => {
-    const startTime = Date.now();
-    genValidKeys();
+app.get(`/gp-tycoon/stats`, (req, res) => {
     const sizeOfValidKeysOBJ = roughSizeOfObject(validKeys);
-    const genValidKeysTime = Date.now();
+    
     console.log(`Server started at ${new Date().toISOString()}`);
     console.log(`Running on port: ${PORT}`);
     console.log(`Started in ${genValidKeysTime - startTime}ms`);
     console.log(`Object size ${sizeOfValidKeysOBJ/1024000} mb`);
+});
+
+app.listen(PORT, () => {
+    genValidKeys();
+    genValidKeysTime = Date.now();
+});
+
+//############################################ HEROES AND MONSTERS ###################
+
+const HnMdirectories = [
+    "data/general/",
+    "data/monster/",
+    "data/spell/",
+    "data/items/",
+    "data/items/weapons",
+];
+
+async function readJSONFile(filePath){
+    try{
+        const data = await fs.promises.readFile(filePath);
+        return JSON.parse(data);
+    }catch(err){
+        throw new Error(`Error reading file: ${filePath}`);
+    }
+}
+
+app.get(`/hnm/`, (req, res) => {
+    const files = {};
+
+    for (const i of HnMdirectories) {
+        const dirFiles = fs.readdirSync(i);
+
+        for (let j = 0; j < dirFiles.length; j++) {
+            if (!dirFiles[j].includes('.')) {
+                dirFiles.splice(j--, 1);
+            }
+        }
+
+        const trimmedFiles = dirFiles.map(j => j.slice(0, -5));
+        trimmedFiles.sort();
+
+        files[i.slice(5, -1)] = trimmedFiles;
+    }
+
+    res.send(files);
+});
+
+app.get('/hnm/query-:name', async (req, res) => {
+    const name = req.params.name.toLowerCase() + '.json';
+    let found = false;
+    
+    HnMdirectories.forEach(dir => {
+        const folderFiles = fs.readdirSync(dir);
+
+        if (folderFiles.includes(name)) {
+            const filePath = path.join(__dirname, dir, name);
+            found = true;
+            res.sendFile(filePath);
+        }
+    });
+  
+    if(!found) {
+        console.error(err);
+        res.status(404).send(`File not found: ${filePath}`);
+    }
+});
+
+app.get(`/hnm/:dataType/:jsonFile`, async (req, res) => {
+    const fileName = req.params.jsonFile + ".json";
+    const dataType = req.params.dataType;
+    const filePath = path.join(__dirname, "data/"+dataType, fileName);
+
+    try {
+        const data = await readJSONFile(filePath);
+        res.status(200).json(data);
+
+    } catch (err) {
+        console.error(err);
+        res.status(404).send(`File not found: ${filePath}`);
+    }
 });
