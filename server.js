@@ -190,7 +190,6 @@ app.get('/hnm/query-:name', async (req, res) => {
     });
   
     if(!found) {
-        console.error(err);
         res.status(404).send(`File not found: ${filePath}`);
     }
 });
