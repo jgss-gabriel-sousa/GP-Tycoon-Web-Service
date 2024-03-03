@@ -20,7 +20,7 @@ app.use((req, res, next) => {
     next();
 });
 
-//######################################################## GP TYCOON ######################
+//############################################## GP TYCOON ######################
 
 const validKeys = {};
 const startTime = Date.now();
@@ -147,11 +147,12 @@ const HnMdirectories = [
 ];
 
 async function readJSONFile(filePath){
-    try{
+    try {
         const data = await fs.promises.readFile(filePath);
         return JSON.parse(data);
-    }catch(err){
-        throw new Error(`Error reading file: ${filePath}`);
+
+    } catch(err) {
+        console.error(`Error reading file: ${filePath}`);
     }
 }
 
@@ -177,21 +178,25 @@ app.get(`/hnm/`, (req, res) => {
 });
 
 app.get('/hnm/query-:name', async (req, res) => {
-    const name = req.params.name.toLowerCase() + '.json';
-    let found = false;
-    
-    HnMdirectories.forEach(dir => {
-        const folderFiles = fs.readdirSync(dir);
+    try {
+        const name = req.params.name.toLowerCase() + '.json';
+        let found = false;
+        
+        HnMdirectories.forEach(dir => {
+            const folderFiles = fs.readdirSync(dir);
 
-        if (folderFiles.includes(name)) {
-            const filePath = path.join(__dirname, dir, name);
-            found = true;
-            res.sendFile(filePath);
+            if (folderFiles.includes(name)) {
+                const filePath = path.join(__dirname, dir, name);
+                found = true;
+                res.sendFile(filePath);
+            }
+        });
+    
+        if(!found) {
+            res.status(404).send(`File not found: ${filePath}`);
         }
-    });
-  
-    if(!found) {
-        res.status(404).send(`File not found: ${filePath}`);
+    } catch (err) {
+        console.error(err);
     }
 });
 

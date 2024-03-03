@@ -1,0 +1,130 @@
+{
+  "name":"Salamandra",
+  "name_pronoun":"a Salamandra",
+  "english_name":"Salamander",
+
+  "source":["bestiario","pota"],
+
+  "type":"Elemental",
+  "size":"Grande",
+  
+  "defense_cr":2,
+  "hp_cr":7,
+  "atk_cr":7,
+  "damage_cr":5,
+  "resistances_and_immunities_cr":0.5,
+
+  "challenge_ratio":6,
+  "xp":1180,
+  "defense":14,
+  "bonuses_in_defense":[],
+  "hp":90,
+  "mana":0,
+
+  "movement_walking":8,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":19,
+  "vitality":18,
+  "agility":14,
+  "charisma":12,
+  "willpower":10,
+  "wisdom":10,
+  "intelligence":11,
+
+  "skills":[],
+
+  "vulnerability":["Gelo"],
+  "resistances":["Físico de armas não mágicas"],
+  "immunities":["Fogo"],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mal",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Corpo Aquecido",
+      "description":["O corpo da Salamandra emana calor, qualquer criatura que fique Agarrada ou a atinja com um ataque corpo a corpo, sofre 2d6 de dano de Fogo."]
+    },
+    {
+      "name":"Armas Aquecidas",
+      "description":["Qualquer arma corpo a corpo de metal que a salamandra empunha causa 1d6 de dano de Fogo adicional ao acertar (valor já incluído nos ataques)."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["A Salamandra realiza 2 ataques: um com a Lança e outro com a Cauda."]
+    },
+    {
+      "name":"Lança",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (6 metros)",
+      "roll":"+7",
+      "damage":"2d6+4 (Perfurante) + 1d6 (Fogo)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Cauda",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"2d6+4 (Impacto) + 2d6 (Fogo)",
+      "save_throw":"14 de Atletismo",
+      "time":"Ação de Ataque",
+      "effect":["O alvo que falhar no teste de salvamento fica Agarrado. Enquanto Agarrado, o alvo é atingido automaticamente com o ataque de Cauda da Salamandra, porém a Salamandra não pode fazer ataques com a Cauda contra outros alvos."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Salamandras são criaturas do Plano Elemental do Fogo, amantes do poder e da destruição. Elas deslizam pelas terras incendiadas, incendiando tudo à sua passagem.",
+    "Criadas pelos Efreet como escravos, as Salamandras nutrem ódio pelos Azers, que escaparam da escravidão. Os Efreet manipulam essa rivalidade para manter seu controle sobre as Salamandras.",
+    "Essas criaturas governam-se em estruturas sociais semelhantes às dos Efreet, com os mais fortes dominando sobre os mais fracos. Enquanto envelhecem, crescem em tamanho e poder, tornando-se nobres cruéis que lideram bandos errantes em busca de saques.",
+    "Além de serem temíveis guerreiras, as Salamandras são exímias ferreiras, capazes de moldar metais com o calor de seus corpos. Elas são frequentemente convocadas como soldados ou utilizadas em forjas para gerar calor ilimitado."
+  ]
+}
