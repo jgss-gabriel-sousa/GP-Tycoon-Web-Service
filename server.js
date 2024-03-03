@@ -15,6 +15,7 @@ const path = require("path");
 app.use(cors());
 app.use(express.json());
 
+//######################################################## GP TYCOON ######################
 
 const validKeys = {};
 const startTime = Date.now();
@@ -130,11 +131,6 @@ app.get(`/gp-tycoon/stats`, (req, res) => {
     console.log(`Object size ${sizeOfValidKeysOBJ/1024000} mb`);
 });
 
-app.listen(PORT, () => {
-    genValidKeys();
-    genValidKeysTime = Date.now();
-});
-
 //############################################ HEROES AND MONSTERS ###################
 
 const HnMdirectories = [
@@ -207,4 +203,15 @@ app.get(`/hnm/:dataType/:jsonFile`, async (req, res) => {
         console.error(err);
         res.status(404).send(`File not found: ${filePath}`);
     }
+});
+
+//################################################### GENERAL ##########################
+
+app.get(`/`, (req, res) => {
+    res.status(200);
+});
+
+app.listen(PORT, () => {
+    genValidKeys();
+    genValidKeysTime = Date.now();
 });
