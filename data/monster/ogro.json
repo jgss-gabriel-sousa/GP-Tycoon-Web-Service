@@ -1,0 +1,109 @@
+{
+  "name":"Ogro",
+  "name_pronoun":"o Ogro",
+  "english_name":"Ogre",
+
+  "source":["bestiario","pota"],
+
+  "type":"Gigante",
+  "size":"Grande",
+  
+  "defense_cr":10,
+  "hp_cr":6,
+  "atk_cr":3,
+  "damage_cr":1,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":4,
+  "xp":600,
+  "defense":17,
+  "bonuses_in_defense":[
+    {
+      "name":"Gibão de Peles",
+      "value":4
+    }
+  ],
+  "hp":61,
+  "mana":0,
+
+  "movement_walking":4,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":19,
+  "vitality":16,
+  "agility":8,
+  "charisma":7,
+  "willpower":10,
+  "wisdom":7,
+  "intelligence":5,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Comum","Gigante"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Caótico e Mau",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Clava Grande",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+6",
+      "damage":"2d8+4 (Impacto)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":[]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Os ogros não apenas possuem uma imensa força física, mas também uma notável falta de ambição mental. Seu estilo de vida gira em torno de saques, esquadrinhamentos e indulgência em atos de violência tanto para sustento quanto para diversão. Geralmente, erguendo-se entre 2,70 e 3 metros de altura e pesando quase 450 quilos.",
+    "Seus temperamentos são famosos por sua volatilidade, o menor deslize percebido pode desencadear uma explosão feroz. Seja um insulto leve, um pouco de xingamento, ou mesmo um contato físico mínimo como esbarrar ou cutucar, a fúria de um ogro pode ser inflamada em um instante. Rir, fazer caretas ou simplesmente lançar-lhe um olhar desaprovador são todos gatilhos potenciais. Uma vez provocado, um ogro libera sua frustração em um frenesi destrutivo, atacando implacavelmente até que não haja mais nada para destruir.",
+    "Os ogros comem quase qualquer coisa, mas especialmente apreciam o sabor de anões, halflings e elfos. Quando podem, combinam o jantar com prazer, perseguindo suas vítimas correndo antes de devorá-las cruas. Se sobrar o suficiente da vítima depois que o ogro se empanturra, ele pode fazer um tapa-sexo com a pele de sua presa e um colar com os ossos restantes. Esta criação macabra é o ápice da cultura dos ogros.",
+    "Os olhos de um ogro brilham com avareza quando veem as posses dos outros. Os ogros carregam sacos grosseiros em seus ataques, que enchem com \"tesouros\" fabulosos tirados de suas vítimas. Isso pode incluir uma coleção de capacetes amassados, uma roda de queijo mofado, um pedaço de pele de animal grosseiro preso como um manto, ou um porco espirrando lama. Os ogros também se deliciam com o brilho do ouro e da prata, e lutam entre si por pequenos punhados de moedas. Criaturas mais inteligentes podem ganhar a confiança de um ogro oferecendo-lhe ouro ou uma arma forjada para uma criatura de seu tamanho.",
+    "Poucos ogros conseguem contar até dez, mesmo com os dedos à frente deles. A maioria fala apenas uma forma rudimentar de Gigante e conhece apenas algumas palavras em Comum. Os ogros acreditam no que lhes é dito e são fáceis de enganar ou confundir, além de quebrar coisas que não entendem.",
+    "Os ogros se vestem com peles de animais e arrancam árvores para usar como ferramentas e armas rudimentares. Eles criam lanças de pedra para caça. Quando estabelecem covis, se instalam nas bordas rurais de terras civilizadas, aproveitando-se de animais mal protegidos, despensas desprotegidas e fazendeiros desavisados.",
+    "Dormem em cavernas, tocas de animais ou debaixo de árvores até encontrar uma cabana ou fazenda isolada, momento em que mata os habitantes e estabelece seu covil ali. Sempre que está entediado ou com fome, um ogro sai de seu covil, atacando tudo o que cruza seu caminho. Só depois que um ogro esgota uma área de comida é que ele se muda.",
+    "Os ogros às vezes se agrupam em pequenos grupos nômades, mas carecem de um verdadeiro sentido de tribalismo. Quando bandos de ogros se encontram, um pode tentar capturar os membros do outro grupo para aumentar seus números. No entanto, os bandos de ogros também são propensos a trocar membros livremente, especialmente se o bando receptivo estiver temporariamente abastecido de comida e armas.",
+    "Sempre que possível, os ogros se juntam a outros monstros para intimidar ou caçar criaturas mais fracas do que eles. Eles se associam livremente com goblinoides, orcs e trolls, e praticamente veneram gigantes. Na estrutura social complexa dos gigantes (conhecida como a ordem), os ogros ocupam uma posição abaixo dos gigantes mais baixos em status. Como resultado, um ogro fará praticamente qualquer coisa que um gigante pedir."
+  ]
+}
