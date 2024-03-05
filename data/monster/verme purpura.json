@@ -1,0 +1,132 @@
+{
+  "name":"Verme Púrpura",
+  "name_pronoun":"o Verme Púrpura",
+  "english_name":"Purple Worm",
+
+  "source":["bestiario"],
+
+  "type":"Monstruosidade",
+  "size":"Colossal",
+  
+  "defense_cr":24,
+  "hp_cr":28,
+  "atk_cr":14,
+  "damage_cr":13,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":19,
+  "xp":34650,
+  "defense":21,
+  "bonuses_in_defense":[],
+  "hp":717,
+  "mana":0,
+
+  "movement_walking":4,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":4,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":28,
+  "vitality":32,
+  "agility":7,
+  "charisma":4,
+  "willpower":18,
+  "wisdom":8,
+  "intelligence":1,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":6,
+  "tremor_sense":12,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Não alinhado",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Tunelador",
+      "description":["O verme pode escavar através de rocha sólida a metade de sua velocidade de deslocamento escavando e deixa um túnel com diâmetro de 3 metros em seu rastro."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "O Verme realiza dois ataques: um com sua Mordida e outro com seu Ferrão de Cauda."
+      ]
+    },
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"2 m",
+      "roll":"+14",
+      "damage":"3d8+9 (Perfurante)",
+      "save_throw":"19 de Reflexos",
+      "time":"",
+      "effect":[
+        "Se o alvo for uma criatura Grande ou menor, ela deve obter sucesso no teste de salvamento ou será engolida pelo verme. Uma criatura engolida fica Cega e Impedida, tem cobertura total contra ataques e outros efeitos que atinjam o verme por fora. A cada inicio de turno do Verme uma criatura engolida sofre 6d6 de dano Ácido.",
+        "Se o Verme sofrer 30 pontos de dano ou mais em um único turno de uma criatura em seu interior, ele deve obter sucesso em um teste de salvamento de Resistência com dificuldade 21 no final desse turno, caso falhe, vai regurgitar todas as criaturas engolidas, que ficam Caídas em um espaço livre a até 5 metros do verme. Se o verme morrer, uma criatura engolida não fica mais Impedida por ele e pode escapar do cadáver usando 5 metros de movimento, saindo Caída."
+      ]
+    },
+    {
+      "name":"Ferrão de Cauda",
+      "limit":"",
+      "recharge":"",
+      "range":"2 m",
+      "roll":"+7",
+      "damage":"3d6+9 (Perfurante)",
+      "save_throw":"19 de Resistência",
+      "time":"",
+      "effect":["Uma criatura atingida precisa fazer o teste de salvamento, recebendo 12d6 de dano de Veneno em caso de falha e metade em caso de sucesso."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "O verme púrpura, uma colossal besta escavadora, instila medo nos habitantes do Subterrâneo enquanto ele escava através da rocha sólida em busca de presas. Uma força da natureza sem mente e insaciável, ele vê tudo o que encontra como alimento em potencial.",
+    "Como caçadores vorazes, os vermes púrpuras são atraídos por barulhos altos, interrompendo conflitos subterrâneos e causando estragos em cidades subterrâneas em sua busca implacável por sustento. Para deter esses monstros, os drows, duergar e devoradores de mentes empregam proteções especiais ao redor de seus assentamentos.",
+    "Embora principalmente encontrados no Subterrâneo, os vermes púrpuras também se aventuram à superfície, especialmente em regiões rochosas e montanhosas. Com bocas grandes o suficiente para engolir um cavalo inteiro, eles surpreendem suas presas com investidas rápidas impulsionadas pela compressão rítmica e expansão de seus corpos.",
+    "Os hábitos escavadores dos vermes púrpuras produzem recursos valiosos, pois eles consomem terra e rocha, excretando metais preciosos e gemas em seu rastro. Caçadores de tesouros corajosos visam esses depósitos dentro dos corpos das criaturas.",
+    "Além disso, as atividades de escavação dos vermes púrpuras criam passagens utilizadas por outros habitantes do Subterrâneo como corredores e rodovias. Como essas criaturas raramente retornam a seus túneis, tais caminhos oferecem refúgio contra sua predação. Áreas abundantes em presas muitas vezes desenvolvem redes de túneis intrincadas resultantes dos esforços de caça coletiva de múltiplos vermes."
+  ]
+}
