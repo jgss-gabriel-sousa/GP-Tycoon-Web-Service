@@ -1,0 +1,121 @@
+{
+  "name":"Mirmidão Elemental do Fogo",
+  "name_pronoun":"o Mirmidão Elemental do Fogo",
+  "english_name":"Fire Elemental Myrmidon",
+
+  "source":["bestiario"],
+
+  "type":"Elemental",
+  "size":"Grande",
+  
+  "defense_cr":28,
+  "hp_cr":10,
+  "atk_cr":7,
+  "damage_cr":4,
+  "resistances_and_immunities_cr":3.375,
+
+  "challenge_ratio":11,
+  "xp":7140,
+  "defense":23,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Completa",
+      "value":9
+    }
+  ],
+  "hp":123,
+  "mana":0,
+
+  "movement_walking":0,
+  "movement_hovering":10,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":13,
+  "vitality":15,
+  "agility":18,
+  "charisma":10,
+  "willpower":10,
+  "wisdom":7,
+  "intelligence":9,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":["Físico de armas não mágicas"],
+  "immunities":["Fogo","Veneno"],
+  "condition_immunities":["Caído","Paralisado","Petrificado"],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Primordial","um idioma à escolha do seu criador"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Fraqueza a Água",
+      "description":["Para 1 metro de deslocamento sobre a água, o elemental sofre 1d4 de dano de gelo."]
+    },
+    {
+      "name":"Iluminação",
+      "description":["O Elemental emite luz em um raio de 4 metros e penumbra por mais 4 metros."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Mirmidão realiza 3 ataques com a Cimitarra."]
+    },
+    {
+      "name":"Cimitarra",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"1d6+4 (Energia)",
+      "save_throw":"",
+      "time":"",
+      "effect":["Em cada rolagem de dano, o Mirmidão rola 1d6, com um 6 o ataque causa 2d6 de dano de Fogo adicional."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Mirmidões Elementais são Elementais conjurados e amarrados por magia em armaduras de placas criadas ritualmente. Nesta forma, eles não possuem nenhuma lembrança de sua existência anterior como Elementais livres. Eles existem apenas para seguir os comandos de seus criadores."
+  ]
+}
