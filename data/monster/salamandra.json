@@ -12,10 +12,10 @@
   "hp_cr":7,
   "atk_cr":7,
   "damage_cr":5,
-  "resistances_and_immunities_cr":0.5,
+  "resistances_and_immunities_cr":1.5,
 
   "challenge_ratio":6,
-  "xp":1180,
+  "xp":1460,
   "defense":14,
   "bonuses_in_defense":[],
   "hp":90,
