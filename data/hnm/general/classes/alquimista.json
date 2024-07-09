@@ -1,0 +1,114 @@
+{
+    "initial_attribute_bonus": {
+        "Inteligência": 2,
+        "Força": -2
+    },
+    "skills_points": 3,
+    "skills_list": [
+        "Arcanismo",
+        "Construir",
+        "Conhecimento",
+        "Investigação",
+        "Percepção",
+        "Sobrevivência"
+    ],
+    "hit_dice": "1d4",
+    "weapons_training": "Simples",
+    "armor_training": "Leves",
+    "shield_training": "Leves",
+    "tools_training": "Leves",
+    "initial_equipment": {
+        "Ácido": 1, 
+        "Bomba Cegante": 1,
+        "Bomba de Fumaça": 1,
+        "Ferramentas de Alquimia": 1,
+        "Kit de Aventureiro": 1,
+        "Poção de Cura": 2,
+        "Veneno": 1
+    },
+    "starting_gold": "10d4",
+    "description": [
+        "Conhecidos por serem muito inteligentes os alquimistas elaboram Poções e Reagentes, capazes de executarem efeitos diversos, que variam desde Ácidos a Poções de Cura.",
+        "Alquimistas tem paixão ou alegria em aperfeiçoar bombas explosivas ou descobrir novos venenos e métodos estranhos para seu uso. Com essas características excêntricas, acabam se tornando um risco para a maioria das organizações civilizadas e instituições de ensino superior. Mas eles parecem se encaixar muito bem na maioria dos grupos de aventureiros."
+    ],
+    "skills_progression": {
+        "1": ["Bomba Simples","Fabricar","Fórmula Aprimorada"],
+        "3": ["Granadeiro"],
+        "4": ["Tônico Alquímico"],
+        "5": ["Bomba Simples II","Descobertas Alquímicas"],
+        "7": ["Resistência Química"],
+        "10": ["Bomba Simples III"],
+        "11": ["Descobertas Alquímicas II"],
+        "15": ["Bomba Simples IV"],
+        "17": ["Descobertas Alquímicas III"],
+        "20": ["Alquimia Instantânea","Bomba Simples V"]
+    },
+    "craftable_items_progression": {
+        "1": ["Água Luminosa","Repelente","Pederneira"],
+        "2": ["Bomba Cegante","Bomba de Fumaça"],
+        "4": ["Poção de Cura Menor","Poção de Mana Menor"],
+        "6": ["Antídoto","Óleo"],
+        "8": ["Pólvora"],
+        "10": ["Veneno","Ácido"],
+        "12": ["Mina Explosiva"],
+        "14": ["Bomba"],
+        "16": ["Sonífero"],
+        "18": ["Peróxido de Hidrogênio"],
+        "20": ["Veneno Forte"]
+    },
+    "skills": {
+        
+    },
+    "craftable_items": {
+        "Bomba de Cura": {
+            "description": ["Quando criar uma Bomba Simples, você pode escolher fazer uma que cura o equivalente ao dano que a bomba causaria (Não é necessária rolagem de ataque contra aliados)."],
+            "prerequisite": ["Nível 11 de Alquimista"]
+        },
+        "Bomba de Expurgar": {
+            "description": ["Quando criar uma Bomba Simples, você pode escolher fazer ela causar dano dobrado a criaturas mortas-vivas."]
+        },
+        "Bomba de Praga": {
+            "description": ["Bombas de Fumaça causam 1d6 de dano de Veneno."]
+        },
+        "Cura Aperfeiçoada": {
+            "description": ["Você adiciona seu modificador de Inteligência nas Poções de Cura."]
+        },
+        "Grande Bomba de Praga": {
+            "description": ["Bombas de Fumaça causam 3d6 de dano de Veneno."],
+            "prerequisite": [
+                "Bomba de Praga",
+                "Nível 11 de Alquimista"
+            ]
+        },
+        "Grande Mutagênico": {
+            "description": ["Bônus aumentado para +6."],
+            "prerequisite": [
+                "Mutagênico",
+                "Nível 17 de Alquimista"
+            ]
+        },
+        "Invisibilidade": {
+            "description": ["Com a habilidade Fabricar, você pode criar uma poção que tem o efeito de deixar invisível durante 1 minuto. Você pode possuir somente uma unidade desta poção de cada vez."],
+            "prerequisite": [
+                "Nível 11 de Alquimista"
+            ]
+        },
+        "Juventude Eterna": {
+            "description": ["Você para de Envelhecer e após Descansos Longos recebe 1d10 de Vida Temporária (Não cumulativo)."],
+            "prerequisite": [
+                "Nível 17 de Alquimista"
+            ]
+        },
+        "Mutagênico": {
+            "description": [
+                "O Alquimista descobre como criar um mutagênico que ele pode absorver para aumentar temporáriamente sua capacidade física ao custo de suas faculdades mentais.",
+                "Leva 1 hora para preparar uma dose de mutagênico, uma vez preparada, permanece potente até ser usada. Somente uma dose de mutagênico pode ser mantida por vez. Ao ser absorvido, o mutagênico faz com que o Alquimista fique mais volumoso e bestial.",
+                "Durante os próximos 10 minutos, seu nível de Insanidade aumenta em +1 e você ganha os seguintes efeitos temporários em seus atributos:",
+                "+4 em Força, Agilidade e Vitalidade."
+            ],
+            "prerequisite": [
+                "Nível 11 de Alquimista"
+            ]
+        }
+    }
+}
