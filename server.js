@@ -139,12 +139,20 @@ app.get(`/gp-tycoon/stats`, (req, res) => {
 //############################################ HEROES AND MONSTERS ###################
 
 const HnMdirectories = [
+    /*
+<<<<<<< HEAD
     "data/hnm/general/",
     "data/hnm/general/classes/",
     "data/hnm/bestiary/",
     "data/hnm/spells/",
     "data/hnm/items/",
     "data/hnm/items/weapons",
+=======*/
+    "data/general/",
+    "data/monster/",
+    "data/spell/",
+    "data/items/",
+    "data/items/weapons",
 ];
 
 async function readJSONFile(filePath){
