@@ -140,6 +140,7 @@ app.get(`/gp-tycoon/stats`, (req, res) => {
 
 const HnMdirectories = [
     "data/hnm/general/",
+    "data/hnm/general/classes/",
     "data/hnm/bestiary/",
     "data/hnm/spells/",
     "data/hnm/items/",
