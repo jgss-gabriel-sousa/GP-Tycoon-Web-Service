@@ -139,20 +139,12 @@ app.get(`/gp-tycoon/stats`, (req, res) => {
 //############################################ HEROES AND MONSTERS ###################
 
 const HnMdirectories = [
-    /*
-<<<<<<< HEAD
     "data/hnm/general/",
     "data/hnm/general/classes/",
     "data/hnm/bestiary/",
     "data/hnm/spells/",
     "data/hnm/items/",
     "data/hnm/items/weapons",
-=======*/
-    "data/general/",
-    "data/monster/",
-    "data/spell/",
-    "data/items/",
-    "data/items/weapons",
 ];
 
 async function readJSONFile(filePath){
@@ -227,7 +219,7 @@ app.get(`/hnm/:dataType/:jsonFile`, async (req, res) => {
 //################################################### GENERAL ##########################
 
 app.get(`/`, (req, res) => {
-    res.status(200);
+    res.status(200).send(`Web Server is Online!`);
 });
 
 app.listen(PORT, () => {
