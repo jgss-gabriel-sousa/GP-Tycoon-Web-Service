@@ -217,7 +217,7 @@ app.get(`/hnm/:dataType/:jsonFile`, async (req, res) => {
 });
 
 //################################################### TEST ##########################
-
+/*
 app.post('/t', (req, res) => {
     const key = req.body.key;
 
@@ -228,7 +228,7 @@ app.post('/t', (req, res) => {
         res.status(500).send();
     }
 });
-
+*/
 //################################################### GENERAL ##########################
 
 app.get(`/`, (req, res) => {
