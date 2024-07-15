@@ -1,5 +1,5 @@
 {
-    "initial_attribute_bonus": {
+    "attribute_bonus": {
         "Inteligência": 2,
         "Força": -2
     },
@@ -56,7 +56,7 @@
         "18": ["Peróxido de Hidrogênio"],
         "20": ["Veneno Forte"]
     },
-    "skills": {
+    "abilities": {
         
     },
     "craftable_items": {
