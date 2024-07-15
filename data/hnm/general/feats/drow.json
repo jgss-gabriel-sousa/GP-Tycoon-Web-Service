@@ -1,0 +1,51 @@
+{
+    "Caçador Cruel": {
+        "requirement": ["race-drow"],
+        "type": "Racial",
+        "description": ["Você ganha treinamento com Besta de Mão e o dano dela aumenta para 1d8."]
+    },
+    "Caçador da Superfície": {
+        "requirement": ["race-drow"],
+        "type": "Racial",
+        "description": ["Anula a Desvantagem da habilidade Visão das Cavernas."]
+    },
+    "Caçador de Elfos": {
+        "requirement": ["race-drow"],
+        "type": "Racial",
+        "description": ["+2 de dano contra Elfos e Eladrins."]
+    },
+    "Esquema Ambicioso": {
+        "requirement": ["race-drow"],
+        "type": "Racial",
+        "description": ["+2 em Diplomacia e Enganar."]
+    },
+    "Nascido das Sombras": {
+        "requirement": ["race-drow"],
+        "type": "Racial",
+        "description": ["+2 na Iniciativa quando estiver em ambiente escuro."]
+    },
+    "Oferenda para Lolth": {
+        "requirement": ["race-drow"],
+        "type": "Racial",
+        "description": ["Quando reduzir a vida de um inimigo a 0, você ganha +2 nas Rolagens de Ataque até o fim do seu próximo turno."]
+    },
+    "Precisão Élfica": {
+        "requirement": ["race-drow"],
+        "type": "Racial",
+        "description": ["+1 nas Rolagens de Ataque com armas a distância."]
+    },
+    "Presente da Rainha Aranha": {
+        "requirement": ["race-drow"],
+        "type": "Racial",
+        "description_HTML": [
+            "<p>Você pode conjurar de maneira inata (Sem custo de mana) as magias:</p>",
+            "<p><b>A vontade:</b> Globos de Luz.</p>",
+            "<p><b>1 vez por dia:</b> Escuridão e Levitação (mas apenas em si mesmo).</p>"
+        ]
+    },
+    "Rancor Ancestral dos Drow": {
+        "requirement": ["race-drow"],
+        "type": "Racial",
+        "description": ["+1 nas Rolagens de Ataque e Dano contra Anões, Elfos, Eladrins e Duergars."]
+    }
+}

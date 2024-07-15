@@ -1,0 +1,18 @@
+{
+    "Ancestralidade Feérica": {
+        "description": [
+            "Os Drows possuem Vantagem em Testes de Salvamento contra ser Encantado e magias não podem colocar um Drow para dormir."
+        ]
+    },
+    "Meditação Profunda": {
+        "description": [
+            "Em vez de dormir, os Drow entram num estado de meditação, bastando 4 horas nesse estado para receber os mesmos benefícios que as demais raças obtêm com um Descanso Longo.",
+            "Quando meditando, você está completamente ciente das redondezas e percebe normalmente a aproximação dos inimigos ou outros eventos."
+        ]
+    },
+    "Visão das Cavernas": {
+        "description": [
+            "Os Drows possuem Vantagem em testes de Percepção quando estão na escuridão e Desvantagem quando sob a luz solar direta."
+        ]
+    }
+}

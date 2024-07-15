@@ -1,0 +1,36 @@
+{
+    "attribute_bonus": {
+        "Agilidade": 2,
+        "Inteligência": 2,
+        "Força": -2
+    },
+    "skills_bonus": {
+        "Furtividade": 2,
+        "Percepção": 2
+    },
+    "size": "Médio",
+    "dark_vision": 24,
+    "blind_sight": 0,
+    "tremor_sense": 0,
+    "true_vision": 0,
+    "languages": ["Comum","Subcomum","Élfico"],
+    "alignment": "Leal e Mau",
+    "personality": ["Arrogante","Ambicioso","Sádico","Traiçoeiro","Hedonista"],
+    "weight": {
+        "base": 68,
+        "variation": 10
+    },
+    "height": {
+        "base": 172,
+        "variation": 10
+    },
+    "age_progression": [110,600,750],
+    "male_names": ["Hatcheth", "Rhyltran", "Xundar", "Kethan", "Erthral", "Bedril"],
+    "female_Names": ["Qualndiira", "Rauka", "Angraema", "Chessintra", "Alyvyrae", "Nedyya"],
+    "surnames": ["Vrammyr", "Zaphryn", "Baenrearran", "Everhneld", "Mlezziir", "Mytyl"],
+    "description": [
+        "Os drow são membros de uma raça de elfos negros cuja beleza e sofisticação se nada valem para ocultar seus corações malignos. A maioria dos elfos negros baseia seu comportamento e atitude na adoração da deusa caótica e maligna Lolth, também conhecida como a Rainha Aranha.",
+        "A sociedade drow é dividida em casas. Os líderes das casas mais poderosas ocupam as posições de liderança nas várias cidades do Subterrâneo, o reino das profundezas de Faêrun que os drow chamam de lar.",
+        "Pela falta de recursos a disposição nas profundezas dos subterrâneos, os drow desenvolveram uma aptidão natural para a magia, sendo capazes de manipular energia arcana com maior facilidade que a maioria de seus primos da superfície."
+    ]
+}
