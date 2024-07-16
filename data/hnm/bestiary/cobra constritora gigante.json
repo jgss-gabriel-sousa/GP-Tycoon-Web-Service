@@ -1,0 +1,115 @@
+{
+    "name":"Cobra Constritora Gigante",
+    "name_pronoun":"a Cobra Constritora Gigante",
+    "english_name":"Giant Constrictor Snake",
+  
+    "source":["bestiario"],
+  
+    "type":"Animal",
+    "size":"Enorme",
+    
+    "defense_cr":6,
+    "hp_cr":11,
+    "atk_cr":3,
+    "damage_cr":1,
+    "resistances_and_immunities_cr":0,
+  
+    "challenge_ratio":4,
+    "xp":620,
+    "defense":16,
+    "bonuses_in_defense":[
+        {
+          "name":"Escamas",
+          "value":2
+        }
+    ],
+    "hp":144,
+    "mana":0,
+  
+    "movement_walking":4,
+    "movement_hovering":0,
+    "movement_flying":0,
+    "movement_burrow":0,
+    "movement_climbing":0,
+    "movement_swimming":4,
+  
+    "strength":19,
+    "vitality":19,
+    "agility":8,
+    "charisma":3,
+    "willpower":8,
+    "wisdom":10,
+    "intelligence":1,
+  
+    "skills":[],
+  
+    "vulnerability":[],
+    "resistances":[],
+    "immunities":[],
+    "condition_immunities":[],
+  
+    "dark_vision":0,
+    "blind_sight":2,
+    "tremor_sense":0,
+    "true_vision":0,
+  
+    "languages":[],
+    "telepathy":false,
+    "only_understands":false,
+    
+    "alignment":"Neutro",
+  
+    "loot":[],
+      
+    "abilities":[],
+  
+    "spellcaster_level":0,
+    "spellcasting_attribute":"",
+    "special_spell_feature":"",
+    "arcane_failure":0,
+    "spells":[],
+  
+    "innate_spellcasting_description":"",
+    "innate_spellcasting_attribute":"",
+    "innate_spellcasting":[],
+  
+    "actions": [
+      {
+        "name":"Mordida",
+        "limit":"",
+        "recharge":"",
+        "range":"Corpo a Corpo",
+        "roll":"+6",
+        "damage":"2d6+4 (Perfurante)",
+        "save_throw":"",
+        "time":"Ação de Ataque",
+        "effect":[]
+      },
+      {
+        "name":"Apertar",
+        "limit":"",
+        "recharge":"",
+        "range":"Corpo a Corpo",
+        "roll":"+6",
+        "damage":"2d8+4 (Impacto)",
+        "save_throw":"16 de Atletismo",
+        "time":"Ação de Ataque",
+        "effect":[
+            "Em um ataque bem sucedido o alvo precisa realizar o Teste de Salvamento, em caso de falha, sofre o dano e ficará Agarrado e Impedido. A criatura pode tentar outro salvamento com uma ação no seu turno.",
+            "A Cobra Constritora consegue usar o apertar somente em uma criatura ao mesmo tempo."
+        ]
+      }
+    ],
+  
+    "legendary_actions":[],
+  
+    "lair_description":[],
+    "lair_actions":[],
+  
+    "regional_effects_description":[],
+    "regional_effects_dissolution":"",
+  
+    "description":[
+        "As cobras constritoras gigantes habitam a natureza, usando sua força esmagadora para subjugar presas maiores. Diferentes das cobras venenosas, são pacientes e precisas, envolvendo suas vítimas com poderosas espirais. Embora menos agressivas, exibem tenacidade implacável, tornando-se predadores temidos em seus territórios."
+    ]
+  }
