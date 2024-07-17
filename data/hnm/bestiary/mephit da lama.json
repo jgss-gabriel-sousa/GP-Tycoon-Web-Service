@@ -1,0 +1,135 @@
+{
+  "name":"Mephit da Lama",
+  "name_pronoun":"o Mephit da Lama",
+  "english_name":"Mud Mephit",
+
+  "source":["bestiario","pota"],
+
+  "type":"Elemental",
+  "size":"Pequeno",
+  
+  "defense_cr":2,
+  "hp_cr":2,
+  "atk_cr":1,
+  "damage_cr":0,
+  "resistances_and_immunities_cr":1.5,
+
+  "challenge_ratio":2,
+  "xp":140,
+  "defense":14,
+  "bonuses_in_defense":[],
+  "hp":22,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":6,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":8,
+  "vitality":12,
+  "agility":12,
+  "charisma":7,
+  "willpower":10,
+  "wisdom":11,
+  "intelligence":9,
+
+  "skills":["+3 Furtividade"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":["Veneno"],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Primordial"],
+  "telepathy":false,
+  "only_understands":false,
+
+  "alignment":"Neutro e Mal",
+
+  "loot":[],
+
+  "abilities": [
+    {
+      "name":"Aparência Falsa",
+      "description":["Enquanto o Mephit permanecer imóvel, ele é indistinguível de um monte de lama comum."]
+    },
+    {
+      "name":"Explosão da Morte",
+      "description":["Quando o Mephit morre, ele explode numa erupção de lama pegajosa. Cada criatura Média ou menor a até 1 metro dele ser bem sucedida num teste de Reflexos com dificuldade 11 ou ficará Impedida até o final do próximo turno da criatura."]
+    },
+    {
+      "name":"Natureza Elemental",
+      "description":["Um Mephit não precisa comer, beber ou dormir."]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Punhos",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+3",
+      "damage":"d6+1 (Impacto)",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[]
+    },
+    {
+      "name":"Cuspe de Lama",
+      "limit":"",
+      "recharge":"6",
+      "range":"2 Metros",
+      "roll":"",
+      "damage":"",
+      "save_throw":"11 de Reflexos",
+      "time":"1 Ação",
+      "effect":["O Mephit cospe uma lama viscosa. Uma criatura atingida, de tamanho Médio ou menor, deve ser bem sucedida no Teste de Salvamento ou ficará Impedida por 1 minuto, ou até obter um sucesso no salvamento. O teste pode ser re-feito ao final de cada turno da criatura Impedida."]
+    },
+    {
+      "name":"Sumonar Mephits",
+      "limit":"1 vez por dia",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":["O Mephit tem 25% de chance de invocar 1d4 Mephits de sua espécie. Um Mephit invocado aparece em um espaço desocupado a até 12 metros de seu invocador, age como um aliado e não pode invocar outros Mephits. Ele permanece por 1 minuto, até que ele ou seu invocador morra, ou até que seu invocador o dispense com uma ação."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "<h3>Mephits</h3>",
+    "Os Mephits são criaturas similares a Diabretes, nativas dos planos elementais. Eles existem em seis variedades, cada um representando a mistura de dois elementos.",
+    "Trapaceiros imutáveis, os mephits existem em vasta quantidade nos Planos Elementais e no Plano do Caos. Eles também encontram seus caminhos para o Plano Material, onde eles preferem viver em locais onde seus elementos base são abundantes. Por exemplo, um mephit do magma é composto de terra e fogo, e ele prefere covis vulcânicos, enquanto que um mephit do gelo, que é composto de ar e água, preferiria locais gelados.",
+    "<h3>Mephits da Lama</h3>",
+    "Os Mephits da Lama são criaturas lentas e viscosas, formadas de terra e água. Eles constantemente lamentam suas queixas para qualquer um que esteja disposto a ouvir, implorando incessantemente por atenção e tesouros."
+  ]
+}
