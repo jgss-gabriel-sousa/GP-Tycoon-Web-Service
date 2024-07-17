@@ -58,6 +58,10 @@
 
   "abilities": [
     {
+      "name":"Aparência Falsa",
+      "description":["Enquanto o Mephit permanecer imóvel, ele é indistinguível de um monte de magma comum."]
+    },
+    {
       "name":"Natureza Elemental",
       "description":["Um Mephit não precisa comer, beber ou dormir."]
     },
@@ -74,8 +78,13 @@
   "spells":[],
 
   "innate_spellcasting_description":"",
-  "innate_spellcasting_attribute":"",
-  "innate_spellcasting":[],
+  "innate_spellcasting_attribute":"Carisma",
+  "innate_spellcasting":[
+    {
+      "spell":"Esquentar Metal",
+      "limit":"1 vez por dia"
+    }
+  ],
 
   "actions": [
     {
@@ -93,7 +102,7 @@
       "name":"Baforada de Cinzas",
       "limit":"",
       "recharge":"6",
-      "range":"Cone de 3 m",
+      "range":"Cone de 3 Metros",
       "roll":"",
       "damage":"",
       "save_throw":"10 de Reflexos",
