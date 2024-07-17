@@ -58,10 +58,6 @@
 
   "abilities": [
     {
-      "name":"Aparência Falsa",
-      "description":["Enquanto o Mephit permanecer imóvel, ele é indistinguível de um monte de magma comum."]
-    },
-    {
       "name":"Natureza Elemental",
       "description":["Um Mephit não precisa comer, beber ou dormir."]
     },
@@ -78,13 +74,8 @@
   "spells":[],
 
   "innate_spellcasting_description":"",
-  "innate_spellcasting_attribute":"Carisma",
-  "innate_spellcasting":[
-    {
-      "spell":"Esquentar Metal",
-      "limit":"1 vez por dia"
-    }
-  ],
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
 
   "actions": [
     {
