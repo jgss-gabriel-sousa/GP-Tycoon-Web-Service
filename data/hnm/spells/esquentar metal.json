@@ -1,0 +1,21 @@
+{
+    "name":"Esquentar Metal",
+    "class":["Bardo","Druida"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","2d8 (Fogo)"]
+    ],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Escolha um objeto manufaturado de metal, como uma Arma de metal ou uma Armadura de metal e que você possa ver dentro do alcance. Você faz com que o objeto brilhe vermelho-incandescente. Qualquer criatura em contato físico com o objeto sofrerá dano quando você conjurar a magia.",
+        "Existe 25% de chance do objeto ser destruido, jogue 1D4, caso tire 1 o objeto ficará irreparável durante o combate, podendo ser consertado por um ferreiro ou com as Ferramentas de Ferreiro."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
