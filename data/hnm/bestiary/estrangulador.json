@@ -1,0 +1,154 @@
+{
+  "name":"Estrangulador",
+  "name_pronoun":"o Estrangulador",
+  "english_name":"Roper",
+
+  "source":["bestiario","pota"],
+
+  "type":"Monstruosidade",
+  "size":"Grande",
+  
+  "defense_cr":20,
+  "hp_cr":8,
+  "atk_cr":10,
+  "damage_cr":3,
+  "resistances_and_immunities_cr":0,
+
+  "challenge_ratio":9,
+  "xp":3860,
+  "defense":20,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Natural",
+      "value":7
+    }
+  ],
+  "hp":93,
+  "mana":0,
+
+  "movement_walking":4,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":18,
+  "vitality":17,
+  "agility":8,
+  "charisma":6,
+  "willpower":12,
+  "wisdom":16,
+  "intelligence":7,
+
+  "skills":["+5 Furtividade","+6 Percepção"],
+
+  "vulnerability":[],
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Aparência Falsa",
+      "description":["Enquanto o Estrangulador permanecer imóvel, ele é indistinguível de uma formação de caverna comum, como uma estalagmite."]
+    },
+    {
+      "name":"Escalada Aracnídea",
+      "description":["O Estrangulador pode escalar superfícies difíceis, incluindo andar de cabeça para baixo em tetos, sem precisar realizar teste de habilidade."]
+    },
+    {
+      "name":"Gavinhas Aderentes",
+      "description":[
+        "O Estrangulador pode ter até seis gavinhas ao mesmo tempo. Cada gavinha pode ser atacada (Defesa 20; 10 Pontos de Vida; Imunidade a dano de Veneno e Psíquico).",
+        "Destruir uma gavinha não causa dano ao estrangulador, e ele pode estender uma substituta a cada novo turno dele. Uma criatura pode partir uma gavinha usando uma Ação e sendo bem sucedido num teste de Força com dificuldade 15."
+      ]
+    }
+  ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Estrangulador realiza quatro ataques com suas Gavinhas, usa seu Molinete e realiza um ataque com sua Mordida."]
+    },
+    {
+      "name":"Mordida",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"4d8+4 (Perfurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Gavinha",
+      "limit":"",
+      "recharge":"",
+      "range":"10 Metros",
+      "roll":"+7",
+      "damage":"",
+      "save_throw":"15 de Atletismo",
+      "time":"",
+      "effect":["Um alvo atingido ficará Agarrado e Impedido. Uma criatura agarrada pode realizar um teste de salvamento como uma ação no seu turno. O Estrangulador não pode usar a mesma gavinha em outro alvo."]
+    },
+    {
+      "name":"Molinete",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"",
+      "effect":["O Estrangulador pode puxar cada uma das criaturas agarradas para até 5 metros em sua direção."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Vivendo em cavernas e grutas por todo o Subterrâneo, Estranguladores vorazes devoram tudo o que conseguem pegar e agarrar. Um Estrangulador come qualquer criatura, desde bestas do Subterrâneo até aventureiros e seus equipamentos.",
+    "Um Estrangulador tem a aparência de uma estalagmite ou estalactite, o que muitas vezes permite que ele ataque de surpresa. A criatura pode se mover lentamente, usando centenas de cílios grudentos sob sua base. Ele escala muros de cavernas e as rochas no teto, encontrando a melhor posição para atacar.",
+    "O Estrangulador é uma forma evoluída e adulta de um Perfurador, que compartilha a aparência de rocha e táticas de caça. Um Estrangulador pode permanecer parado por horas, fechando seu único olho para se parecer com nada mais que uma formação rochosa mundana. As criaturas que se aproximarem muito serão surpreendidas quando o olho se abrir e gavinhas pegajosas se lançarem para agarrá-las. O Estrangulador então faz terríveis sons guturais enquanto se enrola em suas vítimas relutantes, trazendo-as para perto para a mordida fatal de seus dentes pétreos.",
+    "Um Estrangulador pode digerir qualquer coisa que come, exceto platina, gemas e itens mágicos, que às vezes podem ser recuperados da garganta da criatura após sua morte. Os sucos gástricos de um Estrangulador também são valiosos, sendo altamente procurados por alquimistas que os utilizam como solventes.",
+    "Um Estrangulador possui seis protuberâncias ao longo de seu corpo, das quais se estendem gavinhas pegajosas que se aderem a tudo que tocam. Cada gavinha libera farpas finas como cabelo que penetram na carne das criaturas e drenam sua força, enfraquecendo a vítima enquanto o Estrangulador a enrola. Se uma gavinha for cortada ou partida, o Estrangulador produz uma nova para substituí-la."
+  ]
+}
