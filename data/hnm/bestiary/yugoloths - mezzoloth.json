@@ -11,11 +11,11 @@
   "defense_cr":13,
   "hp_cr":6,
   "atk_cr":5,
-  "damage_cr":3,
-  "resistances_and_immunities_cr":2.75,
+  "damage_cr":2,
+  "resistances_and_immunities_cr":3.75,
 
   "challenge_ratio":7,
-  "xp":2180,
+  "xp":2390,
   "defense":18,
   "bonuses_in_defense":[],
   "hp":75,
@@ -135,7 +135,22 @@
       "damage":"",
       "save_throw":"",
       "time":"1 Ação",
-      "effect":["O Mezzoloth teletransporta-se magicamente, junto com qualquer equipamento que ele esteja vestindo ou carregando, para um espaço desocupado, que ele possa ver"]
+      "effect":["O Mezzoloth teletransporta-se magicamente, junto com qualquer equipamento que ele esteja vestindo ou carregando, para um espaço desocupado, que ele possa ver."]
+    },
+    {
+      "name":"Sumonar Yugoloth",
+      "limit":"1 vez por dia",
+      "recharge":"",
+      "range":"Até 12 m",
+      "roll":"+7",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "Alguns Yugoloths podem magicamente invocar outros Yugoloths.",
+        "Um Mezzoloth tem 30% de chance de invocar um Mezzoloth.",
+        "Um Yugoloth invocado surge em um local desocupado a até 12 metros do seu invocador. Após sua invocação, o Yugoloth age conforme sua vontade e não tem a capacidade de invocar outros Yugoloths. Ele permanece no plano material por 1 minuto, até que seja destruído, seu invocador seja morto ou o invocador o dispensa."
+      ]
     }
   ],
 
