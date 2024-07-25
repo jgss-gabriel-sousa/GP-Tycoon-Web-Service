@@ -1,0 +1,20 @@
+{
+    "name":"Banimento",
+    "class":["Clérigo","Feiticeiro","Mago","Místico","Paladino"],
+    "magic_circle":5,
+    "cast_time":"1 Ação",
+    "range":"12 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Concentração",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Você tenta enviar uma criatura que você pode ver, dentro do alcance, para outro plano de existência. O alvo precisa ser bem-sucedido em um teste de salvamento ou será banido.",
+        "Se o alvo for nativo do plano de existência que você está, você bane o alvo para um semiplano inofensivo. Enquanto estiver lá, a criatura estará incapacitada. Ela permanece lá até a magia acabar, a partir desse ponto, o alvo reaparece no espaço em que ela deixou ou no espaço desocupado mais próximo, se o espaço dela estiver ocupado.",
+        "Se o alvo for nativo de um plano de existência diferente do que você está, o alvo é banido em um lampejo sutil, retornando para o seu plano natal. Após 1 minuto o alvo faz novamente o teste de salvamento, se passar, o alvo reaparece no lugar em que estava ou no espaço desocupado mais próximo. Do contrário, o alvo não retorna."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
