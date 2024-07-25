@@ -1,0 +1,22 @@
+{
+    "name":"Força Fantasmagórica",
+    "class":["Bardo","Feiticeiro","Mago","Necromante"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"12 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Inteligência",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Você cria uma ilusão que se enraíza na mente de uma criatura que você possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Inteligência. Se falhar, você cria um objeto, criatura ou outro fenômeno visível – porém fantasmagórico – à sua escolha, ocupando até 3 metros cúbicos, que será percebido apenas pelo alvo durante a duração. Essa magia não afeta mortos-vivos ou constructos.",
+        "A ilusão inclui som, temperatura e outros estímulos, também evidentes apenas para o alvo.",
+        "O alvo pode usar sua ação para examinar a ilusão, contra o teste de salvamento da magia. Se for bem-sucedido, o alvo percebe que a ilusão é falsa e a magia termina.",
+        "Enquanto estiver sob efeito dessa magia, o alvo considerará a ilusão como real e racionalizará quaisquer resultados ilógicos ao interagir com ela. Por exemplo, um alvo tentando atravessar uma ponte ilusória sobre um abismo cairá ao pisar na ponte. Se sobreviver à queda, ainda acreditará na existência da ponte, procurando outra explicação para sua queda – como ter sido puxado, escorregado ou empurrado por um vento forte.",
+        "Um alvo afetado está tão convencido da realidade da ilusão que pode até sofrer dano dela. Uma ilusão criada para se parecer com uma criatura pode atacar o alvo. Da mesma forma, uma ilusão de fogo, um poço de ácido ou lava pode causar dano ao alvo. A cada rodada, no seu turno, a ilusão pode causar 1d6 de dano psíquico ao alvo se ele estiver na área da ilusão ou a 1 metro dela, desde que a ilusão represente algo que logicamente poderia causar dano, como um ataque. O alvo perceberá o dano como sendo do tipo apropriado à ilusão."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
