@@ -1,0 +1,22 @@
+{
+    "name":"Detectar Pensamentos",
+    "class":["Bardo","Feiticeiro","Mago","Sábio"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Durante a duração da magia, você pode ler os pensamentos de certas criaturas. Ao conjurar a magia e a cada turno, usando sua ação, você pode focar sua mente em qualquer criatura que possa ver a até 9 metros de distância. Se a criatura tiver Inteligência 3 ou inferior ou não falar nenhum idioma, ela não poderá ser afetada.",
+        "Inicialmente, você descobre os pensamentos superficiais da criatura – o que está mais presente na mente dela no momento. Com uma ação, você pode mudar sua atenção para os pensamentos de outra criatura ou tentar sondar mais profundamente na mente da mesma criatura. Se decidir sondar profundamente, a criatura deve fazer um teste de resistência de Sabedoria. Se falhar, você se torna ciente do raciocínio dela (se houver), de seu estado emocional e de algo que ocupe grande parte de sua mente (como preocupações, amores ou ódios). Se a criatura for bem-sucedida, a magia termina. Em ambos os casos, o alvo saberá que você está sondando sua mente. A menos que você mude sua atenção para outra criatura, a criatura pode usar sua ação, no turno dela, para realizar um teste de Inteligência resistido por seu teste de Inteligência; se for bem-sucedida, a magia termina.",
+        "Perguntas feitas diretamente à criatura normalmente moldam o curso de seus pensamentos, tornando essa magia especialmente eficaz durante interrogatórios.",
+        "Você também pode usar essa magia para detectar a presença de criaturas pensantes que não possa ver. Ao conjurar a magia ou usando sua ação enquanto durar, você pode procurar pensamentos a até 9 metros de distância. A magia pode penetrar a maioria das barreiras, mas é bloqueada por 30 centímetros de rocha, 2,5 centímetros de metal comum, uma fina camada de chumbo ou 90 centímetros de madeira ou terra. Você não pode detectar criaturas com Inteligência 3 ou inferior ou que não falem qualquer idioma.",
+        "Uma vez que você detecte a presença de uma criatura dessa forma, pode ler seus pensamentos pelo restante da duração, como descrito acima, mesmo que não possa vê-la, desde que ela permaneça dentro do alcance."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
