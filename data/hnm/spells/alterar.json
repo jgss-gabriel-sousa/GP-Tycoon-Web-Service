@@ -1,0 +1,21 @@
+{
+    "name":"Alterar",
+    "class":["Feiticeiro","Mago"],
+    "magic_circle":3,
+    "cast_time":"1 Ação",
+    "range":"",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":true,
+    "description":[
+        "Você assume uma forma diferente. Ao conjurar essa magia, escolha uma das seguintes opções. O efeito permanecerá durante a duração da magia.",
+        "<b>Adaptação Aquática:</b> Seu corpo se adapta ao ambiente aquático, desenvolvendo guelras e membranas entre os dedos. Você pode respirar debaixo d'água e ganha deslocamento de natação igual ao seu deslocamento terrestre.",
+        "<b>Mudar Aparência:</b> Você altera sua aparência. Você decide sua nova aparência, incluindo altura, peso, traços faciais, timbre de voz, comprimento do cabelo, coloração e características distintas, se houver. Você pode se parecer com um membro de outra raça, embora nenhuma de suas estatísticas mude. Você não pode parecer uma criatura de tamanho diferente do seu, e seu formato básico permanece o mesmo; se for bípede, não pode se transformar em quadrúpede, por exemplo.",
+        "<b>Armas Naturais:</b> Você faz crescer garras, presas, espinhos, chifres ou outras armas naturais à sua escolha. Seus ataques desarmados causam 1d6 de dano de Impacto, Perfurante ou Corte, conforme apropriado para a arma natural escolhida. As armas naturais são mágicas e você ganha +1 de bônus nas jogadas de ataque e dano feitas com elas."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
