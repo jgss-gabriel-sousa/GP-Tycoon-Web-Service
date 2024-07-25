@@ -1,0 +1,20 @@
+{
+    "name":"Disco Flutuante",
+    "class":["Mago"],
+    "magic_circle":2,
+    "cast_time":"1 Ação",
+    "range":"10 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":false,
+    "description":[
+        "Essa magia cria um disco plano de energia, com 1 metro de diâmetro e 2 centímetros de espessura, que flutua a 1 metro acima do chão em um espaço desocupado à sua escolha, dentro do alcance visual. O disco permanece pelo tempo de duração da magia e pode suportar até 250 kg. Se o peso exceder esse limite, a magia termina e tudo sobre o disco cai no chão.",
+        "O disco permanece imóvel enquanto você estiver a até 6 metros de distância dele. Se você se afastar mais de 6 metros, ele começará a segui-lo, mantendo uma distância constante de 6 metros. Ele pode atravessar terrenos irregulares, subir e descer escadas, encostas e similares, mas não pode superar mudanças de elevação superiores a 3 metros. Por exemplo, o disco não pode atravessar um fosso de 3 metros de profundidade nem sair de um se tiver sido criado no fundo.",
+        "Se você se afastar mais de 30 metros do disco (tipicamente quando ele não consegue contornar um obstáculo para segui-lo), a magia termina."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
