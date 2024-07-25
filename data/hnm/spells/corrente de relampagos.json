@@ -1,0 +1,21 @@
+{
+    "name":"Corrente de Relâmpagos",
+    "class":["Feiticeiro","Mago"],
+    "magic_circle":7,
+    "cast_time":"1 Ação",
+    "range":"30 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","10d8 (Elétrico)"]
+    ],
+    "heal":"",
+    "saving_trow":"Resistência",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você cria um raio elétrico que atinge um alvo à sua escolha, que você possa ver dentro do alcance. Três raios saltam do alvo primário para até três outros alvos, cada um a no máximo 6 metros de distância do alvo primário. Cada alvo pode ser uma criatura ou um objeto, e cada um só pode ser atingido por um único desses raios.",
+        "Os alvos devem realizar o Teste de Salvamento. Um alvo sofre o dano se falhar no teste de salvamento ou metade desse dano se for bem-sucedido."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
