@@ -1,0 +1,19 @@
+{
+    "name":"Contato Extraplanar",
+    "class":["Mago","Místico"],
+    "magic_circle":6,
+    "cast_time":"1 Minuto",
+    "range":"Pessoal",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Religião",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você contata mentalmente um semideus, o espírito de um sábio morto há muito tempo ou alguma outra entidade misteriosa de outro plano. Contatar esse extraplanar inteligente pode distorcer ou até mesmo arruinar com sua mente. Quando você conjurar essa magia, faça o teste de salvamento. Se falhar, você sofre dano, recebe 2 pontos de insanidade até terminar um descanso longo.",
+        "Se obtiver sucesso no teste de resistência, você pode fazer até cinco perguntas à entidade. Você deve fazer suas perguntas antes da magia acabar. O Mestre responde cada pergunta com uma única palavra, como “sim”, “não”, “talvez”, “nunca”, “irrelevante” ou “incerto” (se a entidade não souber a resposta para a pergunta). Em caso de uma resposta de única palavra puder levar ao engano, o Mestre pode, ao invés disso, oferecer uma frase curta como resposta."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
