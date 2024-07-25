@@ -1,0 +1,25 @@
+{
+    "name":"Contramágica",
+    "class":["Feiticeiro","Mago","Místico","Sábio"],
+    "magic_circle":4,
+    "cast_time":"Reação",
+    "range":"12 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você tenta interromper uma criatura no processo de conjuração de uma magia. Se a criatura estiver conjurando uma magia de 3° círculo ou inferior, a magia falha e não gera nenhum efeito. Se ela estiver conjurando uma magia de 4° círculo ou superior, faça um teste usando seu atributo de conjuração. A dificuldade do teste será igual a 10 + o nível da magia que o oponente está conjurando. Caso seja bem-sucedido, a magia da criatura falha e não gera nenhum efeito."
+    ],
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
+        ["15","Uma magia de 4º círculo ou inferior falha sem necessidade de teste"],
+        ["21","Uma magia de 5º círculo ou inferior falha sem necessidade de teste"],
+        ["28","Uma magia de 6º círculo ou inferior falha sem necessidade de teste"],
+        ["36","Uma magia de 7º círculo ou inferior falha sem necessidade de teste"],
+        ["45","Uma magia de 8º círculo ou inferior falha sem necessidade de teste"],
+        ["55","Uma magia de 9º círculo ou inferior falha sem necessidade de teste"]
+    ]
+}
