@@ -1,0 +1,182 @@
+{
+  "name":"Yugoloths - Arcanaloth",
+  "name_pronoun":"o Arcanaloth",
+  "english_name":"Arcanaloth",
+
+  "source":["bestiario"],
+
+  "type":"Corruptor",
+  "size":"Médio",
+  
+  "defense_cr":10,
+  "hp_cr":9,
+  "atk_cr":3,
+  "damage_cr":9,
+  "resistances_and_immunities_cr":3.875,
+
+  "challenge_ratio":10,
+  "xp":5450,
+  "defense":17,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Mágica",
+      "value":5
+    }
+  ],
+  "hp":104,
+  "mana":90,
+
+  "movement_walking":7,
+  "movement_hovering":0,
+  "movement_flying":7,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":17,
+  "vitality":14,
+  "agility":12,
+  "charisma":20,
+  "willpower":16,
+  "wisdom":15,
+  "intelligence":20,
+
+  "skills":["+13 Arcanismo","+11 Enganação","+7 Percepção"],
+
+  "vulnerability":[],
+  "resistances":["Elétrico","Fogo","Gelo","Físico de armas não mágicas que não sejam de Prata"],
+  "immunities":["Ácido","Veneno"],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":24,
+
+  "languages":["Todas"],
+  "telepathy":true,
+  "only_understands":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
+	
+  "abilities":[
+    {
+      "name":"Armas Mágicas",
+      "description":["Os ataques com armas do Arcanaloth são considerados mágicos."]
+    },
+    {
+      "name":"Resistência à Magia",
+      "description":["O Arcanaloth possui Vantagem nos testes de salvamento contra magias e outros efeitos mágicos."]
+    }
+  ],
+
+  "spellcaster_level":16,
+  "spellcasting_attribute":"Inteligência",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":["Ilusão","Raio de Fogo","Mão Mágica","Prestidigitação","Detectar Magia","Disco Flutuante","Escudo Arcano","Identificar","Detectar Pensamentos","Força Fantasmagórica","Reflexos","Sugestão","Bola de Fogo","Contramágica","Medo","Banimento","Porta Dimensional","Contato Extraplanar","Imobilizar Monstro","Corrente de Relâmpagos","Dedo da Morte","Limpar a Mente"],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"Carisma",
+  "innate_spellcasting":[
+    {
+      "spell":"Alterar",
+      "limit":"A vontade"
+    },
+    {
+      "spell":"Escuridão",
+      "limit":"A vontade"
+    },
+    {
+      "spell":"Esquentar Metal",
+      "limit":"A vontade"
+    },
+    {
+      "spell":"Invisibilidade",
+      "limit":"A vontade (Em si próprio apenas)"
+    },
+    {
+      "spell":"Mísseis Mágicos",
+      "limit":"A vontade"
+    }
+  ],
+
+  "actions": [
+    {
+      "name":"Garras",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"2d4+3 (Corte)",
+      "save_throw":"14 de Resistência",
+      "time":"",
+      "effect":["Um alvo atingido precisa realizar o teste de salvamento, em caso de falha, o alvo sofre o efi"]
+    },
+    {
+      "name":"Tridente",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo ou Arremesso (6 metros)",
+      "roll":"+7",
+      "damage":"d8+4 (Perfurante)",
+      "save_throw":"",
+      "time":"",
+      "effect":[]
+    },
+    {
+      "name":"Teletransporte",
+      "limit":"",
+      "recharge":"",
+      "range":"Até 12 m",
+      "roll":"+7",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":["O Arcanaloth teletransporta-se magicamente, junto com qualquer equipamento que ele esteja vestindo ou carregando, para um espaço desocupado, que ele possa ver"]
+    },
+    {
+      "name":"Sumonar Yugoloth",
+      "limit":"1 vez por dia",
+      "recharge":"",
+      "range":"Até 12 m",
+      "roll":"+7",
+      "damage":"",
+      "save_throw":"",
+      "time":"1 Ação",
+      "effect":[
+        "Alguns Yugoloths podem magicamente invocar outros Yugoloths.",
+        "Um Arcanaloth tem 40% de chance de invocar um Arcanaloth.",
+        "Um Yugoloth invocado surge em um local desocupado a até 12 metros do seu invocador. Após sua invocação, o Yugoloth age conforme sua vontade e não tem a capacidade de invocar outros Yugoloths. Ele permanece no plano material por 1 minuto, até que seja destruído, seu invocador seja morto ou o invocador o dispensa."
+      ]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "<h3>Yugoloths</h3>",
+    "Os Yugoloths são corruptores inconstantes que habitam os planos de Aqueronte, Geena, Hades e Cárceri. Eles agem como mercenários e são notórios por suas mudanças de lealdade. Eles são a encarnação da avareza. Antes de servir sob a bandeira de qualquer um, um yugoloth faz a única pergunta em sua cabeça: O que eu vou ganhar?",
+    "Crias de Geena. Os primeiros yugoloth foram criadas pela irmandade das bruxas da noite em Geena. Acreditase amplamente que Asmodeu, Senhor dos Nove Infernos, encomendou o trabalho, na esperança de criar um exército de corruptores que não fossem presos aos Nove Infernos. No curso da criação desse novo exército, as bruxas construíram quatro tomos mágicos e gravaram o nome verdadeiro de cada yugoloth que elas criaram, exceto um, o General de Geena. Esses tomos foram chamados de Livros de Custódia. Já que saber o nome verdadeiro de um corruptor confere poderes sobre ele, as bruxas usaram os livros para garantir a lealdade dos yugoloths. Elas também usaram os livros para capturar os nomes verdadeiros de outros corruptores com quem cruzaram. Dizem os rumores que os Livros de Custódia contém o nome verdadeiro de alguns lordes demônios e arquidiabos também.",
+    "Ciúmes triviais e brigas infindáveis fizeram a irmandade se dissolver e na tomada de poder que se seguiu, os Livros de Custódia foram perdidos ou roubados. Não servindo a mais ninguém, os yugoloths ganharam a independência e agora oferecem seus serviços pelo pagamento mais alto.",
+    "Os yugoloths invocados exigem muito pelo seu tempo e lealdade. O que quer que um yugoloth prometa, ele descumpre rapidamente quando uma oportunidade melhor aparece para ele. Diferente dos demônios, os yugoloths podem ser razoáveis, mas diferente dos diabos, eles raramente cumprem suas palavras.",
+    "Os yugoloths podem ser encontrados em qualquer lugar, mas os altos custos para manter a lealdade de um exército yugoloth geralmente excede o que qualquer general do Plano Material pode pagar.",
+    "Por serem criaturas egoístas, os yugoloths brigam entre si constantemente. Um exército yugoloth é mais organizado que uma horda voraz de demônios, mas é menos ordenado e regimentado que uma legião de diabos. Sem um líder poderoso para mantê-los na linha, os yugoloths lutam simplesmente para saciar suas predileções violentas e somente enquanto isso lhes trouxer algum benefício.",
+    "Quando um yugoloth morre, ele se dissolve em uma poça de pus e se reforma com sua força total na Eternidade Gélida de Geena. Apenas em seu plano nativo um yugoloth pode ser destruído permanentemente. Um yugoloth sabe disso e age de acordo. Quando é invocado para outros planos, um yugoloth luta sem se preocupar com seu bem estar. Em Geena, ele está mais sujeito a recuar ou implorar por misericórdia se sua morte parecer iminente.",
+    "Quando um yugoloth é destruído permanentemente, seu nome desaparece de cada Livro de Custódia. Se um yugoloth for recriado por meio de um ritual profano que exija o uso de almas, seu nome reaparece nos livros.",
+    "Quando todas as quatro cópias dos Livros de Custódia desapareceram, Asmodeu e as bruxas da noite perderam o controle sobre a criação dos yugoloths. Cada Livro de Custódia ainda existe, mudando de plano para plano, onde os bravos e os tolos ocasionalmente os encontram por acaso. Um yugoloth invocado usando seu nome verdadeiro como escrito nos Livros de Custódia, é forçado a servir seu invocador obedientemente. Um yugoloth odeia ser controlado dessa maneira e não tem vergonha de demonstrar seu descontentamento. Como uma criança petulante, ele irá seguir suas instruções ao pé da letra enquanto busca oportunidades de interpreta-las mal.",
+    "Em algum lugar nos desertos de enxofre de Geena, perambula um ultroloth tão forte que ninguém contesta seu poder: o General de Geena. Muitos yugoloths buscam por esse grande general na esperança de servir com ele. Eles acreditam que servir com o General de Geena lhes garantirá poder e prestígio entre entidades planares menores.",
+    "Qualquer que seja o caso, nenhum corruptor encontra o General, a não ser que ele deseje isso. Seu nome pessoal é desconhecido e, mesmo os Livros de Custódia não tem qualquer menção a essa entidade poderosa e completamente maligna.",
+    "<h3>Arcanaloth</h3>",
+    "Arcanaloths são seres astutos, com cabeças de chacal e corpos humanoides, mas podem empregar magia para assumir qualquer forma humanoide. Eles fazem isso para ganhar a confiança das criaturas com as quais negociam, substituindo rosnados de chacal por sorrisos encantadores. Independentemente de sua forma escolhida, um arcanaloth parece bem cuidado, vestindo-se com finos mantos. Feiticeiros altamente inteligentes que anseiam por conhecimento e poder, os arcanaloths comandam unidades de yugoloths inferiores e mantêm os contratos, registros e contas de sua espécie.",
+    "Arcanaloths falam e escrevem todas as línguas, tornando-se diplomatas e negociadores astutos. Um arcanaloth devidamente pago pode intermediar tratados ou alianças com sutileza e finesse, assim como um arcanaloth que muda de lado pode facilmente transformar as melhores negociações de paz em uma guerra total. O que o demônio exige em troca de seu tempo e talento é informação, bem como itens mágicos poderosos que ele possa trocar por ainda mais informações."
+  ]
+}
