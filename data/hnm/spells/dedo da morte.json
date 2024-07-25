@@ -1,0 +1,21 @@
+{
+    "name":"Dedo da Morte",
+    "class":["Feiticeiro","Místico","Necromante"],
+    "magic_circle":8,
+    "cast_time":"1 Ação",
+    "range":"Toque à Distância (12 Metros)",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","7d8+30 (Necrótico)"]
+    ],
+    "heal":"",
+    "saving_trow":"Resistência",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você envia energia negativa na direção de uma criatura que você possa ver, dentro do alcance, causando dores severas nela. Com um sucesso no teste de salvamento a criatura sofre metade do dano.",
+        "Um humanoide morto por essa magia, se ergue no início do seu próximo turno como um zumbi que está permanentemente sob seu controle, seguindo suas ordens verbais da melhor forma possível."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
