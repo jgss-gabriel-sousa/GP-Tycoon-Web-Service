@@ -1,0 +1,18 @@
+{
+    "name":"Imobilizar Monstro",
+    "class":["Bardo","Feiticeiro","Místico","Sábio"],
+    "magic_circle":6,
+    "cast_time":"1 Ação",
+    "range":"20 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"Concentração",
+    "duration":"1 Minuto",
+    "concentration":true,
+    "description":[
+        "Escolha uma criatura que você possa ver, dentro do alcance. O alvo deve ser bem-sucedido no teste de salvamento ou ficará paralisado pela duração. Essa magia não tem efeito em mortos-vivos. No final de cada um dos turnos dele, o alvo pode realizar outro teste. Se obtiver sucesso, a magia termina."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
