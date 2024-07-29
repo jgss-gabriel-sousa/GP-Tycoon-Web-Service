@@ -1,0 +1,123 @@
+{
+  "name":"Mirmidão Elemental da Terra",
+  "name_pronoun":"o Mirmidão Elemental da Terra",
+  "english_name":"Earth Elemental Myrmidon",
+
+  "source":["bestiario","pota"],
+
+  "type":"Elemental",
+  "size":"Grande",
+  
+  "defense_cr":29,
+  "hp_cr":10,
+  "atk_cr":7,
+  "damage_cr":3,
+  "resistances_and_immunities_cr":1.375,
+
+  "challenge_ratio":10,
+  "xp":5120,
+  "defense":24,
+  "bonuses_in_defense":[
+    {
+      "name":"Armadura Completa",
+      "value":9
+    }
+  ],
+  "hp":130,
+  "mana":0,
+
+  "movement_walking":6,
+  "movement_hovering":0,
+  "movement_flying":0,
+  "movement_burrow":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
+
+  "strength":18,
+  "vitality":20,
+  "agility":10,
+  "charisma":10,
+  "willpower":18,
+  "wisdom":10,
+  "intelligence":8,
+
+  "skills":[],
+
+  "vulnerability":[],
+  "resistances":["Físico de armas não mágicas"],
+  "immunities":["Veneno"],
+  "condition_immunities":["Caído","Paralisado","Petrificado"],
+
+  "dark_vision":12,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Primordial","um idioma à escolha do seu criador"],
+  "telepathy":false,
+  "only_understands":false,
+  
+  "alignment":"Neutro",
+
+  "loot":[],
+	
+  "abilities":[],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "arcane_failure":0,
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
+  "innate_spellcasting":[],
+
+  "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "limit":"",
+      "recharge":"",
+      "range":"",
+      "roll":"",
+      "damage":"",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Mirmidão realiza 2 ataques com seu Martelo."]
+    },
+    {
+      "name":"Martelo",
+      "limit":"",
+      "recharge":"",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"2d6+4 (Energia)",
+      "save_throw":"",
+      "time":"",
+      "effect":["Em cada rolagem de dano, o Mirmidão rola 1d6, com um 6 o ataque causa 2d6 de dano de Fogo adicional."]
+    },
+    {
+      "name":"Golpe Trovejante",
+      "limit":"",
+      "recharge":"6",
+      "range":"Corpo a Corpo",
+      "roll":"+7",
+      "damage":"4d10 (Sônico e Energia)",
+      "save_throw":"",
+      "time":"Ação de Ataque",
+      "effect":["O Mirmidão faz um ataque, caso acerte, o alvo sofre o dano e precisa realizar o teste de salvamento para não ficar Caído."]
+    }
+  ],
+
+  "legendary_actions":[],
+
+  "lair_description":[],
+  "lair_actions":[],
+
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
+
+  "description":[
+    "Mirmidões Elementais são Elementais conjurados e amarrados por magia em armaduras de placas criadas ritualmente. Nesta forma, eles não possuem nenhuma lembrança de sua existência anterior como Elementais livres. Eles existem apenas para seguir os comandos de seus criadores."
+  ]
+}
