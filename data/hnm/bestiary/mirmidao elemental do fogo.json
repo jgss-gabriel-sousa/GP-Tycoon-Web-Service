@@ -3,7 +3,7 @@
   "name_pronoun":"o Mirmidão Elemental do Fogo",
   "english_name":"Fire Elemental Myrmidon",
 
-  "source":["bestiario"],
+  "source":["bestiario","pota"],
 
   "type":"Elemental",
   "size":"Grande",
