@@ -1,0 +1,163 @@
+{
+  "name": "Anjo - Solar",
+  "name_pronoun": "o Solar",
+  "english_name": "Angel - Solar",
+
+  "source": ["bestiario"],
+
+  "type": "Celestial",
+  "size": "Grande",
+
+  "defense_cr": 20,
+  "hp_cr": 17,
+  "atk_cr": 30,
+  "damage_cr": 13,
+  "resistances_and_immunities_cr": 3.125,
+
+  "challenge_ratio": 20,
+  "xp": 43440,
+  "defense": 20,
+  "bonuses_in_defense": [],
+  "hp": 250,
+  "mana": 0,
+
+  "movement_walking": 14,
+  "movement_hovering": 0,
+  "movement_flying": 18,
+  "movement_burrow": 0,
+  "movement_climbing": 0,
+  "movement_swimming": 14,
+
+  "strength": 30,
+  "vitality": 30,
+  "agility": 24,
+  "charisma": 30,
+  "willpower": 30,
+  "wisdom": 30,
+  "intelligence": 25,
+
+  "skills": [
+    "+14 Percepção"
+  ],
+
+  "vulnerability": [],
+  "resistances": ["Radiante", "Físico de armas não mágicas"],
+  "immunities": ["Ácido", "Elétrico", "Necromântica", "Venenoso"],
+  "condition_immunities": ["Amedrontado", "Encantado", "Exausto"],
+
+  "dark_vision": 0,
+  "blind_sight": 0,
+  "tremor_sense": 0,
+  "true_vision": 36,
+
+  "languages": ["Todos"],
+  "telepathy": true,
+  "only_understands": false,
+  
+  "alignment": "Leal e Bom",
+
+  "loot": [],
+	
+  "abilities": [
+    {
+      "name": "Resistência Mágica",
+      "description": ["O Solar tem Vantagem em Testes de Salvamento contra magias e outros efeitos mágicos."]
+    }
+  ],
+
+  "spellcaster_level": 0,
+  "spellcasting_attribute": "",
+  "special_spell_feature": "",
+  "arcane_failure": 0,
+  "spells": [],
+
+  "innate_spellcasting_description": "",
+  "innate_spellcasting_attribute": "Carisma",
+  "innate_spellcasting": [
+    {
+      "spell": "Detectar o Bem e Mal",
+      "limit": "A vontade"
+    },
+    {
+      "spell": "Reviver os Mortos",
+      "limit": "1 vez por dia"
+    },
+    {
+      "spell": "Ressurreição Verdadeira",
+      "limit": "1 vez por dia"
+    },
+    {
+      "spell": "Cura Completa",
+      "limit": "1 vez por dia"
+    },
+    {
+      "spell": "Comando",
+      "limit": "A vontade"
+    },
+    {
+      "spell": "Visão da Verdade",
+      "limit": "A vontade"
+    }
+  ],
+
+  "actions": [
+    {
+      "name": "Ataques Múltiplos",
+      "limit": "",
+      "recharge": "",
+      "range": "",
+      "roll": "",
+      "damage": "",
+      "save_throw": "",
+      "time": "Ação de Ataque",
+      "effect": ["O Solar realiza dois ataques com a Espada Sagrada."]
+    },
+    {
+      "name": "Espada Sagrada",
+      "limit": "",
+      "recharge": "",
+      "range": "Corpo a Corpo",
+      "roll": "+20",
+      "damage": "2d6+10 (Impacto) + 6d8 (Radiante)",
+      "save_throw": "",
+      "time": "Ação de Ataque",
+      "effect": []
+    },
+    {
+      "name": "Arco Longo",
+      "limit": "",
+      "recharge": "",
+      "range": "Até 240 metros",
+      "roll": "+20",
+      "damage": "2d8+10 (Perfurante) + 6d8 (Radiante)",
+      "save_throw": "18 de Reflexos",
+      "time": "Ação de Ataque",
+      "effect": ["Em um acerto a flecha explode em luz Radiante em um raio de 3 metros, causando o dano Radiante (6d8) a todos os inimigos que não obtiverem sucesso no teste de salvamento, em caso de sucesso no teste, o inimigo sofre metade do dano."]
+    },
+    {
+      "name": "Toque Curativo",
+      "limit": "3 vezes ao dia",
+      "recharge": "",
+      "range": "Toque",
+      "roll": "",
+      "damage": "",
+      "save_throw": "",
+      "time": "1 Ação",
+      "effect": ["O alvo recebe uma Cura de 4d8+10 pontos de vida e recupera-se de Maldição, Doença, Veneno, Cegueira e Surdez."]
+    }
+  ],
+
+  "legendary_actions": [],
+
+  "lair_description": [],
+  "lair_actions": [],
+
+  "regional_effects_description": [],
+  "regional_effects_dissolution": "",
+
+  "description": [
+    "Os Solares são os mais poderosos entre os anjos, servindo diretamente os deuses do bem e da justiça.",
+    "Essas criaturas majestosas são enviadas em missões de importância cósmica, seja para destruir o mal mais profundo, proteger os inocentes ou guiar heróis em suas jornadas. Sua presença é um presságio de justiça divina, e sua força é suficiente para enfrentar exércitos inteiros.",
+    "Com sua pele dourada, asas radiantes e uma aura de luz divina, um Solar é uma visão que inspira esperança nos aliados e terror nos inimigos. Eles empunham armas sagradas de poder imenso, capazes de obliterar qualquer criatura que se atreva a desafiar a vontade divina."
+  ]
+}
