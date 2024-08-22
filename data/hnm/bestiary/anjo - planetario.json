@@ -42,7 +42,7 @@
 
   "vulnerability": [],
   "resistances": ["Radiante", "Físico de armas não mágicas"],
-  "immunities": ["Ácido", "Relâmpago", "Veneno"],
+  "immunities": ["Ácido", "Elétrico", "Veneno"],
   "condition_immunities": ["Amedrontado", "Encantado", "Exausto"],
 
   "dark_vision": 0,
