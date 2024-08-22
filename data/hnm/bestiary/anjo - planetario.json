@@ -1,0 +1,148 @@
+{
+  "name": "Anjo - Planetário",
+  "name_pronoun": "o Planetário",
+  "english_name": "Angel - Planetário",
+
+  "source": ["bestiario"],
+
+  "type": "Celestial",
+  "size": "Grande",
+
+  "defense_cr": 20,
+  "hp_cr": 15,
+  "atk_cr": 14,
+  "damage_cr": 12,
+  "resistances_and_immunities_cr": 2.625,
+
+  "challenge_ratio": 16,
+  "xp": 21530,
+  "defense": 20,
+  "bonuses_in_defense": [],
+  "hp": 200,
+  "mana": 0,
+
+  "movement_walking": 12,
+  "movement_hovering": 0,
+  "movement_flying": 15,
+  "movement_burrow": 0,
+  "movement_climbing": 0,
+  "movement_swimming": 12,
+
+  "strength": 30,
+  "vitality": 30,
+  "agility": 20,
+  "charisma": 25,
+  "willpower": 25,
+  "wisdom": 25,
+  "intelligence": 19,
+
+  "skills": [
+    "+12 Percepção"
+  ],
+
+  "vulnerability": [],
+  "resistances": ["Radiante", "Físico de armas não mágicas"],
+  "immunities": ["Ácido", "Elétrico", "Veneno"],
+  "condition_immunities": ["Amedrontado", "Encantado", "Exausto"],
+
+  "dark_vision": 0,
+  "blind_sight": 0,
+  "tremor_sense": 0,
+  "true_vision": 36,
+
+  "languages": ["Todos"],
+  "telepathy": true,
+  "only_understands": false,
+  
+  "alignment": "Leal e Bom",
+
+  "loot": [],
+	
+  "abilities": [
+    {
+      "name": "Resistência Mágica",
+      "description": ["O Planetário tem Vantagem em Testes de Salvamento contra magias e outros efeitos mágicos."]
+    }
+  ],
+
+  "spellcaster_level": 0,
+  "spellcasting_attribute": "",
+  "special_spell_feature": "",
+  "arcane_failure": 0,
+  "spells": [],
+
+  "innate_spellcasting_description": "",
+  "innate_spellcasting_attribute": "Carisma",
+  "innate_spellcasting": [
+    {
+      "spell": "Detectar o Bem e Mal",
+      "limit": "A vontade"
+    },
+    {
+      "spell": "Curar",
+      "limit": "1 vez por dia"
+    },
+    {
+      "spell": "Reviver os Mortos",
+      "limit": "1 vez por dia"
+    },
+    {
+      "spell": "Desintegrar",
+      "limit": "1 vez por dia"
+    },
+    {
+      "spell": "Comando",
+      "limit": "A vontade"
+    }
+  ],
+
+  "actions": [
+    {
+      "name": "Ataques Múltiplos",
+      "limit": "",
+      "recharge": "",
+      "range": "",
+      "roll": "",
+      "damage": "",
+      "save_throw": "",
+      "time": "Ação de Ataque",
+      "effect": ["O Planetário realiza dois ataques com a Espada Celestial."]
+    },
+    {
+      "name": "Espada Celestial",
+      "limit": "",
+      "recharge": "",
+      "range": "Corpo a Corpo",
+      "roll": "+12",
+      "damage": "2d6+6 (Impacto) + 5d8 (Radiante)",
+      "save_throw": "",
+      "time": "Ação de Ataque",
+      "effect": []
+    },
+    {
+      "name": "Toque Curativo",
+      "limit": "3 vezes ao dia",
+      "recharge": "",
+      "range": "Toque",
+      "roll": "",
+      "damage": "",
+      "save_throw": "",
+      "time": "1 Ação",
+      "effect": ["O alvo recebe uma Cura de 4d8+10 pontos de vida e recupera-se de Maldição, Doença, Veneno, Cegueira e Surdez."]
+    }
+  ],
+
+  "legendary_actions": [],
+
+  "lair_description": [],
+  "lair_actions": [],
+
+  "regional_effects_description": [],
+  "regional_effects_dissolution": "",
+
+  "description": [
+    "Planetários são poderosos anjos que servem como executores divinos, enviados ao Plano Material para defender o bem e erradicar o mal.",
+    "Com sua força imensa e sabedoria divina, eles conduzem missões sagradas para destruir o mal e proteger os inocentes. Sua presença inspira coragem e fervor em aliados, enquanto espalha temor entre os inimigos.",
+    "Quando um Planetário aparece, ele geralmente é visto como um ser majestoso e imponente, com pele verde esmeralda e olhos radiantes. Sua voz ressoa com autoridade celestial, e suas asas grandiosas e brilhantes simbolizam a justiça e a vontade dos deuses."
+  ]
+}
