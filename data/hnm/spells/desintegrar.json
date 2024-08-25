@@ -1,0 +1,22 @@
+{
+    "name":"Desintegrar",
+    "class":["Clérigo","Druida"],
+    "magic_circle":7,
+    "cast_time":"1 Ação",
+    "range":"12 Metros",
+    "attack_roll":false,
+    "damage":[
+        ["Dano","10d6+40 (Mágico)"]
+    ],
+    "heal":"",
+    "saving_trow":"Reflexos",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Você dispara um raio esverdeado de pura energia de desintegração a partir da ponta do seu dedo, mirando em um alvo que você possa ver dentro do alcance. Esse alvo pode ser uma criatura, um objeto, ou uma criação de energia mágica, como uma barreira erguida por uma magia.",
+        "Uma criatura atingida por essa magia deve realizar o teste de salvamento. Em caso de falha, ela sofre o dano mágico. Se esse dano reduzir os pontos de vida da criatura a 0, ela é instantaneamente desintegrada. Uma criatura desintegrada, juntamente com tudo o que estiver vestindo ou carregando (exceto itens mágicos), é transformada em uma fina pilha de pó acinzentado. A criatura só poderá ser ressuscitada através das magias Ressurreição Verdadeira ou Desejo.",
+        "Essa magia desintegra automaticamente qualquer objeto não-mágico de tamanho Grande ou menor, bem como criações de energia mágica. Se o alvo for um objeto ou criação de energia de tamanho Enorme ou maior, a magia desintegra uma porção de até 3 metros cúbicos. Itens mágicos são imunes aos efeitos dessa magia."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}

@@ -1,7 +1,7 @@
 {
   "name": "Anjo - Planetário",
   "name_pronoun": "o Planetário",
-  "english_name": "Angel - Planetário",
+  "english_name": "Angel - Planetar",
 
   "source": ["bestiario"],
 
@@ -79,7 +79,7 @@
       "limit": "A vontade"
     },
     {
-      "spell": "Curar",
+      "spell": "Cura",
       "limit": "1 vez por dia"
     },
     {
