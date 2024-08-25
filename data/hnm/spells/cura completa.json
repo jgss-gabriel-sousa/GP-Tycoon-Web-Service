@@ -1,0 +1,18 @@
+{
+    "name":"Cura Completa",
+    "class":["Clérigo","Druida"],
+    "magic_circle":7,
+    "cast_time":"1 Ação",
+    "range":"12 Metros",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"70",
+    "saving_trow":"",
+    "duration":"",
+    "concentration":false,
+    "description":[
+        "Escolha uma criatura que você possa ver, dentro do alcance. Um surto de energia positiva banha a criatura, fazendo-a recuperar 70 pontos de vida. Essa magia também acaba com efeitos de Cegueira, Surdez, Veneno e qualquer doença que estejam afetando o alvo. Essa magia não tem efeito em Constructos ou Mortos-Vivos."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
