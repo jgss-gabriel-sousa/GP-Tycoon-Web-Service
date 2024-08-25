@@ -1,0 +1,20 @@
+{
+    "name":"Ressurreição Verdadeira",
+    "class":["Clérigo","Druida"],
+    "magic_circle":10,
+    "cast_time":"1 Hora",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"Instantâneo",
+    "concentration":false,
+    "description":[
+        "Você toca uma criatura morta que tenha falecido há não mais de 200 anos, desde que sua morte não tenha sido causada por velhice. Se a alma da criatura estiver disposta e livre, ela retorna à vida com todos os seus pontos de vida.",
+        "Essa magia cura completamente o corpo da criatura: fecha todos os ferimentos, neutraliza qualquer veneno, cura todas as doenças, e suspende todas as maldições que a afetavam no momento da morte. Além disso, a magia restaura qualquer órgão ou membro danificado ou perdido.",
+        "Se o corpo original da criatura não existir mais, a magia pode criar um novo corpo para ela. Nesse caso, você deve pronunciar o nome da criatura, ela reaparece em um espaço desocupado à sua escolha, até 3 metros de você."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
