@@ -1,0 +1,18 @@
+{
+    "name":"Visão da Verdade",
+    "class":["Bardo","Clérigo","Feiticeiro","Mago","Místico"],
+    "magic_circle":7,
+    "cast_time":"1 Ação",
+    "range":"Toque",
+    "attack_roll":false,
+    "damage":[],
+    "heal":"",
+    "saving_trow":"",
+    "duration":"1 Hora",
+    "concentration":false,
+    "description":[
+        "Essa magia concede a uma criatura voluntária tocada a habilidade de ver as coisas como elas realmente são. Pela duração, a criatura terá Visão Verdadeira, percebendo portas secretas escondidas por magia e podendo ver no Plano Etéreo, tudo num alcance de até 35 metros."
+    ],
+    "spell_evolution_type":"",
+    "spell_evolution":[]
+}
